@@ -17,7 +17,7 @@ En el logotipo, el zorro simboliza **ingenio y agilidad**; su cola en forma de t
 
 <p class="subtitulo">Quiénes somos</p>
 
-Somos un equipo de ingeniería y diseño...
+Somos un equipo de ingeniería y diseño que convierte datos complejos en decisiones simples y rentables para el sector agroindustrial. Actualmente impulsamos [NOMBRE]: una plataforma SaaS B2B especializada en la gestión inteligente del ciclo de producción de aceitunas. Nuestro enfoque combina el monitoreo de variables de suelo y clima para emitir alertas epidemiológicas tempranas, brindando a los productores recomendaciones precisas y conectándolos directamente con profesionales especializados en sanidad agrícola.
 
 <table style="width:100%; border-collapse:separate; border-spacing:0; background:#fbf0f2; border-radius:12px; margin:22px 0 14px 0;">
   <tr>
@@ -26,7 +26,7 @@ Somos un equipo de ingeniería y diseño...
     </td>
     <td style="padding:18px 18px; vertical-align:middle;">
       <div style="font-size:16px; line-height:1.55; text-align:justify;">
-        <strong>Lorem ipsum dolor sit amet</strong> Lorem ipsum dolor sit amet
+        <strong>Empoderar a los productores olivareros y especialistas agrícolas</strong> mediante una plataforma centralizada y basada en datos que optimice la toma de decisiones, prevenga plagas de forma temprana y maximice la calidad productiva y comercial de los cultivos.
       </div>
     </td>
   </tr>
@@ -39,7 +39,7 @@ Somos un equipo de ingeniería y diseño...
     </td>
     <td style="padding:18px 18px; vertical-align:middle;">
       <div style="font-size:16px; line-height:1.55; text-align:justify;">
-        Lorem ipsum dolor sit amet <strong>Lorem ipsum dolor sit amet</strong> Lorem ipsum dolor sit amet
+        Ser la <strong>plataforma AgTech de referencia en el sector olivarero</strong>, reconocida por integrar análisis de datos ambientales y redes de colaboración profesional para impulsar una agricultura más inteligente, predecible y altamente rentable.
       </div>
     </td>
   </tr>
