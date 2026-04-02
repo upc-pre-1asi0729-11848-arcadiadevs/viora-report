@@ -126,7 +126,7 @@ En el logotipo, el zorro simboliza **ingenio y agilidad**; su cola en forma de t
 
 <p class="subtitulo">Quiénes somos</p>
 
-Somos un equipo de ingeniería y diseño que convierte datos complejos en decisiones simples y rentables para el sector agroindustrial. Actualmente impulsamos [NOMBRE]: una plataforma SaaS B2B especializada en la gestión inteligente del ciclo de producción de aceitunas. Nuestro enfoque combina el monitoreo de variables de suelo y clima para emitir alertas epidemiológicas tempranas, brindando a los productores recomendaciones precisas y conectándolos directamente con profesionales especializados en sanidad agrícola.
+Somos un equipo de ingeniería y diseño que convierte datos complejos en decisiones simples y rentables para el sector agroindustrial. Actualmente impulsamos Viora: una plataforma SaaS B2B especializada en la gestión inteligente del ciclo de producción de aceitunas. Nuestro enfoque combina el monitoreo de variables de suelo y clima para emitir alertas epidemiológicas tempranas, brindando a los productores recomendaciones precisas y conectándolos directamente con profesionales especializados en sanidad agrícola.
 
 <table style="width:100%; border-collapse:separate; border-spacing:0; background:#fbf0f2; border-radius:12px; margin:22px 0 14px 0;">
   <tr>
@@ -166,7 +166,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 <table style="width:100%; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
   <tr>
     <td colspan="2" style="background:#a11d2f; color:#fff; font-weight:700; text-align:center; padding:10px 12px; letter-spacing:.3px;">
-      CEO (Chief Executive Officer)
+      CEO & Product Owner
     </td>
   </tr>
   <tr>
@@ -174,7 +174,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
       <div style="font-size:20px; font-weight:800; margin:0;">Victor Paredes Maza</div>
       <div style="font-size:16px; font-weight:700; margin:2px 0 10px 0;">(U202416274)</div>
       <p style="margin:0; line-height:1.45; text-align:justify;">
-        Soy Victor Paredes Maza, tengo 18 años, estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y soy CEO de EduBridge. Elegí esta carrera porque me permite volver realidad grandes ideas. Lidero con visión estratégica, criterio, innovación, orden y enfoque en la calidad. Trabajo en equipo, escucho y ejecuto con disciplina. Busco mejorar cada día y alcanzar metas grandes, construyendo productos útiles y confiables.
+        Soy Victor Paredes Maza, tengo 18 años, estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y soy CEO de Viora. Elegí esta carrera porque me permite volver realidad grandes ideas. Lidero con visión estratégica, criterio, innovación, orden y enfoque en la calidad. Trabajo en equipo, escucho y ejecuto con disciplina. Busco mejorar cada día y alcanzar metas grandes, construyendo productos útiles y confiables.
       </p>
     </td>
     <td style="width:220px; padding:14px 16px; vertical-align:top;">
@@ -188,7 +188,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 <table style="width:100%; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
   <tr>
     <td colspan="2" style="background:#a11d2f; color:#fff; font-weight:700; text-align:center; padding:10px 12px; letter-spacing:.3px;">
-      CPO (Chief Product Officer)
+      CPO & System Architect
     </td>
   </tr>
   <tr>
@@ -196,7 +196,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
       <div style="font-size:20px; font-weight:800; margin:0;">Santi Guerrero, Fabrizio Alonso</div>
       <div style="font-size:16px; font-weight:700; margin:2px 0 10px 0;">(U202411774)</div>
       <p style="margin:0; line-height:1.45; text-align:justify;">
-        Soy Fabrizio Santi Guerrero, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y CPO de EduBridge. Soy desarrollador enfocado en el backend y arquitectura de software. A nivel técnico, tengo conocimientos de SQL, C++, Python, JavaScript, librerías de Ciencia de Datos y conocimientos Full-Stack. Entre mis fortalezas se puede encontrar la perseverancia, pleno esfuerzo y la disciplina.
+        Soy Fabrizio Santi Guerrero, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y CPO de Viora. Soy desarrollador enfocado en el backend y arquitectura de software. A nivel técnico, tengo conocimientos de SQL, C++, Python, JavaScript, librerías de Ciencia de Datos y conocimientos Full-Stack. Entre mis fortalezas se puede encontrar la perseverancia, pleno esfuerzo y la disciplina.
         En ArcadiaDevs planificaré la arquitectura y estructura técnica del proyecto. También, colocaboraré con vigilar el flujo de coordinación del gurpo, y apoyar con respecto a la presentación e investigación de datos.
       </p>
     </td>
@@ -211,7 +211,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 <table style="width:100%; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
   <tr>
     <td colspan="2" style="background:#a11d2f; color:#fff; font-weight:700; text-align:center; padding:10px 12px; letter-spacing:.3px;">
-      CTO (Chief Technology Officer)
+      CTO & Integrador DevOps
     </td>
   </tr>
   <tr>
@@ -219,8 +219,8 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
       <div style="font-size:20px; font-weight:800; margin:0;">Trinidad Leon, Jahat Jassiel</div>
       <div style="font-size:16px; font-weight:700; margin:2px 0 10px 0;">(U202412248)</div>
       <p style="margin:0; line-height:1.45; text-align:justify;">
-        Soy Jahat Trinidad Leon, tengo 25 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y CTO de EduBridge. Soy desarrollador en formación con enfoque en DevOps y arquitectura de software. Manejo C++, Java y Python, además de SQL y diseño de bases de datos relacionales. Aplico GitFlow para control de versiones y GitHub Actions para CI/CD y despliegue automatizado.
-        En ArcadiaDevs, lideraré la infraestructura de EduBridge: integración continua, automatización de despliegues y prototipado rápido. Complemento con conocimientos en diseño UI/UX para alinear la experiencia técnica con la visual del producto.
+        Soy Jahat Trinidad Leon, tengo 25 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y CTO de Viora. Soy desarrollador en formación con enfoque en DevOps y arquitectura de software. Manejo C++, Java y Python, además de SQL y diseño de bases de datos relacionales. Aplico GitFlow para control de versiones y GitHub Actions para CI/CD y despliegue automatizado.
+        En ArcadiaDevs, lideraré la infraestructura de Viora: integración continua, automatización de despliegues y prototipado rápido. Complemento con conocimientos en diseño UI/UX para alinear la experiencia técnica con la visual del producto.
       </p>
     </td>
     <td style="width:220px; padding:14px 16px; vertical-align:top;">
@@ -234,7 +234,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 <table style="width:100%; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
   <tr>
     <td colspan="2" style="background:#a11d2f; color:#fff; font-weight:700; text-align:center; padding:10px 12px; letter-spacing:.3px;">
-      CMO (Chief Marketing Officer)
+      CMO & UX Lead
     </td>
   </tr>
   <tr>
@@ -242,7 +242,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
       <div style="font-size:20px; font-weight:800; margin:0;">Li Gayoso, Diana Carolina</div>
       <div style="font-size:16px; font-weight:700; margin:2px 0 10px 0;">(U202415749)</div>
       <p style="margin:0; line-height:1.45; text-align:justify;">
-        Soy Diana Li Gayoso, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y CMO de EduBridge. Tengo conocimientos de C++. Entre mis fortalezas tengo la perseverancia, resiliencia y responsabilidad, como también la puntualidad, que me esfuerzo mucho en lo que hago y disciplina.
+        Soy Diana Li Gayoso, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y CMO de Viora. Tengo conocimientos de C++. Entre mis fortalezas tengo la perseverancia, resiliencia y responsabilidad, como también la puntualidad, que me esfuerzo mucho en lo que hago y disciplina.
         En ArcadiaDevs, lideraré como UX Lead, enfocandomé en el diseño y la experiencia del usuario, coordinando a mis compañeros para diseñar el proyecto para segurarnos de la calidad del producto para nuestros usuarios.
       </p>
     </td>
@@ -253,11 +253,11 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
   </tr>
 </table>
 
-<!-- PERFIL 5 -->
+<!-- PROFILE 5 -->
 <table style="width:100%; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
   <tr>
     <td colspan="2" style="background:#a11d2f; color:#fff; font-weight:700; text-align:center; padding:10px 12px; letter-spacing:.3px;">
-      COO (Operaciones y Finanzas)
+      COO, & Researcher & QA
     </td>
   </tr>
   <tr>
@@ -265,7 +265,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
       <div style="font-size:20px; font-weight:800; margin:0;">Espada Lazo, Piero Anthony</div>
       <div style="font-size:16px; font-weight:700; margin:2px 0 10px 0;">(U20241d924)</div>
       <p style="margin:0; line-height:1.45; text-align:justify;">
-        Soy Piero Anthony Espada Lazo, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y COO de EduBridge. Tengo sólidos conocimientos en C++, Python, desarrollo web y en el diseño de bases de datos relacionales y no relacionales. Me caracterizo por contribuir mediante creatividad, responsabilidad y un fuerte compromiso con la calidad y éxito del proyecto. En ArcadiaDevs desempeñaré el rol de Researcher & QA, liderando los procesos de validación y análisis técnico.
+        Soy Piero Anthony Espada Lazo, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y COO de Viora. Tengo sólidos conocimientos en C++, Python, desarrollo web y en el diseño de bases de datos relacionales y no relacionales. Me caracterizo por contribuir mediante creatividad, responsabilidad y un fuerte compromiso con la calidad y éxito del proyecto. En ArcadiaDevs desempeñaré el rol de Researcher & QA, liderando los procesos de validación y análisis técnico.
       </p>
     </td>
     <td style="width:220px; padding:14px 16px; vertical-align:top;">
@@ -280,6 +280,8 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 ### 1.2 Solution Profile
 
 #### 1.2.1 Antecedentes y problemática
+
+<p class="subtitulo">Antecedentes</p>
 
 **Antecedentes productivos y relevancia**. El olivo es un cultivo estratégico para el sur del Perú por su alta concentración territorial y su impacto en cadenas de valor (aceituna de mesa y aceite). En Tacna se reporta una fuerte concentración del olivar nacional (Andina, 2024), lo que incrementa la vulnerabilidad sistémica: un shock climático o sanitario local puede afectar disponibilidad, precios y rentabilidad a escala regional y nacional. En 2023 se reportaron 52,000 toneladas en Tacna, con una distribución aproximada de 60% para aceituna de mesa y el restante para aceite (Andina, 2024). Esta dualidad de destino exige gestionar no solo volumen, sino también variables que inciden en desempeño productivo y valor comercial.
 
@@ -404,8 +406,9 @@ Como soporte de escalabilidad, investigaciones recientes demuestran viabilidad d
 
 ---
 
-<p class="subtitulo">What (Qué)</p>
-<p class="subtitulo-2">¿Cuál es el problema?</p>
+<p class="subtitulo">Problemática (5W y 2H)</p>
+<p class="subtitulo-2">What (Qué)</p>
+<p class="subtitulo-3">¿Cuál es el problema?</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -569,16 +572,16 @@ Análisis competitivo para competidores **directos**
   </tr>
   <tr>
     <td colspan="5" style="border:1px solid #000; padding:12px; font-style:italic; vertical-align:top;">
-      ¿Cómo debe posicionarse EduBridge ...?
+      ¿Cómo debe posicionarse Viora ...?
     </td>
   </tr>
   <tr>
     <td colspan="2" style="background:#d9d9d9; border:1px solid #000; padding:12px; font-weight:700; vertical-align:middle; text-align:center;">
       Competidores
     </td>
-    <!-- EduBridge -->
+    <!-- Viora -->
     <td style="background:#014b18; border:1px solid #000; padding:12px; text-align:center; vertical-align:middle;">
-      <img src="./Documentacion/assets/logos/lorem.png" alt="EduBridge">
+      <img src="./Documentacion/assets/logos/lorem.png" alt="Viora">
     </td>
     <!-- Cultivate -->
     <td style="background:#d9d9d9; border:1px solid #000; padding:12px; text-align:center; vertical-align:middle;">
@@ -906,16 +909,16 @@ Análisis competitivo para competidores **indirectos**
   </tr>
   <tr>
     <td colspan="5" style="border:1px solid #000; padding:12px; font-style:italic; vertical-align:top;">
-      ¿Qué propuestas indirectas podrían captar al mismo segmento objetivo de EduBridge y cómo debemos posicionarnos para convivir/aliarnos con ella?
+      ¿Qué propuestas indirectas podrían captar al mismo segmento objetivo de Viora y cómo debemos posicionarnos para convivir/aliarnos con ella?
     </td>
   </tr>
   <tr>
     <td colspan="2" style="background:#d9d9d9; border:1px solid #000; padding:12px; font-weight:700; vertical-align:middle; text-align:center;">
       Competidores
     </td>
-    <!-- EduBridge -->
+    <!-- Viora -->
     <td style="background:#014b18; border:1px solid #000; padding:12px; text-align:center; vertical-align:middle;">
-      <img src="./Documentacion/assets/logos/lorem.png" alt="EduBridge">
+      <img src="./Documentacion/assets/logos/lorem.png" alt="Viora">
     </td>
     <!-- Cultivate -->
     <td style="background:#d9d9d9; border:1px solid #000; padding:12px; text-align:center; vertical-align:middle;">
