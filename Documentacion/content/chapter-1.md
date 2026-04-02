@@ -377,9 +377,26 @@ Los productores olivareros y especialistas en sanidad agrícola enfrentan una al
 
 #### 1.2.2 Lean UX Process
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 ##### 1.2.2.1. Lean UX Problem Statements
+
+- **Problem Statement 1: Gestión de la incertidumbre climática y fenológica**
+Nuestro servicio ofrece un ecosistema digital de agricultura de precisión enfocado en el monitoreo térmico y la predicción fenológica del olivo. A través de nuestra plataforma, los productores pueden visualizar la acumulación de "porciones de frío" y anticipar el impacto de la vecería en sus cosechas. A diferencia de soluciones basadas exclusivamente en hardware como Pessl Instruments (Metos), que se centran en la venta de sensores y entrega de datos meteorológicos brutos, Viora transforma dicha información en proyecciones de rendimiento y alertas de riesgo fenológico personalizadas por parcela.
+Hemos identificado que un factor crítico que desestabiliza la economía del sector es la incapacidad de predecir la alternancia productiva extrema causada por la variabilidad térmica. Según Calvo et al. (2024), los eventos de El Niño-Oscilación del Sur (ENSO) alteran significativamente la productividad y el crecimiento vegetativo de los setos de olivo. Esta situación afecta directamente a los Productores Olivareros que dependen de cosechas constantes. Actualmente, existe un vacío tecnológico ya que los productores dependen de reportes de emergencia posteriores a la crisis (Agencia Andina, 2024), careciendo de una herramienta que organice datos climáticos para predecir ciclos de producción de forma anticipada.
+¿Cómo reducir la incertidumbre económica de los productores mediante la predicción temprana de los ciclos de vecería basada en datos climáticos?
+<br>
+
+- **Problem Statement 2: Vigilancia epidemiológica y control de amenazas**
+Nuestro servicio provee un sistema de alertas tempranas y protocolos de intervención ante amenazas fitosanitarias de alto impacto. A través de esta herramienta, los especialistas pueden identificar zonas de riesgo biológico mediante el análisis de factores ambientales. A diferencia del Sistema de Vigilancia Fitosanitaria de SENASA, que opera bajo un esquema de reporte manual y suele ser reactivo tras la aparición de síntomas visibles, Viora permite una vigilancia proactiva que conecta los servicios de diagnóstico con factores edafológicos en tiempo real.
+Hemos identificado que un factor crítico que complica la sanidad vegetal es la dificultad para detectar de manera ágil la propagación de plagas letales. Según el Servicio Nacional de Sanidad Agraria (2024), la bacteria Xylella fastidiosa exige acciones inmediatas de contención debido a su alto potencial destructivo. Esta limitación perjudica especialmente a los Profesionales especializados en control de plagas, quienes necesitan datos precisos para intervenir oportunamente (Pino y Huayna, 2022). Actualmente, los técnicos no cuentan con una plataforma integrada que centralice los indicadores de riesgo fitosanitario con la agilidad que requiere una emergencia sanitaria.
+¿Cómo facilitar a los especialistas el acceso a datos procesados para acelerar el diagnóstico y la contención de plagas cuarentenarias?
+
+<br>
+
+- **Problem Statement 3: Trazabilidad y toma de decisiones agroindustriales**
+Nuestro servicio permite optimizar la gestión operativa de las empresas olivareras mediante dashboards de trazabilidad y análisis histórico. A través de indicadores visuales, los gestores pueden evaluar la eficacia de sus estrategias de manejo. A diferencia del Portal de Información Agraria (MIDAGRI) o el Buscador SEACE, que ofrecen datos estadísticos generales o registros de transacciones comerciales pasivas, Viora proporciona un análisis dinámico que vincula el estado fitosanitario del campo con la rentabilidad proyectada del negocio.
+Hemos identificado que un factor crítico que retrasa la eficiencia sectorial es la dispersión de datos y la ausencia de herramientas que permitan detectar patrones de productividad de forma automática. La accesibilidad y el procesamiento rápido de información son fundamentales para reducir el tiempo de respuesta ante crisis de producción (Pino y Huayna, 2022). Esta carencia impacta en la visión estratégica de las Empresas Agroindustriales que necesitan asegurar la calidad del producto para exportación. Actualmente, la toma de decisiones suele ser empírica debido a que no existe una plataforma que proporcione un análisis enriquecido y procesado de la historia productiva de la parcela.
+¿Cómo mejorar la capacidad de gestión operativa de las empresas del sector olivarero asegurando que cuenten con herramientas de análisis de datos integradas?
+
 ##### 1.2.2.2. Lean UX Assumptions
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 ##### 1.2.2.4. Lean UX Canvas
