@@ -385,3 +385,30 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ##### 1.2.2.4. Lean UX Canvas
 
 ### 1.3. Segmentos objetivo.
+
+**Viora** orienta su propuesta de valor a tres segmentos fundamentales dentro del ecosistema olivarero, los cuales interactúan dinámicamente para sostener la cadena productiva y fitosanitaria en la región sur del país.
+
+1. **Pequeños productores de aceitunas y cooperativas agrícolas**
+  
+- **Características demográficas y perfil:** Este segmento está compuesto mayoritariamente por agricultores de zonas rurales y periurbanas que sostienen la agricultura familiar. Suelen ser personas adultas (por encima de los 40 años) con un profundo conocimiento empírico del campo, pero que se encuentran en una etapa de transición hacia la digitalización mediante el uso de smartphones para la comunicación comercial. Trabajan de forma individual o agrupados en cooperativas locales en distritos clave como La Yarada Los Palos.
+
+- **Información estadística de sustento:** Este grupo representa el núcleo de la producción nacional y es el motor del crecimiento del sector agropecuario, el cual registró una sólida expansión del 12.1% sustentada fuertemente por la agricultura familiar (MIDAGRI, 2025). Sin embargo, son el segmento más expuesto a la quiebra financiera; estadísticamente, han enfrentado mermas extremas que reducen su producción hasta un alarmante 10% o 20% en comparación con campañas regulares debido a las recientes olas de calor (Andina, 2024).
+
+- **Relación con el problema:** Al carecer de presupuestos para consultorías permanentes, toman decisiones reactivas. Necesitan democratizar el acceso a datos edafológicos y alertas meteorológicas para proteger su único sustento económico frente a emergencias.
+
+2. **Empresas de producción tecnificada y agroexportadoras**
+
+- **Características demográficas y perfil:** Conformado por organizaciones agroindustriales, gerentes de operaciones agrícolas e ingenieros agrónomos residentes que administran fundos extensivos (frecuentemente bajo modelos de setos o alta densidad). Poseen un alto nivel de digitalización, presupuestos estructurados para la adopción tecnológica y una fuerte orientación hacia la exportación de aceituna de mesa y extracción de aceite de oliva.
+  
+- **Información estadística de sustento:** Manejan vastas extensiones en zonas de estrés hídrico en la cabecera del desierto de Atacama, donde la eficiencia es crítica debido a la limitación de recursos y a las alertas por sobreexplotación de acuíferos subterráneos (Contraloría, 2023). A nivel de impacto, estas empresas se enfrentan a pérdidas dramáticas que pueden superar el 85% en el rendimiento de aceite durante escenarios severos del fenómeno ENOS (Calvo et al., 2024). Asimismo, requieren un monitoreo espacial riguroso, ya que estudios en la región han detectado que entre el 42% y el 68% del área evaluada presenta plantas enfermas, lo que exige intervenciones a gran escala (Pino-Vargas & Huayna, 2022).
+
+- **Relación con el problema:** Su dolor principal es la ineficiencia logística y el alto costo de los agrofármacos al aplicarlos "a ciegas". Necesitan centralizar la ingesta masiva de datos (clima, pH, humedad) e índices de vegetación para realizar una agricultura de precisión que reduzca sus costos operativos.
+
+
+3. **Profesionales especializados en sanidad agrícola**
+
+- **Características demográficas y perfil:** Ingenieros agrónomos, técnicos agropecuarios y consultores fitosanitarios independientes. Demográficamente, abarcan un rango de edad más joven a intermedio (25 a 50 años), son nativos digitales o heavy users de herramientas tecnológicas móviles, y se movilizan constantemente a través de los diferentes valles y fundos productivos ofreciendo servicios de diagnóstico, poda y control de plagas.
+
+- **Información estadística de sustento:** Su participación técnica es estadísticamente vital para evitar catástrofes económicas a nivel país. La presencia inminente de plagas cuarentenarias como la Xylella fastidiosa obliga a intervenciones inmediatas y focalizadas, dado que su descontrol puede generar pérdidas multisectoriales estimadas en más de US$ 3,245 millones anuales a nivel nacional (SENASA, 2025). El marco normativo y técnico actual exige un control oficial y estricto de estas amenazas (Casanova, 2022; SENASA, 2024), lo que dispara la demanda de sus servicios.
+
+- **Relación con el problema:** A pesar de la altísima necesidad de sus conocimientos, sufren de una prospección ineficiente. Necesitan un marketplace o plataforma unificada que cruce las alertas epidemiológicas de los campos con su disponibilidad, convirtiendo la necesidad del agricultor en oportunidades de servicio directo.
