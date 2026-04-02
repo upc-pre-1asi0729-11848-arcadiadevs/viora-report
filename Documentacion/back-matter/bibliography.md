@@ -3,7 +3,7 @@
 <div class="bibliografia">
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
-Agencia Andina. (28 de febrero de 2024). <em>Tacna: piden declarar en emergencia a la producción de olivo afectada por la ola de calor</em>. <a href="https://andina.pe/agencia/noticia-tacna-piden-declarar-emergencia-a-produccion-olivo-afectada-por-ola-calor-976062.aspx">https://andina.pe/agencia/noticia-tacna-piden-declarar-emergencia-a-produccion-olivo-afectada-por-ola-calor-976062.aspx</a>
+Andina. (28 de febrero de 2024). <em>Tacna: piden declarar en emergencia a la producción de olivo afectada por la ola de calor</em>. <a href="https://andina.pe/agencia/noticia-tacna-piden-declarar-emergencia-a-produccion-olivo-afectada-por-ola-calor-976062.aspx">https://andina.pe/agencia/noticia-tacna-piden-declarar-emergencia-a-produccion-olivo-afectada-por-ola-calor-976062.aspx</a>
 </p>
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
