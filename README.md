@@ -71,30 +71,30 @@
 
 ## Contenido
 
-  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
-  - [Contenido](#contenido)
-  - [Student Outcome](#student-outcome)
-  - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1 Startup Profile](#11-startup-profile)
-      - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2 Solution Profile](#12-solution-profile)
-      - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-      - [1.2.2 Lean UX Process](#122-lean-ux-process)
-        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
-  - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-analysis)
-    - [2.1. Competidores.](#21-competidores)
-      - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
-      - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [Bibliografía](#bibliografía)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1 Startup Profile](#11-startup-profile)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2 Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores.](#21-competidores)
+    - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+- [Bibliografía](#bibliografía)
 
 <div style="page-break-before: always;"></div>
 
@@ -126,7 +126,7 @@ En el logotipo, el zorro simboliza **ingenio y agilidad**; su cola en forma de t
 
 <p class="subtitulo">Quiénes somos</p>
 
-Somos un equipo de ingeniería y diseño que convierte datos complejos en decisiones simples y rentables para el sector agroindustrial. Actualmente impulsamos Viora: una plataforma SaaS B2B especializada en la gestión inteligente del ciclo de producción de aceitunas. Nuestro enfoque combina el monitoreo de variables de suelo y clima para emitir alertas epidemiológicas tempranas, brindando a los productores recomendaciones precisas y conectándolos directamente con profesionales especializados en sanidad agrícola.
+Somos un equipo de ingeniería y diseño que convierte datos complejos en decisiones simples y rentables para el sector agroindustrial. Actualmente impulsamos Viora, una plataforma SaaS B2B especializada en la gestión inteligente del ciclo de producción de aceitunas. Nuestro enfoque combina el monitoreo de variables de suelo y clima para emitir alertas epidemiológicas tempranas, brindando a los productores recomendaciones precisas y conectándolos directamente con profesionales especializados en sanidad agrícola.
 
 <table style="width:100 %; border-collapse:separate; border-spacing:0; background:#fbf0f2; border-radius:12px; margin:22px 0 14px 0;">
   <tr>
@@ -282,11 +282,14 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 #### 1.2.1 Antecedentes y problemática
 
 **Antecedentes productivos y relevancia**. El olivo es un cultivo estratégico para el sur del Perú por su alta concentración territorial y su impacto en cadenas de valor (aceituna de mesa y aceite). En Tacna se reporta una fuerte concentración del olivar nacional (Andina, 2024), lo que incrementa la vulnerabilidad sistémica: un shock climático o sanitario local puede afectar disponibilidad, precios y rentabilidad a escala regional y nacional. En 2023 se reportaron 52,000 toneladas en Tacna, con una distribución aproximada de 60 % para aceituna de mesa y el restante para aceite (Andina, 2024). Esta dualidad de destino exige gestionar no solo volumen, sino también variables que inciden en desempeño productivo y valor comercial.
+**Antecedentes productivos y relevancia**. El olivo es un cultivo estratégico para el sur del Perú por su alta concentración territorial y su impacto en cadenas de valor (aceituna de mesa y aceite). En Tacna se reporta una fuerte concentración del olivar nacional (Andina, 2024), lo que incrementa la vulnerabilidad sistémica: un shock climático o sanitario local puede afectar disponibilidad, precios y rentabilidad a escala regional y nacional. En 2023 se reportaron 52,000 toneladas en Tacna, con una distribución aproximada de 60 % para aceituna de mesa y el restante para aceite (Andina, 2024). Esta dualidad de destino exige gestionar no solo volumen, sino también variables que inciden en desempeño productivo y valor comercial.
 
+La volatilidad reciente refuerza la necesidad de gestión basada en datos. En septiembre de 2025, el sector agropecuario creció 12.1 % (subsector agrícola 18.4 %) a nivel nacional, y se reportó un incremento de 18,615 % en aceituna para Tacna, explicado como recuperación respecto a 2024 afectado por altas temperaturas asociadas a El Niño (MIDAGRI, 2025).
 La volatilidad reciente refuerza la necesidad de gestión basada en datos. En septiembre de 2025, el sector agropecuario creció 12.1 % (subsector agrícola 18.4 %) a nivel nacional, y se reportó un incremento de 18,615 % en aceituna para Tacna, explicado como recuperación respecto a 2024 afectado por altas temperaturas asociadas a El Niño (MIDAGRI, 2025).
 
 <!-- Rule for APA7 images -->
 <p style="text-align:left; font-weight: 700; margin-bottom: 2px;">Tabla 1</p>
+<p style="text-align:left; font-style: italic; margin-top: 0;">Variación del Valor de la Producción Agropecuaria según subsectores mes de setiembre 2019 - 2025 ( %)
 <p style="text-align:left; font-style: italic; margin-top: 0;">Variación del Valor de la Producción Agropecuaria según subsectores mes de setiembre 2019 - 2025 ( %)
 </p>
 
@@ -296,10 +299,13 @@ La volatilidad reciente refuerza la necesidad de gestión basada en datos. En se
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
     <em>Nota.</em> En el mes de setiembre el sector agropecuario registró un crecimiento de 12,1 % comparado con similar mes del 2024. Tomado de MIDAGRI, 2025
+    <em>Nota.</em> En el mes de setiembre el sector agropecuario registró un crecimiento de 12,1 % comparado con similar mes del 2024. Tomado de MIDAGRI, 2025
 </p>
 
 **Influencia del clima, ENOS y horas de frío en producción, calidad y vecería** En el caso de Tacna, se ha documentado que la sostenibilidad del olivo depende críticamente del clima, destacando la temperatura como variable clave; se reportan rangos de tolerancia y óptimos (Pino y Ascencios, 2022). La evidencia local reciente asocia olas de calor con fallas fisiológicas: en Yarada Los Palos se reportó merma “hasta 90 %” y proyecciones de cosecha equivalente a 10 % a 20 % del año previo, vinculadas a ausencia de “golpe de frío” nocturno necesario para el cuajado (Andina, 2024). Además, se registraron señales de impacto económico (p. ej., alzas de precio minorista) coherentes con shock de oferta (Andina, 2024).
+**Influencia del clima, ENOS y horas de frío en producción, calidad y vecería** En el caso de Tacna, se ha documentado que la sostenibilidad del olivo depende críticamente del clima, destacando la temperatura como variable clave; se reportan rangos de tolerancia y óptimos (Pino y Ascencios, 2022). La evidencia local reciente asocia olas de calor con fallas fisiológicas: en Yarada Los Palos se reportó merma “hasta 90 %” y proyecciones de cosecha equivalente a 10 % a 20 % del año previo, vinculadas a ausencia de “golpe de frío” nocturno necesario para el cuajado (Andina, 2024). Además, se registraron señales de impacto económico (p. ej., alzas de precio minorista) coherentes con shock de oferta (Andina, 2024).
 
+La investigación aplicada también sustenta incorporar un rastreador de frío y un motor predictivo de vecería. En setos de olivo, un evento El Niño-Oscilación del Sur (ENSO) fuerte se asocia a aumento de temperaturas invernales (+2°C) y reducción de acumulación de frío (−23 %), con deterioro de productividad y alternancia; se reportan reducciones del frío en escenarios ENSO de −15 % a −23 % y, en campañas adversas, reducciones de rendimiento de aceite >85 % (Calvo et al., 2024). Estos hallazgos son consistentes con el patrón de alta variabilidad observado en Tacna (MIDAGRI, 2025) y justifican modelar vecería y requerimientos de frío como componentes de decisión.
 La investigación aplicada también sustenta incorporar un rastreador de frío y un motor predictivo de vecería. En setos de olivo, un evento El Niño-Oscilación del Sur (ENSO) fuerte se asocia a aumento de temperaturas invernales (+2°C) y reducción de acumulación de frío (−23 %), con deterioro de productividad y alternancia; se reportan reducciones del frío en escenarios ENSO de −15 % a −23 % y, en campañas adversas, reducciones de rendimiento de aceite >85 % (Calvo et al., 2024). Estos hallazgos son consistentes con el patrón de alta variabilidad observado en Tacna (MIDAGRI, 2025) y justifican modelar vecería y requerimientos de frío como componentes de decisión.
 
 <!-- Rule for APA7 images -->
@@ -330,6 +336,7 @@ La investigación aplicada también sustenta incorporar un rastreador de frío y
 
 
 **Plagas, vigilancia fitosanitaria y riesgos regulatorios** La presión sanitaria constituye un riesgo productivo y regulatorio. SENASA informó acciones inmediatas y declaración de emergencia fitosanitaria ante Xylella fastidiosa, con medidas de vigilancia y contención (SENASA, 2024). Posteriormente, la Resolución Directoral que declara bajo control oficial Xylella fastidiosa subsp. pauca sustenta la dimensión del riesgo y la necesidad de intervención temprana: se reportan casos positivos en el país y se advierte impacto potencial de disminución productiva “hasta 25 %–30 %” en zonas vulnerables, así como pérdidas económicas potenciales superiores a US$ 3,245 millones anuales considerando varios cultivos (SENASA, 2025).
+**Plagas, vigilancia fitosanitaria y riesgos regulatorios** La presión sanitaria constituye un riesgo productivo y regulatorio. SENASA informó acciones inmediatas y declaración de emergencia fitosanitaria ante Xylella fastidiosa, con medidas de vigilancia y contención (SENASA, 2024). Posteriormente, la Resolución Directoral que declara bajo control oficial Xylella fastidiosa subsp. pauca sustenta la dimensión del riesgo y la necesidad de intervención temprana: se reportan casos positivos en el país y se advierte impacto potencial de disminución productiva “hasta 25 %–30 %” en zonas vulnerables, así como pérdidas económicas potenciales superiores a US$ 3,245 millones anuales considerando varios cultivos (SENASA, 2025).
 
 <!-- Rule for APA7 images -->
 <p style="text-align:left; font-weight: 700; margin-bottom: 2px;">Figura 3</p>
@@ -345,6 +352,7 @@ La investigación aplicada también sustenta incorporar un rastreador de frío y
 </p>
 
 **Problemas actuales del caso de estudio** El caso de estudio evidencia problemas de gestión y gobernanza que amplifican los impactos del clima y las plagas. Primero, la captura de información tiende a ser reactiva: ante eventos extremos se recurre a empadronamientos y levantamiento posterior de daños (Andina, 2024), lo que limita la prevención y la planeación de campañas. Segundo, existen riesgos asociados al recurso hídrico: se reportaron alertas por desvío de energía para extracción de agua subterránea en Yarada Los Palos, con valores de potencia contratada y condiciones que sugieren presión sobre acuíferos (Contraloría, 2023). Tercero, la afectación sanitaria puede evaluarse a escala espacial: en La Yarada se estimó que el área de plantas enfermas oscila entre 42 % y 68 %, proponiendo umbrales por índices de vegetación (p. ej., NDVI) para niveles de severidad (Pino y Huayna, 2022). La guía técnica regional complementa estos antecedentes al consolidar prácticas de manejo, riego y nutrición para el cultivo en Tacna (Casanova, 2022).
+**Problemas actuales del caso de estudio** El caso de estudio evidencia problemas de gestión y gobernanza que amplifican los impactos del clima y las plagas. Primero, la captura de información tiende a ser reactiva: ante eventos extremos se recurre a empadronamientos y levantamiento posterior de daños (Andina, 2024), lo que limita la prevención y la planeación de campañas. Segundo, existen riesgos asociados al recurso hídrico: se reportaron alertas por desvío de energía para extracción de agua subterránea en Yarada Los Palos, con valores de potencia contratada y condiciones que sugieren presión sobre acuíferos (Contraloría, 2023). Tercero, la afectación sanitaria puede evaluarse a escala espacial: en La Yarada se estimó que el área de plantas enfermas oscila entre 42 % y 68 %, proponiendo umbrales por índices de vegetación (p. ej., NDVI) para niveles de severidad (Pino y Huayna, 2022). La guía técnica regional complementa estos antecedentes al consolidar prácticas de manejo, riego y nutrición para el cultivo en Tacna (Casanova, 2022).
 
 <!-- Rule for APA7 images -->
 <p style="text-align:left; font-weight: 700; margin-bottom: 2px;">Figura 4</p>
@@ -355,6 +363,7 @@ La investigación aplicada también sustenta incorporar un rastreador de frío y
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
+    <em>Nota.</em> Recuperado de Pino y Huayna, 2022
     <em>Nota.</em> Recuperado de Pino y Huayna, 2022
 </p>
 
@@ -369,11 +378,14 @@ La investigación aplicada también sustenta incorporar un rastreador de frío y
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
     <em>Nota.</em> (a) La afectación es leve. (b) Ataque de plagas moderado. (c) Severidad del ataque de las plagas sumado al déficit hídrico. (d) Ataque de plagas muy fuerte y estado de marchitez permanente. Recuperado de Pino y Huayna, 2022
+    <em>Nota.</em> (a) La afectación es leve. (b) Ataque de plagas moderado. (c) Severidad del ataque de las plagas sumado al déficit hídrico. (d) Ataque de plagas muy fuerte y estado de marchitez permanente. Recuperado de Pino y Huayna, 2022
 </p>
 
 
 **Sustentación de la solución SaaS y ampliaciones propuestas** La evidencia respalda una plataforma SaaS hiper‑especializada que convierta datos en decisiones: (i) Dashboard de finca con clima, suelo y sanidad para monitorear riesgo y desempeño (Andina, 2024; Pino y Huayna, 2022; MIDAGRI, 2025). (ii) Rastreador de horas/porciones de frío vs ENOS, para anticipar riesgo fenológico y productivo bajo escenarios ENSO (Calvo et al., 2024; Pino y Ascencios, 2022). (iii) Motor predictivo de vecería, apoyado en evidencia de alternancia asociada a variaciones de frío y en la volatilidad observada a nivel regional (Calvo et al., 2024; MIDAGRI, 2025). (iv) Motor de alertas epidemiológicas y trazabilidad de cumplimiento, alineado a vigilancia, control oficial y protocolos de contención (SENASA, 2024; SENASA, 2025). (v) Recomendaciones y nutrición dinámica, sustentadas en lineamientos técnicos regionales y variables edafológicas/ambientales relevantes para diagnóstico (Casanova, 2022; Pino y Huayna, 2022).
+**Sustentación de la solución SaaS y ampliaciones propuestas** La evidencia respalda una plataforma SaaS hiper‑especializada que convierta datos en decisiones: (i) Dashboard de finca con clima, suelo y sanidad para monitorear riesgo y desempeño (Andina, 2024; Pino y Huayna, 2022; MIDAGRI, 2025). (ii) Rastreador de horas/porciones de frío vs ENOS, para anticipar riesgo fenológico y productivo bajo escenarios ENSO (Calvo et al., 2024; Pino y Ascencios, 2022). (iii) Motor predictivo de vecería, apoyado en evidencia de alternancia asociada a variaciones de frío y en la volatilidad observada a nivel regional (Calvo et al., 2024; MIDAGRI, 2025). (iv) Motor de alertas epidemiológicas y trazabilidad de cumplimiento, alineado a vigilancia, control oficial y protocolos de contención (SENASA, 2024; SENASA, 2025). (v) Recomendaciones y nutrición dinámica, sustentadas en lineamientos técnicos regionales y variables edafológicas/ambientales relevantes para diagnóstico (Casanova, 2022; Pino y Huayna, 2022).
 
+Como soporte de escalabilidad, investigaciones recientes demuestran viabilidad de analítica avanzada: mapeo integrado UAV‑satélite con modelos de aprendizaje automático y métricas de calidad de clasificación (Pino et al., 2026), y detección/conteo de frutos con deep learning sobre dataset amplio y métricas de desempeño (Osco‑Mamami et al., 2025). Estas capacidades habilitan un roadmap progresivo: del monitoreo básico (clima/suelo) hacia modelos predictivos y visión computacional para estimar carga, anticipar alternancia y ajustar nutrición. Adicionalmente, la experiencia del Niño costero 2017 evidencia que los eventos extremos pueden intensificarse abruptamente y superar capacidades de respuesta si no existe preparación basada en información (Yglesias‑González et al., 2023), reforzando el valor de una solución preventiva y orientada a riesgo.
 Como soporte de escalabilidad, investigaciones recientes demuestran viabilidad de analítica avanzada: mapeo integrado UAV‑satélite con modelos de aprendizaje automático y métricas de calidad de clasificación (Pino et al., 2026), y detección/conteo de frutos con deep learning sobre dataset amplio y métricas de desempeño (Osco‑Mamami et al., 2025). Estas capacidades habilitan un roadmap progresivo: del monitoreo básico (clima/suelo) hacia modelos predictivos y visión computacional para estimar carga, anticipar alternancia y ajustar nutrición. Adicionalmente, la experiencia del Niño costero 2017 evidencia que los eventos extremos pueden intensificarse abruptamente y superar capacidades de respuesta si no existe preparación basada en información (Yglesias‑González et al., 2023), reforzando el valor de una solución preventiva y orientada a riesgo.
 
 <!-- Rule for APA7 images -->
@@ -385,6 +397,7 @@ Como soporte de escalabilidad, investigaciones recientes demuestran viabilidad d
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
+    <em>Nota.</em> Recuperado de Pino et al., 2026
     <em>Nota.</em> Recuperado de Pino et al., 2026
 </p>
 
@@ -404,6 +417,13 @@ Como soporte de escalabilidad, investigaciones recientes demuestran viabilidad d
 
 ---
 
+
+**Herramienta de Ingeniería (5w y 2h):**
+
+<p class="subtitulo"><strong>What (Qué)</strong></p>
+<p class="subtitulo-2"><strong>¿Cuál es el problema?</strong></p>
+
+El problema central radica en la alta vulnerabilidad sistémica del ciclo de producción del olivo frente a la variabilidad climática extrema y las emergencias fitosanitarias, las cuales actualmente se abordan mediante una gestión puramente reactiva en lugar de preventiva (Andina, 2024). La falta de anticipación ante anomalías ambientales, como el déficit de horas de frío provocado por las fluctuaciones térmicas, altera dramáticamente la fenología del cultivo y desencadena el fenómeno de la vecería o alternancia productiva (Calvo et al., 2024). Simultáneamente, esta vulnerabilidad estructural se agrava por el surgimiento de plagas cuarentenarias severas, cuya detección tardía impide una respuesta oportuna y genera pérdidas millonarias irremediables para el ecosistema agrícola de la región (SENASA, 2025).
 
 **Herramienta de Ingeniería (5w y 2h):**
 
@@ -447,7 +467,7 @@ Esta altísima vulnerabilidad se agudiza y se vuelve inmanejable bajo condicione
 <p class="subtitulo"><strong>How much (Cuánto)</strong></p>
 <p class="subtitulo-2"><strong>¿Cuál es el problema?</strong></p>
 
-- **97,6  %** Lorem ipsum dolor sit ame (Lorem ipsum, 2023, p. 2).
+La magnitud del problema se refleja en indicadores económicos y productivos sumamente críticos para el sector agrario. Las recientes olas de calor han provocado mermas que alcanzan hasta un **90%** de pérdida en campos de La Yarada Los Palos, reduciendo drásticamente las proyecciones de cosecha a apenas un **10%** o **20%** del volumen obtenido en el año previo (Andina, 2024). Bajo escenarios ENSO fuertes, la investigación advierte reducciones alarmantes en el rendimiento de aceite que pueden superar el **85%** en las peores campañas documentadas (Calvo et al., 2024). A nivel fitosanitario, la inacción frente a patógenos letales como la Xylella fastidiosa amenaza con disminuir la capacidad productiva entre un **25%** y un **30%** en las zonas declaradas vulnerables, proyectando pérdidas económicas multisectoriales que podrían sobrepasar holgadamente los **3,245 millones** de dólares anuales a nivel nacional (SENASA, 2025). Asimismo, rigurosas evaluaciones espaciales han revelado que la proporción de plantas enfermas en determinadas zonas geográficas de Tacna ya oscila peligrosamente entre el **42%** y el **68%** del área total cultivada (Pino-Vargas & Huayna, 2022).
 
 #### 1.2.2 Lean UX Process
 
@@ -572,6 +592,7 @@ Análisis competitivo para competidores **directos**
   <tr>
     <td colspan="5" style="border:1px solid #000; padding:12px; font-style:italic; vertical-align:top;">
       ¿Cómo debe posicionarse EduBridge ...?
+      ¿Cómo debe posicionarse EduBridge ...?
     </td>
   </tr>
   <tr>
@@ -579,7 +600,9 @@ Análisis competitivo para competidores **directos**
       Competidores
     </td>
     <!-- EduBridge -->
+    <!-- EduBridge -->
     <td style="background:#014b18; border:1px solid #000; padding:12px; text-align:center; vertical-align:middle;">
+      <img src="./Documentacion/assets/logos/lorem.png" alt="EduBridge">
       <img src="./Documentacion/assets/logos/lorem.png" alt="EduBridge">
     </td>
     <!-- Cultivate -->
@@ -909,6 +932,7 @@ Análisis competitivo para competidores **indirectos**
   <tr>
     <td colspan="5" style="border:1px solid #000; padding:12px; font-style:italic; vertical-align:top;">
       ¿Qué propuestas indirectas podrían captar al mismo segmento objetivo de EduBridge y cómo debemos posicionarnos para convivir/aliarnos con ella?
+      ¿Qué propuestas indirectas podrían captar al mismo segmento objetivo de EduBridge y cómo debemos posicionarnos para convivir/aliarnos con ella?
     </td>
   </tr>
   <tr>
@@ -916,7 +940,9 @@ Análisis competitivo para competidores **indirectos**
       Competidores
     </td>
     <!-- EduBridge -->
+    <!-- EduBridge -->
     <td style="background:#014b18; border:1px solid #000; padding:12px; text-align:center; vertical-align:middle;">
+      <img src="./Documentacion/assets/logos/lorem.png" alt="EduBridge">
       <img src="./Documentacion/assets/logos/lorem.png" alt="EduBridge">
     </td>
     <!-- Cultivate -->
@@ -1607,21 +1633,26 @@ Agencia Andina. (28 de febrero de 2024). <em>Tacna: piden declarar en emergencia
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
 Calvo, F., Calahorra, M., & Trentacoste, E. (2024). Impact of El Niño–Southern Oscillation and Mechanical Pruning Strategies on the Productivity, Alternate Bearing, and Vegetative Growth of Olive Hedgerows. <em>Agriculture, 14</em>(12), 2335. <a href="https://doi.org/10.3390/agriculture14122335">https://doi.org/10.3390/agriculture14122335</a>
+Calvo, F., Calahorra, M., & Trentacoste, E. (2024). Impact of El Niño–Southern Oscillation and Mechanical Pruning Strategies on the Productivity, Alternate Bearing, and Vegetative Growth of Olive Hedgerows. <em>Agriculture, 14</em>(12), 2335. <a href="https://doi.org/10.3390/agriculture14122335">https://doi.org/10.3390/agriculture14122335</a>
 </p>
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
+Casanova Núñez-Melgar, D. P. (marzo de 2022). <em>Guía técnica del cultivo de olivo en la región Tacna</em>. Instituto Nacional de Innovación Agraria. <a href="https://repositorio.inia.gob.pe/items/3778735a-93ca-44ff-b0ac-5744e7911941">https://repositorio.inia.gob.pe/items/3778735a-93ca-44ff-b0ac-5744e7911941</a>
 Casanova Núñez-Melgar, D. P. (marzo de 2022). <em>Guía técnica del cultivo de olivo en la región Tacna</em>. Instituto Nacional de Innovación Agraria. <a href="https://repositorio.inia.gob.pe/items/3778735a-93ca-44ff-b0ac-5744e7911941">https://repositorio.inia.gob.pe/items/3778735a-93ca-44ff-b0ac-5744e7911941</a>
 </p>
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
 Contraloría General de la República. (19 de octubre de 2023). <em>Contraloría alerta desvío de energía eléctrica para extraer agua subterránea en Yarada Los Palos</em>. <a href="https://www.gob.pe/institucion/contraloria/noticias/853158">https://www.gob.pe/institucion/contraloria/noticias/853158</a>
+Contraloría General de la República. (19 de octubre de 2023). <em>Contraloría alerta desvío de energía eléctrica para extraer agua subterránea en Yarada Los Palos</em>. <a href="https://www.gob.pe/institucion/contraloria/noticias/853158">https://www.gob.pe/institucion/contraloria/noticias/853158</a>
 </p>
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
 Ministerio de Desarrollo Agrario y Riego. (6 de noviembre de 2025). <em>MIDAGRI: sector agropecuario creció 12,1% en setiembre, mostrando un crecimiento sólido a favor de la agricultura familiar</em>. <a href="https://www.gob.pe/institucion/midagri/noticias/1282773">https://www.gob.pe/institucion/midagri/noticias/1282773</a>
+Ministerio de Desarrollo Agrario y Riego. (6 de noviembre de 2025). <em>MIDAGRI: sector agropecuario creció 12,1% en setiembre, mostrando un crecimiento sólido a favor de la agricultura familiar</em>. <a href="https://www.gob.pe/institucion/midagri/noticias/1282773">https://www.gob.pe/institucion/midagri/noticias/1282773</a>
 </p>
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
+Osco-Mamani, E., Santana-Carbajal, O., Chaparro-Cruz, I., Ochoa-Donoso, D., & Alcazar-Alay, S. (2025). The Detection and Counting of Olive Tree Fruits Using Deep Learning Models in Tacna, Perú. <em>AI, 6</em>(2), 25. <a href="https://doi.org/10.3390/ai6020025">https://doi.org/10.3390/ai6020025</a>
 Osco-Mamani, E., Santana-Carbajal, O., Chaparro-Cruz, I., Ochoa-Donoso, D., & Alcazar-Alay, S. (2025). The Detection and Counting of Olive Tree Fruits Using Deep Learning Models in Tacna, Perú. <em>AI, 6</em>(2), 25. <a href="https://doi.org/10.3390/ai6020025">https://doi.org/10.3390/ai6020025</a>
 </p>
 
@@ -1631,17 +1662,21 @@ Pino, E. & Ascencios, D. R. (2022). <em>Sostenibilidad del cultivo de olivo bajo
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
 Pino, E. & Huayna, G. (2022). Evolución espacial y temporal de cultivo del olivo por efecto del ataque de plagas, utilizando sensoramiento remoto y procesamiento de imágenes satelitales. <em>Scientia Agropecuaria, 13</em>(2), 149–157. <a href="https://doi.org/10.17268/sci.agropecu.2022.013">https://doi.org/10.17268/sci.agropecu.2022.013</a>
+Pino, E. & Huayna, G. (2022). Evolución espacial y temporal de cultivo del olivo por efecto del ataque de plagas, utilizando sensoramiento remoto y procesamiento de imágenes satelitales. <em>Scientia Agropecuaria, 13</em>(2), 149–157. <a href="https://doi.org/10.17268/sci.agropecu.2022.013">https://doi.org/10.17268/sci.agropecu.2022.013</a>
 </p>
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
+Pino, E., Huayna, G., Muchica-Huamantuma, J., Barboza, E., Pizarro, S., Vera-Barrios, B., Cruz-Rodríguez, C., & Cabrera-Olivera, F. (2026). Mapeo de cultivos de olivo ( Olea europaea L.) en el desierto de Atacama (Perú): una integración de imágenes multiespectrales de satélites UAV y modelos conjuntos de aprendizaje automático. <em>AgriIngeniería, 8</em>(1), 9. <a href="https://doi.org/10.3390/agriengineering8010009">https://doi.org/10.3390/agriengineering8010009</a>
 Pino, E., Huayna, G., Muchica-Huamantuma, J., Barboza, E., Pizarro, S., Vera-Barrios, B., Cruz-Rodríguez, C., & Cabrera-Olivera, F. (2026). Mapeo de cultivos de olivo ( Olea europaea L.) en el desierto de Atacama (Perú): una integración de imágenes multiespectrales de satélites UAV y modelos conjuntos de aprendizaje automático. <em>AgriIngeniería, 8</em>(1), 9. <a href="https://doi.org/10.3390/agriengineering8010009">https://doi.org/10.3390/agriengineering8010009</a>
 </p>
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
 Servicio Nacional de Sanidad Agraria del Perú. (21 de septiembre de 2024). <em>SENASA dispone acciones inmediatas para contener plaga Xylella fastidiosa</em> Gob.pe. <a href="https://www.gob.pe/institucion/senasa/noticias/1026076-senasa-dispone-acciones-inmediatas-para-contener-plaga-xylella-fastidiosa">https://www.gob.pe/institucion/senasa/noticias/1026076-senasa-dispone-acciones-inmediatas-para-contener-plaga-xylella-fastidiosa</a>
+Servicio Nacional de Sanidad Agraria del Perú. (21 de septiembre de 2024). <em>SENASA dispone acciones inmediatas para contener plaga Xylella fastidiosa</em> Gob.pe. <a href="https://www.gob.pe/institucion/senasa/noticias/1026076-senasa-dispone-acciones-inmediatas-para-contener-plaga-xylella-fastidiosa">https://www.gob.pe/institucion/senasa/noticias/1026076-senasa-dispone-acciones-inmediatas-para-contener-plaga-xylella-fastidiosa</a>
 </p>
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
+Servicio Nacional de Sanidad Agraria del Perú. (22 de mayo de 2025). <em>Resolución Directoral N.° 022-2025-MIDAGRI-SENASA-DSV: Declaran bajo control oficial la plaga Xylella fastidiosa subsp. pauca, a nivel nacional</em>. <a href="https://www.gob.pe/institucion/senasa/normas-legales/6793598-022-2025-midagri-senasa-dsv">https://www.gob.pe/institucion/senasa/normas-legales/6793598-022-2025-midagri-senasa-dsv</a>
 Servicio Nacional de Sanidad Agraria del Perú. (22 de mayo de 2025). <em>Resolución Directoral N.° 022-2025-MIDAGRI-SENASA-DSV: Declaran bajo control oficial la plaga Xylella fastidiosa subsp. pauca, a nivel nacional</em>. <a href="https://www.gob.pe/institucion/senasa/normas-legales/6793598-022-2025-midagri-senasa-dsv">https://www.gob.pe/institucion/senasa/normas-legales/6793598-022-2025-midagri-senasa-dsv</a>
 </p>
 

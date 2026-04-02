@@ -17,9 +17,9 @@ En el logotipo, el zorro simboliza **ingenio y agilidad**; su cola en forma de t
 
 <p class="subtitulo">Quiénes somos</p>
 
-Somos un equipo de ingeniería y diseño que convierte datos complejos en decisiones simples y rentables para el sector agroindustrial. Actualmente impulsamos Viora: una plataforma SaaS B2B especializada en la gestión inteligente del ciclo de producción de aceitunas. Nuestro enfoque combina el monitoreo de variables de suelo y clima para emitir alertas epidemiológicas tempranas, brindando a los productores recomendaciones precisas y conectándolos directamente con profesionales especializados en sanidad agrícola.
+Somos un equipo de ingeniería y diseño que convierte datos complejos en decisiones simples y rentables para el sector agroindustrial. Actualmente impulsamos Viora, una plataforma SaaS B2B especializada en la gestión inteligente del ciclo de producción de aceitunas. Nuestro enfoque combina el monitoreo de variables de suelo y clima para emitir alertas epidemiológicas tempranas, brindando a los productores recomendaciones precisas y conectándolos directamente con profesionales especializados en sanidad agrícola.
 
-<table style="width:100 %; border-collapse:separate; border-spacing:0; background:#fbf0f2; border-radius:12px; margin:22px 0 14px 0;">
+<table style="width:100%; border-collapse:separate; border-spacing:0; background:#fbf0f2; border-radius:12px; margin:22px 0 14px 0;">
   <tr>
     <td style="width:140px; padding:18px 14px; vertical-align:middle; text-align:center;">
       <img src="../assets/logos/Mision_Zorrito.png" alt="Misión" style="height:60px; width:auto; display:block; margin:0 auto 8px auto;" />
@@ -32,7 +32,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
   </tr>
 </table>
 
-<table style="width:100 %; border-collapse:separate; border-spacing:0; background:#fbf0f2; border-radius:12px; margin:0 0 18px 0;">
+<table style="width:100%; border-collapse:separate; border-spacing:0; background:#fbf0f2; border-radius:12px; margin:0 0 18px 0;">
   <tr>
     <td style="width:140px; padding:18px 14px; vertical-align:middle; text-align:center;">
       <img src="../assets/logos/Vision_Zorrito.png" alt="Visión" style="height:60px; width:auto; display:block; margin:0 auto 8px auto;" />
@@ -46,7 +46,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 </table>
 
 <div style="margin-top:10px;">
-  <img src="../assets/logos/PatronZorritos.png" alt="Patrón" style="width:100 %; height:70px; object-fit:cover; display:block;" />
+  <img src="../assets/logos/PatronZorritos.png" alt="Patrón" style="width:100%; height:70px; object-fit:cover; display:block;" />
 </div>
 
 <div style="page-break-before: always;"></div>
@@ -54,7 +54,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 ### 1.1.2 Perfiles de integrantes del equipo
 
 <!-- PERFIL 1 -->
-<table style="width:100 %; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
+<table style="width:100%; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
   <tr>
     <td colspan="2" style="background:#a11d2f; color:#fff; font-weight:700; text-align:center; padding:10px 12px; letter-spacing:.3px;">
       CEO & Product Owner
@@ -76,7 +76,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 </table>
 
 <!-- PERFIL 2 -->
-<table style="width:100 %; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
+<table style="width:100%; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
   <tr>
     <td colspan="2" style="background:#a11d2f; color:#fff; font-weight:700; text-align:center; padding:10px 12px; letter-spacing:.3px;">
       CPO & System Architect
@@ -99,7 +99,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 </table>
 
 <!-- PERFIL 3 -->
-<table style="width:100 %; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
+<table style="width:100%; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
   <tr>
     <td colspan="2" style="background:#a11d2f; color:#fff; font-weight:700; text-align:center; padding:10px 12px; letter-spacing:.3px;">
       CTO & Integrador DevOps
@@ -122,7 +122,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 </table>
 
 <!-- PERFIL 4 -->
-<table style="width:100 %; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
+<table style="width:100%; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
   <tr>
     <td colspan="2" style="background:#a11d2f; color:#fff; font-weight:700; text-align:center; padding:10px 12px; letter-spacing:.3px;">
       CMO & UX Lead
@@ -145,7 +145,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 </table>
 
 <!-- PROFILE 5 -->
-<table style="width:100 %; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
+<table style="width:100%; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
   <tr>
     <td colspan="2" style="background:#a11d2f; color:#fff; font-weight:700; text-align:center; padding:10px 12px; letter-spacing:.3px;">
       COO, & Researcher & QA
@@ -182,7 +182,7 @@ La volatilidad reciente refuerza la necesidad de gestión basada en datos. En se
 </p>
 
 <div style="text-align:center;">
-    <img src="../assets/graphics/valor_produccion_midagri.png" alt="Indicadores recientes de variación productiva y recuperación" style="max-width:100 %; height:auto; object-fit:contain; display:inline-block;" />
+    <img src="../assets/graphics/valor_produccion_midagri.png" alt="Indicadores recientes de variación productiva y recuperación" style="max-width:100%; height:auto; object-fit:contain; display:inline-block;" />
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
@@ -199,7 +199,7 @@ La investigación aplicada también sustenta incorporar un rastreador de frío y
 </p>
 
 <div style="text-align:center;">
-    <img src="../assets/graphics/porciones_acumuladas_frio.png" alt="Porciones acumuladas de frío" style="max-width:70 %; height:auto; object-fit:contain; display:inline-block;" />
+    <img src="../assets/graphics/porciones_acumuladas_frio.png" alt="Porciones acumuladas de frío" style="max-width:70%; height:auto; object-fit:contain; display:inline-block;" />
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
@@ -212,7 +212,7 @@ La investigación aplicada también sustenta incorporar un rastreador de frío y
 </p>
 
 <div style="text-align:center;">
-    <img src="../assets/graphics/calidad_aceite.png" alt="Calidad del aceite" style="max-width:70 %; height:auto; object-fit:contain; display:inline-block;" />
+    <img src="../assets/graphics/calidad_aceite.png" alt="Calidad del aceite" style="max-width:70%; height:auto; object-fit:contain; display:inline-block;" />
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
@@ -228,7 +228,7 @@ La investigación aplicada también sustenta incorporar un rastreador de frío y
 </p>
 
 <div style="text-align:center;">
-    <img src="../assets/graphics/medida_plaga_senasa.png" alt="medida_plaga_senasa" style="max-width:80 %; height:auto; object-fit:contain; display:inline-block;" />
+    <img src="../assets/graphics/medida_plaga_senasa.png" alt="medida_plaga_senasa" style="max-width:80%; height:auto; object-fit:contain; display:inline-block;" />
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
@@ -242,7 +242,7 @@ La investigación aplicada también sustenta incorporar un rastreador de frío y
 <p style="text-align:left; font-style: italic; margin-top: 0;">Severidad de ataque de las plagas en el olivo en la zona de estudio, desde un estado leve hasta un estado muy grave y en punto de marchitez permanente.</p>
 
 <div style="text-align:center;">
-    <img src="../assets/graphics/ataque_plagas.png" alt="Severidad de ataque de las plagas" style="max-width:100 %; height:auto; object-fit:contain; display:inline-block;" />
+    <img src="../assets/graphics/ataque_plagas.png" alt="Severidad de ataque de las plagas" style="max-width:100%; height:auto; object-fit:contain; display:inline-block;" />
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
@@ -255,7 +255,7 @@ La investigación aplicada también sustenta incorporar un rastreador de frío y
 </p>
 
 <div style="text-align:center;">
-    <img src="../assets/graphics/umbrales_ndvi.png" alt="medida_plaga_senasa" style="max-width:100 %; height:auto; object-fit:contain; display:inline-block;" />
+    <img src="../assets/graphics/umbrales_ndvi.png" alt="medida_plaga_senasa" style="max-width:100%; height:auto; object-fit:contain; display:inline-block;" />
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
@@ -272,7 +272,7 @@ Como soporte de escalabilidad, investigaciones recientes demuestran viabilidad d
 <p style="text-align:left; font-style: italic; margin-top: 0;">( a ) UAV Matrice 350 integrado con el sensor Altum PT, ( b ) cámara Altum PT, ( c ) puntos de control terrestre (GCP) y ( d ) plan de vuelo para la imagen de estudio.</p>
 
 <div style="text-align:center;">
-    <img src="../assets/graphics/uso_drones_uav.png" alt="Muestras de preparacion UAV" style="max-width:60 %; height:auto; object-fit:contain; display:inline-block;" />
+    <img src="../assets/graphics/uso_drones_uav.png" alt="Muestras de preparacion UAV" style="max-width:60%; height:auto; object-fit:contain; display:inline-block;" />
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
@@ -285,7 +285,7 @@ Como soporte de escalabilidad, investigaciones recientes demuestran viabilidad d
 </p>
 
 <div style="text-align:center;">
-    <img src="../assets/graphics/uso_deep_learning.png" alt="Muestra de DeepLearning" style="max-width:60 %; height:auto; object-fit:contain; display:inline-block;" />
+    <img src="../assets/graphics/uso_deep_learning.png" alt="Muestra de DeepLearning" style="max-width:60%; height:auto; object-fit:contain; display:inline-block;" />
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
@@ -338,7 +338,7 @@ Esta altísima vulnerabilidad se agudiza y se vuelve inmanejable bajo condicione
 <p class="subtitulo"><strong>How much (Cuánto)</strong></p>
 <p class="subtitulo-2"><strong>¿Cuál es el problema?</strong></p>
 
-- **97,6  %** Lorem ipsum dolor sit ame (Lorem ipsum, 2023, p. 2).
+La magnitud del problema se refleja en indicadores económicos y productivos sumamente críticos para el sector agrario. Las recientes olas de calor han provocado mermas que alcanzan hasta un **90%** de pérdida en campos de La Yarada Los Palos, reduciendo drásticamente las proyecciones de cosecha a apenas un **10%** o **20%** del volumen obtenido en el año previo (Andina, 2024). Bajo escenarios ENSO fuertes, la investigación advierte reducciones alarmantes en el rendimiento de aceite que pueden superar el **85%** en las peores campañas documentadas (Calvo et al., 2024). A nivel fitosanitario, la inacción frente a patógenos letales como la Xylella fastidiosa amenaza con disminuir la capacidad productiva entre un **25%** y un **30%** en las zonas declaradas vulnerables, proyectando pérdidas económicas multisectoriales que podrían sobrepasar holgadamente los **3,245 millones** de dólares anuales a nivel nacional (SENASA, 2025). Asimismo, rigurosas evaluaciones espaciales han revelado que la proporción de plantas enfermas en determinadas zonas geográficas de Tacna ya oscila peligrosamente entre el **42%** y el **68%** del área total cultivada (Pino-Vargas & Huayna, 2022).
 
 #### 1.2.2 Lean UX Process
 
