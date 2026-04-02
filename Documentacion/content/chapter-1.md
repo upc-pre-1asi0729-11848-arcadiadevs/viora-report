@@ -148,7 +148,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
 <table style="width:100%; table-layout:fixed; border-collapse:collapse; margin:16px 0 24px 0; border:1px solid #ddd; page-break-inside:avoid;">
   <tr>
     <td colspan="2" style="background:#a11d2f; color:#fff; font-weight:700; text-align:center; padding:10px 12px; letter-spacing:.3px;">
-      COO, & Researcher & QA
+      COO, Researcher & QA
     </td>
   </tr>
   <tr>
@@ -295,50 +295,85 @@ Como soporte de escalabilidad, investigaciones recientes demuestran viabilidad d
 
 ---
 
+<p class="subtitulo"><strong>Problemática (5W + 2H)</strong></p>
 
-**Herramienta de Ingeniería (5w y 2h):**
-
-<p class="subtitulo"><strong>What (Qué)</strong></p>
-<p class="subtitulo-2"><strong>¿Cuál es el problema?</strong></p>
+<p class="subtitulo-2"><strong>What (Qué)</strong></p>
+<p class="subtitulo-2">¿Cuál es el problema?</p>
 
 El problema central radica en la alta vulnerabilidad sistémica del ciclo de producción del olivo frente a la variabilidad climática extrema y las emergencias fitosanitarias, las cuales actualmente se abordan mediante una gestión puramente reactiva en lugar de preventiva (Andina, 2024). La falta de anticipación ante anomalías ambientales, como el déficit de horas de frío provocado por las fluctuaciones térmicas, altera dramáticamente la fenología del cultivo y desencadena el fenómeno de la vecería o alternancia productiva (Calvo et al., 2024). Simultáneamente, esta vulnerabilidad estructural se agrava por el surgimiento de plagas cuarentenarias severas, cuya detección tardía impide una respuesta oportuna y genera pérdidas millonarias irremediables para el ecosistema agrícola de la región (SENASA, 2025).
 
-<p class="subtitulo"><strong>Who (Quién)</strong></p>
-<p class="subtitulo-2"><strong>¿Quiénes son los usuarios?</strong></p>
+<p class="subtitulo-2"><strong>Who (Quién)</strong></p>
+<p class="subtitulo-2">¿Quiénes son los usuarios?</p>
+
 Los principales afectados son los productores agropecuarios y las instituciones ligadas a la cadena de valor del olivo, segmento que abarca desde pequeños agricultores y cooperativas hasta grandes empresas de producción tecnificada orientadas a la comercialización de la aceituna de mesa y la extracción de aceite (Andina, 2024). Asimismo, el problema impacta directamente a los profesionales y técnicos especializados en sanidad agrícola y control de plagas, quienes carecen de plataformas digitales integradas que les permitan conectar sus servicios de diagnóstico e intervención temprana con los productores afectados en el momento exacto en que los índices de vegetación o los factores edafológicos sugieren un riesgo inminente (Pino y Huayna, 2022).
 
 - **Productores Olivareros:** Este grupo comprende a los gestores de parcelas que enfrentan una vulnerabilidad crítica ante la variabilidad climática, la cual altera los ciclos de acumulación de frío necesarios para la productividad (Calvo et al., 2024). Su principal dolor es la falta de predictibilidad sobre el fenómeno de la vecería, lo que puede derivar en pérdidas de cosecha de hasta el 90% y una desestabilización económica severa si no se cuenta con datos para una gestión proactiva (Agencia Andina, 2024).
 
 - **Profesionales especializados en control de plagas agrícolas:** Ingenieros agrónomos y técnicos fitosanitarios que requieren de un sistema de monitoreo constante para la detección precoz de amenazas biológicas como la Xylella fastidiosa (SENASA, 2024). Estos usuarios necesitan herramientas de análisis geoespacial y alertas epidemiológicas para ejecutar protocolos de contención que eviten perjuicios económicos superiores a los US$ 3,245 millones anuales en el sector (SENASA, 2025).
 
-<p class="subtitulo"><strong>When (Cuándo)</strong></p>
-<p class="subtitulo-2"><strong>¿Cuándo sucede el problema?</strong></p>
+<p class="subtitulo-2"><strong>When (Cuándo)</strong></p>
+<p class="subtitulo-2">¿Cuándo sucede el problema?</p>
 
 Esta problemática se manifiesta de forma crítica a lo largo de las etapas fenológicas más sensibles del olivo, presentándose con mayor severidad durante la temporada invernal, cuando la planta requiere imperativamente acumular porciones de frío necesarias para un adecuado cuajado y floración (Calvo et al., 2024). El problema se agudiza drásticamente durante la ocurrencia de eventos climáticos anómalos como El Niño Oscilación del Sur (ENOS) o El Niño Costero, períodos en los cuales se registra un aumento de las temperaturas que bloquea el proceso fisiológico normal de la planta (Yglesias-González et al., 2023). De igual forma, el riesgo fitosanitario es inminente y continuo frente a la propagación acelerada de patógenos letales ante la ausencia de un monitoreo constante de las variables del microclima y del suelo a lo largo de toda la campaña (SENASA, 2024).
 
-<p class="subtitulo"><strong>Where (Dónde)</strong></p>
-<p class="subtitulo-2"><strong>¿Dónde ocurre?</strong></p>
+<p class="subtitulo-2"><strong>Where (Dónde)</strong></p>
+<p class="subtitulo-2">¿Dónde ocurre?</p>
 
 El impacto se concentra de manera alarmante en la macro-región sur del Perú, particularmente en la región de Tacna, territorio que alberga una extrema concentración de la producción olivarera nacional, habiendo reportado **52,000 toneladas** en recientes campañas (Andina, 2024). Dentro de esta región, distritos agroindustriales clave como La Yarada Los Palos evidencian escenarios críticos donde la afectación climática y sanitaria se agrava profundamente por problemas subyacentes de gobernanza de recursos, incluyendo el estrés hídrico y la presión desmedida sobre los acuíferos subterráneos (Contraloría, 2023). Esta altísima concentración territorial significa que cualquier shock climático o sanitario local se traduce de forma inmediata en un déficit de oferta a escala nacional (MIDAGRI, 2025).
 
-<p class="subtitulo"><strong>Why (Por qué)</strong></p>
-<p class="subtitulo-2"><strong>¿Por qué ocurre?</strong></p>
+<p class="subtitulo-2"><strong>Why (Por qué)</strong></p>
+<p class="subtitulo-2">¿Por qué ocurre?</p>
 
-La situación ocurre fundamentalmente por la carencia de herramientas de agricultura de precisión y la fuerte dependencia de modelos de gestión empíricos que no integran datos ambientales para la toma de decisiones estratégicas (Pino et al., 2026). Actualmente, la captura de información en el campo es tardía y suele limitarse a empadronamientos y levantamientos posteriores a los desastres, lo que imposibilita la prevención y el diseño de planes de contingencia eficaces (Andina, 2024). Al no emplear índices de vegetación como el NDVI o sistemas predictivos que evalúen la humedad y temperatura del suelo frente a umbrales de severidad, los agricultores operan a ciegas y no pueden anticiparse a la merma productiva ni a la proliferación silenciosa de plagas (Pino & Huayna, 2022).
+La situación ocurre fundamentalmente por la carencia de herramientas de agricultura de precisión y la fuerte dependencia de modelos de gestión empíricos que no integran datos ambientales para la toma de decisiones estratégicas (Pino et al., 2026). Actualmente, la captura de información en el campo es tardía y suele limitarse a empadronamientos y levantamientos posteriores a los desastres, lo que imposibilita la prevención y el diseño de planes de contingencia eficaces (Andina, 2024). Al no emplear índices de vegetación como el NDVI o sistemas predictivos que evalúen la humedad y temperatura del suelo frente a umbrales de severidad, los agricultores operan a ciegas y no pueden anticiparse a la merma productiva ni a la proliferación silenciosa de plagas (Pino y Huayna, 2022).
 
-<p class="subtitulo"><strong>How (Cómo)</strong></p>
-<p class="subtitulo-2"><strong>¿Cómo surge el problema?</strong></p>
+<p class="subtitulo-2"><strong>How (Cómo)</strong></p>
+<p class="subtitulo-2">¿Cómo surge el problema?</p>
 
 El problema surge a nivel fisiológico y operativo cuando las anomalías térmicas interrumpen abruptamente el ciclo natural del olivo. Específicamente, el incremento de las temperaturas invernales en aproximadamente **2 °C** provoca una drástica reducción en la acumulación de horas de frío, estimada entre un **15 % y un 23 %** respecto a los promedios históricos requeridos por el cultivo (Calvo et al., 2024). Esta alteración bloquea el necesario "golpe de frío" nocturno que la planta requiere para inducir una floración y un cuajado de frutos exitosos, generando fallas fisiológicas masivas que merman de forma irreversible el rendimiento de la campaña (Andina, 2024). De forma paralela, esta disrupción fenológica debilita los mecanismos de defensa del árbol, facilitando que patógenos destructivos y de rápida propagación ataquen los tejidos vegetales antes de que los agricultores puedan accionar los protocolos preventivos sugeridos en las guías técnicas regionales (Casanova, 2022; SENASA, 2025).
 
-<p class="subtitulo-2"><strong>¿En qué condición?</strong></p>
+<p class="subtitulo-2">¿En qué condición?</p>
 
 Esta altísima vulnerabilidad se agudiza y se vuelve inmanejable bajo condiciones severas de estrés hídrico y eventos climáticos extremos, particularmente durante las fases activas del fenómeno El Niño Oscilación del Sur (ENOS) o El Niño Costero (Yglesias-González et al., 2023). A nivel territorial, estas anomalías térmicas operan bajo condiciones de una precaria gobernanza de los recursos naturales, evidenciada por extracciones irregulares de agua subterránea y desvíos de energía eléctrica que incrementan peligrosamente la presión sobre los acuíferos locales en zonas productoras críticas como La Yarada Los Palos (Contraloría, 2023). Bajo este escenario combinado de déficit hídrico, estrés térmico y una nula capacidad de monitoreo tecnológico preventivo, se crea la condición microclimática perfecta para la proliferación descontrolada de enfermedades fitosanitarias, contexto que explica por qué la proporción de plantas enfermas en determinadas áreas del desierto de Atacama peruano ha llegado a oscilar críticamente entre el **42 % y el 68 %** de la superficie cultivada (Pino y Huayna, 2022).
 
-<p class="subtitulo"><strong>How much (Cuánto)</strong></p>
-<p class="subtitulo-2"><strong>¿Cuál es el problema?</strong></p>
+<p class="subtitulo-2"><strong>How much (Cuánto)</strong></p>
+<p class="subtitulo-2">¿Cuál es la magnitud del problema?</p>
 
-La magnitud del problema se refleja en indicadores económicos y productivos sumamente críticos para el sector agrario. Las recientes olas de calor han provocado mermas que alcanzan hasta un **90%** de pérdida en campos de La Yarada Los Palos, reduciendo drásticamente las proyecciones de cosecha a apenas un **10%** o **20%** del volumen obtenido en el año previo (Andina, 2024). Bajo escenarios ENSO fuertes, la investigación advierte reducciones alarmantes en el rendimiento de aceite que pueden superar el **85%** en las peores campañas documentadas (Calvo et al., 2024). A nivel fitosanitario, la inacción frente a patógenos letales como la Xylella fastidiosa amenaza con disminuir la capacidad productiva entre un **25%** y un **30%** en las zonas declaradas vulnerables, proyectando pérdidas económicas multisectoriales que podrían sobrepasar holgadamente los **3,245 millones** de dólares anuales a nivel nacional (SENASA, 2025). Asimismo, rigurosas evaluaciones espaciales han revelado que la proporción de plantas enfermas en determinadas zonas geográficas de Tacna ya oscila peligrosamente entre el **42%** y el **68%** del área total cultivada (Pino-Vargas & Huayna, 2022).
+La magnitud del problema se refleja en indicadores económicos y productivos sumamente críticos para el sector agrario. Las recientes olas de calor han provocado mermas que alcanzan hasta un **90 %** de pérdida en campos de La Yarada Los Palos, reduciendo drásticamente las proyecciones de cosecha a apenas un **10 %** o **20 %** del volumen obtenido en el año previo (Andina, 2024). Bajo escenarios ENSO fuertes, la investigación advierte reducciones alarmantes en el rendimiento de aceite que pueden superar el **85 %** en las peores campañas documentadas (Calvo et al., 2024). A nivel fitosanitario, la inacción frente a patógenos letales como la Xylella fastidiosa amenaza con disminuir la capacidad productiva entre un **25 %** y un **30 %** en las zonas declaradas vulnerables, proyectando pérdidas económicas multisectoriales que podrían sobrepasar holgadamente los **3,245 millones** de dólares anuales a nivel nacional (SENASA, 2025). Asimismo, rigurosas evaluaciones espaciales han revelado que la proporción de plantas enfermas en determinadas zonas geográficas de Tacna ya oscila peligrosamente entre el **42 %** y el **68 %** del área total cultivada (Pino y Huayna, 2022).
+
+---
+
+<p class="subtitulo"><strong>Enunciado del problema (Problem Statement)</strong></p>
+
+Los productores olivareros y especialistas en sanidad agrícola enfrentan una alta vulnerabilidad ante la variabilidad climática extrema y plagas cuarentenarias debido a la carencia de herramientas tecnológicas preventivas y una gestión puramente reactiva. Esta falta de anticipación impide monitorear eficazmente alteraciones fenológicas como la vecería y la propagación de patógenos letales, lo que resulta en pérdidas productivas de hasta el 90% y pone en riesgo la rentabilidad y el patrimonio agrícola del sector.
+
+---
+
+<p class="subtitulo"><strong>Objetivos del proyecto</strong></p>
+
+<p class="subtitulo-2">Objetivos generales</p>
+
+1. **Optimizar la estabilidad financiera del productor olivarero:** Reducir la incertidumbre económica causada por la alternancia productiva extrema, mediante el uso de analítica de datos que permita estabilizar los ingresos campaña tras campaña.
+2. **Garantizar la resiliencia fitosanitaria del sector:** Establecer un ecosistema de vigilancia activa que proteja el patrimonio agrícola contra amenazas letales, aumentando la capacidad de respuesta proactiva de los especialistas y productores.
+3. **Proporcionar inteligencia agrícola oportuna y accionable:** Ofrecer a los usuarios datos procesados sobre acumulación de frío y estados fenológicos para la toma de decisiones informadas que maximicen la calidad del producto final.
+
+<p class="subtitulo-2">Objetivos específicos</p>
+
+- **Maximizar la previsibilidad de la cosecha:** Lograr que al menos el 40% de los usuarios activos utilicen el motor predictivo para ajustar sus planes de inversión y nutrición antes del cierre del primer trimestre de operación.
+- **Fortalecer la red de respuesta ante plagas:** Firmar al menos 3 convenios de colaboración con asociaciones agrarias o consultoras fitosanitarias para el intercambio de datos en un plazo de 6 meses tras el lanzamiento.
+- **Asegurar la eficiencia en la comunicación técnica:** Garantizar que las alertas epidemiológicas lleguen a los especialistas y productores en menos de 10 minutos tras la detección de una anomalía térmica, métrica que será auditada mensualmente durante el primer semestre.
+- **Consolidar una base de usuarios especializada:** Alcanzar una meta de 150 productores registrados y 30 profesionales de sanidad agrícola interactuando en la plataforma en un periodo máximo de 4 meses.
+- **Asegurar la eficiencia en la comunicación técnica:** Mantener un registro de 0 brechas de seguridad en el manejo de información sensible de las parcelas, con reportes de cumplimiento técnico emitidos cada trimestre.
+
+---
+
+<p class="subtitulo"><strong>Restricciones</strong></p>
+
+- **Alcance tecnológico:** La solución debe estar conformada por un RESTful API de elaboración interna (Java/Spring Boot) y una Web Application integrada (Angular), con una interfaz adaptable a dispositivos.
+- **Exclusión de implementaciones físicas:** El proyecto se limita al desarrollo de software; no incluye la implementación de hardware, sensores físicos ni tecnologías de conectividad IoT de campo.
+- **Estandarización de idioma:** Toda la experiencia de usuario, incluyendo mensajes, interfaces y la documentación técnica de los servicios, debe estar desarrollada exclusivamente en idioma inglés.
+- **Fidelidad arquitectónica:** El diseño de software debe seguir estrictamente el Modelo C4 (Context, Container, Component) y el patrón Domain-Driven Design (DDD).
+- **Disponibilidad en la nube:** Los productos finales deben estar desplegados en plataformas Server-Side o Cloud, permitiendo el acceso público mediante URL para validación.
+
 
 #### 1.2.2 Lean UX Process
 
