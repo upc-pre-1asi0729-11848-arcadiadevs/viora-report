@@ -530,7 +530,9 @@ Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de resp
 
 - Alcanzar una adopción temprana de 150 productores y 30 especialistas de sanidad agrícola activos e interactuando en la plataforma en los primeros 4 meses de lanzamiento.
 
-- Consolidar una alta tasa de conversión <em>post-trial</em>, validando que la garantía de devolución de dinero y el modelo de afiliados reducen efectivamente la fricción de entrada de nuevos usuarios.
+- Lograr que al menos el 35% de los usuarios que inician el periodo de prueba (***trial***) se conviertan en suscriptores recurrentes de pago dentro de los primeros 3 meses de operación, validando que la garantía de devolución y el modelo de afiliados eliminan la fricción inicial.
+
+- Firmar al menos 3 convenios de colaboración con asociaciones agrarias o consultoras fitosanitarias para el intercambio de datos en un plazo de 6 meses tras el lanzamiento.
 
 <br>
 
@@ -568,8 +570,16 @@ Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de resp
 
 - **Panel de suscripción y afiliados:** Área de gestión donde los usuarios administran su periodo de prueba y obtienen sus enlaces para el programa de recomendaciones.
 
-
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
+- **Creemos que** implementar un rastreador de horas de frío y un motor predictivo de vecería para los productores olivareros de Tacna logrará reducir la incertidumbre económica y anticipar el riesgo productivo frente a anomalías térmicas como el fenómeno ENOS. **Sabremos que** hemos tenido éxito **cuando** al menos el 40% de los usuarios activos utilicen el motor predictivo para ajustar sus planes de inversión o poda antes del cierre del primer trimestre.
+
+- **Creemos que** proveer un sistema de alertas epidemiológicas tempranas junto con recomendaciones locales de agrofármacos para los profesionales en sanidad y productores olivareros agilizará la contención de plagas cuarentenarias (como la Xylella fastidiosa) y mejorará la toma de decisiones en campo. **Sabremos que** hemos tenido éxito **cuando** alcancemos una adopción temprana de 150 productores y 30 especialistas activos interactuando en la plataforma en los primeros 4 meses.
+
+- **Creemos que** ofrecer un dashboard centralizado de finca con datos procesados de clima, suelo y sanidad para las empresas agroindustriales y gestores de parcelas optimizará su gestión operativa y facilitará la estabilización de sus volúmenes de cosecha. **Sabremos que** hemos tenido éxito **cuando** logremos firmar al menos 3 convenios de colaboración con asociaciones agrarias o consultoras fitosanitarias para el intercambio de datos en un plazo de 6 meses.
+
+- **Creemos que** implementar un modelo de suscripción con un periodo de prueba (trial) y garantía de devolución para los productores tradicionales reducirá su percepción de riesgo financiero y la fricción tecnológica inicial. **Sabremos que** hemos tenido éxito **cuando** al menos el 35% de los usuarios que inician la versión de prueba se conviertan en suscriptores recurrentes de pago dentro de los primeros 3 meses de operación.
+
 ##### 1.2.2.4. Lean UX Canvas
 
 ### 1.3. Segmentos objetivo.
