@@ -295,46 +295,48 @@ Como soporte de escalabilidad, investigaciones recientes demuestran viabilidad d
 
 ---
 
-<p class="subtitulo">What (Qué)</p>
-<p class="subtitulo-2">¿Cuál es el problema?</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Herramienta de Ingeniería (5w y 2h):**
 
-<p class="subtitulo">Who (Quién)</p>
-<p class="subtitulo-2">¿Quiénes son los usuarios?</p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p class="subtitulo"><strong>What (Qué)</strong></p>
+<p class="subtitulo-2"><strong>¿Cuál es el problema?</strong></p>
+
+El problema central radica en la alta vulnerabilidad sistémica del ciclo de producción del olivo frente a la variabilidad climática extrema y las emergencias fitosanitarias, las cuales actualmente se abordan mediante una gestión puramente reactiva en lugar de preventiva (Andina, 2024). La falta de anticipación ante anomalías ambientales, como el déficit de horas de frío provocado por las fluctuaciones térmicas, altera dramáticamente la fenología del cultivo y desencadena el fenómeno de la vecería o alternancia productiva (Calvo et al., 2024). Simultáneamente, esta vulnerabilidad estructural se agrava por el surgimiento de plagas cuarentenarias severas, cuya detección tardía impide una respuesta oportuna y genera pérdidas millonarias irremediables para el ecosistema agrícola de la región (SENASA, 2025).
+
+<p class="subtitulo"><strong>Who (Quién)</strong></p>
+<p class="subtitulo-2"><strong>¿Quiénes son los usuarios?</strong></p>
+Los principales afectados son los productores agropecuarios y las instituciones ligadas a la cadena de valor del olivo, segmento que abarca desde pequeños agricultores y cooperativas hasta grandes empresas de producción tecnificada orientadas a la comercialización de la aceituna de mesa y la extracción de aceite (Andina, 2024). Asimismo, el problema impacta directamente a los profesionales y técnicos especializados en sanidad agrícola y control de plagas, quienes carecen de plataformas digitales integradas que les permitan conectar sus servicios de diagnóstico e intervención temprana con los productores afectados en el momento exacto en que los índices de vegetación o los factores edafológicos sugieren un riesgo inminente (Pino-Vargas & Huayna, 2022).
 
 - **Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - **Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<p class="subtitulo">When (Cuándo)</p>
-<p class="subtitulo-2">¿Cuándo sucede el problema?</p>
+<p class="subtitulo"><strong>When (Cuándo)</strong></p>
+<p class="subtitulo-2"><strong>¿Cuándo sucede el problema?</strong></p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<p class="subtitulo">Where (Dónde)</p>
-<p class="subtitulo-2">¿Dónde ocurre?</p>
+Esta problemática se manifiesta de forma crítica a lo largo de las etapas fenológicas más sensibles del olivo, presentándose con mayor severidad durante la temporada invernal, cuando la planta requiere imperativamente acumular porciones de frío necesarias para un adecuado cuajado y floración (Calvo et al., 2024). El problema se agudiza drásticamente durante la ocurrencia de eventos climáticos anómalos como El Niño Oscilación del Sur (ENOS) o El Niño Costero, períodos en los cuales se registra un aumento de las temperaturas que bloquea el proceso fisiológico normal de la planta (Yglesias-González et al., 2023). De igual forma, el riesgo fitosanitario es inminente y continuo frente a la propagación acelerada de patógenos letales ante la ausencia de un monitoreo constante de las variables del microclima y del suelo a lo largo de toda la campaña (SENASA, 2024).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p class="subtitulo"><strong>Where (Dónde)</strong></p>
+<p class="subtitulo-2"><strong>¿Dónde ocurre?</strong></p>
 
-<p class="subtitulo">Why (Por qué)</p>
-<p class="subtitulo-2">¿Por qué ocurre?</p>
+El impacto se concentra de manera alarmante en la macro-región sur del Perú, particularmente en la región de Tacna, territorio que alberga una extrema concentración de la producción olivarera nacional, habiendo reportado **52,000 toneladas** en recientes campañas (Andina, 2024). Dentro de esta región, distritos agroindustriales clave como La Yarada Los Palos evidencian escenarios críticos donde la afectación climática y sanitaria se agrava profundamente por problemas subyacentes de gobernanza de recursos, incluyendo el estrés hídrico y la presión desmedida sobre los acuíferos subterráneos (Contraloría, 2023). Esta altísima concentración territorial significa que cualquier shock climático o sanitario local se traduce de forma inmediata en un déficit de oferta a escala nacional (MIDAGRI, 2025).
 
-- **Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p class="subtitulo"><strong>Why (Por qué)</strong></p>
+<p class="subtitulo-2"><strong>¿Por qué ocurre?</strong></p>
 
-- **Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+La situación ocurre fundamentalmente por la carencia de herramientas de agricultura de precisión y la fuerte dependencia de modelos de gestión empíricos que no integran datos ambientales para la toma de decisiones estratégicas (Pino-Vargas et al., 2026). Actualmente, la captura de información en el campo es tardía y suele limitarse a empadronamientos y levantamientos posteriores a los desastres, lo que imposibilita la prevención y el diseño de planes de contingencia eficaces (Andina, 2024). Al no emplear índices de vegetación como el NDVI o sistemas predictivos que evalúen la humedad y temperatura del suelo frente a umbrales de severidad, los agricultores operan a ciegas y no pueden anticiparse a la merma productiva ni a la proliferación silenciosa de plagas (Pino-Vargas & Huayna, 2022).
 
-<p class="subtitulo">How (Cómo)</p>
-<p class="subtitulo-2">¿Cómo surge el problema?</p>
+<p class="subtitulo"><strong>How (Cómo)</strong></p>
+<p class="subtitulo-2"><strong>¿Cómo surge el problema?</strong></p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+El problema surge a nivel fisiológico y operativo cuando las anomalías térmicas interrumpen abruptamente el ciclo natural del olivo. Específicamente, el incremento de las temperaturas invernales en aproximadamente **2 °C** provoca una drástica reducción en la acumulación de horas de frío, estimada entre un **15% y un 23%** respecto a los promedios históricos requeridos por el cultivo (Calvo et al., 2024). Esta alteración bloquea el necesario "golpe de frío" nocturno que la planta requiere para inducir una floración y un cuajado de frutos exitosos, generando fallas fisiológicas masivas que merman de forma irreversible el rendimiento de la campaña (Andina, 2024). De forma paralela, esta disrupción fenológica debilita los mecanismos de defensa del árbol, facilitando que patógenos destructivos y de rápida propagación ataquen los tejidos vegetales antes de que los agricultores puedan accionar los protocolos preventivos sugeridos en las guías técnicas regionales (Casanova, 2022; SENASA, 2025).
 
-<p class="subtitulo-2">¿En qué condición?</p>
+<p class="subtitulo-2"><strong>¿En qué condición?</strong></p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Esta altísima vulnerabilidad se agudiza y se vuelve inmanejable bajo condiciones severas de estrés hídrico y eventos climáticos extremos, particularmente durante las fases activas del fenómeno El Niño Oscilación del Sur (ENOS) o El Niño Costero (Yglesias-González et al., 2023). A nivel territorial, estas anomalías térmicas operan bajo condiciones de una precaria gobernanza de los recursos naturales, evidenciada por extracciones irregulares de agua subterránea y desvíos de energía eléctrica que incrementan peligrosamente la presión sobre los acuíferos locales en zonas productoras críticas como La Yarada Los Palos (Contraloría, 2023). Bajo este escenario combinado de déficit hídrico, estrés térmico y una nula capacidad de monitoreo tecnológico preventivo, se crea la condición microclimática perfecta para la proliferación descontrolada de enfermedades fitosanitarias, contexto que explica por qué la proporción de plantas enfermas en determinadas áreas del desierto de Atacama peruano ha llegado a oscilar críticamente entre el **42% y el 68%** de la superficie cultivada (Pino-Vargas & Huayna, 2022).
 
-<p class="subtitulo">How much (Cuánto)</p>
-<p class="subtitulo-2">¿Cuál es el problema?</p>
+<p class="subtitulo"><strong>How much (Cuánto)</strong></p>
+<p class="subtitulo-2"><strong>¿Cuál es el problema?</strong></p>
 
 - **97,6  %** Lorem ipsum dolor sit ame (Lorem ipsum, 2023, p. 2).
 
