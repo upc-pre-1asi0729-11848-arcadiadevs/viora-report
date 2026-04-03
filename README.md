@@ -71,30 +71,30 @@
 
 ## Contenido
 
-  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
-  - [Contenido](#contenido)
-  - [Student Outcome](#student-outcome)
-  - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1 Startup Profile](#11-startup-profile)
-      - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2 Solution Profile](#12-solution-profile)
-      - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-      - [1.2.2 Lean UX Process](#122-lean-ux-process)
-        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
-  - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-analysis)
-    - [2.1. Competidores.](#21-competidores)
-      - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
-      - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [Bibliografía](#bibliografía)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1 Startup Profile](#11-startup-profile)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2 Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores.](#21-competidores)
+    - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+- [Bibliografía](#bibliografía)
 
 <div style="page-break-before: always;"></div>
 
@@ -581,6 +581,18 @@ Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de resp
 - **Creemos que** implementar un modelo de suscripción con un periodo de prueba (trial) y garantía de devolución para los productores tradicionales reducirá su percepción de riesgo financiero y la fricción tecnológica inicial. **Sabremos que** hemos tenido éxito **cuando** al menos el 35% de los usuarios que inician la versión de prueba se conviertan en suscriptores recurrentes de pago dentro de los primeros 3 meses de operación.
 
 ##### 1.2.2.4. Lean UX Canvas
+
+<p style="text-align:left; font-weight: 700; margin-bottom: 2px;">Figura 7</p>
+<p style="text-align:left; font-style: italic; margin-top: 0;">Lean UX Canvas de la solución Viora.
+</p>
+
+<div style="text-align:center;">
+    <img src="./Documentacion/assets/leanUX-canvas/Lean UX Canvas Viora.png" alt="Muestra del Lean UX de la solución Viora" style="max-width:60%; height:auto; object-fit:contain; display:inline-block;" />
+</div>
+
+<p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
+    <em>Nota.</em> El Lean UX Canvas presenta la identificación del problema, segmentos de usuarios, propuestas de solución, hipótesis y el enfoque de producto mínimo viable (MVP) para la validación de la plataforma Viora. Elaboración propia.
+</p>
 
 ### 1.3. Segmentos objetivo.
 
