@@ -2,7 +2,7 @@
 
 **Link del repositorio del informe:**
 
-- https://github.com/ArcadiaDevsV/OS-NombreSolucion-Informe
+- https://github.com/ArcadiaDevsV/OS-Viora-Informe
 
 **Link de los repositorios de la organización:**
 
