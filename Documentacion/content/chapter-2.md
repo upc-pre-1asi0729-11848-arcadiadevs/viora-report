@@ -18,19 +18,21 @@
         Directo
       </td>
       <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;">
-        <img src="../assets/competidores/lorem.png">
+        <img src="../assets/competitors/metos.png">
       </td>
       <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
-        lorem ipsum
+        Plataforma global que integra datos de sensores de suelo y clima (IoT) con modelos matemáticos predictivos de enfermedades.
       </td>
       <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
         <ul style="margin:0; padding-left:18px;">
-          <li>lorem ipsum.</li>
+          <li>Integración directa con hardware propio (estaciones meteorológicas)</li>
+          <li>Modelos de enfermedades para múltiples cultivos</li>
+          <li>Pronóstico hiperlocal.</li>
         </ul>
       </td>
       <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;text-align:center;">
-        <a href="https://lorem"style="color:#0b57d0; text-decoration:underline;" target="_blank">
-      lorem.pe
+        <a href="https://metos.global/es/"style="color:#0b57d0; text-decoration:underline;" target="_blank">
+      metos.global
       </td>
     </tr>
     <!-- siguiente fila -->
@@ -39,19 +41,45 @@
         Directo
       </td>
       <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;">
-        <img src="../assets/competidores/lorem.png">
+        <img src="../assets/competitors/agroptima.png">
       </td>
       <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
-        lorem ipsum
+        Software de gestión agrícola muy popular en España y LATAM, fuertemente utilizado en el sector olivarero para la trazabilidad.
       </td>
       <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
         <ul style="margin:0; padding-left:18px;">
-          <li>lorem ipsum.</li>
+          <li>Cuaderno de campo digital</li>
+          <li>Registro geolocalizado de aplicación de fitosanitarios</li>
+          <li>Control de costos</li>
+          <li>App funcional en modo offline</li>
         </ul>
       </td>
       <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;text-align:center;">
-        <a href="https://lorem"style="color:#0b57d0; text-decoration:underline;" target="_blank">
-      lorem.com
+        <a href="https://www.agroptima.com"style="color:#0b57d0; text-decoration:underline;" target="_blank">
+      agroptima.com
+      </td>
+    </tr>
+    <!-- siguiente fila -->
+    <tr style="page-break-inside:avoid; break-inside:avoid;">
+      <td style="background:#dfeeda; font-weight:700; text-align:center; border:1px solid #000; vertical-align:middle; height:140px;">
+        Directo
+      </td>
+      <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;">
+        <img src="../assets/competitors/xarvio.png">
+      </td>
+      <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
+        Plataforma de agricultura digital de BASF especializada en modelos de riesgo de enfermedades y apoyo a decisiones fitosanitarias.
+      </td>
+      <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
+        <ul style="margin:0; padding-left:18px;">
+          <li>Mapas de riesgo sanitario en tiempo real</li>
+          <li>Alertas de protección de cultivos</li>
+          <li>Recomendaciones precisas de fungicidas e insecticidas.</li>        
+        </ul>
+      </td>
+      <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;text-align:center;">
+        <a href="https://www.xarvio.com"style="color:#0b57d0; text-decoration:underline;" target="_blank">
+      xarvio.com
       </td>
     </tr>
      <!-- siguiente fila (indirecto) -->
@@ -60,19 +88,68 @@
         Indirecto
       </td>
       <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;">
-        <img style="width:240px; height:50px;" src="../assets/competidores/lorem.png">
+        <img src="../assets/competitors/onesoil.png">
       </td>
       <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
-        lorem ipsum
+        Aplicación gratuita de agricultura de precisión basada en el análisis de imágenes satelitales e índices de vegetación.
       </td>
       <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
         <ul style="margin:0; padding-left:18px;">
-          <li>lorem ipsum.</li>
+          <li>Monitoreo remoto del vigor del cultivo (NDVI)</li>
+          <li>Notas de campo (scouting) geolocalizadas</li>
+          <li>Pronóstico del clima.</li>
         </ul>
       </td>
       <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;text-align:center;">
-        <a href="https://lorem"style="color:#0b57d0; text-decoration:underline;" target="_blank">
-      lorem.com
+        <a href="https://onesoil.ai"style="color:#0b57d0; text-decoration:underline;" target="_blank">
+      onesoil.com
+      </td>
+    </tr>
+     <!-- siguiente fila (indirecto) -->
+    <tr style="page-break-inside:avoid; break-inside:avoid;">
+      <td style="background:#f7e1c9; font-weight:700; text-align:center; border:1px solid #000; vertical-align:middle; height:140px;">
+        Indirecto
+      </td>
+      <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;">
+        <img src="../assets/competitors/auravant.png">
+      </td>
+      <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
+        Plataforma "todo en uno" para agricultura digital enfocada en agrónomos y empresas tecnificadas, con fuerte presencia en LATAM.
+      </td>
+      <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
+        <ul style="margin:0; padding-left:18px;">
+          <li>Creación de zonas de manejo</li>
+          <li>Prescripciones de insumos variables</li>
+          <li>Análisis de capas de información (suelo, clima, rendimiento).</li>
+        </ul>
+      </td>
+      <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;text-align:center;">
+        <a href="https://www.auravant.com"style="color:#0b57d0; text-decoration:underline;" target="_blank">
+      auravant.com
+      </td>
+    </tr>
+     <!-- siguiente fila (indirecto) -->
+    <tr style="page-break-inside:avoid; break-inside:avoid;">
+      <td style="background:#f7e1c9; font-weight:700; text-align:center; border:1px solid #000; vertical-align:middle; height:140px;">
+        Indirecto
+      </td>
+      <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;">
+        <img src="../assets/competitors/senasa.png">
+      </td>
+      <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
+        Sistema público oficial del Estado Peruano encargado de monitorear, alertar y contener plagas cuarentenarias (ej. Xylella fastidiosa).
+      </td>
+      <td style="border:1px solid #000; vertical-align:top; padding:10px; height:140px; line-height:1.4;">
+        <ul style="margin:0; padding-left:18px;">
+          <li>Emisión de alertas epidemiológicas regionales</li>
+          <li>Normativas de control oficial</li>
+          <li>Red de inspectores en campo</li>
+          <li>Acceso gratuito pero no personalizado.</li>
+        </ul>
+      </td>
+      <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;text-align:center;">
+        <a href="https://www.gob.pe/senasa"style="color:#0b57d0; text-decoration:underline;" target="_blank">
+      gob.pe/senasa
       </td>
     </tr>
     </tr>
