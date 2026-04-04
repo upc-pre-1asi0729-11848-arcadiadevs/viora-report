@@ -478,7 +478,7 @@ Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de resp
 </p>
 
 <div style="text-align:center;">
-    <img src="./Documentacion/assets/leanUX-canvas/Lean UX Canvas Viora.png" alt="Muestra del Lean UX de la solución Viora" style="max-width:60%; height:auto; object-fit:contain; display:inline-block;" />
+    <img src="../assets/leanUX-canvas/Lean UX Canvas Viora.png" alt="Muestra del Lean UX de la solución Viora" style="max-width: 100%; height:auto; object-fit:contain; display:inline-block;" />
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
