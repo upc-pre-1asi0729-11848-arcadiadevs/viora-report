@@ -4,7 +4,7 @@
 <h2><strong>DESARROLLO DE APLICACIONES OPEN SOURCE</strong></h2>
 <h2><strong>AV1 INFORME DE TRABAJO</strong></h2>
 <img src="./Documentacion/assets/logos/arcadia.png" width="120" /><br/><br/>
-<img src="./Documentacion/assets/logos/proyecto.png" width="260" alt="Logo_Proyecto" /><br/><br/>
+<img src="./Documentacion/assets/viora-brand/viora-isologotipo-green.png" width="260" alt="Logo_Proyecto" /><br/><br/>
 <p><strong>CARRERA:</strong><br/>Ingeniería de Software</p>
 <p><strong>CICLO:</strong><br/>2026 - 1</p>
 <p><strong>INTEGRANTES:</strong></p>
@@ -61,7 +61,7 @@
 
 **Link del repositorio del informe:**
 
-- https://github.com/ArcadiaDevsV/OS-NombreSolucion-Informe
+- https://github.com/ArcadiaDevsV/OS-Viora-Informe
 
 **Link de los repositorios de la organización:**
 
@@ -71,30 +71,30 @@
 
 ## Contenido
 
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1 Startup Profile](#11-startup-profile)
-    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
-  - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2 Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores.](#21-competidores)
-    - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-- [Bibliografía](#bibliografía)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [1.1 Startup Profile](#11-startup-profile)
+      - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2 Solution Profile](#12-solution-profile)
+      - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [1.2.2 Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
+  - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-analysis)
+    - [2.1. Competidores.](#21-competidores)
+      - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [Bibliografía](#bibliografía)
 
 <div style="page-break-before: always;"></div>
 
@@ -416,7 +416,7 @@ El problema central radica en la alta vulnerabilidad sistémica del ciclo de pro
 
 Los principales afectados son los productores agropecuarios y las instituciones ligadas a la cadena de valor del olivo, segmento que abarca desde pequeños agricultores y cooperativas hasta grandes empresas de producción tecnificada orientadas a la comercialización de la aceituna de mesa y la extracción de aceite (Andina, 2024). Asimismo, el problema impacta directamente a los profesionales y técnicos especializados en sanidad agrícola y control de plagas, quienes carecen de plataformas digitales integradas que les permitan conectar sus servicios de diagnóstico e intervención temprana con los productores afectados en el momento exacto en que los índices de vegetación o los factores edafológicos sugieren un riesgo inminente (Pino y Huayna, 2022).
 
-- **Productores Olivareros:** Este grupo comprende a los gestores de parcelas que enfrentan una vulnerabilidad crítica ante la variabilidad climática, la cual altera los ciclos de acumulación de frío necesarios para la productividad (Calvo et al., 2024). Su principal dolor es la falta de predictibilidad sobre el fenómeno de la vecería, lo que puede derivar en pérdidas de cosecha de hasta el 90% y una desestabilización económica severa si no se cuenta con datos para una gestión proactiva (Agencia Andina, 2024).
+- **Productores olivareros:** Este grupo comprende a los gestores de parcelas que enfrentan una vulnerabilidad crítica ante la variabilidad climática, la cual altera los ciclos de acumulación de frío necesarios para la productividad (Calvo et al., 2024). Su principal dolor es la falta de predictibilidad sobre el fenómeno de la vecería, lo que puede derivar en pérdidas de cosecha de hasta el 90% y una desestabilización económica severa si no se cuenta con datos para una gestión proactiva (Andina, 2024).
 
 - **Profesionales especializados en control de plagas agrícolas:** Ingenieros agrónomos y técnicos fitosanitarios que requieren de un sistema de monitoreo constante para la detección precoz de amenazas biológicas como la Xylella fastidiosa (SENASA, 2024). Estos usuarios necesitan herramientas de análisis geoespacial y alertas epidemiológicas para ejecutar protocolos de contención que eviten perjuicios económicos superiores a los US$ 3,245 millones anuales en el sector (SENASA, 2025).
 
@@ -490,25 +490,25 @@ Los productores olivareros y especialistas en sanidad agrícola enfrentan una al
 
 - **Problem Statement 1: Gestión de la incertidumbre climática y fenológica**
 Nuestro servicio ofrece un ecosistema digital de agricultura de precisión enfocado en el monitoreo térmico y la predicción fenológica del olivo. A través de nuestra plataforma, los productores pueden visualizar la acumulación de "porciones de frío" y anticipar el impacto de la vecería en sus cosechas. A diferencia de soluciones basadas exclusivamente en hardware como Pessl Instruments (Metos), que se centran en la venta de sensores y entrega de datos meteorológicos brutos, Viora transforma dicha información en proyecciones de rendimiento y alertas de riesgo fenológico personalizadas por parcela.
-Hemos identificado que un factor crítico que desestabiliza la economía del sector es la incapacidad de predecir la alternancia productiva extrema causada por la variabilidad térmica. Según Calvo et al. (2024), los eventos de El Niño-Oscilación del Sur (ENSO) alteran significativamente la productividad y el crecimiento vegetativo de los setos de olivo. Esta situación afecta directamente a los Productores Olivareros que dependen de cosechas constantes. Actualmente, existe un vacío tecnológico ya que los productores dependen de reportes de emergencia posteriores a la crisis (Agencia Andina, 2024), careciendo de una herramienta que organice datos climáticos para predecir ciclos de producción de forma anticipada.
-¿Cómo reducir la incertidumbre económica de los productores mediante la predicción temprana de los ciclos de vecería basada en datos climáticos?
+Hemos identificado que un factor crítico que desestabiliza la economía del sector es la incapacidad de predecir la alternancia productiva extrema causada por la variabilidad térmica. Según Calvo et al. (2024), los eventos de El Niño-Oscilación del Sur (ENSO) alteran significativamente la productividad y el crecimiento vegetativo de los setos de olivo. Esta situación afecta directamente a los productores olivareros de la región sur que dependen de cosechas constantes. Actualmente, existe un vacío tecnológico ya que los productores dependen de reportes de emergencia posteriores a la crisis (Andina, 2024), careciendo de una herramienta que organice datos climáticos para predecir ciclos de producción de forma anticipada.
+¿Cómo reducir la incertidumbre económica de los productores olivareros de la región sur mediante la predicción temprana de los ciclos de vecería basada en datos climáticos?
 <br>
 
 - **Problem Statement 2: Vigilancia epidemiológica y control de amenazas**
 Nuestro servicio provee un sistema de alertas tempranas y protocolos de intervención ante amenazas fitosanitarias de alto impacto. A través de esta herramienta, los especialistas pueden identificar zonas de riesgo biológico mediante el análisis de factores ambientales. A diferencia del Sistema de Vigilancia Fitosanitaria de SENASA, que opera bajo un esquema de reporte manual y suele ser reactivo tras la aparición de síntomas visibles, Viora permite una vigilancia proactiva que conecta los servicios de diagnóstico con factores edafológicos en tiempo real.
-Hemos identificado que un factor crítico que complica la sanidad vegetal es la dificultad para detectar de manera ágil la propagación de plagas letales. Según el Servicio Nacional de Sanidad Agraria (2024), la bacteria Xylella fastidiosa exige acciones inmediatas de contención debido a su alto potencial destructivo. Esta limitación perjudica especialmente a los Profesionales especializados en control de plagas, quienes necesitan datos precisos para intervenir oportunamente (Pino y Huayna, 2022). Actualmente, los técnicos no cuentan con una plataforma integrada que centralice los indicadores de riesgo fitosanitario con la agilidad que requiere una emergencia sanitaria.
-¿Cómo facilitar a los especialistas el acceso a datos procesados para acelerar el diagnóstico y la contención de plagas cuarentenarias?
+Hemos identificado que un factor crítico que complica la sanidad vegetal es la dificultad para detectar de manera ágil la propagación de plagas letales. Según el Servicio Nacional de Sanidad Agraria (2024), la bacteria Xylella fastidiosa exige acciones inmediatas de contención debido a su alto potencial destructivo. Esta limitación perjudica especialmente a los profesionales especializados en control de plagas, quienes necesitan datos precisos para intervenir oportunamente (Pino y Huayna, 2022). Actualmente, los especialistas no cuentan con una plataforma integrada que centralice los indicadores de riesgo fitosanitario con la agilidad que requiere una emergencia sanitaria.
+¿Cómo facilitar a los profesionales especializados en control de plagas el acceso a datos procesados para acelerar el diagnóstico y la contención de plagas cuarentenarias?
 
 <br>
 
 - **Problem Statement 3: Trazabilidad y toma de decisiones agroindustriales**
 Nuestro servicio permite optimizar la gestión operativa de las empresas olivareras mediante dashboards de trazabilidad y análisis histórico. A través de indicadores visuales, los gestores pueden evaluar la eficacia de sus estrategias de manejo. A diferencia del Portal de Información Agraria (MIDAGRI) o el Buscador SEACE, que ofrecen datos estadísticos generales o registros de transacciones comerciales pasivas, Viora proporciona un análisis dinámico que vincula el estado fitosanitario del campo con la rentabilidad proyectada del negocio.
-Hemos identificado que un factor crítico que retrasa la eficiencia sectorial es la dispersión de datos y la ausencia de herramientas que permitan detectar patrones de productividad de forma automática. La accesibilidad y el procesamiento rápido de información son fundamentales para reducir el tiempo de respuesta ante crisis de producción (Pino y Huayna, 2022). Esta carencia impacta en la visión estratégica de las Empresas Agroindustriales que necesitan asegurar la calidad del producto para exportación. Actualmente, la toma de decisiones suele ser empírica debido a que no existe una plataforma que proporcione un análisis enriquecido y procesado de la historia productiva de la parcela.
-¿Cómo mejorar la capacidad de gestión operativa de las empresas del sector olivarero asegurando que cuenten con herramientas de análisis de datos integradas?
+Hemos identificado que un factor crítico que retrasa la eficiencia sectorial es la dispersión de datos y la ausencia de herramientas que permitan detectar patrones de productividad de forma automática. La accesibilidad y el procesamiento rápido de información son fundamentales para reducir el tiempo de respuesta ante crisis de producción (Pino y Huayna, 2022). Esta carencia impacta en la visión estratégica de los productores olivareros de la región sur que necesitan asegurar la calidad del producto para exportación. Actualmente, la toma de decisiones suele ser empírica debido a que no existe una plataforma que proporcione un análisis enriquecido y procesado de la historia productiva de la parcela.
+¿Cómo mejorar la capacidad de gestión de los productores olivareros de la región sur asegurando que cuenten con herramientas de análisis de datos integradas?
 
 ##### 1.2.2.2. Lean UX Assumptions
 
-Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de respuesta anticipada ante la variabilidad climática y las emergencias fitosanitarias, ya que actualmente enfrentan una alta vulnerabilidad por operar bajo una gestión puramente reactiva que puede generar pérdidas de hasta el 90% en sus cosechas frente a anomalías térmicas (Andina, 2024). Estas necesidades se pueden resolver con Viora, una plataforma SaaS B2B hiper-especializada que convierte datos en decisiones mediante la integración del monitoreo de clima, rastreo de horas de frío y alertas tempranas epidemiológicas (Pino y Huayna, 2022). En un primer momento, nuestros clientes iniciales serán los productores olivareros de la región sur y los profesionales técnicos especializados en sanidad agrícola. El valor número uno que un cliente quiere de nuestro servicio es recibir información útil para la toma de decisiones relacionadas al ciclo productivo de sus plantaciones, además de alertas epidemiológicas con sus respectivas recomendaciones inteligentes y planes de nutrición dinámica generados automáticamente por la plataforma, sustentados en lineamientos técnicos locales y variables ambientales (Casanova, 2022; Pino y Huayna, 2022), optimizando la calidad de su producción para que su negocio crezca. Para adquirir la mayoría de nuestros clientes, nos apoyaremos en alianzas estratégicas con asociaciones agrarias y en un modelo de afiliados, donde el agricultor obtiene beneficios por recomendar el servicio a sus conocidos. Además, haremos dinero a través de un modelo de suscripción mensual o anual para acceder a la plataforma, incluyendo un periodo de prueba (trial) en el que, si el cliente no queda satisfecho, recibe el retorno de su dinero. Nuestra competencia principal en el mercado serán los proveedores de soluciones basadas exclusivamente en hardware y los sistemas estatales de vigilancia reactiva; sin embargo, los venceremos debido al valor diferencial de nuestra propuesta: es la propia plataforma la que procesa los datos y emite recomendaciones agronómicas accionables, además de funcionar como un puente para contactar profesionales en caso de emergencias críticas. A pesar de esto, reconocemos que el mayor riesgo de producto es la baja adopción tecnológica y la brecha digital de los agricultores tradicionales. Por ello, resolveremos este desafío mediante un diseño de interfaz altamente intuitivo y la entrega de alertas simplificadas, fomentando la colaboración en campo.
+Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de respuesta anticipada ante la variabilidad climática y las emergencias fitosanitarias, ya que actualmente enfrentan una alta vulnerabilidad por operar bajo una gestión puramente reactiva que puede generar pérdidas de hasta el 90% en sus cosechas frente a anomalías térmicas (Andina, 2024). Estas necesidades se pueden resolver con Viora, una plataforma SaaS B2B hiper-especializada que convierte datos en decisiones mediante la integración del monitoreo de clima, rastreo de horas de frío y alertas tempranas epidemiológicas (Pino y Huayna, 2022). En un primer momento, nuestros clientes iniciales serán los productores olivareros de la región sur y los profesionales técnicos especializados en sanidad agrícola. El valor número uno que un cliente quiere de nuestro servicio es recibir información útil para la toma de decisiones relacionadas al ciclo productivo de sus plantaciones, además de alertas epidemiológicas con sus respectivas recomendaciones inteligentes y planes de nutrición dinámica generados automáticamente por la plataforma, sustentados en lineamientos técnicos locales y variables ambientales (Casanova, 2022; Pino y Huayna, 2022), optimizando la calidad de su producción para que su negocio crezca. Para adquirir la mayoría de nuestros clientes, nos apoyaremos en alianzas estratégicas con asociaciones agrarias y en un modelo de afiliados, donde el agricultor obtiene beneficios por recomendar el servicio a sus conocidos. Además, haremos dinero a través de un modelo de suscripción mensual o anual para acceder a la plataforma, incluyendo un periodo de prueba (trial) en el que, si el cliente no queda satisfecho, recibe el retorno de su dinero. Nuestra competencia principal en el mercado serán los proveedores de soluciones basadas exclusivamente en hardware, soluciones enfocadas en control de plagas y satelital, y los sistemas estatales de vigilancia reactiva; sin embargo, los venceremos debido al valor diferencial de nuestra propuesta: es la propia plataforma la que procesa los datos y emite recomendaciones agronómicas accionables, además de funcionar como un puente para contactar profesionales en caso de emergencias críticas. A pesar de esto, reconocemos que el mayor riesgo de producto es la baja adopción tecnológica y la brecha digital de los agricultores tradicionales. Por ello, resolveremos este desafío mediante un diseño de interfaz altamente intuitivo y la entrega de alertas simplificadas, fomentando la colaboración en campo.
 
 <p class="subtitulo"><strong>Business Assumptions</strong></p>
 
@@ -538,7 +538,7 @@ Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de resp
 
 <p class="subtitulo"><strong>User Assumptions</strong></p>
 
-- **¿Quiénes son?** Productores agropecuarios que buscan hacer crecer su negocio mediante la mejora de la calidad de sus cultivos, y profesionales en control de plagas que buscan canales para ofrecer sus servicios.
+- **¿Quiénes son?** Productores olivareros de la región sur que buscan hacer crecer su negocio mediante la mejora de la calidad de sus cultivos, y profesionales en control de plagas que buscan canales para ofrecer sus servicios.
 
 - **¿Cuál es su comportamiento actual?** Su captura de información es tardía y operan "a ciegas" frente a la evolución térmica, reaccionando cuando la merma o la enfermedad ya es visible (Andina, 2024).
 
@@ -587,7 +587,7 @@ Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de resp
 </p>
 
 <div style="text-align:center;">
-    <img src="./Documentacion/assets/leanUX-canvas/Lean UX Canvas Viora.png" alt="Muestra del Lean UX de la solución Viora" style="max-width:60%; height:auto; object-fit:contain; display:inline-block;" />
+    <img src="./Documentacion/assets/leanUX-canvas/Lean UX Canvas Viora.png" alt="Muestra del Lean UX de la solución Viora" style="max-width: 100%; height:auto; object-fit:contain; display:inline-block;" />
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
@@ -596,6 +596,186 @@ Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de resp
 
 ### 1.3. Segmentos objetivo.
 
+**Viora** orienta su propuesta de valor a dos macro-segmentos fundamentales dentro del ecosistema olivarero del sur del Perú, los cuales interactúan de manera simbiótica para sostener y proteger la cadena productiva y fitosanitaria.
+
+1. **Productores olivareros de la región sur**
+    - **Características demográficas y perfil:** Este segmento unifica tanto a los pequeños agricultores de la agricultura familiar (frecuentemente agrupados en cooperativas locales) como a los gestores de extensas parcelas agroindustriales. Geográficamente, se concentran en la macro-región sur, con especial énfasis en distritos productivos como La Yarada Los Palos en Tacna. Su nivel de digitalización es heterogéneo: va desde usuarios que transicionan al uso de smartphones para la gestión básica de su campo, hasta operaciones tecnificadas que ya manejan presupuestos para la adopción de herramientas de precisión.
+    - **Información estadística de sustento:** Este macro-segmento es el principal motor de la producción nacional, habiendo reportado volúmenes de 52,000 toneladas en Tacna en campañas regulares (Andina, 2024). Sin embargo, comparten una vulnerabilidad sistémica extrema: independientemente del tamaño de su fundo, se enfrentan a mermas productivas que oscilan entre el 80% y 90% debido a fallas fisiológicas por la ausencia de horas de frío (Andina, 2024; Calvo et al., 2024). Asimismo, deben gestionar parcelas donde la proporción de plantas con algún grado de enfermedad o marchitez fluctúa críticamente entre el 42% y el 68% (Pino-Vargas & Huayna, 2022).
+    - **Relación con el problema:** Su dolor principal es la falta de predictibilidad sobre el fenómeno de la vecería y la incapacidad de anticiparse a los shocks climáticos. Necesitan herramientas tecnológicas que les permitan transitar de una administración reactiva hacia una gestión proactiva basada en datos.
+
+
+2. **Profesionales especializados en control de plagas agrícolas**
+    - **Características demográficas y perfil:** Ingenieros agrónomos, técnicos agropecuarios y consultores fitosanitarios independientes. Demográficamente, abarcan un rango de edad más joven a intermedio (25 a 60 años), son nativos digitales o heavy users de herramientas tecnológicas móviles, y se movilizan constantemente a través de los diferentes valles y fundos productivos ofreciendo servicios de diagnóstico, poda y control de plagas.
+    - **Información estadística de sustento:** Su participación técnica es estadísticamente vital para evitar catástrofes económicas a nivel país. La presencia inminente de plagas cuarentenarias como la Xylella fastidiosa obliga a intervenciones inmediatas y focalizadas, dado que su descontrol puede generar pérdidas multisectoriales estimadas en más de US$ 3,245 millones anuales a nivel nacional (SENASA, 2025). El marco normativo y técnico actual exige un control oficial y estricto de estas amenazas (Casanova, 2022; SENASA, 2024), lo que dispara la demanda de sus servicios.
+    - **Relación con el problema:** A pesar de la altísima necesidad de sus conocimientos, sufren de una prospección ineficiente. Necesitan un marketplace o plataforma unificada que cruce las alertas epidemiológicas de los campos con su disponibilidad, convirtiendo la necesidad del agricultor en oportunidades de servicio directo.
+
+<div style="page-break-before: always;"></div>
+
+#### 1.3.1 Definición Estadística de la Población y Muestra de Estudio
+
+Para asegurar el rigor científico en la posterior etapa de recolección de necesidades (Needfinding) y cumplir con los lineamientos de análisis de datos, la investigación ha sido estructurada bajo los conceptos de estadística descriptiva e inferencial. Esto garantiza que los instrumentos cualitativos (entrevistas) se apliquen a unidades representativas de ambos macro-segmentos del ecosistema olivarero.
+
+A continuación, se detallan las matrices de organización de datos para el diseño de la investigación cualitativa:
+
+**A. Matriz Estadística: Segmento 1 - Productores Olivareros**
+
+<table style="width:100%; border-collapse:collapse; border:1px solid #000; margin:20px 0; font-family: sans-serif;">
+  <thead>
+    <tr style="background-color: #D3D3D3; color: #000;">
+      <th style="padding: 12px; border: 1px solid #000; width: 22%; text-align: center;">Concepto Estadístico</th>
+      <th style="padding: 12px; border: 1px solid #000; width: 33%; text-align: center;">Aplicación al Proyecto Viora</th>
+      <th style="padding: 12px; border: 1px solid #000; width: 45%; text-align: center;">Descripción y Justificación Metodológica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Población (N)
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Productores olivareros de la macro-región sur del Perú.
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Representa el universo total y objetivo de nuestro segmento, que abarca a los gestores de parcelas afectados por la variabilidad climática.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Muestra (n)
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Subconjunto no probabilístico de 3 a 5 productores olivareros locales.
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Es el grupo representativo, accesible y estratificado al que se le aplicará el instrumento cualitativo (entrevistas a profundidad) exigido en el proceso Lean UX.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Unidad de Análisis
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Un (1) productor o gestor agrícola olivarero.
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Es el sujeto de investigación del cual se extrae la información empírica. Cada unidad provee un punto de dato único sobre los "dolores" en campo.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Dato / Variable Cualitativa
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Nivel de adopción tecnológica / Tipo de mercado objetivo (Aceite o Mesa).
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Variable categórica (nominal u ordinal). Nos permite organizar los datos cualitativos por perfiles de usuario y comprender sus barreras de entrada tecnológica.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Dato / Variable Cuantitativa Discreta
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Frecuencia de aplicación de agrofármacos al mes.
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Toma valores enteros (0, 1, 2, 3...). Mide la recurrencia real de intervenciones reactivas, evidenciando el nivel de vulnerabilidad fitosanitaria.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Dato / Variable Cuantitativa Continua
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Extensión del cultivo (hectáreas).
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Toma valores con decimales (Ej. 4.5 hectáreas). Vital para delimitar la escala productiva del agricultor y medir la viabilidad económica del SaaS.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**B. Matriz Estadística: Segmento 2 - Profesionales Especializados en Sanidad Agrícola**
+
+<table style="width:100%; border-collapse:collapse; border:1px solid #000; margin:20px 0; font-family: sans-serif;">
+  <thead>
+    <tr style="background-color: #D3D3D3; color: #000;">
+      <th style="padding: 12px; border: 1px solid #000; width: 22%; text-align: center;">Concepto Estadístico</th>
+      <th style="padding: 12px; border: 1px solid #000; width: 33%; text-align: center;">Aplicación al Proyecto Viora</th>
+      <th style="padding: 12px; border: 1px solid #000; width: 45%; text-align: center;">Descripción y Justificación Metodológica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Población (N)
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Ingenieros agrónomos y técnicos fitosanitarios que laboran en la macro-región sur del Perú.
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Representa el universo de profesionales habilitados que brindan servicios de contención de plagas (ej. contra la <i>Xylella fastidiosa</i>).
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Muestra (n)
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Subconjunto no probabilístico de 3 a 5 profesionales en sanidad agrícola.
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Es el segmento experto al que se le aplicará la entrevista para validar la viabilidad del canal de prospección y <i>marketplace</i> de la plataforma.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Unidad de Análisis
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Un (1) profesional o consultor técnico agropecuario.
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Representa el individuo experto del cual extraeremos datos sobre fricciones comerciales y protocolos de intervención.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Dato / Variable Cualitativa
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Canal actual de captación de clientes (Boca a boca, redes sociales, etc.).
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Variable categórica nominal. Permite identificar las deficiencias actuales en la forma en que prospectan fundos afectados.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Dato / Variable Cuantitativa Discreta
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Cantidad de fundos o clientes asesorados mensualmente.
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Toma valores enteros. Ayuda a dimensionar la carga laboral y la capacidad de atención que tendrían al recibir alertas automatizadas desde la plataforma.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #000; font-weight: bold; color: #000; vertical-align: top;">
+        Dato / Variable Cuantitativa Continua
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
+        Años de experiencia en el sector agropecuario / Ingreso promedio por consultoría (S/).
+      </td>
+      <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
+        Toma valores reales. Nos sirve para perfilar la madurez del experto y entender la viabilidad financiera del modelo de negocio (ej. cobro de comisiones).
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <div style="page-break-before: always;"></div>
 
@@ -1783,7 +1963,7 @@ Servicio Nacional de Sanidad Agraria del Perú. (22 de mayo de 2025). <em>Resolu
 </p>
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
-Yglesias-González M, Valdés-Velásquez A, Hartinger SM, Takahashi K, Salvatierra G, et al. (2023) Reflections on the impact and response to the Peruvian 2017 Coastal El Niño event: Looking to the past to prepare for the future. <em>PLOS ONE</em> 18(9): e0290767. <a href="https://doi.org/10.1371/journal.pone.0290767">https://doi.org/10.1371/journal.pone.0290767</a>
+Yglesias-González, M., Valdés-Velásquez, A., Hartinger, SM., Takahashi, K., Salvatierra, G., et al. (2023) Reflections on the impact and response to the Peruvian 2017 Coastal El Niño event: Looking to the past to prepare for the future. <em>PLOS ONE</em> 18(9): e0290767. <a href="https://doi.org/10.1371/journal.pone.0290767">https://doi.org/10.1371/journal.pone.0290767</a>
 </p>
 
 
