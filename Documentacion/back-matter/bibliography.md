@@ -47,7 +47,7 @@ Servicio Nacional de Sanidad Agraria del Perú. (22 de mayo de 2025). <em>Resolu
 </p>
 
 <p style="padding-left: 35px; text-indent: -35px; margin-bottom: 15px; text-align: justify;">
-Yglesias-González M, Valdés-Velásquez A, Hartinger SM, Takahashi K, Salvatierra G, et al. (2023) Reflections on the impact and response to the Peruvian 2017 Coastal El Niño event: Looking to the past to prepare for the future. <em>PLOS ONE</em> 18(9): e0290767. <a href="https://doi.org/10.1371/journal.pone.0290767">https://doi.org/10.1371/journal.pone.0290767</a>
+Yglesias-González, M., Valdés-Velásquez, A., Hartinger, SM., Takahashi, K., Salvatierra, G., et al. (2023) Reflections on the impact and response to the Peruvian 2017 Coastal El Niño event: Looking to the past to prepare for the future. <em>PLOS ONE</em> 18(9): e0290767. <a href="https://doi.org/10.1371/journal.pone.0290767">https://doi.org/10.1371/journal.pone.0290767</a>
 </p>
 
 
