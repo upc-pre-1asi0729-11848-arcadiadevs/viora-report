@@ -473,4 +473,16 @@ Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de resp
 
 ##### 1.2.2.4. Lean UX Canvas
 
+<p style="text-align:left; font-weight: 700; margin-bottom: 2px;">Figura 7</p>
+<p style="text-align:left; font-style: italic; margin-top: 0;">Lean UX Canvas de la solución Viora.
+</p>
+
+<div style="text-align:center;">
+    <img src="./Documentacion/assets/leanUX-canvas/Lean UX Canvas Viora.png" alt="Muestra del Lean UX de la solución Viora" style="max-width:60%; height:auto; object-fit:contain; display:inline-block;" />
+</div>
+
+<p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
+    <em>Nota.</em> El Lean UX Canvas presenta la identificación del problema, segmentos de usuarios, propuestas de solución, hipótesis y el enfoque de producto mínimo viable (MVP) para la validación de la plataforma Viora. Elaboración propia.
+</p>
+
 ### 1.3. Segmentos objetivo.
