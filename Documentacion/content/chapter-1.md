@@ -191,7 +191,7 @@ La volatilidad reciente refuerza la necesidad de gestión basada en datos. En se
 
 **Influencia del clima, ENOS y horas de frío en producción, calidad y vecería** En el caso de Tacna, se ha documentado que la sostenibilidad del olivo depende críticamente del clima, destacando la temperatura como variable clave; se reportan rangos de tolerancia y óptimos (Pino y Ascencios, 2022). La evidencia local reciente asocia olas de calor con fallas fisiológicas: en Yarada Los Palos se reportó merma “hasta 90 %” y proyecciones de cosecha equivalente a 10 % a 20 % del año previo, vinculadas a ausencia de “golpe de frío” nocturno necesario para el cuajado (Andina, 2024). Además, se registraron señales de impacto económico (p. ej., alzas de precio minorista) coherentes con shock de oferta (Andina, 2024).
 
-La investigación aplicada también sustenta incorporar un rastreador de frío y un motor predictivo de vecería. En setos de olivo, un evento El Niño-Oscilación del Sur (ENSO) fuerte se asocia a aumento de temperaturas invernales (+2°C) y reducción de acumulación de frío (−23 %), con deterioro de productividad y alternancia; se reportan reducciones del frío en escenarios ENSO de −15 % a −23 % y, en campañas adversas, reducciones de rendimiento de aceite >85 % (Calvo et al., 2024). Estos hallazgos son consistentes con el patrón de alta variabilidad observado en Tacna (MIDAGRI, 2025) y justifican modelar vecería y requerimientos de frío como componentes de decisión.
+La investigación aplicada también sustenta incorporar un rastreador de frío y un motor predictivo de vecería. En setos de olivo, un evento El Niño-Oscilación del Sur (ENSO) fuerte se asocia a aumento de temperaturas invernales (+2°C) y reducción de acumulación de frío (−23 %), con deterioro de productividad y alternancia; se reportan reducciones del frío en escenarios ENOS de −15 % a −23 % y, en campañas adversas, reducciones de rendimiento de aceite >85 % (Calvo et al., 2024). Estos hallazgos son consistentes con el patrón de alta variabilidad observado en Tacna (MIDAGRI, 2025) y justifican modelar vecería y requerimientos de frío como componentes de decisión.
 
 <!-- Rule for APA7 images -->
 <p style="text-align:left; font-weight: 700; margin-bottom: 2px;">Figura 1</p>
@@ -203,7 +203,7 @@ La investigación aplicada también sustenta incorporar un rastreador de frío y
 </div>
 
 <p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
-    <em>Nota.</em> ENSO, acumulación de frío y alternancia productiva — Calvo et al., 2024
+    <em>Nota.</em> ENOS, acumulación de frío y alternancia productiva — Calvo et al., 2024
 </p>
 
 <!-- Rule for APA7 images -->
@@ -263,7 +263,7 @@ La investigación aplicada también sustenta incorporar un rastreador de frío y
 </p>
 
 
-**Sustentación de la solución SaaS y ampliaciones propuestas** La evidencia respalda una plataforma SaaS hiper‑especializada que convierta datos en decisiones: (i) Dashboard de finca con clima, suelo y sanidad para monitorear riesgo y desempeño (Andina, 2024; Pino y Huayna, 2022; MIDAGRI, 2025). (ii) Rastreador de horas/porciones de frío vs ENOS, para anticipar riesgo fenológico y productivo bajo escenarios ENSO (Calvo et al., 2024; Pino y Ascencios, 2022). (iii) Motor predictivo de vecería, apoyado en evidencia de alternancia asociada a variaciones de frío y en la volatilidad observada a nivel regional (Calvo et al., 2024; MIDAGRI, 2025). (iv) Motor de alertas epidemiológicas y trazabilidad de cumplimiento, alineado a vigilancia, control oficial y protocolos de contención (SENASA, 2024; SENASA, 2025). (v) Recomendaciones y nutrición dinámica, sustentadas en lineamientos técnicos regionales y variables edafológicas/ambientales relevantes para diagnóstico (Casanova, 2022; Pino y Huayna, 2022).
+**Sustentación de la solución SaaS y ampliaciones propuestas** La evidencia respalda una plataforma SaaS hiper‑especializada que convierta datos en decisiones: (i) Dashboard de finca con clima, suelo y sanidad para monitorear riesgo y desempeño (Andina, 2024; Pino y Huayna, 2022; MIDAGRI, 2025). (ii) Rastreador de horas/porciones de frío vs ENOS, para anticipar riesgo fenológico y productivo bajo escenarios ENOS (Calvo et al., 2024; Pino y Ascencios, 2022). (iii) Motor predictivo de vecería, apoyado en evidencia de alternancia asociada a variaciones de frío y en la volatilidad observada a nivel regional (Calvo et al., 2024; MIDAGRI, 2025). (iv) Motor de alertas epidemiológicas y trazabilidad de cumplimiento, alineado a vigilancia, control oficial y protocolos de contención (SENASA, 2024; SENASA, 2025). (v) Recomendaciones y nutrición dinámica, sustentadas en lineamientos técnicos regionales y variables edafológicas/ambientales relevantes para diagnóstico (Casanova, 2022; Pino y Huayna, 2022).
 
 Como soporte de escalabilidad, investigaciones recientes demuestran viabilidad de analítica avanzada: mapeo integrado UAV‑satélite con modelos de aprendizaje automático y métricas de calidad de clasificación (Pino et al., 2026), y detección/conteo de frutos con deep learning sobre dataset amplio y métricas de desempeño (Osco‑Mamami et al., 2025). Estas capacidades habilitan un roadmap progresivo: del monitoreo básico (clima/suelo) hacia modelos predictivos y visión computacional para estimar carga, anticipar alternancia y ajustar nutrición. Adicionalmente, la experiencia del Niño costero 2017 evidencia que los eventos extremos pueden intensificarse abruptamente y superar capacidades de respuesta si no existe preparación basada en información (Yglesias‑González et al., 2023), reforzando el valor de una solución preventiva y orientada a riesgo.
 
@@ -307,7 +307,7 @@ El problema central radica en la alta vulnerabilidad sistémica del ciclo de pro
 
 Los principales afectados son los productores agropecuarios y las instituciones ligadas a la cadena de valor del olivo, segmento que abarca desde pequeños agricultores y cooperativas hasta grandes empresas de producción tecnificada orientadas a la comercialización de la aceituna de mesa y la extracción de aceite (Andina, 2024). Asimismo, el problema impacta directamente a los profesionales y técnicos especializados en sanidad agrícola y control de plagas, quienes carecen de plataformas digitales integradas que les permitan conectar sus servicios de diagnóstico e intervención temprana con los productores afectados en el momento exacto en que los índices de vegetación o los factores edafológicos sugieren un riesgo inminente (Pino y Huayna, 2022).
 
-- **Productores Olivareros:** Este grupo comprende a los gestores de parcelas que enfrentan una vulnerabilidad crítica ante la variabilidad climática, la cual altera los ciclos de acumulación de frío necesarios para la productividad (Calvo et al., 2024). Su principal dolor es la falta de predictibilidad sobre el fenómeno de la vecería, lo que puede derivar en pérdidas de cosecha de hasta el 90% y una desestabilización económica severa si no se cuenta con datos para una gestión proactiva (Agencia Andina, 2024).
+- **Productores olivareros:** Este grupo comprende a los gestores de parcelas que enfrentan una vulnerabilidad crítica ante la variabilidad climática, la cual altera los ciclos de acumulación de frío necesarios para la productividad (Calvo et al., 2024). Su principal dolor es la falta de predictibilidad sobre el fenómeno de la vecería, lo que puede derivar en pérdidas de cosecha de hasta el 90% y una desestabilización económica severa si no se cuenta con datos para una gestión proactiva (Andina, 2024).
 
 - **Profesionales especializados en control de plagas agrícolas:** Ingenieros agrónomos y técnicos fitosanitarios que requieren de un sistema de monitoreo constante para la detección precoz de amenazas biológicas como la Xylella fastidiosa (SENASA, 2024). Estos usuarios necesitan herramientas de análisis geoespacial y alertas epidemiológicas para ejecutar protocolos de contención que eviten perjuicios económicos superiores a los US$ 3,245 millones anuales en el sector (SENASA, 2025).
 
@@ -338,7 +338,7 @@ Esta altísima vulnerabilidad se agudiza y se vuelve inmanejable bajo condicione
 <p class="subtitulo-2"><strong>How much (Cuánto)</strong></p>
 <p class="subtitulo-2">¿Cuál es la magnitud del problema?</p>
 
-La magnitud del problema se refleja en indicadores económicos y productivos sumamente críticos para el sector agrario. Las recientes olas de calor han provocado mermas que alcanzan hasta un **90 %** de pérdida en campos de La Yarada Los Palos, reduciendo drásticamente las proyecciones de cosecha a apenas un **10 %** o **20 %** del volumen obtenido en el año previo (Andina, 2024). Bajo escenarios ENSO fuertes, la investigación advierte reducciones alarmantes en el rendimiento de aceite que pueden superar el **85 %** en las peores campañas documentadas (Calvo et al., 2024). A nivel fitosanitario, la inacción frente a patógenos letales como la Xylella fastidiosa amenaza con disminuir la capacidad productiva entre un **25 %** y un **30 %** en las zonas declaradas vulnerables, proyectando pérdidas económicas multisectoriales que podrían sobrepasar holgadamente los **3,245 millones** de dólares anuales a nivel nacional (SENASA, 2025). Asimismo, rigurosas evaluaciones espaciales han revelado que la proporción de plantas enfermas en determinadas zonas geográficas de Tacna ya oscila peligrosamente entre el **42 %** y el **68 %** del área total cultivada (Pino y Huayna, 2022).
+La magnitud del problema se refleja en indicadores económicos y productivos sumamente críticos para el sector agrario. Las recientes olas de calor han provocado mermas que alcanzan hasta un **90 %** de pérdida en campos de La Yarada Los Palos, reduciendo drásticamente las proyecciones de cosecha a apenas un **10 %** o **20 %** del volumen obtenido en el año previo (Andina, 2024). Bajo escenarios ENOS fuertes, la investigación advierte reducciones alarmantes en el rendimiento de aceite que pueden superar el **85 %** en las peores campañas documentadas (Calvo et al., 2024). A nivel fitosanitario, la inacción frente a patógenos letales como la Xylella fastidiosa amenaza con disminuir la capacidad productiva entre un **25 %** y un **30 %** en las zonas declaradas vulnerables, proyectando pérdidas económicas multisectoriales que podrían sobrepasar holgadamente los **3,245 millones** de dólares anuales a nivel nacional (SENASA, 2025). Asimismo, rigurosas evaluaciones espaciales han revelado que la proporción de plantas enfermas en determinadas zonas geográficas de Tacna ya oscila peligrosamente entre el **42 %** y el **68 %** del área total cultivada (Pino y Huayna, 2022).
 
 ---
 
@@ -377,12 +377,113 @@ Los productores olivareros y especialistas en sanidad agrícola enfrentan una al
 
 #### 1.2.2 Lean UX Process
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 ##### 1.2.2.1. Lean UX Problem Statements
+
+- **Problem Statement 1: Gestión de la incertidumbre climática y fenológica**
+Nuestro servicio ofrece un ecosistema digital de agricultura de precisión enfocado en el monitoreo térmico y la predicción fenológica del olivo. A través de nuestra plataforma, los productores pueden visualizar la acumulación de "porciones de frío" y anticipar el impacto de la vecería en sus cosechas. A diferencia de soluciones basadas exclusivamente en hardware como Pessl Instruments (Metos), que se centran en la venta de sensores y entrega de datos meteorológicos brutos, Viora transforma dicha información en proyecciones de rendimiento y alertas de riesgo fenológico personalizadas por parcela.
+Hemos identificado que un factor crítico que desestabiliza la economía del sector es la incapacidad de predecir la alternancia productiva extrema causada por la variabilidad térmica. Según Calvo et al. (2024), los eventos de El Niño-Oscilación del Sur (ENSO) alteran significativamente la productividad y el crecimiento vegetativo de los setos de olivo. Esta situación afecta directamente a los productores olivareros de la región sur que dependen de cosechas constantes. Actualmente, existe un vacío tecnológico ya que los productores dependen de reportes de emergencia posteriores a la crisis (Andina, 2024), careciendo de una herramienta que organice datos climáticos para predecir ciclos de producción de forma anticipada.
+¿Cómo reducir la incertidumbre económica de los productores olivareros de la región sur mediante la predicción temprana de los ciclos de vecería basada en datos climáticos?
+<br>
+
+- **Problem Statement 2: Vigilancia epidemiológica y control de amenazas**
+Nuestro servicio provee un sistema de alertas tempranas y protocolos de intervención ante amenazas fitosanitarias de alto impacto. A través de esta herramienta, los especialistas pueden identificar zonas de riesgo biológico mediante el análisis de factores ambientales. A diferencia del Sistema de Vigilancia Fitosanitaria de SENASA, que opera bajo un esquema de reporte manual y suele ser reactivo tras la aparición de síntomas visibles, Viora permite una vigilancia proactiva que conecta los servicios de diagnóstico con factores edafológicos en tiempo real.
+Hemos identificado que un factor crítico que complica la sanidad vegetal es la dificultad para detectar de manera ágil la propagación de plagas letales. Según el Servicio Nacional de Sanidad Agraria (2024), la bacteria Xylella fastidiosa exige acciones inmediatas de contención debido a su alto potencial destructivo. Esta limitación perjudica especialmente a los profesionales especializados en control de plagas, quienes necesitan datos precisos para intervenir oportunamente (Pino y Huayna, 2022). Actualmente, los especialistas no cuentan con una plataforma integrada que centralice los indicadores de riesgo fitosanitario con la agilidad que requiere una emergencia sanitaria.
+¿Cómo facilitar a los profesionales especializados en control de plagas el acceso a datos procesados para acelerar el diagnóstico y la contención de plagas cuarentenarias?
+
+<br>
+
+- **Problem Statement 3: Trazabilidad y toma de decisiones agroindustriales**
+Nuestro servicio permite optimizar la gestión operativa de las empresas olivareras mediante dashboards de trazabilidad y análisis histórico. A través de indicadores visuales, los gestores pueden evaluar la eficacia de sus estrategias de manejo. A diferencia del Portal de Información Agraria (MIDAGRI) o el Buscador SEACE, que ofrecen datos estadísticos generales o registros de transacciones comerciales pasivas, Viora proporciona un análisis dinámico que vincula el estado fitosanitario del campo con la rentabilidad proyectada del negocio.
+Hemos identificado que un factor crítico que retrasa la eficiencia sectorial es la dispersión de datos y la ausencia de herramientas que permitan detectar patrones de productividad de forma automática. La accesibilidad y el procesamiento rápido de información son fundamentales para reducir el tiempo de respuesta ante crisis de producción (Pino y Huayna, 2022). Esta carencia impacta en la visión estratégica de los productores olivareros de la región sur que necesitan asegurar la calidad del producto para exportación. Actualmente, la toma de decisiones suele ser empírica debido a que no existe una plataforma que proporcione un análisis enriquecido y procesado de la historia productiva de la parcela.
+¿Cómo mejorar la capacidad de gestión de los productores olivareros de la región sur asegurando que cuenten con herramientas de análisis de datos integradas?
+
 ##### 1.2.2.2. Lean UX Assumptions
+
+Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de respuesta anticipada ante la variabilidad climática y las emergencias fitosanitarias, ya que actualmente enfrentan una alta vulnerabilidad por operar bajo una gestión puramente reactiva que puede generar pérdidas de hasta el 90% en sus cosechas frente a anomalías térmicas (Andina, 2024). Estas necesidades se pueden resolver con Viora, una plataforma SaaS B2B hiper-especializada que convierte datos en decisiones mediante la integración del monitoreo de clima, rastreo de horas de frío y alertas tempranas epidemiológicas (Pino y Huayna, 2022). En un primer momento, nuestros clientes iniciales serán los productores olivareros de la región sur y los profesionales técnicos especializados en sanidad agrícola. El valor número uno que un cliente quiere de nuestro servicio es recibir información útil para la toma de decisiones relacionadas al ciclo productivo de sus plantaciones, además de alertas epidemiológicas con sus respectivas recomendaciones inteligentes y planes de nutrición dinámica generados automáticamente por la plataforma, sustentados en lineamientos técnicos locales y variables ambientales (Casanova, 2022; Pino y Huayna, 2022), optimizando la calidad de su producción para que su negocio crezca. Para adquirir la mayoría de nuestros clientes, nos apoyaremos en alianzas estratégicas con asociaciones agrarias y en un modelo de afiliados, donde el agricultor obtiene beneficios por recomendar el servicio a sus conocidos. Además, haremos dinero a través de un modelo de suscripción mensual o anual para acceder a la plataforma, incluyendo un periodo de prueba (trial) en el que, si el cliente no queda satisfecho, recibe el retorno de su dinero. Nuestra competencia principal en el mercado serán los proveedores de soluciones basadas exclusivamente en hardware, soluciones enfocadas en control de plagas y satelital, y los sistemas estatales de vigilancia reactiva; sin embargo, los venceremos debido al valor diferencial de nuestra propuesta: es la propia plataforma la que procesa los datos y emite recomendaciones agronómicas accionables, además de funcionar como un puente para contactar profesionales en caso de emergencias críticas. A pesar de esto, reconocemos que el mayor riesgo de producto es la baja adopción tecnológica y la brecha digital de los agricultores tradicionales. Por ello, resolveremos este desafío mediante un diseño de interfaz altamente intuitivo y la entrega de alertas simplificadas, fomentando la colaboración en campo.
+
+<p class="subtitulo"><strong>Business Assumptions</strong></p>
+
+- **El problema:** El sector olivarero es altamente vulnerable a las fallas fisiológicas (vecería) y plagas debido a variaciones térmicas, requiriendo decisiones apoyadas en datos que actualmente suelen ser empíricas o reactivas (Calvo et al., 2024).
+
+- **La solución:** Una plataforma SaaS hiper-especializada que convierte datos en decisiones automatizadas, emitiendo diagnósticos, alertas epidemiológicas y recomendaciones directas de nutrición dinámica y agrofármacos basadas en guías técnicas.
+
+- **Segmentos iniciales:** Productores de la cadena de valor de la aceituna y especialistas fitosanitarios.
+
+- **Modelo de monetización:** Suscripción mensual o anual con un periodo de prueba (trial) libre de riesgo (retorno de dinero garantizado en caso de insatisfacción), respaldado por un programa de referidos que incentiva la adopción orgánica mediante validación de pares.
+
+- **Ventaja competitiva:** La capacidad autónoma del sistema para traducir variables edafológicas y ambientales en prescripciones precisas, sumado a la creación de una red directa entre productores y técnicos de campo.
+
+<br>
+
+<p class="subtitulo"><strong>Business Outcome Assumptions</strong></p>
+
+- Lograr que al menos el 40% de los usuarios activos utilicen el motor predictivo para ajustar sus planes de inversión o poda antes del cierre del primer trimestre.
+
+- Alcanzar una adopción temprana de 150 productores y 30 especialistas de sanidad agrícola activos e interactuando en la plataforma en los primeros 4 meses de lanzamiento.
+
+- Lograr que al menos el 35% de los usuarios que inician el periodo de prueba (***trial***) se conviertan en suscriptores recurrentes de pago dentro de los primeros 3 meses de operación, validando que la garantía de devolución y el modelo de afiliados eliminan la fricción inicial.
+
+- Firmar al menos 3 convenios de colaboración con asociaciones agrarias o consultoras fitosanitarias para el intercambio de datos en un plazo de 6 meses tras el lanzamiento.
+
+<br>
+
+<p class="subtitulo"><strong>User Assumptions</strong></p>
+
+- **¿Quiénes son?** Productores olivareros de la región sur que buscan hacer crecer su negocio mediante la mejora de la calidad de sus cultivos, y profesionales en control de plagas que buscan canales para ofrecer sus servicios.
+
+- **¿Cuál es su comportamiento actual?** Su captura de información es tardía y operan "a ciegas" frente a la evolución térmica, reaccionando cuando la merma o la enfermedad ya es visible (Andina, 2024).
+
+- **¿Cuándo ocurre?** El problema se agudiza drásticamente durante el ciclo fenológico invernal o durante anomalías climáticas como el fenómeno ENOS (Yglesias-González et al., 2023).
+
+<br>
+
+<p class="subtitulo"><strong>User Outcome & Benefits</strong></p>
+
+- **Decisiones estratégicas y crecimiento del negocio:** El productor recibe información oportuna y útil sobre el ciclo productivo de sus plantaciones, lo que le permite optimizar y mejorar la calidad de su producción, contribuyendo a la escalabilidad y rentabilidad de su negocio.
+
+- **Recomendaciones inteligentes y locales:** La plataforma entrega automáticamente recomendaciones de agrofármacos y nutrición dinámica, sustentadas rigurosamente en lineamientos técnicos regionales y en el análisis de variables edafológicas y ambientales relevantes para el diagnóstico (Casanova, 2022; Pino y Huayna, 2022).
+
+- **Conexión de alto valor:** Para los profesionales especializados, la plataforma sirve como una vitrina efectiva para conectar con productores cuyas parcelas reportan alertas de riesgo, creando un ecosistema de asistencia bidireccional.
+
+<br>
+
+<p class="subtitulo"><strong>Feature Assumptions</strong></p>
+
+- **Dashboard de finca:** Panel central con datos de clima, suelo y sanidad para monitorear riesgo y desempeño general (Andina, 2024; Pino y Huayna, 2022; MIDAGRI, 2025).
+
+- **Rastreador de horas/porciones de frío:** Módulo diseñado para anticipar el riesgo fenológico y productivo bajo escenarios ENOS (Calvo et al., 2024; Pino y Ascencios, 2022).
+
+- **Motor Predictivo de vecería:** Algoritmo apoyado en la evidencia de alternancia asociada a variaciones de frío y la volatilidad regional (Calvo et al., 2024; MIDAGRI, 2025).
+
+- **Motor de alertas epidemiológicas:** Sistema para la trazabilidad de cumplimiento, alineado a la vigilancia, control oficial y protocolos de contención de plagas (SENASA, 2024; SENASA, 2025).
+
+- **Módulo de recomendaciones y nutrición dinámica:** Herramienta automatizada que cruza variables ambientales y del suelo para sugerir planes de acción apoyados en literatura técnica (Casanova, 2022; Pino y Huayna, 2022).
+
+- **Panel de suscripción y afiliados:** Área de gestión donde los usuarios administran su periodo de prueba y obtienen sus enlaces para el programa de recomendaciones.
+
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
+- **Creemos que** implementar un rastreador de horas de frío y un motor predictivo de vecería para los productores olivareros de Tacna logrará reducir la incertidumbre económica y anticipar el riesgo productivo frente a anomalías térmicas como el fenómeno ENOS. **Sabremos que** hemos tenido éxito **cuando** al menos el 40% de los usuarios activos utilicen el motor predictivo para ajustar sus planes de inversión o poda antes del cierre del primer trimestre.
+
+- **Creemos que** proveer un sistema de alertas epidemiológicas tempranas junto con recomendaciones locales de agrofármacos para los profesionales en sanidad y productores olivareros agilizará la contención de plagas cuarentenarias (como la Xylella fastidiosa) y mejorará la toma de decisiones en campo. **Sabremos que** hemos tenido éxito **cuando** alcancemos una adopción temprana de 150 productores y 30 especialistas activos interactuando en la plataforma en los primeros 4 meses.
+
+- **Creemos que** ofrecer un dashboard centralizado de finca con datos procesados de clima, suelo y sanidad para las empresas agroindustriales y gestores de parcelas optimizará su gestión operativa y facilitará la estabilización de sus volúmenes de cosecha. **Sabremos que** hemos tenido éxito **cuando** logremos firmar al menos 3 convenios de colaboración con asociaciones agrarias o consultoras fitosanitarias para el intercambio de datos en un plazo de 6 meses.
+
+- **Creemos que** implementar un modelo de suscripción con un periodo de prueba (trial) y garantía de devolución para los productores tradicionales reducirá su percepción de riesgo financiero y la fricción tecnológica inicial. **Sabremos que** hemos tenido éxito **cuando** al menos el 35% de los usuarios que inician la versión de prueba se conviertan en suscriptores recurrentes de pago dentro de los primeros 3 meses de operación.
+
 ##### 1.2.2.4. Lean UX Canvas
+
+<p style="text-align:left; font-weight: 700; margin-bottom: 2px;">Figura 7</p>
+<p style="text-align:left; font-style: italic; margin-top: 0;">Lean UX Canvas de la solución Viora.
+</p>
+
+<div style="text-align:center;">
+    <img src="../assets/leanUX-canvas/Lean UX Canvas Viora.png" alt="Muestra del Lean UX de la solución Viora" style="max-width: 100%; height:auto; object-fit:contain; display:inline-block;" />
+</div>
+
+<p style="text-align:left; font-size: 12px; margin-top: 5px; line-height: 1.5;">
+    <em>Nota.</em> El Lean UX Canvas presenta la identificación del problema, segmentos de usuarios, propuestas de solución, hipótesis y el enfoque de producto mínimo viable (MVP) para la validación de la plataforma Viora. Elaboración propia.
+</p>
 
 ### 1.3. Segmentos objetivo.
 

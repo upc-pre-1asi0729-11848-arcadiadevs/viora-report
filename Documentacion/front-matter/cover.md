@@ -4,7 +4,7 @@
 <h2><strong>DESARROLLO DE APLICACIONES OPEN SOURCE</strong></h2>
 <h2><strong>AV1 INFORME DE TRABAJO</strong></h2>
 <img src="../assets/logos/arcadia.png" width="120" /><br/><br/>
-<img src="../assets/logos/proyecto.png" width="260" alt="Logo_Proyecto" /><br/><br/>
+<img src="../assets/viora-brand/viora-isologotipo-green.png" width="260" alt="Logo_Proyecto" /><br/><br/>
 <p><strong>CARRERA:</strong><br/>Ingeniería de Software</p>
 <p><strong>CICLO:</strong><br/>2026 - 1</p>
 <p><strong>INTEGRANTES:</strong></p>
