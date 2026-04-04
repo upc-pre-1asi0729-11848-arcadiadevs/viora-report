@@ -14,7 +14,7 @@
   </thead>
   <tbody>
     <tr style="page-break-inside:avoid; break-inside:avoid;">
-      <td style="background:#dfeeda; font-weight:700; text-align:center; border:1px solid #000; vertical-align:middle; height:140px;">
+      <td style="background:#b8ccc2; font-weight:700; text-align:center; border:1px solid #000; vertical-align:middle; height:140px;">
         Directo
       </td>
       <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;">
@@ -37,7 +37,7 @@
     </tr>
     <!-- siguiente fila -->
     <tr style="page-break-inside:avoid; break-inside:avoid;">
-      <td style="background:#dfeeda; font-weight:700; text-align:center; border:1px solid #000; vertical-align:middle; height:140px;">
+      <td style="background:#b8ccc2; font-weight:700; text-align:center; border:1px solid #000; vertical-align:middle; height:140px;">
         Directo
       </td>
       <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;">
@@ -61,7 +61,7 @@
     </tr>
     <!-- siguiente fila -->
     <tr style="page-break-inside:avoid; break-inside:avoid;">
-      <td style="background:#dfeeda; font-weight:700; text-align:center; border:1px solid #000; vertical-align:middle; height:140px;">
+      <td style="background:#b8ccc2; font-weight:700; text-align:center; border:1px solid #000; vertical-align:middle; height:140px;">
         Directo
       </td>
       <td style="border:1px solid #000; vertical-align:middle; padding:10px; height:140px;">
@@ -192,7 +192,7 @@ Análisis competitivo para competidores **directos**
       Competidores
     </td>
     <!-- Viora -->
-    <td style="background:#014b18; border:1px solid #000; padding:12px; text-align:center; vertical-align:middle;">
+    <td style="background:#2e4a3a; border:1px solid #000; padding:12px; text-align:center; vertical-align:middle;">
       <img src="../assets/logos/viora.png" alt="Viora">
     </td>
     <!-- Metos -->
@@ -505,7 +505,7 @@ Análisis competitivo para competidores **indirectos**
       Competidores
     </td>
     <!-- Viora -->
-    <td style="background:#014b18; border:1px solid #000; padding:12px; text-align:center; vertical-align:middle;">
+    <td style="background:#2e4a3a; border:1px solid #000; padding:12px; text-align:center; vertical-align:middle;">
       <img src="../assets/logos/viora.png" alt="Viora">
     </td>
     <!-- SENASA -->
@@ -815,46 +815,46 @@ Análisis competitivo para competidores **indirectos**
   <!-- FILA 1 -->
   <tr style="page-break-inside:avoid; break-inside:avoid;">
     <td style="border:1px solid #000; padding:12px; vertical-align:middle; text-align:center;">
-      <img src="../assets/competidores/lorem.png" alt="lorem">
+      <img src="../assets/competitors/metos.png" alt="lorem">
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top; line-height:1.4;">
-      <b>"lorem ipsum":</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <b>"Software-only escalable y predictivo"</b> Ingesta de datos ambientales mediante APIs y algoritmos sin obligar al productor a comprar infraestructura. Foco en adopción masiva sin fricción financiera.
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top; line-height:1.4;">
-      <b>"lorem ipsum":</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Gran precisión de datos de campo y modelos matemáticos de enfermedades muy maduros. Precisión física: Extraen data de sus propias estaciones meteorológicas (IoT).
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top; line-height:1.4;">
-      <b>"lorem ipsum":</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Altos costos de entrada y mantenimiento de hardware para el pequeño productor. Barrera física: Requiere instalación, calibración en campo y está expuesto a robos en zonas rurales.
     </td>
   </tr>
   <!-- FILA 2 -->
   <tr style="page-break-inside:avoid; break-inside:avoid;">
     <td style="border:1px solid #000; padding:12px; vertical-align:middle; text-align:center;">
-      <img src="../assets/competidores/lorem.png" alt="lorem">
+      <img src="../assets/competitors/agroptima.png" alt="lorem">
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top; line-height:1.4;">
-      <b>"lorem ipsum":</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <b>"Motor predictivo vs. Registro pasivo":</b> Viora procesa el clima y advierte automáticamente al usuario; no es una libreta digital donde el agricultor deba ingresar datos manualmente para que el software tenga valor.
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top; line-height:1.4;">
-      <b>"lorem ipsum":</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Excelente usabilidad en campo (modo offline) y liderazgo europeo en la trazabilidad legal y control de costos operativos (ERP agrícola).
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top; line-height:1.4;">
-      <b>"lorem ipsum":</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Es un sistema pasivo de "data entry". Carga operativa: Si el agricultor no registra sus actividades, el sistema no hace nada; carece de un motor proactivo de alertas epidemiológicas automatizadas.
     </td>
   </tr>
   <!-- FILA 3 -->
   <tr style="page-break-inside:avoid; break-inside:avoid;">
     <td style="border:1px solid #000; padding:12px; vertical-align:middle; text-align:center;">
-      <img src="../assets/competidores/lorem" alt="lorem">
+      <img src="../assets/competitors/xarvio.png" alt="lorem">
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top; line-height:1.4;">
-      <b>"lorem ipsum":</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <b>"Hiper-nicho olivarero + Marketplace humano":</b> Especialización total en el ciclo del olivo (horas de frío, vecería) y conexión directa con agrónomos locales reales en lugar de solo sugerir la compra de agroquímicos genéricos.
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top; line-height:1.4;">
-      <b>"lorem ipsum":</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Profundidad técnica algorítmica respaldada por BASF (corporación global). Simplicidad visual: Mapas NDVI y "semáforos" de riesgo muy intuitivos.
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top; line-height:1.4;">
-      <b>"lorem ipsum":</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Sus modelos globales pueden carecer de calibración para el microclima árido de Tacna. Sesgo comercial y aislamiento: No conectan al agricultor con un técnico físico que resuelva el problema en el fundo.
     </td>
   </tr>
 </table>
@@ -870,47 +870,50 @@ Análisis competitivo para competidores **indirectos**
   </colgroup>
   <!-- FILA 1 -->
   <tr style="page-break-inside:avoid; break-inside:avoid;">
-    <td style="background:#2f8f2f; color:#fff; border:1px solid #000; padding:18px; text-align:center; vertical-align:middle;">
+    <td style="background:#2e4a3a; color:#fff; border:1px solid #000; padding:18px; text-align:center; vertical-align:middle;">
       <div style="font-size:22px; font-weight:600; line-height:1.15;">
         Matriz<br>F.O.D.A.<br>y<br>C.A.M.E.
       </div>
       <div style="height:14px;"></div>
-      <img src="../assets/logos/lorem.png" alt="Logo" style="max-width:140px; height:auto; display:block; margin:0 auto;">
+      <img src="../assets/logos/viora.png" alt="Logo" style="max-width:140px; height:auto; display:block; margin:0 auto;">
     </td>
     <!-- Oportunidades -->
-    <td style="background:#64c466; border:1px solid #000; padding:16px; vertical-align:top;">
+    <td style="background:#99b1a5; border:1px solid #000; padding:16px; vertical-align:top;">
       <div style="font-weight:600; font-size:18px; text-align:center; margin-bottom:10px;">
         Oportunidades (O)
       </div>
       <div style="line-height:1.45;">
-        <b>• lorem ipsum: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        <b>• lorem ipsum: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        <b>• lorem ipsum: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        <b>• lorem ipsum: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        • Creciente urgencia por mitigar mermas del fenómeno ENOS.<br>
+        • Lentitud y enfoque reactivo de las alertas estatales (SENASA).<br>
+        • Potencial de alianzas con cooperativas olivareras locales (ej. Tacna).<br>
+        • Competidores globales inaccesibles por altos costos de hardware.<br>
       </div>
     </td>
     <!-- Amenazas -->
-    <td style="background:#78a98a; border:1px solid #000; padding:16px; vertical-align:top;">
+    <td style="background:#b8ccc2; border:1px solid #000; padding:16px; vertical-align:top;">
       <div style="font-weight:600; font-size:18px; text-align:center; margin-bottom:10px;">
         Amenazas (A)
       </div>
       <div style="line-height:1.45;">
-        b>• lorem ipsum: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        <b>• lorem ipsum: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        <b>• lorem ipsum: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        • Resistencia tecnológica y brecha digital en la agricultura familiar.<br>
+        • Limitada conectividad a internet en fundos rurales.<br>
+        • Competidores consolidados (xarvio, Agroptima) con alto presupuesto.<br>
+        • Anomalías climáticas impredecibles que desestabilicen algoritmos.<br>
       </div>
     </td>
   </tr>
   <!-- FILA 2 -->
   <tr style="page-break-inside:avoid; break-inside:avoid;">
     <!-- Fortalezas -->
-    <td style="background:#a7d68f; border:1px solid #000; padding:16px; vertical-align:top;">
+    <td style="background:#99b1a5; border:1px solid #000; padding:16px; vertical-align:top;">
       <div style="font-weight:600; font-size:18px; text-align:center; margin-bottom:10px;">
         Fortalezas (F)
       </div>
       <div style="line-height:1.45;">
-        <b>• lorem ipsum: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        <b>• lorem ipsum: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        • Hiper-especialización en fenología del olivo (vecería, horas de frío).<br>
+        • Marketplace integrado (conecta la alerta con el agrónomo).<br>
+        • Modelo SaaS predictivo, ágil y de bajo costo (sin hardware).<br>
+        • Alertas micro-locales específicas por parcela.<br>
       </div>
     </td>
     <!-- Estrategia Ofensiva -->
@@ -919,9 +922,9 @@ Análisis competitivo para competidores **indirectos**
         Estrategia Ofensiva
       </div>
       <div style="line-height:1.45;">
-        <b>FO1 – lorem ipsum:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
-        <b>FO2 – lorem ipsum:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
-        <b>FO3 – lorem ipsum:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+        <b>FO1 – Paquetes "Cooperativa Preventiva":</b> Usar el bajo costo del modelo SaaS (F3) para cerrar convenios B2B masivos con cooperativas olivareras (O3) que urgen mitigar el ENOS (O1).<br><br>
+        <b>FO2 – Alerta Temprana Ágil:</b> Aprovechar la lentitud del Estado (O2) emitiendo notificaciones predictivas por parcela (F4), ofreciendo la inmediatez que el agricultor no encuentra en canales públicos.<br><br>
+        <b>FO3 – Marketplace de Intervención:</b> Posicionar nuestra red de especialistas (F2) como el "brazo ejecutor" que soluciona inmediatamente las alertas que competidores globales solo reportan de forma pasiva (O4).<br><br>
       </div>
     </td>
     <!-- Estrategia Defensiva -->
@@ -930,22 +933,24 @@ Análisis competitivo para competidores **indirectos**
         Estrategia Defensiva
       </div>
       <div style="line-height:1.45;">
-        <b>FA1 – lorem ipsum:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
-        <b>FA2 – lorem ipsum:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
-        <b>FA3 – lorem ipsum:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+        <b>FA1 – Valor Humano vs. Algoritmo:</b> Defender nuestro nicho frente a gigantes AgTech (A3) destacando la conexión directa con agrónomos locales reales (F2), algo que el software extranjero no puede replicar.<br><br>
+        <b>FA2 – App Resiliente y Ligera:</b> Frente a la baja conectividad (A2), asegurar que el dashboard y las alertas (F4) funcionen con caché offline y notificaciones ultraligeras (SMS/WhatsApp push).<br><br>
+        <b>FA3 – Especialización Endémica:</b> Frente al cambio climático impredecible (A4), usar nuestra hiper-especialización en el olivo (F1) para calibrar modelos mucho más rápido que las plataformas generalistas.<br><br>
       </div>
     </td>
   </tr>
   <!--Fila 3-->
   <tr style="page-break-inside:avoid; break-inside:avoid;">
     <!-- Debilidades -->
-    <td style="background:#a7d68f; border:1px solid #000; padding:16px; vertical-align:top;">
+    <td style="background:#b8ccc2; border:1px solid #000; padding:16px; vertical-align:top;">
       <div style="font-weight:600; font-size:18px; text-align:center; margin-bottom:10px;">
         Debilidades (D)
       </div>
       <div style="line-height:1.45;">
-        <b>• lorem ipsum: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        <b>• lorem ipsum: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        • Baja confianza inicial por ser una marca/startup nueva.<br>
+        • Carencia de data histórica climática propia (uso de APIs).<br>
+        • Requiere atraer productores y agrónomos a la vez.<br>
+        • Presupuesto de marketing y desarrollo limitado.<br>
       </div>
     </td>
     <!-- Estrategia de Reorientación -->
@@ -954,8 +959,9 @@ Análisis competitivo para competidores **indirectos**
         Estrategia de Reorientación
       </div>
       <div style="line-height:1.45;">
-        <b>DO1 – lorem ipsum:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
-        <b>DO2 – lorem ipsum:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+        <b>DO1 – Pilotos de Validación Local:</b> Vencer la baja confianza (D1) aliándonos con líderes de juntas de usuarios en Tacna (O3) para ofrecer pilotos gratuitos que generen "casos de éxito" rápidos y reales.<br><br>
+        <b>DO2 – Data Colaborativa:</b> Ante la falta de data histórica propia (D2), aprovechar la urgencia del agricultor por digitalizarse (O1) para retroalimentar nuestros propios algoritmos climáticos según el comportamiento real reportado en la app.<br><br>
+        <b>DO3 – Growth Loop de Especialistas:</b> Usar a los agrónomos (que buscan clientes) como nuestros principales evangelizadores, recomendando Viora a sus propios agricultores de confianza, resolviendo así la falta de adopción dual (D3).<br><br>
       </div>
     </td>
     <!-- Estrategia de Supervivencia -->
@@ -964,8 +970,9 @@ Análisis competitivo para competidores **indirectos**
         Estrategia de Supervivencia
       </div>
       <div style="line-height:1.45;">
-        <b>DA1 – lorem ipsum:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
-        <b>DA2 – lorem ipsum:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+        <b>DA1 – Foco Láser Olivarero:</b> Dada la limitación financiera (D4) y la amenaza de gigantes (A3), no expandir la app a otros cultivos; dominar absoluta y exclusivamente la región sur olivarera antes de pensar en escalar.<br><br>
+        <b>DA2 – Onboarding Asistido:</b> Para combatir la resistencia tecnológica (A1) y nuestra falta de reconocimiento (D1), realizar talleres presenciales en campo con las cooperativas para instalar y configurar la app en los celulares de los usuarios.<br><br>
+        <b>DA3 – Protocolos "Fallback":</b> Ante fallos en la predicción por anomalías extremas (A4), asegurar que el sistema derive inmediatamente el caso al directorio de agrónomos locales (Marketplace) para evaluación humana (minimizando la D2).<br><br>
       </div>
     </td>
   </tr>
