@@ -126,7 +126,7 @@ En el logotipo, el zorro simboliza **ingenio y agilidad**; su cola en forma de t
 
 <p class="subtitulo">Quiénes somos</p>
 
-Somos un equipo de ingeniería y diseño que convierte datos complejos en decisiones simples y rentables para el sector agroindustrial. Actualmente impulsamos Viora, una plataforma SaaS B2B especializada en la gestión inteligente del ciclo de producción de aceitunas. Nuestro enfoque combina el monitoreo de variables de suelo y clima para emitir alertas epidemiológicas tempranas, brindando a los productores recomendaciones precisas y conectándolos directamente con profesionales especializados en sanidad agrícola.
+Somos un equipo de ingeniería y diseño que convierte datos complejos en decisiones simples y rentables para el sector agroindustrial. Actualmente impulsamos Viora, una plataforma SaaS B2B especializada en la gestión inteligente del ciclo de producción de aceitunas. Nuestro enfoque combina el monitoreo de variables de suelo y clima para emitir alertas epidemiológicas tempranas, brindando a los productores recomendaciones precisas y conectándolos directamente con profesionales especializados en control de plagas agrícolas.
 
 <table style="width:100%; border-collapse:separate; border-spacing:0; background:#fbf0f2; border-radius:12px; margin:22px 0 14px 0;">
   <tr>
@@ -414,7 +414,7 @@ El problema central radica en la alta vulnerabilidad sistémica del ciclo de pro
 <p class="subtitulo-2"><strong>Who (Quién)</strong></p>
 <p class="subtitulo-2">¿Quiénes son los usuarios?</p>
 
-Los principales afectados son los productores agropecuarios y las instituciones ligadas a la cadena de valor del olivo, segmento que abarca desde pequeños agricultores y cooperativas hasta grandes empresas de producción tecnificada orientadas a la comercialización de la aceituna de mesa y la extracción de aceite (Andina, 2024). Asimismo, el problema impacta directamente a los profesionales y técnicos especializados en sanidad agrícola y control de plagas, quienes carecen de plataformas digitales integradas que les permitan conectar sus servicios de diagnóstico e intervención temprana con los productores afectados en el momento exacto en que los índices de vegetación o los factores edafológicos sugieren un riesgo inminente (Pino y Huayna, 2022).
+Los principales afectados son los productores agropecuarios y las instituciones ligadas a la cadena de valor del olivo, segmento que abarca desde pequeños agricultores y cooperativas hasta grandes empresas de producción tecnificada orientadas a la comercialización de la aceituna de mesa y la extracción de aceite (Andina, 2024). Asimismo, el problema impacta directamente a los profesionales y técnicos especializados en control de plagas agrícolas, quienes carecen de plataformas digitales integradas que les permitan conectar sus servicios de diagnóstico e intervención temprana con los productores afectados en el momento exacto en que los índices de vegetación o los factores edafológicos sugieren un riesgo inminente (Pino y Huayna, 2022).
 
 - **Productores Olivareros:** Este grupo comprende a los gestores de parcelas que enfrentan una vulnerabilidad crítica ante la variabilidad climática, la cual altera los ciclos de acumulación de frío necesarios para la productividad (Calvo et al., 2024). Su principal dolor es la falta de predictibilidad sobre el fenómeno de la vecería, lo que puede derivar en pérdidas de cosecha de hasta el 90% y una desestabilización económica severa si no se cuenta con datos para una gestión proactiva (Agencia Andina, 2024).
 
@@ -453,7 +453,7 @@ La magnitud del problema se refleja en indicadores económicos y productivos sum
 
 <p class="subtitulo"><strong>Enunciado del problema (Problem Statement)</strong></p>
 
-Los productores olivareros y especialistas en sanidad agrícola enfrentan una alta vulnerabilidad ante la variabilidad climática extrema y plagas cuarentenarias debido a la carencia de herramientas tecnológicas preventivas y una gestión puramente reactiva. Esta falta de anticipación impide monitorear eficazmente alteraciones fenológicas como la vecería y la propagación de patógenos letales, lo que resulta en pérdidas productivas de hasta el 90% y pone en riesgo la rentabilidad y el patrimonio agrícola del sector.
+Los productores olivareros y especialistas en control de plagas agrícolas enfrentan una alta vulnerabilidad ante la variabilidad climática extrema y plagas cuarentenarias debido a la carencia de herramientas tecnológicas preventivas y una gestión puramente reactiva. Esta falta de anticipación impide monitorear eficazmente alteraciones fenológicas como la vecería y la propagación de patógenos letales, lo que resulta en pérdidas productivas de hasta el 90% y pone en riesgo la rentabilidad y el patrimonio agrícola del sector.
 
 ---
 
@@ -470,7 +470,7 @@ Los productores olivareros y especialistas en sanidad agrícola enfrentan una al
 - **Maximizar la previsibilidad de la cosecha:** Lograr que al menos el 40% de los usuarios activos utilicen el motor predictivo para ajustar sus planes de inversión y nutrición antes del cierre del primer trimestre de operación.
 - **Fortalecer la red de respuesta ante plagas:** Firmar al menos 3 convenios de colaboración con asociaciones agrarias o consultoras fitosanitarias para el intercambio de datos en un plazo de 6 meses tras el lanzamiento.
 - **Asegurar la eficiencia en la comunicación técnica:** Garantizar que las alertas epidemiológicas lleguen a los especialistas y productores en menos de 10 minutos tras la detección de una anomalía térmica, métrica que será auditada mensualmente durante el primer semestre.
-- **Consolidar una base de usuarios especializada:** Alcanzar una meta de 150 productores registrados y 30 profesionales de sanidad agrícola interactuando en la plataforma en un periodo máximo de 4 meses.
+- **Consolidar una base de usuarios especializada:** Alcanzar una meta de 150 productores registrados y 30 profesionales de control de plagas agrícolas interactuando en la plataforma en un periodo máximo de 4 meses.
 - **Asegurar la eficiencia en la comunicación técnica:** Mantener un registro de 0 brechas de seguridad en el manejo de información sensible de las parcelas, con reportes de cumplimiento técnico emitidos cada trimestre.
 
 ---
@@ -596,7 +596,7 @@ A continuación, se detallan las matrices de organización de datos para el dise
   </tbody>
 </table>
 
-**B. Matriz Estadística: Segmento 2 - Profesionales Especializados en Sanidad Agrícola**
+**B. Matriz Estadística: Segmento 2 - Profesionales Especializados en Control de Plagas Agrícolas**
 
 <table style="width:100%; border-collapse:collapse; border:1px solid #000; margin:20px 0; font-family: sans-serif;">
   <thead>
@@ -623,7 +623,7 @@ A continuación, se detallan las matrices de organización de datos para el dise
         Muestra (n)
       </td>
       <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
-        Subconjunto no probabilístico de 3 a 5 profesionales en sanidad agrícola.
+        Subconjunto no probabilístico de 3 a 5 profesionales en control de plagas agrícolas.
       </td>
       <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
         Es el segmento experto al que se le aplicará la entrevista para validar la viabilidad del canal de prospección y <i>marketplace</i> de la plataforma.
@@ -934,7 +934,7 @@ Análisis competitivo para competidores **directos**
       Mercado Objetivo
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
-      Pequeños/medianos productores de olivo y especialistas técnicos en sanidad agrícola del sur del Perú (ej. Tacna).
+      Pequeños/medianos productores de olivo y especialistas técnicos en control de plagas agrícolas del sur del Perú (ej. Tacna).
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       Grandes corporaciones agroindustriales y fundos de cultivos de alto valor que pueden permitirse invertir en infraestructura (hardware).
@@ -1102,7 +1102,7 @@ Análisis competitivo para competidores **directos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Capturar a la gran masa de agricultores que no pueden pagar el hardware de METOS ni licencias de ERPs europeos.</li>
+          <li>Capturar al mercado olivarero golpeado por anomalías térmicas y olas de calor extremas asociadas al fenómeno ENOS (Andina, 2024) que exige soluciones preventivas de bajo costo.</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
@@ -1117,7 +1117,7 @@ Análisis competitivo para competidores **directos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Expandir y localizar sus modelos de IA para incluir cultivos regionales específicos y plagas endémicas peruanas.</li>
+          <li>Localizar sus modelos predictivos para plagas peruanas evaluando la severidad mediante índices de vegetación avanzados (Pino-Vargas & Huayna, 2022).</li>
       </ul>
     </td>
   </tr>
@@ -1135,7 +1135,6 @@ Análisis competitivo para competidores **directos**
       <ul style="margin:0; padding-left:18px;">
           <li>Vandalismo o robo de equipos en zonas rurales de LATAM.</li>
           <li>Llegada de hardware IoT chino de bajo costo.</li>
-          <li>lorem ipsum.</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
@@ -1247,7 +1246,7 @@ Análisis competitivo para competidores **indirectos**
       Mercado Objetivo
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
-      Pequeños/medianos productores olivareros y especialistas técnicos en sanidad agrícola del sur del Perú (ej. Tacna).
+      Pequeños/medianos productores olivareros y especialistas técnicos en control de plagas agrícolas del sur del Perú (ej. Tacna).
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       Todo el sector agropecuario nacional (productores de todos los rubros, importadores y exportadores).
@@ -1420,7 +1419,7 @@ Análisis competitivo para competidores **indirectos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Mercado olivarero altamente golpeado por ENOS buscando digitalizarse.</li>
+          <li>Mercado olivarero altamente golpeado por ENOS buscando digitalizarse (Andina, 2024).</li>
           <li>Absorber la lentitud del Estado mediante alertas más rápidas.</li>
       </ul>
     </td>
@@ -1431,12 +1430,12 @@ Análisis competitivo para competidores **indirectos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Implementar modelos de IA para detectar plagas específicas desde imágenes (aunque muy difícil satelitalmente).</li>
+          <li>Implementar modelos de IA para detectar plagas específicas desde imágenes (Osco-Mamani et al., 2025; Pino-Vargas et al., 2026).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Expandir su alcance hacia cultivos intensivos de menor escala si simplifican su interfaz de usuario.</li>
+          <li>Expandir su alcance hacia cultivos intensivos de menor escala sustentados por la agricultura familiar (MIDAGRI, 2025) si simplifican su interfaz.</li>
       </ul>
     </td>
   </tr>
@@ -1447,7 +1446,7 @@ Análisis competitivo para competidores **indirectos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Resistencia al cambio tecnológico en la agricultura familiar.</li>
+          <li>Resistencia al cambio tecnológico en la agricultura familiar (MIDAGRI, 2025).</li>
           <li>Limitaciones de conectividad a internet en zonas rurales.</li>
       </ul>
     </td>
@@ -1458,7 +1457,7 @@ Análisis competitivo para competidores **indirectos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>AgTechs de nicho (como Viora) que ofrezcan un valor mucho más específico y localizado que un simple mapa de colores.</li>
+          <li>AgTechs de nicho (como Viora) que ofrezcan un valor mucho más específico, localizado y adaptado al enfoque climatológico árido (Pino & Ascencios, 2022) que un simple mapa de colores.</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
@@ -1563,9 +1562,9 @@ Análisis competitivo para competidores **indirectos**
         Oportunidades (O)
       </div>
       <div style="line-height:1.45;">
-        • Creciente urgencia por mitigar mermas del fenómeno ENOS.<br>
-        • Lentitud y enfoque reactivo de las alertas estatales (SENASA).<br>
-        • Potencial de alianzas con cooperativas olivareras locales (ej. Tacna).<br>
+        • Creciente urgencia por mitigar mermas del fenómeno ENOS (Calvo et al., 2024; Agencia Andina, 2024).<br>
+        • Lentitud y enfoque reactivo de las alertas estatales (SENASA) (Yglesias-González et al., 2023).<br>
+        • Potencial de alianzas con cooperativas olivareras locales (ej. Tacna)(MIDAGRI, 2025).<br>
         • Competidores globales inaccesibles por altos costos de hardware.<br>
       </div>
     </td>
@@ -1575,10 +1574,10 @@ Análisis competitivo para competidores **indirectos**
         Amenazas (A)
       </div>
       <div style="line-height:1.45;">
-        • Resistencia tecnológica y brecha digital en la agricultura familiar.<br>
+        • Resistencia tecnológica y brecha digital en la agricultura familiar (MIDAGRI, 2025).<br>
         • Limitada conectividad a internet en fundos rurales.<br>
         • Competidores consolidados (xarvio, Agroptima) con alto presupuesto.<br>
-        • Anomalías climáticas impredecibles que desestabilicen algoritmos.<br>
+        • Anomalías climáticas impredecibles que desestabilicen algoritmos (Pino & Ascencios, 2022).<br>
       </div>
     </td>
   </tr>

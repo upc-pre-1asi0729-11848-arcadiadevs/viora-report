@@ -254,7 +254,7 @@ Análisis competitivo para competidores **directos**
       Mercado Objetivo
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
-      Pequeños/medianos productores de olivo y especialistas técnicos en sanidad agrícola del sur del Perú (ej. Tacna).
+      Pequeños/medianos productores de olivo y especialistas técnicos en control de plagas agrícolas del sur del Perú (ej. Tacna).
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       Grandes corporaciones agroindustriales y fundos de cultivos de alto valor que pueden permitirse invertir en infraestructura (hardware).
@@ -422,7 +422,7 @@ Análisis competitivo para competidores **directos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Capturar a la gran masa de agricultores que no pueden pagar el hardware de METOS ni licencias de ERPs europeos.</li>
+          <li>Capturar al mercado olivarero golpeado por anomalías térmicas y olas de calor extremas asociadas al fenómeno ENOS (Andina, 2024) que exige soluciones preventivas de bajo costo.</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
@@ -437,7 +437,7 @@ Análisis competitivo para competidores **directos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Expandir y localizar sus modelos de IA para incluir cultivos regionales específicos y plagas endémicas peruanas.</li>
+          <li>Localizar sus modelos predictivos para plagas peruanas evaluando la severidad mediante índices de vegetación avanzados (Pino-Vargas & Huayna, 2022).</li>
       </ul>
     </td>
   </tr>
@@ -455,7 +455,6 @@ Análisis competitivo para competidores **directos**
       <ul style="margin:0; padding-left:18px;">
           <li>Vandalismo o robo de equipos en zonas rurales de LATAM.</li>
           <li>Llegada de hardware IoT chino de bajo costo.</li>
-          <li>lorem ipsum.</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
@@ -567,7 +566,7 @@ Análisis competitivo para competidores **indirectos**
       Mercado Objetivo
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
-      Pequeños/medianos productores olivareros y especialistas técnicos en sanidad agrícola del sur del Perú (ej. Tacna).
+      Pequeños/medianos productores olivareros y especialistas técnicos en control de plagas agrícolas del sur del Perú (ej. Tacna).
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       Todo el sector agropecuario nacional (productores de todos los rubros, importadores y exportadores).
@@ -740,7 +739,7 @@ Análisis competitivo para competidores **indirectos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Mercado olivarero altamente golpeado por ENOS buscando digitalizarse.</li>
+          <li>Mercado olivarero altamente golpeado por ENOS buscando digitalizarse (Andina, 2024).</li>
           <li>Absorber la lentitud del Estado mediante alertas más rápidas.</li>
       </ul>
     </td>
@@ -751,12 +750,12 @@ Análisis competitivo para competidores **indirectos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Implementar modelos de IA para detectar plagas específicas desde imágenes (aunque muy difícil satelitalmente).</li>
+          <li>Implementar modelos de IA para detectar plagas específicas desde imágenes (Osco-Mamani et al., 2025; Pino-Vargas et al., 2026).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Expandir su alcance hacia cultivos intensivos de menor escala si simplifican su interfaz de usuario.</li>
+          <li>Expandir su alcance hacia cultivos intensivos de menor escala sustentados por la agricultura familiar (MIDAGRI, 2025) si simplifican su interfaz.</li>
       </ul>
     </td>
   </tr>
@@ -767,7 +766,7 @@ Análisis competitivo para competidores **indirectos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Resistencia al cambio tecnológico en la agricultura familiar.</li>
+          <li>Resistencia al cambio tecnológico en la agricultura familiar (MIDAGRI, 2025).</li>
           <li>Limitaciones de conectividad a internet en zonas rurales.</li>
       </ul>
     </td>
@@ -778,7 +777,7 @@ Análisis competitivo para competidores **indirectos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>AgTechs de nicho (como Viora) que ofrezcan un valor mucho más específico y localizado que un simple mapa de colores.</li>
+          <li>AgTechs de nicho (como Viora) que ofrezcan un valor mucho más específico, localizado y adaptado al enfoque climatológico árido (Pino & Ascencios, 2022) que un simple mapa de colores.</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
@@ -883,9 +882,9 @@ Análisis competitivo para competidores **indirectos**
         Oportunidades (O)
       </div>
       <div style="line-height:1.45;">
-        • Creciente urgencia por mitigar mermas del fenómeno ENOS.<br>
-        • Lentitud y enfoque reactivo de las alertas estatales (SENASA).<br>
-        • Potencial de alianzas con cooperativas olivareras locales (ej. Tacna).<br>
+        • Creciente urgencia por mitigar mermas del fenómeno ENOS (Calvo et al., 2024; Agencia Andina, 2024).<br>
+        • Lentitud y enfoque reactivo de las alertas estatales (SENASA) (Yglesias-González et al., 2023).<br>
+        • Potencial de alianzas con cooperativas olivareras locales (ej. Tacna)(MIDAGRI, 2025).<br>
         • Competidores globales inaccesibles por altos costos de hardware.<br>
       </div>
     </td>
@@ -895,10 +894,10 @@ Análisis competitivo para competidores **indirectos**
         Amenazas (A)
       </div>
       <div style="line-height:1.45;">
-        • Resistencia tecnológica y brecha digital en la agricultura familiar.<br>
+        • Resistencia tecnológica y brecha digital en la agricultura familiar (MIDAGRI, 2025).<br>
         • Limitada conectividad a internet en fundos rurales.<br>
         • Competidores consolidados (xarvio, Agroptima) con alto presupuesto.<br>
-        • Anomalías climáticas impredecibles que desestabilicen algoritmos.<br>
+        • Anomalías climáticas impredecibles que desestabilicen algoritmos (Pino & Ascencios, 2022).<br>
       </div>
     </td>
   </tr>
