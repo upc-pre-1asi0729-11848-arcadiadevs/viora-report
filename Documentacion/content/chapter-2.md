@@ -942,61 +942,81 @@ Análisis competitivo para competidores **indirectos**
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
 
-**Entrevista: Productores Agropecuarios**  
-**Objetivo:** Validar si ...
+**Entrevista: Productores Olivareros (Región Sur)**  
+**Objetivo:** Validar los desafíos frente a la variabilidad climática (vecería), medir el nivel de adopción de tecnologías IoT (sensores de campo), y evaluar la disposición del agricultor para integrar sus datos en una plataforma SaaS predictiva que les permita pasar de una gestión reactiva a una proactiva.
 
----
+**1. Contexto**  
 
-**1. Lorem ipsum**  
-*Busca entender cómo ...*
+- Para empezar, ¿cómo es un día normal de trabajo para usted en la gestión de su parcela olivarera?
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- ¿Su producción se destina principalmente a la aceituna de mesa, a la extracción de aceite, o a ambos?
 
----
+- ¿Cuántas hectáreas de cultivo maneja actualmente en su fundo?
 
-**2. Lorem ipsum**
+- ¿Qué herramientas tecnológicas, dispositivos o aplicaciones utiliza actualmente para apoyarse en la gestión diaria de su campo?
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
----
+**2. Exploración del problema**
 
-**3. Lorem ipsum**
+- ¿Cuáles son las mayores frustraciones que enfrenta cuando hay cambios bruscos de clima (como olas de calor) y no se logra la acumulación de frío necesaria?
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - ¿Podría darme un ejemplo de cómo actuó en la última campaña que sucedió esto? ¿Qué fue lo más difícil de gestionar?
 
----
+- ¿Cómo ha impactado el fenómeno de la "vecería" (alternancia productiva) en la estabilidad económica de sus ingresos en las últimas campañas?
 
-**4. Usabilidad y Cierre**  
-*Validación técnica y demográfica.*
+  - ¿Qué medidas toma actualmente para "amortiguar" ese golpe económico en los años malos? ¿Siente que esas medidas son suficientes?
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- Aproximadamente, ¿con qué frecuencia al mes se ve obligado a aplicar agrofármacos en su cultivo para controlar plagas o enfermedades?
 
-**Datos demográficos:**
-- ¿Qué marca y modelo de celular utiliza actualmente?
-- ¿Cuenta con computadora/laptop propia en casa o todo lo realiza desde el celular?
-- Edad aproximada.
-- Distrito/Región.
-- Lorem ipsum.
-- Lorem ipsum.
+- Actualmente, para decidir cuándo regar o aplicar productos, ¿cómo determina el nivel de humedad, temperatura o nutrientes del suelo? ¿Se basa en la experiencia visual, calendarios fijos, o utiliza algún tipo de instrumento físico?
 
-<div style="page-break-before: always;"></div>
+  - ¿Estos equipos le envían datos al celular o debe ir físicamente? ¿Qué tan fácil o difícil le resulta interpretar esos datos por su cuenta?
 
-**Entrevista: Jóvenes y Estudiantes Rurales**  
-**Objetivo:** Validar si el aprendizaje mediante simuladores (gamificación) reduce la brecha entre la “teoría aburrida” y la práctica real, y si lo ven como una herramienta para profesionalizar su futuro.
+- Cuando nota que un porcentaje de sus plantas empieza a mostrar signos de marchitez o enfermedad, ¿cuál es el proceso exacto que sigue para conseguir ayuda técnica o un diagnóstico?
 
----
+  - Piense en la última vez que tuvo una plaga grave, ¿cuánto tiempo pasó desde que lo notó hasta que un especialista aplicó una solución? ¿Por qué cree que tomó ese tiempo?
+
+**3. Reacción a la solución propuesta**
+
+- ¿Qué tan útil le resultaría tener una aplicación web adaptable, a la que pueda acceder directamente desde el navegador de su celular o computadora, que le envíe alertas tempranas sobre el riesgo de plagas basándose en el clima y el suelo de su parcela?
+
+  - Si la web le diera una alerta roja de plaga inminente hoy, ¿cuál sería el primer paso que daría usted?
+
+- Si esta plataforma web le pudiera predecir con meses de anticipación el impacto de la vecería en su próxima cosecha, ¿cómo cambiaría eso su forma de invertir y planificar?
+
+- (Si no usan tecnología IoT en la actualidad): ¿Qué tan dispuesto estaría a invertir en sensores de suelo básicos de otras marcas si supiera que nuestra aplicación web puede leer esos datos automáticamente y decirle exactamente qué agrofármaco necesita su cultivo?
+
+  - ¿Qué barreras o miedos le frenarían para hacer esa compra hoy mismo?
+
+- Si tuviera dispositivos de medición instalados, ¿estaría de acuerdo en otorgar permisos para que una plataforma en la nube recolecte esa información en tiempo real para generar sus alertas de prevención?
+
+- ¿Estaría dispuesto a utilizar una función dentro de la página web que, al detectar una alerta en su campo, lo conecte directamente con un ingeniero agrónomo especialista disponible en su zona?
+
+  - ¿Qué le generaría más confianza: elegir al especialista usted mismo de una lista, o que la plataforma le asigne al más cercano automáticamente?
+
+- Para que usted decida ingresar a esta web todos los días, ¿qué característica o información cree que no le debería faltar bajo ninguna circunstancia?
+
+**4. Cierre y datos demográficos**  
+
+- Para terminar, y solo para fines estadísticos de nuestra investigación, ¿le importaría compartir algunos datos?
+
+- ¿En qué rango de edad se encuentra?
+
+- ¿Cuál es su distrito o zona de residencia exacta?
+
+- ¿Cuál es su estado civil y cómo está conformada su familia?
+
+- Además de la agricultura, ¿tiene alguna otra ocupación principal?
+
+- ¿Qué marca y modelo de celular utiliza y desde qué dispositivo prefiere conectarse a internet (celular, laptop, tablet)?
+
+- ¿Qué redes sociales o canales digitales utiliza con mayor frecuencia para comunicarse o informarse sobre su sector?
+
+<br>
+
+**Entrevista: Profesionales Especializados en Sanidad Agrícola**  
+**Objetivo:** Entender sus fricciones en la prospección y diagnóstico, y validar la viabilidad de un ecosistema web integral (SaaS) que cruce su disponibilidad técnica con alertas tempranas de plagas y modelos predictivos de clima/vecería basados en sensores IoT.
+
 
 **1. Lorem ipsum**  
 *Busca entender cómo ...*
