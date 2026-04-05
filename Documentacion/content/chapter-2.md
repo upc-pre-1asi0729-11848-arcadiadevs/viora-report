@@ -942,7 +942,7 @@ Análisis competitivo para competidores **indirectos**
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
 
-**Entrevista: Productores olivareros de la región sur**  
+**Segmento: Productores olivareros de la región sur**  
 **Objetivo:** Validar los desafíos operativos y económicos frente a la variabilidad climática (vecería), evaluar el nivel de confianza del agricultor en diagnósticos basados en análisis satelital y pronósticos climáticos (sin uso de hardware físico), y medir su disposición para registrar su historial de campo en una plataforma SaaS predictiva que le permita transitar de una gestión empírico-reactiva a una proactiva basada en datos.
 
 **1. Contexto**  
@@ -1012,7 +1012,7 @@ Análisis competitivo para competidores **indirectos**
 
 <br>
 
-**Entrevista: Profesionales especializados en control de plagas agrícolas**  
+**Segmento: Profesionales especializados en control de plagas agrícolas**  
 **Objetivo:** Validar las fricciones en la prospección comercial y tiempos de respuesta del especialista, evaluar su confianza en diagnósticos preliminares remotos (basados en índices satelitales y pronósticos climáticos), y medir su disposición para afiliarse a un marketplace B2B que le notifique sobre parcelas en riesgo para ofrecer intervenciones tempranas y proactivas.
 
 **1. Contexto**  
