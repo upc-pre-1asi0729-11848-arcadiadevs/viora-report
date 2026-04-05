@@ -92,7 +92,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
       </p>
     </td>
     <td style="width:220px; padding:14px 16px; vertical-align:top;">
-      <img src="../assets/integrantes/Santi.png" alt="Foto del integrante Santi Fabrizio"
+      <img src="../assets/integrantes/santi.png" alt="Foto del integrante Santi Fabrizio"
            style="width:220px; height:260px; object-fit:cover; display:block; border-radius:6px;" />
     </td>
   </tr>
