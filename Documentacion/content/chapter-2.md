@@ -1010,58 +1010,75 @@ Análisis competitivo para competidores **indirectos**
 
 - ¿Qué marca y modelo de celular utiliza y desde qué dispositivo prefiere conectarse a internet (celular, laptop, tablet)?
 
-- ¿Qué redes sociales o canales digitales utiliza con mayor frecuencia para comunicarse o informarse sobre su sector?
-
 <br>
 
-**Entrevista: Profesionales Especializados en Sanidad Agrícola**  
-**Objetivo:** Entender sus fricciones en la prospección y diagnóstico, y validar la viabilidad de un ecosistema web integral (SaaS) que cruce su disponibilidad técnica con alertas tempranas de plagas y modelos predictivos de clima/vecería basados en sensores IoT.
+**Entrevista: Profesionales especializados en control de plagas agrícolas**  
+**Objetivo:** Validar las fricciones en la prospección comercial y tiempos de respuesta del especialista, evaluar su confianza en diagnósticos preliminares remotos (basados en índices satelitales y pronósticos climáticos), y medir su disposición para afiliarse a un marketplace B2B que le notifique sobre parcelas en riesgo para ofrecer intervenciones tempranas y proactivas.
 
+**1. Contexto**  
 
-**1. Lorem ipsum**  
-*Busca entender cómo ...*
+- Para empezar, ¿cómo describiría brevemente los pasos que sigue en un día normal cuando realiza labores de monitoreo?
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- ¿Qué herramientas tecnológicas utiliza actualmente en su día a día? (software de mapeo, visores satelitales, apps meteorológicas, Excel, ninguna).
 
----
+  - Si usa alguna: ¿Cuál es la que más valor le aporta y por qué? 
+  - Si no usa: ¿A qué se debe (costo, complejidad, falta de necesidad)?
 
-**2. Lorem ipsum**
+- En promedio exacto, ¿cuántos fundos o clientes distintos logra asesorar durante un mes de campaña activa?
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - ¿Considera que esta cantidad está al límite de su capacidad operativa, o tendría tiempo para atender a más clientes si le llegaran de forma automática?
 
----
+- ¿Cuáles son las 2 o 3 variables edafológicas o ambientales que usted considera críticas al evaluar el riesgo fitosanitario de una parcela?
 
-**3. Lorem ipsum**
+**2. Exploración del problema**
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- Actualmente, ¿cuál es su principal canal para captar nuevos clientes? (EBoca a boca, redes sociales, derivaciones de empresas, puerta a puerta, otro).
 
----
+  - ¿Qué tan satisfecho está con este canal del 1 al 10? ¿Cuáles son los cuellos de botella que enfrenta al tratar de conseguir nuevos fundos para asesorar?
 
-**4. Lorem ipsum**  
+- ¿Suele suceder que el agricultor lo contacta cuando la plaga o enfermedad (ej. Xylella fastidiosa) ya está en una etapa muy avanzada? (Sí / No).
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - Si responde Sí: ¿De qué manera impacta esto en su tasa de éxito y en su prestigio profesional?
 
-**5. Cierre y Datos Demográficos**  
-*Para terminar, solo para clasificar tus respuestas:*
+- Del 1 al 5 (donde 1 es muy fácil y 5 es muy complejo), ¿qué tan complejo le resulta recopilar información del clima y vigor del cultivo antes de visitar la parcela físicamente?
 
-- ¿Qué marca y modelo de celular utiliza actualmente?
-- ¿Cuentas con computadora/laptop propia en casa o todo lo realizas desde el celular?
-- Edad.
-- Nivel de estudios (Secundaria / Técnico / Universitario).
-- ¿Tienes acceso a un smartphone propio?
-- Distrito de residencia.
+  - ¿Cuál es el dato específico que más tiempo le toma conseguir o cruzar?
+
+- Cuando necesita actualizarse sobre nuevos brotes epidemiológicos en la macro-región sur, ¿a qué instituciones o fuentes recurre principalmente?
+
+- ¿Qué tan complejo o demandante le resulta recopilar y cruzar manualmente la información del clima y el vigor del cultivo a distancia para emitir un diagnóstico preciso antes de visitar la parcela?
+
+**3. Reacción a la solución propuesta**
+
+- ¿Qué tan útil le parecería una plataforma digital que cruce datos de índices de vegetación (satélite) e historial térmico para enviarle alertas tempranas sobre parcelas específicas con alto riesgo de infección en su zona?
+
+- Si el sistema le permitiera visualizar estas alertas y ofrecer sus servicios de intervención proactiva directamente al productor afectado a través de la misma aplicación, ¿cómo integraría esto en su modelo de negocio actual?
+
+- ¿Qué ventajas o barreras percibe en un modelo donde la tecnología actúa como un "puente" automático entre un fundo en riesgo detectado satelitalmente y su perfil profesional?
+
+- Para que usted confíe plenamente en las alertas generadas por la plataforma y no las considere "falsos positivos", ¿qué nivel de precisión técnica y qué datos de respaldo necesitaría ver en su pantalla?
+
+- ¿Qué tipo de historial de trazabilidad de la parcela (riegos, fertilizaciones previas) consideraría indispensable que el agricultor haya registrado en la aplicación web antes de que usted recete un plan de nutrición dinámica o el uso de agrofármacos?
+
+- Para tener una idea de la rentabilidad actual, ¿cuál es el rango de ingreso promedio que suele percibir por una consultoría técnica o intervención fitosanitaria en la región?
+
+- ¿Estaría dispuesto a pagar una suscripción si esta aplicación web le asegura un flujo constante de clientes perfilados y optimiza sus tiempos de diagnóstico?
+
+**4. Cierre y datos demográficos**  
+
+- Para terminar, y solo para fines estadísticos de nuestra investigación, ¿le importaría compartir algunos datos?
+
+- ¿En qué rango de edad se encuentra?
+
+- ¿Cuál es su distrito de residencia exacto o zona principal de operación?
+
+- ¿Cuál es su estado civil y cómo está conformada su familia?
+
+- Además de la asesoría técnica o fitosanitaria, ¿tiene alguna otra ocupación principal?
+
+- ¿Cuántos años de experiencia tiene trabajando en el sector agropecuario y cuál es su grado de estudios o especialización técnica?
+
+- ¿Qué marca y modelo de celular utiliza y desde qué dispositivo prefiere conectarse a internet para trabajar (celular, laptop, tablet)?
 
 <div style="page-break-before: always;"></div>
 
