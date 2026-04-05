@@ -422,22 +422,22 @@ Análisis competitivo para competidores **directos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Capturar al mercado olivarero golpeado por anomalías térmicas y olas de calor extremas asociadas al fenómeno ENOS (Andina, 2024) que exige soluciones preventivas de bajo costo.</li>
+          <li>Capturar al mercado olivarero golpeado por anomalías térmicas y olas de calor extremas asociadas al fenómeno ENOS, que exige soluciones preventivas de bajo costo (Andina, 2024; Yglesias-González et al., 2023; Calvo et al., 2024).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Integrar sus APIs con startups locales (SaaS) para vender el acceso a sus datos climáticos.</li>
+          <li>Integrar sus APIs con startups locales (SaaS) para vender el acceso a sus datos climáticos (Yglesias-González et al., 2023; Pino & Ascencios, 2022).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Desarrollar sus propios módulos predictivos de plagas para complementar su cuaderno de campo.</li>
+          <li>Desarrollar sus propios módulos predictivos de plagas para complementar su cuaderno de campo (SENASA, 2024; Osco-Mamani et al., 2025).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Localizar sus modelos predictivos para plagas peruanas evaluando la severidad mediante índices de vegetación avanzados (Pino-Vargas & Huayna, 2022).</li>
+          <li>Localizar sus modelos predictivos para plagas peruanas evaluando la severidad mediante índices de vegetación avanzados (Pino-Vargas & Huayna, 2022; Pino-Vargas et al., 2026).</li>
       </ul>
     </td>
   </tr>
@@ -448,23 +448,23 @@ Análisis competitivo para competidores **directos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Competidores gigantes desarrollando módulos específicos para el olivo o integrando marketplaces en sus sistemas.</li>
+          <li>Competidores gigantes desarrollando módulos específicos para el olivo o integrando marketplaces en sus sistemas, atraídos por el crecimiento y la volatilidad reciente del sector (MIDAGRI, 2025; Andina, 2024).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Vandalismo o robo de equipos en zonas rurales de LATAM.</li>
-          <li>Llegada de hardware IoT chino de bajo costo.</li>
+          <li>Vandalismo, uso irregular o vulnerabilidad de infraestructura y recursos en zonas rurales (Contraloría General de la República, 2023).</li>
+          <li>Llegada de hardware IoT de bajo costo que reduzca las barreras de entrada para nuevos actores tecnológicos (Pino-Vargas et al., 2026).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Aparición de soluciones locales más económicas y adaptadas a la normativa tributaria y agrícola específica de Perú.</li>
+          <li>Aparición de soluciones locales más económicas y adaptadas a la normativa tributaria y agrícola específica de Perú (Casanova Núñez-Melgar, 2022; MIDAGRI, 2025).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Desconfianza del agricultor al ser "juez y parte" (un software de una empresa química recomendando aplicar químicos).</li>
+          <li>Desconfianza del agricultor al ser “juez y parte” un software de una empresa química recomendando aplicar químicos (Pino & Ascencios, 2022; SENASA, 2024).</li>
       </ul>
     </td>
   </tr>
@@ -739,13 +739,13 @@ Análisis competitivo para competidores **indirectos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Mercado olivarero altamente golpeado por ENOS buscando digitalizarse (Andina, 2024).</li>
-          <li>Absorber la lentitud del Estado mediante alertas más rápidas.</li>
+          <li>Mercado olivarero altamente golpeado por ENOS buscando digitalizarse (Andina, 2024; Yglesias-González et al., 2023).</li>
+          <li>Absorber la lentitud del Estado mediante alertas más rápidas frente a brotes fitosanitarios (SENASA, 2024; SENASA, 2025).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Colaborar con startups AgTech (como Viora) para masificar sus protocolos oficiales de contención.</li>
+          <li>Colaborar con startups AgTech (como Viora) para masificar sus protocolos oficiales de contención (SENASA, 2024; SENASA, 2025).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
@@ -755,7 +755,7 @@ Análisis competitivo para competidores **indirectos**
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Expandir su alcance hacia cultivos intensivos de menor escala sustentados por la agricultura familiar (MIDAGRI, 2025) si simplifican su interfaz.</li>
+          <li>Expandir su alcance hacia cultivos intensivos de menor escala sustentados por la agricultura familiar si simplifican su interfaz (MIDAGRI, 2025).</li>
       </ul>
     </td>
   </tr>
@@ -767,22 +767,22 @@ Análisis competitivo para competidores **indirectos**
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
           <li>Resistencia al cambio tecnológico en la agricultura familiar (MIDAGRI, 2025).</li>
-          <li>Limitaciones de conectividad a internet en zonas rurales.</li>
+          <li>Limitaciones de conectividad a internet en zonas rurales (Casanova Núñez-Melgar, 2022).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Recortes de presupuesto estatal que limiten su capacidad de monitoreo presencial ante nuevos brotes.</li>
+          <li>Recortes o limitaciones de capacidad operativa estatal que reduzcan el monitoreo presencial ante nuevos brotes (SENASA, 2024; SENASA, 2025).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>AgTechs de nicho (como Viora) que ofrezcan un valor mucho más específico, localizado y adaptado al enfoque climatológico árido (Pino & Ascencios, 2022) que un simple mapa de colores.</li>
+          <li>AgTechs de nicho (como Viora) que ofrezcan un valor mucho más específico, localizado y adaptado al enfoque climatológico árido que un simple mapa de colores (Pino & Ascencios, 2022; Andina, 2024).</li>
       </ul>
     </td>
     <td style="border:1px solid #000; padding:12px; vertical-align:top;">
       <ul style="margin:0; padding-left:18px;">
-          <li>Plataformas gratuitas (como OneSoil) que eduquen al usuario base y le quiten mercado en la base de la pirámide.</li>
+          <li>Plataformas gratuitas (como OneSoil) que eduquen al usuario base y le quiten mercado en la base de la pirámide (MIDAGRI, 2025).</li>
       </ul>
     </td>
   </tr>
@@ -882,10 +882,10 @@ Análisis competitivo para competidores **indirectos**
         Oportunidades (O)
       </div>
       <div style="line-height:1.45;">
-        • Creciente urgencia por mitigar mermas del fenómeno ENOS (Calvo et al., 2024; Agencia Andina, 2024).<br>
-        • Lentitud y enfoque reactivo de las alertas estatales (SENASA) (Yglesias-González et al., 2023).<br>
-        • Potencial de alianzas con cooperativas olivareras locales (ej. Tacna)(MIDAGRI, 2025).<br>
-        • Competidores globales inaccesibles por altos costos de hardware.<br>
+        • Creciente urgencia por mitigar mermas asociadas al fenómeno ENOS y a la variabilidad climática en el cultivo de olivo (Calvo et al., 2024; Agencia Andina, 2024).<br>
+        • Lentitud y enfoque reactivo de las alertas estatales frente a eventos climáticos y sanitarios, lo que abre espacio para soluciones preventivas más ágiles (Yglesias-González et al., 2023; Servicio Nacional de Sanidad Agraria del Perú, 2024).<br>
+        • Potencial de alianzas con cooperativas y actores olivareros locales, dada la necesidad de fortalecer la resiliencia productiva y la gestión técnica del cultivo en Tacna(MIDAGRI, 2025).<br>
+        • Competidores globales relativamente inaccesibles para pequeños productores debido a los requerimientos de analítica avanzada, teledetección e infraestructura tecnológica especializada (Pino-Vargas et al., 2026; Osco-Mamani et al., 2025).<br>
       </div>
     </td>
     <!-- Amenazas -->
@@ -895,9 +895,9 @@ Análisis competitivo para competidores **indirectos**
       </div>
       <div style="line-height:1.45;">
         • Resistencia tecnológica y brecha digital en la agricultura familiar (MIDAGRI, 2025).<br>
-        • Limitada conectividad a internet en fundos rurales.<br>
-        • Competidores consolidados (xarvio, Agroptima) con alto presupuesto.<br>
-        • Anomalías climáticas impredecibles que desestabilicen algoritmos (Pino & Ascencios, 2022).<br>
+        • Limitada conectividad a internet y restricciones operativas en fundos rurales, lo que puede afectar el uso continuo de soluciones digitales en campo (Casanova Núñez-Melgar, 2022).<br>
+        • Competidores consolidados como xarvio o Agroptima con mayor capacidad de inversión, expansión e integración tecnológica en mercados agrícolas digitalizados (Ministerio de Desarrollo Agrario y Riego, 2025).<br>
+        • Anomalías climáticas impredecibles que desestabilicen algoritmos (Pino & Ascencios, 2022; Calvo et al., 2024).<br>
       </div>
     </td>
   </tr>
