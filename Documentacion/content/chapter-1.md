@@ -88,7 +88,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
       <div style="font-size:16px; font-weight:700; margin:2px 0 10px 0;">(U202411774)</div>
       <p style="margin:0; line-height:1.45; text-align:justify;">
         Soy Fabrizio Santi Guerrero, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y CPO de Viora. Soy desarrollador enfocado en el backend y arquitectura de software. A nivel técnico, tengo conocimientos de SQL, C++, Python, JavaScript, librerías de Ciencia de Datos y conocimientos Full-Stack. Entre mis fortalezas se puede encontrar la perseverancia, pleno esfuerzo y la disciplina.
-        En ArcadiaDevs planificaré la arquitectura y estructura técnica del proyecto. También, colocaboraré con vigilar el flujo de coordinación del gurpo, y apoyar con respecto a la presentación e investigación de datos.
+        En ArcadiaDevs planificaré la arquitectura y estructura técnica del proyecto. También, colocaboraré con vigilar el flujo de coordinación del grupo, y apoyar con respecto a la presentación e investigación de datos.
       </p>
     </td>
     <td style="width:220px; padding:14px 16px; vertical-align:top;">
