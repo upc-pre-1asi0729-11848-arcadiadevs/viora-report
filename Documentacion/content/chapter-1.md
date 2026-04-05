@@ -419,7 +419,7 @@ Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de resp
 
 - Lograr que al menos el 40% de los usuarios activos utilicen el motor predictivo para ajustar sus planes de inversión o poda antes del cierre del primer trimestre.
 
-- Alcanzar una adopción temprana de 150 productores y 30 especialistas de sanidad agrícola activos e interactuando en la plataforma en los primeros 4 meses de lanzamiento.
+- Alcanzar una adopción temprana de 150 productores y 30 profesionales especializados en control de plagas agrícola e interactuando en la plataforma en los primeros 4 meses de lanzamiento.
 
 - Lograr que al menos el 35% de los usuarios que inician el periodo de prueba (***trial***) se conviertan en suscriptores recurrentes de pago dentro de los primeros 3 meses de operación, validando que la garantía de devolución y el modelo de afiliados eliminan la fricción inicial.
 
