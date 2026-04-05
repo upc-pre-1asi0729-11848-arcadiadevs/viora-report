@@ -17,7 +17,7 @@ En el logotipo, el zorro simboliza **ingenio y agilidad**; su cola en forma de t
 
 <p class="subtitulo">Quiénes somos</p>
 
-Somos un equipo de ingeniería y diseño que convierte datos complejos en decisiones simples y rentables para el sector agroindustrial. Actualmente impulsamos Viora, una plataforma SaaS B2B especializada en la gestión inteligente del ciclo de producción de aceitunas. Nuestro enfoque combina el monitoreo de variables de suelo y clima para emitir alertas epidemiológicas tempranas, brindando a los productores recomendaciones precisas y conectándolos directamente con profesionales especializados en sanidad agrícola.
+Somos un equipo de ingeniería y diseño que convierte datos complejos en decisiones simples y rentables para el sector agroindustrial. Actualmente impulsamos Viora, una plataforma SaaS B2B especializada en la gestión inteligente del ciclo de producción de aceitunas. Nuestro enfoque combina el monitoreo de variables de suelo y clima para emitir alertas epidemiológicas tempranas, brindando a los productores recomendaciones precisas y conectándolos directamente con profesionales especializados en control de plagas agrícolas.
 
 <table style="width:100%; border-collapse:separate; border-spacing:0; background:#fbf0f2; border-radius:12px; margin:22px 0 14px 0;">
   <tr>
@@ -88,7 +88,7 @@ Somos un equipo de ingeniería y diseño que convierte datos complejos en decisi
       <div style="font-size:16px; font-weight:700; margin:2px 0 10px 0;">(U202411774)</div>
       <p style="margin:0; line-height:1.45; text-align:justify;">
         Soy Fabrizio Santi Guerrero, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y CPO de Viora. Soy desarrollador enfocado en el backend y arquitectura de software. A nivel técnico, tengo conocimientos de SQL, C++, Python, JavaScript, librerías de Ciencia de Datos y conocimientos Full-Stack. Entre mis fortalezas se puede encontrar la perseverancia, pleno esfuerzo y la disciplina.
-        En ArcadiaDevs planificaré la arquitectura y estructura técnica del proyecto. También, colocaboraré con vigilar el flujo de coordinación del gurpo, y apoyar con respecto a la presentación e investigación de datos.
+        En ArcadiaDevs planificaré la arquitectura y estructura técnica del proyecto. También, colocaboraré con vigilar el flujo de coordinación del grupo, y apoyar con respecto a la presentación e investigación de datos.
       </p>
     </td>
     <td style="width:220px; padding:14px 16px; vertical-align:top;">
@@ -305,7 +305,7 @@ El problema central radica en la alta vulnerabilidad sistémica del ciclo de pro
 <p class="subtitulo-2"><strong>Who (Quién)</strong></p>
 <p class="subtitulo-2">¿Quiénes son los usuarios?</p>
 
-Los principales afectados son los productores agropecuarios y las instituciones ligadas a la cadena de valor del olivo, segmento que abarca desde pequeños agricultores y cooperativas hasta grandes empresas de producción tecnificada orientadas a la comercialización de la aceituna de mesa y la extracción de aceite (Andina, 2024). Asimismo, el problema impacta directamente a los profesionales y técnicos especializados en sanidad agrícola y control de plagas, quienes carecen de plataformas digitales integradas que les permitan conectar sus servicios de diagnóstico e intervención temprana con los productores afectados en el momento exacto en que los índices de vegetación o los factores edafológicos sugieren un riesgo inminente (Pino y Huayna, 2022).
+Los principales afectados son los productores agropecuarios y las instituciones ligadas a la cadena de valor del olivo, segmento que abarca desde pequeños agricultores y cooperativas hasta grandes empresas de producción tecnificada orientadas a la comercialización de la aceituna de mesa y la extracción de aceite (Andina, 2024). Asimismo, el problema impacta directamente a los profesionales y técnicos especializados en control de plagas agrícolas, quienes carecen de plataformas digitales integradas que les permitan conectar sus servicios de diagnóstico e intervención temprana con los productores afectados en el momento exacto en que los índices de vegetación o los factores edafológicos sugieren un riesgo inminente (Pino y Huayna, 2022).
 
 - **Productores olivareros:** Este grupo comprende a los gestores de parcelas que enfrentan una vulnerabilidad crítica ante la variabilidad climática, la cual altera los ciclos de acumulación de frío necesarios para la productividad (Calvo et al., 2024). Su principal dolor es la falta de predictibilidad sobre el fenómeno de la vecería, lo que puede derivar en pérdidas de cosecha de hasta el 90% y una desestabilización económica severa si no se cuenta con datos para una gestión proactiva (Andina, 2024).
 
@@ -344,7 +344,7 @@ La magnitud del problema se refleja en indicadores económicos y productivos sum
 
 <p class="subtitulo"><strong>Enunciado del problema (Problem Statement)</strong></p>
 
-Los productores olivareros y especialistas en sanidad agrícola enfrentan una alta vulnerabilidad ante la variabilidad climática extrema y plagas cuarentenarias debido a la carencia de herramientas tecnológicas preventivas y una gestión puramente reactiva. Esta falta de anticipación impide monitorear eficazmente alteraciones fenológicas como la vecería y la propagación de patógenos letales, lo que resulta en pérdidas productivas de hasta el 90% y pone en riesgo la rentabilidad y el patrimonio agrícola del sector.
+Los productores olivareros y especialistas en control de plagas agrícolas enfrentan una alta vulnerabilidad ante la variabilidad climática extrema y plagas cuarentenarias debido a la carencia de herramientas tecnológicas preventivas y una gestión puramente reactiva. Esta falta de anticipación impide monitorear eficazmente alteraciones fenológicas como la vecería y la propagación de patógenos letales, lo que resulta en pérdidas productivas de hasta el 90% y pone en riesgo la rentabilidad y el patrimonio agrícola del sector.
 
 ---
 
@@ -361,7 +361,7 @@ Los productores olivareros y especialistas en sanidad agrícola enfrentan una al
 - **Maximizar la previsibilidad de la cosecha:** Lograr que al menos el 40% de los usuarios activos utilicen el motor predictivo para ajustar sus planes de inversión y nutrición antes del cierre del primer trimestre de operación.
 - **Fortalecer la red de respuesta ante plagas:** Firmar al menos 3 convenios de colaboración con asociaciones agrarias o consultoras fitosanitarias para el intercambio de datos en un plazo de 6 meses tras el lanzamiento.
 - **Asegurar la eficiencia en la comunicación técnica:** Garantizar que las alertas epidemiológicas lleguen a los especialistas y productores en menos de 10 minutos tras la detección de una anomalía térmica, métrica que será auditada mensualmente durante el primer semestre.
-- **Consolidar una base de usuarios especializada:** Alcanzar una meta de 150 productores registrados y 30 profesionales de sanidad agrícola interactuando en la plataforma en un periodo máximo de 4 meses.
+- **Consolidar una base de usuarios especializada:** Alcanzar una meta de 150 productores registrados y 30 profesionales de control de plagas agrícolas interactuando en la plataforma en un periodo máximo de 4 meses.
 - **Asegurar la eficiencia en la comunicación técnica:** Mantener un registro de 0 brechas de seguridad en el manejo de información sensible de las parcelas, con reportes de cumplimiento técnico emitidos cada trimestre.
 
 ---
@@ -588,7 +588,7 @@ A continuación, se detallan las matrices de organización de datos para el dise
   </tbody>
 </table>
 
-**B. Matriz Estadística: Segmento 2 - Profesionales Especializados en Sanidad Agrícola**
+**B. Matriz Estadística: Segmento 2 - Profesionales Especializados en Control de Plagas Agrícolas**
 
 <table style="width:100%; border-collapse:collapse; border:1px solid #000; margin:20px 0; font-family: sans-serif;">
   <thead>
@@ -615,7 +615,7 @@ A continuación, se detallan las matrices de organización de datos para el dise
         Muestra (n)
       </td>
       <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify;">
-        Subconjunto no probabilístico de 3 a 5 profesionales en sanidad agrícola.
+        Subconjunto no probabilístico de 3 a 5 profesionales en control de plagas agrícolas.
       </td>
       <td style="padding: 15px; border: 1px solid #000; color: #000; vertical-align: top; text-align: justify; line-height: 1.5;">
         Es el segmento experto al que se le aplicará la entrevista para validar la viabilidad del canal de prospección y <i>marketplace</i> de la plataforma.
