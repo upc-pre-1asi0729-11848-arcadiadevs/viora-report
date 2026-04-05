@@ -942,8 +942,8 @@ Análisis competitivo para competidores **indirectos**
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
 
-**Entrevista: Productores Olivareros (Región Sur)**  
-**Objetivo:** Validar los desafíos frente a la variabilidad climática (vecería), medir el nivel de adopción de tecnologías IoT (sensores de campo), y evaluar la disposición del agricultor para integrar sus datos en una plataforma SaaS predictiva que les permita pasar de una gestión reactiva a una proactiva.
+**Entrevista: Productores olivareros de la región sur**  
+**Objetivo:** Validar los desafíos operativos y económicos frente a la variabilidad climática (vecería), evaluar el nivel de confianza del agricultor en diagnósticos basados en análisis satelital y pronósticos climáticos (sin uso de hardware físico), y medir su disposición para registrar su historial de campo en una plataforma SaaS predictiva que le permita transitar de una gestión empírico-reactiva a una proactiva basada en datos.
 
 **1. Contexto**  
 
@@ -968,9 +968,9 @@ Análisis competitivo para competidores **indirectos**
 
 - Aproximadamente, ¿con qué frecuencia al mes se ve obligado a aplicar agrofármacos en su cultivo para controlar plagas o enfermedades?
 
-- Actualmente, para decidir cuándo regar o aplicar productos, ¿cómo determina el nivel de humedad, temperatura o nutrientes del suelo? ¿Se basa en la experiencia visual, calendarios fijos, o utiliza algún tipo de instrumento físico?
+- Actualmente, ¿realiza análisis de suelo de laboratorio tradicionales o cómo decide qué tipo y cantidad de nutrientes/fertilizantes aplicar en cada etapa de la campaña?
 
-  - ¿Estos equipos le envían datos al celular o debe ir físicamente? ¿Qué tan fácil o difícil le resulta interpretar esos datos por su cuenta?
+  - ¿Suele seguir un calendario de fertilización fijo cada año, o lo ajusta dependiendo de cómo se comporta el clima y la planta?
 
 - Cuando nota que un porcentaje de sus plantas empieza a mostrar signos de marchitez o enfermedad, ¿cuál es el proceso exacto que sigue para conseguir ayuda técnica o un diagnóstico?
 
@@ -978,17 +978,17 @@ Análisis competitivo para competidores **indirectos**
 
 **3. Reacción a la solución propuesta**
 
-- ¿Qué tan útil le resultaría tener una aplicación web adaptable, a la que pueda acceder directamente desde el navegador de su celular o computadora, que le envíe alertas tempranas sobre el riesgo de plagas basándose en el clima y el suelo de su parcela?
+- ¿Qué tan útil le resultaría tener una aplicación web adaptable, a la que pueda acceder directamente desde el navegador de su celular o computadora, que le envíe alertas tempranas sobre el riesgo de plagas basándose en los pronósticos del clima y el análisis satelital de su parcela?
 
   - Si la web le diera una alerta roja de plaga inminente hoy, ¿cuál sería el primer paso que daría usted?
 
 - Si esta plataforma web le pudiera predecir con meses de anticipación el impacto de la vecería en su próxima cosecha, ¿cómo cambiaría eso su forma de invertir y planificar?
 
-- (Si no usan tecnología IoT en la actualidad): ¿Qué tan dispuesto estaría a invertir en sensores de suelo básicos de otras marcas si supiera que nuestra aplicación web puede leer esos datos automáticamente y decirle exactamente qué agrofármaco necesita su cultivo?
+- Si nuestra aplicación web pudiera decirle exactamente qué agrofármaco o nutriente necesita su cultivo analizando únicamente imágenes de satélite y datos del clima, sin que usted tenga que comprar ni instalar ningún equipo físico, ¿qué tanta confianza le tendría a esta información?
 
-  - ¿Qué barreras o miedos le frenarían para hacer esa compra hoy mismo?
+  - ¿Qué dudas o miedos le generarían depender de este tipo de tecnología 'satelital' a distancia en lugar del ojo clínico tradicional o de las mediciones físicas en campo?
 
-- Si tuviera dispositivos de medición instalados, ¿estaría de acuerdo en otorgar permisos para que una plataforma en la nube recolecte esa información en tiempo real para generar sus alertas de prevención?
+- Para que estas alertas virtuales sean 100% precisas, el sistema necesitaría que usted registre manualmente un pequeño historial, como las fechas de sus últimas fertilizaciones o cuándo sufrió vecería. ¿Estaría dispuesto a invertir tiempo ingresando estos datos en la página web a cambio de recibir recomendaciones exactas?
 
 - ¿Estaría dispuesto a utilizar una función dentro de la página web que, al detectar una alerta en su campo, lo conecte directamente con un ingeniero agrónomo especialista disponible en su zona?
 
