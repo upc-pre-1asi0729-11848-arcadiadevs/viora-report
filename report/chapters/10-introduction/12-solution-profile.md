@@ -248,13 +248,15 @@ Creemos que nuestros clientes necesitan mayor previsibilidad y capacidad de resp
 
 #### Lean UX Hypothesis Statements
 
-- **Creemos que** implementar un rastreador de horas de frío y un motor predictivo de vecería para los productores olivareros de Tacna logrará reducir la incertidumbre económica y anticipar el riesgo productivo frente a anomalías térmicas como el fenómeno ENOS. **Sabremos que** hemos tenido éxito **cuando** al menos el 40% de los usuarios activos utilicen el motor predictivo para ajustar sus planes de inversión o poda antes del cierre del primer trimestre.
+- **Creemos que lograremos** que al menos el 40% de los usuarios ajusten su inversión o poda antes del cierre del trimestre, **si** los productores olivareros de la región sur **alcanzan** la reducción de la incertidumbre económica mediante predicciones climáticas, con un motor predictivo de vecería basado en datos históricos.
 
-- **Creemos que** proveer un sistema de alertas epidemiológicas tempranas junto con recomendaciones locales de agrofármacos para los profesionales en sanidad y productores olivareros agilizará la contención de plagas cuarentenarias (como la Xylella fastidiosa) y mejorará la toma de decisiones en campo. **Sabremos que** hemos tenido éxito **cuando** alcancemos una adopción temprana de 150 productores y 30 especialistas activos interactuando en la plataforma en los primeros 4 meses.
+- **Creemos que lograremos** una adopción temprana de 150 productores y 30 especialistas en 4 meses, **si** los ingenieros y técnicos en control de plagas **alcanzan** una gestión ágil y oportuna ante crisis fitosanitarias, con un sistema de alertas tempranas en tiempo real sobre riesgos de plagas.
 
-- **Creemos que** ofrecer un dashboard centralizado de finca con datos procesados de clima, suelo y sanidad para las empresas agroindustriales y gestores de parcelas optimizará su gestión operativa y facilitará la estabilización de sus volúmenes de cosecha. **Sabremos que** hemos tenido éxito **cuando** logremos firmar al menos 3 convenios de colaboración con asociaciones agrarias o consultoras fitosanitarias para el intercambio de datos en un plazo de 6 meses.
+- **Creemos que lograremos** firmar al menos 3 convenios de colaboración con asociaciones agrarias, **si** las agroindustrias y gestores agrícolas **alcanzan** una toma de decisiones optimizada gracias a datos procesados, con un dashboard interactivo que integre datos de clima, suelo y sanidad.
 
-- **Creemos que** implementar un modelo de suscripción con un periodo de prueba (trial) y garantía de devolución para los productores tradicionales reducirá su percepción de riesgo financiero y la fricción tecnológica inicial. **Sabremos que** hemos tenido éxito **cuando** al menos el 35% de los usuarios que inician la versión de prueba se conviertan en suscriptores recurrentes de pago dentro de los primeros 3 meses de operación.
+- **Creemos que lograremos** que el 35% de los usuarios de prueba se conviertan en suscriptores de pago, **si** los productores tradicionales con aversión al riesgo **alcanzan** una reducción de la fricción tecnológica y financiera, con un modelo de suscripción que incluya periodos de prueba y garantía de devolución.
+
+- **Crremos que lograremos** reducir el gasto operativo en insumos químicos en un 15%, **si** los productores olivareros **alcanzan** una optimización de recursos basada en evidencia técnica, con un módulo de recomendaciones y nutrición dinámica que cruza variables de suelo y clima.
 
 #### Lean UX Canvas
 
