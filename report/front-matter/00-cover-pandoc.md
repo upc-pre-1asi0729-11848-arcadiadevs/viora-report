@@ -74,7 +74,7 @@ Trinidad Leon, Jahat Jassiel & U202412248 \tabularnewline
 
 {\large \textbf{Sección:}\par}
 \vspace{0.08cm}
-{\normalsize 10215\par}
+{\normalsize 11848\par}
 
 \vspace{0.24cm}
 
