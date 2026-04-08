@@ -1,0 +1,7 @@
+from: markdown
+standalone: false
+
+resource-path:
+  - .
+  - report
+  - report/assets
