@@ -13,8 +13,6 @@
     - **Información estadística de sustento:** Su participación técnica es estadísticamente vital para evitar catástrofes económicas a nivel país. La presencia inminente de plagas cuarentenarias como la Xylella fastidiosa obliga a intervenciones inmediatas y focalizadas, dado que su descontrol puede generar pérdidas multisectoriales estimadas en más de US$ 3,245 millones anuales a nivel nacional (SENASA, 2025). El marco normativo y técnico actual exige un control oficial y estricto de estas amenazas (Casanova, 2022; SENASA, 2024), lo que dispara la demanda de sus servicios.
     - **Relación con el problema:** A pesar de la altísima necesidad de sus conocimientos, sufren de una prospección ineficiente. Necesitan un marketplace o plataforma unificada que cruce las alertas epidemiológicas de los campos con su disponibilidad, convirtiendo la necesidad del agricultor en oportunidades de servicio directo.
 
-\newpage
-
 ### Definición Estadística de la Población y Muestra de Estudio
 
 Para asegurar el rigor científico en la posterior etapa de recolección de necesidades (Needfinding) y cumplir con los lineamientos de análisis de datos, la investigación ha sido estructurada bajo los conceptos de estadística descriptiva e inferencial. Esto garantiza que los instrumentos cualitativos (entrevistas) se apliquen a unidades representativas de ambos macro-segmentos del ecosistema olivarero.
