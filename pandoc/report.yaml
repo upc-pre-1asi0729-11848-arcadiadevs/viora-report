@@ -1,11 +1,11 @@
 from: markdown
 standalone: true
 toc: false
-toc-depth: 3
+toc-depth: 4
 number-sections: true
 citeproc: true
 template: pandoc/templates/eisvogel.tex
-pdf-engine: pdflatex
+pdf-engine: xelatex
 
 resource-path:
   - .
@@ -15,21 +15,4 @@ resource-path:
 bibliography:
   - report/bibliography/references.bib
 
-metadata:
-  nocite: "[@*]"
-
 csl: pandoc/csl/apa-7.csl
-
-input-files:
-  - report/front-matter/00-cover-pandoc.md
-  - report/front-matter/01-version-register.md
-  - report/front-matter/02-collaboration-insights.md
-  - report/front-matter/03-student-outcome.md
-  - report/front-matter/04-toc.md
-  - report/chapters/11-introduction/01-startup-profile.md
-  - report/chapters/11-introduction/02-solution-profile.md
-  - report/chapters/11-introduction/03-target-segments.md
-  - report/chapters/12-requirements-elicitation/01-competitors.md
-  - report/chapters/12-requirements-elicitation/02-interviews.md
-  - report/chapters/12-requirements-elicitation/03-needfinding.md
-  - report/back-matter/99-bibliography.md
