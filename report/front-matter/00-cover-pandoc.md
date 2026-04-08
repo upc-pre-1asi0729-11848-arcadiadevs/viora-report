@@ -59,7 +59,7 @@ nocite: '[@*]'
 \hline
 Espada Lazo, Piero Anthony & U20241d924 \tabularnewline
 \hline
-Li Gayoso, Diana Carolina & U20245749 \tabularnewline
+Li Gayoso, Diana Carolina & U202415749 \tabularnewline
 \hline
 Paredes Maza, Victor Juan de Dios & U202416274 \tabularnewline
 \hline
