@@ -86,7 +86,7 @@
 
 - Para terminar, y solo para fines estadísticos de nuestra investigación, ¿le importaría compartir algunos datos?
 - ¿En qué rango de edad se encuentra?
-- ¿Cuál es su distrito de residencia exacto o zona principal de operación?
+- ¿Cuál es su distrito de residencia exacto o zona principal de operación
 - ¿Cuál es su estado civil y cómo está conformada su familia?
 - Además de la asesoría técnica o fitosanitaria, ¿tiene alguna otra ocupación principal?
 - ¿Cuántos años de experiencia tiene trabajando en el sector agropecuario y cuál es su grado de estudios o especialización técnica?
@@ -95,21 +95,17 @@
 \newpage
 ## Registro de entrevistas
 
-**Lorem ipsum**
+**Segmento: Productores olivareros de la región sur**
 
 | **Entrevista #1** | **Detalles** |
 | :--- | :--- |
-| **Nombre completo** | Nombre del entrevistado |
-| **Edad** | 10 |
-| **Distrito** | Chorrillos, Lima |
-| **Ocupación** | Estudiante de Ingeniería de Software |
-| **Inicio y duración** | 00:00 - 10:00 |
-| **Enlace** | [Aqui pegas el link](https://youtu.be/GBIIQ0kP15E?si=nwPEx-2zvEbTdym3) |
-| **Resumen** | Aquí va el resumen de la entrevista |
-| **Foto** | ![Foto entrevista 1](report/assets/entrevistas/entrevista1.png){width=200px} |
-
-
-
-
+| **Nombre completo** | Juan Maquera |
+| **Edad** | 55 |
+| **Distrito** | La Yarada los Palos, Tacna |
+| **Ocupación** | Ingeniero Civil |
+| **Inicio y duración** | 00:20 - 18:17 |
+| **Enlace** | https://www.youtube.com/watch?v=4x0I_9DZ68M |
+| **Resumen** | El entrevistado describió su jornada iniciando temprano en la mañana para monitorear plagas, abono y agua de forma presencial. Manifestó que actualmente no utiliza ninguna herramienta tecnológica para la gestión de su campo. Posee un celular Samsung A25, aunque expresó que para labores administrativas o de consulta prefiere conectarse a internet a través de una laptop. Cabe destacar que complementa su actividad agrícola con su profesión de ingeniero civil. Juan detalló que el clima en Tacna es el factor determinante de su producción, mencionando que en la campaña actual (2026) ha sufrido una caída drástica, produciendo solo el 10% en comparación al año anterior debido al calor excesivo. Respecto a la vecería, confirmó que se encuentra en un "año que no da" y que mitiga este impacto económico gracias a sus ingresos como ingeniero civil. Sobre el control fitosanitario, indicó que aplica insecticidas dos veces al año y que, ante enfermedades, acude a tiendas de fertilizantes para buscar la "receta" de un agrónomo, proceso que puede tardar hasta un mes debido a la falta de disponibilidad inmediata de profesionales. El productor calificó como "muy útil" una aplicación que envíe alertas tempranas basadas en satélites, especialmente para prever problemas derivados del cambio de temperatura. Manifestó que la predicción de la vecería le permitiría planificar mejor el uso de hormonas y fertilizantes para estabilizar la producción. Afirmó no tener miedo de depender de tecnología satelital y se mostró dispuesto a invertir tiempo registrando manualmente su historial de campo a cambio de recomendaciones exactas. Finalmente, indicó que la funcionalidad de recomendación de agrofármacos sería la más importante para él y que preferiría que la plataforma le asigne un especialista automáticamente ante una alerta. |
+| **Foto** | ![Foto entrevista 1](report/assets/entrevistas/entrevista4.png) |
 
 \newpage
