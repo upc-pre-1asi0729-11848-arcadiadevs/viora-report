@@ -102,13 +102,22 @@
 | **Nombre completo** | Juan Maquera |
 | **Edad** | 55 |
 | **Distrito** | La Yarada los Palos, Tacna |
-| **Ocupación** | Ingeniero Civil |
+| **Ocupación** | Productor Olivarero e Ingeniero Civil |
 | **Inicio y duración** | 00:20 - 18:17 |
 | **Enlace** | https://www.youtube.com/watch?v=4x0I_9DZ68M |
 | **Resumen** | El entrevistado describió su jornada iniciando temprano en la mañana para monitorear plagas, abono y agua de forma presencial. Manifestó que actualmente no utiliza ninguna herramienta tecnológica para la gestión de su campo. Posee un celular Samsung A25, aunque expresó que para labores administrativas o de consulta prefiere conectarse a internet a través de una laptop. Cabe destacar que complementa su actividad agrícola con su profesión de ingeniero civil. Juan detalló que el clima en Tacna es el factor determinante de su producción, mencionando que en la campaña actual (2026) ha sufrido una caída drástica, produciendo solo el 10% en comparación al año anterior debido al calor excesivo. Respecto a la vecería, confirmó que se encuentra en un "año que no da" y que mitiga este impacto económico gracias a sus ingresos como ingeniero civil. Sobre el control fitosanitario, indicó que aplica insecticidas dos veces al año y que, ante enfermedades, acude a tiendas de fertilizantes para buscar la "receta" de un agrónomo, proceso que puede tardar hasta un mes debido a la falta de disponibilidad inmediata de profesionales. El productor calificó como "muy útil" una aplicación que envíe alertas tempranas basadas en satélites, especialmente para prever problemas derivados del cambio de temperatura. Manifestó que la predicción de la vecería le permitiría planificar mejor el uso de hormonas y fertilizantes para estabilizar la producción. Afirmó no tener miedo de depender de tecnología satelital y se mostró dispuesto a invertir tiempo registrando manualmente su historial de campo a cambio de recomendaciones exactas. Finalmente, indicó que la funcionalidad de recomendación de agrofármacos sería la más importante para él y que preferiría que la plataforma le asigne un especialista automáticamente ante una alerta. |
 | **Foto** | ![Foto entrevista 1](report/assets/entrevistas/entrevista1.png) |
 
-
+| **Entrevista #2** | **Detalles** |
+| :--- | :--- |
+| **Nombre completo** | Cristóbal Barrientos Carrillo |
+| **Edad** | 51 |
+| **Distrito** | Jaquí, Caravelí (Arequipa) |
+| **Ocupación** | Productor Olivarero |
+| **Inicio y duración** | 00:23 - 23:10 |
+| **Enlace** | https://www.youtube.com/watch?v=ER03-LyNFDI |
+| **Resumen** | El entrevistado describió un ciclo de trabajo basado en épocas (descanso, limpieza, abonado y cura). Manifestó que su gestión se basa en la intuición y experiencia acumulada, aunque utiliza YouTube como fuente para informarse sobre remedios contra plagas. Para su conexión digital utiliza principalmente un celular (Android) y destacó que la disponibilidad de internet es la característica indispensable para mantenerse vinculado a cualquier herramienta tecnológica. Además de la agricultura, el señor Cristóbal se desempeña en el sector de seguridad. Detalló que el fenómeno de la vecería afecta severamente su estabilidad, agravada recientemente por cambios bruscos de temperatura durante la floración, lo que resultó en dos años consecutivos sin cosecha. Mencionó que esto eleva el precio del mercado y genera problemas de seguridad, obligando a realizar inversiones mayores en vigilancia y a depender de ahorros previos. También señaló la presión de compradores externos que adquieren el producto a bajo precio en épocas críticas. Tras conocer las funcionalidades de la plataforma Viora, el productor calificó como "buena" la capacidad de anticipar riesgos, permitiéndole conservar la planta antes de que se marchite. Respecto a la predicción de la vecería, indicó que le ayudaría a lograr una producción más regular año tras año. Sobre el diagnóstico satelital, manifestó que primero requeriría "estudiar si resulta" para otorgar plena confianza, aunque se mostró abierto a su uso. Estaría dispuesto a registrar datos manualmente si los resultados son positivos y expresó que le generaría mayor confianza que la plataforma le permita elegir a un ingeniero de su confianza basándose en el conocimiento y prestigio del profesional en la zona. |
+| **Foto** | ![Foto entrevista 1](report/assets/entrevistas/entrevista1.png) |
 
 **Segmento: Profesionales especializados en control de plagas agrícolas**
 
