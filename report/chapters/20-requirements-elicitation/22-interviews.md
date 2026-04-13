@@ -173,3 +173,101 @@
 
 
 \newpage
+### Análisis de entrevistas
+**Segmento: Productores olivareros de la región sur**
+A partir de estas 3 entrevistas, que fueron realizadas a productores de las provincias de Tacna y Caravelí (Arequipa), se consiguieron los siguientes datos:
+
+El rango de edad de los entrevistados va desde los 51 hasta los 55 años, evidenciando que este segmento está compuesto por adultos con amplia trayectoria y experiencia empírica en el sector agrícola.
+
+Distritos de residencia:
+- 66.6% (2 de 3) residen en La Yarada los Palos, Tacna.
+- 33.3% (1 de 3) reside en Jaquí, Caravelí, Arequipa.
+
+Ocupacion:
+- 100% (3 de 3) se desempeñan como Productores Olivareros de forma principal.
+- 33.3% (1 de 3) complementa su actividad como Ingeniero Civil.
+- 33.3% (1 de 3) se desempeña adicionalmente en el sector de seguridad.
+
+A partir del análisis cualitativo de los productores, se establecen los siguientes indicadores estadísticos:
+
+**Inspección física de parcelas (Plagas/Riego)**
+- 100% (3 de 3) de los productores basan su gestión en la intuición y la presencia física, realizando inspecciones "fila por fila" diariamente.
+- Identifican esta tarea como de frecuencia alta e importancia crítica, siendo su único método actual para detectar plagas o necesidades de riego, lo que evidencia una alta dependencia del esfuerzo físico.
+
+**Monitoreo de variables climáticas**
+- 100% de los entrevistados identifica al clima como el factor de riesgo determinante y fuera de su control.
+- 66.7% (2 de 3) reportan pérdidas extremas (caídas de hasta el 90% de la cosecha) en la campaña actual (2026) debido al excesivo calor.
+- 66.7% dependen de ahorros previos o de una segunda profesión para subsistir durante los años de "vecería" (años sin producción), validando la importancia crítica de herramientas de predicción financiera.
+  
+**Búsqueda de especialistas / recetas técnicas**
+- 100% de los productores manifiesta una frustración crítica por la lentitud en la búsqueda de soporte especializado.
+- Reportan una latencia de diagnóstico que oscila entre 15 y 30 días, tiempo en el cual la plaga se masifica. Esto justifica por qué esta tarea tiene una importancia crítica para el usuario aunque su frecuencia sea media.
+
+**Registro y análisis de trazabilidad histórica**
+- 0% utiliza actualmente herramientas digitales para el registro formal de datos (usan WhatsApp o YouTube solo para consultas rápidas).
+- Sin embargo, el 100% muestra una disposición total a realizar un registro manual si la plataforma les devuelve alertas tempranas precisas, recomendaciones exactas de agrofármacos y conexión inmediata con un ingeniero.
+
+**Evaluación fenológica (Predicción de vecería)**
+- El 100% califica la predicción de la vecería como una funcionalidad de importancia crítica.
+- Consideran que anticipar este fenómeno les permitiría planificar mejor el uso de hormonas y fertilizantes, transformando una incertidumbre económica en una variable gestionable.
+
+**Frecuencia de aplicación de agrofármacos**
+- 66.7% (2 de 3) de los productores aplica químicos con una frecuencia baja de 1 a 2 veces al año.
+- 33.3% (1 de 3) requiere una frecuencia alta de aplicación, llegando a realizarla de forma mensual o quincenal para salvar la producción.
+
+**Tipo de mercado objetivo**
+- 100% (3 de 3) de los entrevistados destina su producción a la aceituna de mesa.
+- 66.7% (2 de 3) diversifica su negocio destinando parte de la cosecha a la extracción de aceite.
+
+**Extensión del producto**
+- 100% (3 de 3) de los productores maneja fundos de pequeña y mediana escala, con una extensión que oscila entre 1 y 5 hectáreas.
+
+<br>
+
+**Profesionales especializados en control de plagas agrícolas**
+A partir de estas 3 entrevistas, realizadas a profesionales que operan principalmente en la zona de Pangoa, Satipo (Junín), se consiguieron los siguientes datos:
+
+El rango de edad de los entrevistados se sitúa entre los 42 y 46 años, representando a un segmento de profesionales con alta formación técnica y una carga operativa significativa que abarca desde 50 hasta 150 productores mensuales.
+
+Datos Demográficos:
+- Distrito: 100% residen y laboran en Pangoa, Satipo (Junín).
+- Ocupación: 100% son Ingenieros Agrónomos o especialistas en Ciencias Agrarias con enfoque en control fitosanitario.
+
+A partir del análisis cualitativo de los profesionales entrevistados en la zona de Satipo (Junín), se establecen los siguientes indicadores estadísticos:
+
+**Inspección física de parcelas (Plagas/Riego)**
+- 100% (3 de 3) de los especialistas (David Espada, Paul Ramos y Hugo Alanya) coinciden en que la inspección presencial es el eje central de su labor técnica.
+- Los ingenieros asignan a esta tarea una frecuencia alta y una importancia crítica dentro de su flujo de trabajo diario.
+- El 100% de los expertos utiliza actualmente métodos tradicionales (agendas físicas, cámaras digitales o fotos en el celular) para documentar hallazgos en campo, lo que genera una alta carga de trabajo posterior.
+- Existe un consenso unánime (100%) en que la inspección física debe ser complementada con datos de precisión (como índices de vegetación o historial térmico) para realizar diagnósticos antes de que la plaga sea visiblemente agresiva.
+
+**Registro y análisis de trazabilidad histórica**
+- 100% (3 de 3) de los especialistas utiliza actualmente herramientas digitales de gabinete, principalmente Excel, para el registro y análisis de datos históricos de las parcelas.
+- El 100% identifica una desconexión operativa crítica: la toma de datos en campo sigue siendo manual, lo que genera un "cuello de botella" administrativo al momento de tabular la información en la oficina.
+
+**Emisión de diagnósticos y recetas técnicas**
+- 100% de los ingenieros considera que la emisión de recetas es su tarea de mayor responsabilidad profesional, asignándole una importancia crítica.
+- El 66.7% (2 de 3) reporta que la efectividad de sus recetas se ve comprometida porque el productor suele contactarlos tardíamente, cuando la plaga ya está avanzada en el 80-85% de los casos.
+
+**Planificación de logística y rutas de visita**
+- 100% de los especialistas califica como "alta" la importancia de esta tarea para su productividad diaria.
+- Atienden un promedio de 92 productores mensuales (con rangos de entre 50 y 150), y el 100% manifiesta que podría aumentar este volumen si el sistema automatizara la georreferenciación y el flujo de clientes hacia sus rutas de inspección.
+
+**Gestión de captación de nuevos clientes**
+- 100% de los entrevistados muestra insatisfacción con sus métodos actuales de captación (principalmente "boca a boca" o reuniones comunales), calificándolos como poco agresivos o lentos.
+- El 100% expresa una clara disposición a pagar una suscripción digital siempre que la plataforma asegure un flujo constante de clientes nuevos y acceso a datos reales de campo.
+
+**Monitoreo de variables climáticas**
+- El 100% identifica variables como temperatura, humedad y altitud como factores críticos de riesgo que deben monitorear para garantizar la precisión de sus diagnósticos técnicos.
+- Consideran que el acceso a estos datos de forma digital es de importancia alta para reducir el margen de error en sus recomendaciones de agrofármacos.
+
+**Evaluación fenológica (Predicción de vecería)**
+- Los especialistas valoran esta tarea como un insumo de importancia media/alta dentro de su asesoría profesional.
+- El 100% coincide en que contar con una predicción de vecería es clave para planificar mejor la fertilización y el manejo agronómico preventivo con el productor.
+
+**Ingreso promedio por consultoría**
+- 66.7% (2 de 3) de los profesionales percibe ingresos por consultoría privada que oscilan entre 80 y 120 soles por visita.
+- 33.3% (1 de 3) percibe un sueldo fijo mensual de 3500 soles debido a su labor en instituciones públicas (Senasa).
+
+**Años de experiencia en el sector agropecuario**
+- 100% (3 de 3) de los especialistas cuenta con una trayectoria consolidada, situándose en un rango de entre 20 y 21 años de experiencia en el sector.
