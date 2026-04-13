@@ -211,6 +211,17 @@ A partir del análisis cualitativo de los productores, se establecen los siguien
 - El 100% califica la predicción de la vecería como una funcionalidad de importancia crítica.
 - Consideran que anticipar este fenómeno les permitiría planificar mejor el uso de hormonas y fertilizantes, transformando una incertidumbre económica en una variable gestionable.
 
+**Frecuencia de aplicación de agrofármacos**
+- 66.7% (2 de 3) de los productores aplica químicos con una frecuencia baja de 1 a 2 veces al año.
+- 33.3% (1 de 3) requiere una frecuencia alta de aplicación, llegando a realizarla de forma mensual o quincenal para salvar la producción.
+
+**Tipo de mercado objetivo**
+- 100% (3 de 3) de los entrevistados destina su producción a la aceituna de mesa.
+- 66.7% (2 de 3) diversifica su negocio destinando parte de la cosecha a la extracción de aceite.
+
+**Extensión del producto**
+- 100% (3 de 3) de los productores maneja fundos de pequeña y mediana escala, con una extensión que oscila entre 1 y 5 hectáreas.
+
 <br>
 
 **Profesionales especializados en control de plagas agrícolas**
@@ -254,3 +265,9 @@ A partir del análisis cualitativo de los profesionales entrevistados en la zona
 - Los especialistas valoran esta tarea como un insumo de importancia media/alta dentro de su asesoría profesional.
 - El 100% coincide en que contar con una predicción de vecería es clave para planificar mejor la fertilización y el manejo agronómico preventivo con el productor.
 
+**Ingreso promedio por consultoría**
+- 66.7% (2 de 3) de los profesionales percibe ingresos por consultoría privada que oscilan entre 80 y 120 soles por visita.
+- 33.3% (1 de 3) percibe un sueldo fijo mensual de 3500 soles debido a su labor en instituciones públicas (Senasa).
+
+**Años de experiencia en el sector agropecuario**
+- 100% (3 de 3) de los especialistas cuenta con una trayectoria consolidada, situándose en un rango de entre 20 y 21 años de experiencia en el sector.
