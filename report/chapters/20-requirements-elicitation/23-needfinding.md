@@ -49,20 +49,32 @@ Al analizar la matriz, se observa que tareas como el monitoreo de variables clim
 
 ### User Journey Mapping
 
-En esta sección se elaboran los User Journey Maps, herramientas estratégicas que permiten diagramar la experiencia actual (As-Is) de nuestros segmentos objetivo. Estos artefactos ilustran el recorrido end-to-end del usuario, estructurado en cinco etapas cronológicas: Aware (descubrimiento de la amenaza), Join (búsqueda de soporte), Use (intervención técnica), Develop (aplicación de soluciones) y Leave (evaluación final). En cada fase se analizan las acciones, metas y estados emocionales del usuario, permitiendo identificar los puntos de dolor donde la plataforma Viora puede generar un mayor impacto operativo al mitigar las fricciones detectadas en la fase de investigación.
+En esta sección se presentan los User Journey Maps, herramientas que permiten visualizar la experiencia actual de los segmentos objetivo mediante una síntesis de los hallazgos obtenidos en las entrevistas y las fichas de User Persona. Estos artefactos diagraman el recorrido cronológico del usuario a través de cinco etapas fundamentales: Aware (descubrimiento), Join (búsqueda de soporte), Use (intervención), Develop (aplicación) y Leave (cierre). La estructura permite contrastar las acciones y metas del usuario con sus fluctuaciones emocionales, facilitando la identificación de puntos de dolor donde la plataforma Viora puede optimizar procesos que hoy son puramente manuales o reactivos.
 
 <br>
 
-El User Journey Map de Pedro Huamán detalla el proceso de respuesta ante una crisis fitosanitaria, exponiendo una caída drástica en el estado emocional del productor durante las fases de contacto y diagnóstico. El mapa resalta puntos de dolor críticos como la dependencia de rumores locales para la toma de decisiones y la frustración ante la lentitud de los canales de asistencia técnica tradicionales. Este análisis permite fundamentar el diseño de un sistema de alertas proactivas que reduzca la incertidumbre económica capturada en el diagrama. Elaboración propia.
+El User Journey Map de Pedro Huamán revela una degradación crítica en la experiencia del productor durante las fases de contacto y diagnóstico. El análisis destaca que la dependencia de canales informales y la falta de datos climáticos locales generan una incertidumbre que impacta directamente en la rentabilidad de la cosecha, validando la necesidad de un sistema de alertas proactivas. Elaboración propia.
 
 <br>
 
+\begin{figure}[H]
+\caption{User Journey Map del segmento Productor Olivarero - Pedro Huamán.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/needfinding/Journey Map Pedro Huaman.png}
+\caption*{\textit{Nota.} El diagrama detalla las fases de interacción, estados emocionales y puntos de dolor identificados para el arquetipo del productor tecnificado. Elaboración propia.}
+\end{figure}
+
 <br>
 
-El User Journey Map de Paco Pérez evidencia que el trabajo del especialista fitosanitario está limitado por la recolección manual de datos y una captación pasiva de clientes. Además, muestra una desconexión entre el trabajo de campo y la gestión en gabinete, lo que genera una carga administrativa que reduce su productividad, especialmente en las fases de Join y Use. También se refleja una frustración ética y profesional al tener que emitir recomendaciones cuando los cultivos ya presentan daños avanzados. En este contexto, se justifica la necesidad de una plataforma que permita una asesoría más proactiva, basada en datos precisos y georreferenciados.
+El User Journey Map de Paco Pérez expone la ineficiencia operativa del especialista debido a la fragmentación de la información y la captación pasiva de clientes. El diagrama evidencia una desconexión crítica entre el levantamiento de datos en campo y la gestión administrativa en gabinete, subrayando la urgencia de centralizar el historial técnico y georreferenciar la demanda para maximizar la productividad del profesional. Elaboración propia.
 
 <br>
 
-
+\begin{figure}[H]
+\caption{User Journey Map del segmento Profesional Especializado En Control De Plagas Agrícolas - Paco Pérez.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/needfinding/Journey Map Paco Perez.png}
+\caption*{\textit{Nota.} El diagrama detalla las fases de interacción, estados emocionales y puntos de dolor identificados para el arquetipo del ingeniero fitosanitario. Elaboración propia.}
+\end{figure}
 
 
