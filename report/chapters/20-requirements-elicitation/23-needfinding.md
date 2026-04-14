@@ -12,7 +12,7 @@ El User Persona de Paco Pérez representa al segmento de productores agrícolas 
 \begin{figure}[H]
 \caption{User Persona del segmento Profesional Especializado En Control De Plagas Agrícolas.}
 \centering
-\includegraphics[width=0.6\textwidth]{report/assets/needfinding/Paco Perez.png}
+\includegraphics[width=0.4\textwidth]{report/assets/needfinding/Paco Perez.png}
 \caption*{\textit{Nota.} La ficha de User Persona de Paco Perez detalla el arquetipo del productor agrícola tradicional, integrando sus objetivos, frustraciones y necesidades tecnológicas clave identificadas durante la fase de investigación para el diseño de la plataforma Viora. Elaboración propia.}
 \end{figure}
 
@@ -25,7 +25,7 @@ El User Persona de Pedro Huamán personifica al segmento de productores tecnific
 \begin{figure}[H]
 \caption{User Persona del segmento Productor Olivero.}
 \centering
-\includegraphics[width=0.6\textwidth]{report/assets/needfinding/Pedro Huaman.png}
+\includegraphics[width=0.4\textwidth]{report/assets/needfinding/Pedro Huaman.png}
 \caption*{\textit{Nota.} La ficha de User Persona de Pedro Huaman detalla el arquetipo del agricultor tecnificado, integrando sus metas de optimización de recursos, frustraciones respecto a la precisión de datos y necesidades de integración tecnológica para la gestión avanzada en la plataforma Viora. Elaboración propia.}
 \end{figure}
 
@@ -45,7 +45,7 @@ En esta sección se presenta la User Task Matrix, una herramienta estratégica q
 |Emisión de diagnósticos y recetas técnicas|**Alta**|**Crítica**|N/A|N/A|
 |Gestión de captación de nuevos clientes|**Baja**|**Alta**|N/A|N/A|
 |Evaluación fenológica (Predicción de vecería)|Media|Media|Alta|**Crítica**|
-|Aplicación de controles y fertilizantes|N/A|N/A|Media|
+|Aplicación de controles y fertilizantes|N/A|N/A|Media|**Alta**|
 
 <br>
 
@@ -96,7 +96,7 @@ El Empathy Map de Pedro Huamán sintetiza la experiencia de un productor que ges
 \begin{figure}[H]
 \caption{Empathy Map del segmento Productor Olivarero - Pedro Huamán.}
 \centering
-\includegraphics[width=0.6\textwidth]{report/assets/needfinding/Empathy_map_Pedro_Huaman.png}
+\includegraphics[width=0.3\textwidth]{report/assets/needfinding/Empathy_map_Pedro_Huaman.png}
 \caption*{\textit{Nota.} El mapa de empatía de Pedro Huamán describe su entorno y estado mental, identificando la incertidumbre climática como el principal motor de cambio tecnológico. Elaboración propia.}
 \end{figure}
 
@@ -109,7 +109,7 @@ El Empathy Map de Paco Pérez refleja la saturación de un especialista fitosani
 \begin{figure}[H]
 \caption{Empathy Map del segmento Profesional Especializado En Control De Plagas Agrícolas - Paco Pérez.}
 \centering
-\includegraphics[width=0.6\textwidth]{report/assets/needfinding/Empathy_map_Paco_Perez.png}
+\includegraphics[width=0.3\textwidth]{report/assets/needfinding/Empathy_map_Paco_Perez.png}
 \caption*{\textit{Nota.} El mapa de empatía de Paco Pérez destaca el agotamiento por procesos manuales y su aspiración hacia una gestión técnica basada en datos precisos. Elaboración propia.}
 \end{figure}
 
