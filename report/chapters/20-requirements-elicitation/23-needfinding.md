@@ -45,3 +45,24 @@ En esta sección se presenta la User Task Matrix, una herramienta estratégica q
 <br>
 
 Al analizar la matriz, se observa que tareas como el monitoreo de variables climáticas y la identificación de plagas presentan la mayor frecuencia e importancia para ambos segmentos, consolidándose como los pilares de valor de la solución. Por otro lado, la mayor diferencia se encuentra en la gestión de reportes y análisis de datos históricos, una tarea de alta importancia para Pedro Huamán debido a su enfoque en la optimización técnica, mientras que para Paco Pérez representa una actividad de menor frecuencia, centrada más en la observación directa y la reacción inmediata ante cambios del entorno.
+
+
+### User Journey Mapping
+
+En esta sección se elaboran los User Journey Maps, herramientas estratégicas que permiten diagramar la experiencia actual (As-Is) de nuestros segmentos objetivo. Estos artefactos ilustran el recorrido end-to-end del usuario, estructurado en cinco etapas cronológicas: Aware (descubrimiento de la amenaza), Join (búsqueda de soporte), Use (intervención técnica), Develop (aplicación de soluciones) y Leave (evaluación final). En cada fase se analizan las acciones, metas y estados emocionales del usuario, permitiendo identificar los puntos de dolor donde la plataforma Viora puede generar un mayor impacto operativo al mitigar las fricciones detectadas en la fase de investigación.
+
+<br>
+
+El User Journey Map de Pedro Huamán detalla el proceso de respuesta ante una crisis fitosanitaria, exponiendo una caída drástica en el estado emocional del productor durante las fases de contacto y diagnóstico. El mapa resalta puntos de dolor críticos como la dependencia de rumores locales para la toma de decisiones y la frustración ante la lentitud de los canales de asistencia técnica tradicionales. Este análisis permite fundamentar el diseño de un sistema de alertas proactivas que reduzca la incertidumbre económica capturada en el diagrama. Elaboración propia.
+
+<br>
+
+<br>
+
+El User Journey Map de Paco Pérez evidencia que el trabajo del especialista fitosanitario está limitado por la recolección manual de datos y una captación pasiva de clientes. Además, muestra una desconexión entre el trabajo de campo y la gestión en gabinete, lo que genera una carga administrativa que reduce su productividad, especialmente en las fases de Join y Use. También se refleja una frustración ética y profesional al tener que emitir recomendaciones cuando los cultivos ya presentan daños avanzados. En este contexto, se justifica la necesidad de una plataforma que permita una asesoría más proactiva, basada en datos precisos y georreferenciados.
+
+<br>
+
+
+
+
