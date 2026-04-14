@@ -1,4 +1,5 @@
 ## Entrevistas
+
 ### Diseño de entrevistas
 
 **Segmento: Productores olivareros de la región sur**
@@ -93,7 +94,8 @@
 - ¿Qué marca y modelo de celular utiliza y desde qué dispositivo prefiere conectarse a internet para trabajar (celular, laptop, tablet)?
 
 \newpage
-## Registro de entrevistas
+
+### Registro de entrevistas
 
 **Segmento: Productores olivareros de la región sur**
 

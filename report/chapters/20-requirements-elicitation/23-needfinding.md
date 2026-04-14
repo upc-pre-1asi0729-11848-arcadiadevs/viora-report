@@ -1,4 +1,5 @@
 ## Needfinding
+
 ### User Personas
 
 En la presente sección se detalla la elaboración de las fichas de User Persona, las cuales representan arquetipos fundamentales derivados de una síntesis exhaustiva entre el análisis de las entrevistas a profundidad y el estudio del panorama competitivo. Estos artefactos permiten humanizar los datos recolectados, transformando los hallazgos de campo en perfiles con metas, frustraciones y comportamientos específicos. Para su definición, se han considerado dimensiones críticas identificadas en la investigación, tales como el nivel de alfabetización digital en el entorno rural, los métodos actuales de control de plagas y la capacidad de respuesta ante la variabilidad climática del sector olivícola. Cada ficha se ha construido siguiendo las mejores prácticas de diseño centrado en el usuario, garantizando que el desarrollo del ecosistema digital responda directamente a las necesidades reales de los segmentos objetivos identificados.
@@ -83,8 +84,7 @@ El User Journey Map de Paco Pérez expone la ineficiencia operativa del especial
 \caption*{\textit{Nota.} El diagrama detalla las fases de interacción, estados emocionales y puntos de dolor identificados para el arquetipo del ingeniero fitosanitario. Elaboración propia.}
 \end{figure}
 
-
-## Empathy Mapping
+### Empathy Mapping
 
 En esta sección se detalla el proceso de elaboración de los Empathy Maps, herramientas diseñadas para comprender el espectro emocional y cognitivo de nuestros segmentos objetivo. El proceso comenzó con el análisis de los User Persona (Pedro Huamán y Paco Pérez), situándolos en el centro del ejercicio para alinear la visión del equipo con su realidad cotidiana. A través de este análisis, se clasificaron las percepciones sobre su entorno, sus círculos de influencia, sus acciones habituales y las preocupaciones que manifiestan en su día a día.
 Se identificó los Pains (puntos de dolor y frustraciones) y los Gains (beneficios y resultados esperados) de cada perfil. De esta manera, se establece una base de conocimiento empático que justifica las funcionalidades de la plataforma Viora, asegurando que la solución responda a las necesidades humanas y operativas detectadas en el sector olivícola.
