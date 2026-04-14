@@ -12,7 +12,7 @@ El User Persona de Paco Pérez representa al segmento de productores agrícolas 
 \begin{figure}[H]
 \caption{User Persona del segmento Profesional Especializado En Control De Plagas Agrícolas.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/needfinding/Paco Perez.png}
+\includegraphics[width=0.6\textwidth]{report/assets/needfinding/Paco Perez.png}
 \caption*{\textit{Nota.} La ficha de User Persona de Paco Perez detalla el arquetipo del productor agrícola tradicional, integrando sus objetivos, frustraciones y necesidades tecnológicas clave identificadas durante la fase de investigación para el diseño de la plataforma Viora. Elaboración propia.}
 \end{figure}
 
@@ -25,7 +25,7 @@ El User Persona de Pedro Huamán personifica al segmento de productores tecnific
 \begin{figure}[H]
 \caption{User Persona del segmento Productor Olivero.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/needfinding/Pedro Huaman.png}
+\includegraphics[width=0.6\textwidth]{report/assets/needfinding/Pedro Huaman.png}
 \caption*{\textit{Nota.} La ficha de User Persona de Pedro Huaman detalla el arquetipo del agricultor tecnificado, integrando sus metas de optimización de recursos, frustraciones respecto a la precisión de datos y necesidades de integración tecnológica para la gestión avanzada en la plataforma Viora. Elaboración propia.}
 \end{figure}
 
@@ -35,12 +35,17 @@ El User Persona de Pedro Huamán personifica al segmento de productores tecnific
 
 En esta sección se presenta la User Task Matrix, una herramienta estratégica que consolida las actividades fundamentales realizadas por nuestros segmentos objetivo para alcanzar sus metas de producción. Para este análisis, se consideran los perfiles de Paco Pérez (Profesional Especializado En Control De Plagas Agrícolas) y Pedro Huamán (Productor Olivero). Es importante precisar que las tareas listadas corresponden a procesos críticos del ciclo agrícola que los usuarios ejecutan independientemente de la existencia de una solución digital. La matriz permite evaluar cada tarea bajo las dimensiones de frecuencia e importancia, facilitando la identificación de los flujos de trabajo donde la plataforma Viora puede generar un mayor impacto operativo.
 
-\begin{figure}[H]
-\caption{User Task Matrix para los segmentos de Productores Oliveros y Profesional Especializado En Control De Plagas Agrícolas.}
-\centering
-\includegraphics[width=0.8\textwidth]{report/assets/needfinding/user-task-matrix.jpeg}
-\caption*{\textit{Nota.} La User Task Matrix presenta el contraste operativo entre el productor tradicional y el tecnificado, priorizando tareas como el monitoreo de humedad y la vigilancia fitosanitaria. Elaboración propia.}
-\end{figure}
+|**Tareas (Tasks)**|**Persona: Paco Perez (Asesor)**||**Persona: Pedro Huaman (Productor)**||
+|---|---|---|---|---|
+||**Frecuencia**|**Importancia**|**Frecuencia**|**Importancia**|
+|Monitoreo de variables climáticas|Alta|**Crítica**|Media|**Crítica**|
+|Inspección física de parcelas (Plagas/Riego)|Alta|**Crítica**|Alta|**Crítica**|
+|Registro y análisis de trazabilidad histórica|Alta|**Crítica**|Baja|**Alta**|
+|Búsqueda de especialistas|N/A|N/A|Media|**Crítica**|
+|Emisión de diagnósticos y recetas técnicas|**Alta**|**Crítica**|N/A|N/A|
+|Gestión de captación de nuevos clientes|**Baja**|**Alta**|N/A|N/A|
+|Evaluación fenológica (Predicción de vecería)|Media|Media|Alta|**Crítica**|
+|Aplicación de controles y fertilizantes|N/A|N/A|Media|
 
 <br>
 
@@ -91,7 +96,7 @@ El Empathy Map de Pedro Huamán sintetiza la experiencia de un productor que ges
 \begin{figure}[H]
 \caption{Empathy Map del segmento Productor Olivarero - Pedro Huamán.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/needfinding/Empathy_map_Pedro_Huaman.png}
+\includegraphics[width=0.6\textwidth]{report/assets/needfinding/Empathy_map_Pedro_Huaman.png}
 \caption*{\textit{Nota.} El mapa de empatía de Pedro Huamán describe su entorno y estado mental, identificando la incertidumbre climática como el principal motor de cambio tecnológico. Elaboración propia.}
 \end{figure}
 
@@ -104,7 +109,7 @@ El Empathy Map de Paco Pérez refleja la saturación de un especialista fitosani
 \begin{figure}[H]
 \caption{Empathy Map del segmento Profesional Especializado En Control De Plagas Agrícolas - Paco Pérez.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/needfinding/Empathy_map_Paco_Perez.png}
+\includegraphics[width=0.6\textwidth]{report/assets/needfinding/Empathy_map_Paco_Perez.png}
 \caption*{\textit{Nota.} El mapa de empatía de Paco Pérez destaca el agotamiento por procesos manuales y su aspiración hacia una gestión técnica basada en datos precisos. Elaboración propia.}
 \end{figure}
 
@@ -130,77 +135,77 @@ Durante la segunda fase, se procedió a organizar los eventos en una línea de t
 <br>
 
 \begin{figure}[H]
-\caption{Fase 2: Línea de tiempo e identificación de Hotspots.}
+\caption{Fase 2: Línea de tiempo.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/needfinding/fase-2.jpg}
-\caption*{\textit{Nota.} Representación de los puntos críticos y conflictos detectados en el flujo de trabajo actual. Elaboración propia.}
+\caption*{\textit{Nota.} Organización de los eventos. Elaboración propia.}
 \end{figure}
 
 <br>
 
-En la fase final, se integraron los Comandos y los Actores. Esta etapa permitió definir las responsabilidades dentro del sistema y cómo las interacciones humanas y automáticas transforman los datos recolectados en acciones ejecutables.
+En la fase final, se integraron los External Systems y los Actors. Esta etapa permitió definir las responsabilidades dentro del sistema y cómo las interacciones humanas y automáticas transforman los datos recolectados en acciones ejecutables.
 
 <br>
 
 \begin{figure}[H]
-\caption{Fase 3: Definición de Actores y Comandos del sistema.}
+\caption{Fase 3: Definición de External Systems y Actors del sistema.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/needfinding/fase-3.jpg}
-\caption*{\textit{Nota.} Mapeo final que vincula a los usuarios con las acciones y resultados dentro de la plataforma. Elaboración propia.}
+\caption*{\textit{Nota.} External Systems y Actors identificados. Elaboración propia.}
 \end{figure}
 
 <br>
 
 \begin{figure}[H]
-\caption{Fase 3: Definición de Actores y Comandos del sistema.}
+\caption{Fase 4: Linea de tiempo con External Systems y Actors.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/needfinding/fase-3-2.jpg}
-\caption*{\textit{Nota.} Mapeo final que vincula a los usuarios con las acciones y resultados dentro de la plataforma. Elaboración propia.}
+\caption*{\textit{Nota.} Mapeo final que vincula a los usuarios con las External Systems y Actors dentro de la plataforma. Elaboración propia.}
 \end{figure}
 
 <br>
 
 \begin{figure}[H]
-\caption{Fase 3: Definición de Actores y Comandos del sistema.}
+\caption{FFase 4: Linea de tiempo con External Systems y Actors.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/needfinding/fase-3-2-1.jpg}
-\caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 3, facilitando la lectura de los comandos y actores que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
+\includegraphics[width=0.6\textwidth]{report/assets/needfinding/fase-3-2-1.jpg}
+\caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 4, facilitando la lectura de los External Systems y Actors que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
 \end{figure}
 
 <br>
 
 \begin{figure}[H]
-\caption{Fase 3: Definición de Actores y Comandos del sistema.}
+\caption{Fase 4: Linea de tiempo con External Systems y Actors.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/needfinding/fase-3-2-2.jpg}
-\caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 3, facilitando la lectura de los comandos y actores que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
+\caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 4, facilitando la lectura de los External Systems y Actors que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
 \end{figure}
 
 <br>
 
 \begin{figure}[H]
-\caption{Fase 3: Definición de Actores y Comandos del sistema.}
+\caption{Fase 4: Linea de tiempo con External Systems y Actors.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/needfinding/fase-3-2-3.jpg}
-\caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 3, facilitando la lectura de los comandos y actores que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
+\caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 4, facilitando la lectura de los External Systems y Actors que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
 \end{figure}
 
 <br>
 
 \begin{figure}[H]
-\caption{Fase 3: Definición de Actores y Comandos del sistema.}
+\caption{Fase 4: Linea de tiempo con External Systems y Actors.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/needfinding/fase-3-2-4.jpg}
-\caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 3, facilitando la lectura de los comandos y actores que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
+\caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 4, facilitando la lectura de los External Systems y Actors que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
 \end{figure}
 
 <br>
 
 \begin{figure}[H]
-\caption{Fase 3: Definición de Actores y Comandos del sistema.}
+\caption{Fase 4: Linea de tiempo con External Systems y Actors.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/needfinding/fase-3-2-5.jpg}
-\caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 3, facilitando la lectura de los comandos y actores que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
+\caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 4, facilitando la lectura de los External Systems y Actors que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
 \end{figure}
 
 <br>
@@ -235,4 +240,6 @@ Como resultado de estas tres fases, el equipo ha logrado consolidar una visión 
 - **Preventive management plan (plan de manejo preventivo):** Estrategia a largo plazo estructurada por el especialista tras resolver una intervención reactiva, diseñada para estabilizar la parcela y migrar hacia un modelo de negocio de asesoría continua.
 - **Misconduct report (reporte de mala conducta):** Queja o denuncia formal emitida por cualquier usuario respecto a infracciones éticas, inasistencias en campo o cobros abusivos.
 - **Trial subscription (suscripción de prueba):** Periodo inicial con garantía de retorno o libre de riesgo que reduce la fricción financiera, permitiendo a productores y especialistas experimentar el valor del monitoreo y la conexión en el ecosistema.
+
+\clearpage
 
