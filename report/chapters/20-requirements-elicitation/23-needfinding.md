@@ -30,3 +30,18 @@ El User Persona de Pedro Huamán personifica al segmento de productores tecnific
 \end{figure}
 
 \clearpage
+
+### User Task Matrix
+
+En esta sección se presenta la User Task Matrix, una herramienta estratégica que consolida las actividades fundamentales realizadas por nuestros segmentos objetivo para alcanzar sus metas de producción. Para este análisis, se consideran los perfiles de Paco Pérez (Profesional Especializado En Control De Plagas Agrícolas) y Pedro Huamán (Productor Olivero). Es importante precisar que las tareas listadas corresponden a procesos críticos del ciclo agrícola que los usuarios ejecutan independientemente de la existencia de una solución digital. La matriz permite evaluar cada tarea bajo las dimensiones de frecuencia e importancia, facilitando la identificación de los flujos de trabajo donde la plataforma Viora puede generar un mayor impacto operativo.
+
+\begin{figure}[H]
+\caption{User Task Matrix para los segmentos de Productores Oliveros y Profesional Especializado En Control De Plagas Agrícolas.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/needfinding/user-task-matrix.jpeg}
+\caption*{\textit{Nota.} La User Task Matrix presenta el contraste operativo entre el productor tradicional y el tecnificado, priorizando tareas como el monitoreo de humedad y la vigilancia fitosanitaria. Elaboración propia.}
+\end{figure}
+
+<br>
+
+Al analizar la matriz, se observa que tareas como el monitoreo de variables climáticas y la identificación de plagas presentan la mayor frecuencia e importancia para ambos segmentos, consolidándose como los pilares de valor de la solución. Por otro lado, la mayor diferencia se encuentra en la gestión de reportes y análisis de datos históricos, una tarea de alta importancia para Pedro Huamán debido a su enfoque en la optimización técnica, mientras que para Paco Pérez representa una actividad de menor frecuencia, centrada más en la observación directa y la reacción inmediata ante cambios del entorno.
