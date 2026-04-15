@@ -240,6 +240,8 @@ Como resultado de estas tres fases, el equipo ha logrado consolidar una visión 
 - **Preventive management plan (plan de manejo preventivo):** Estrategia a largo plazo estructurada por el especialista tras resolver una intervención reactiva, diseñada para estabilizar la parcela y migrar hacia un modelo de negocio de asesoría continua.
 - **Misconduct report (reporte de mala conducta):** Queja o denuncia formal emitida por cualquier usuario respecto a infracciones éticas, inasistencias en campo o cobros abusivos.
 - **Trial subscription (suscripción de prueba):** Periodo inicial con garantía de retorno o libre de riesgo que reduce la fricción financiera, permitiendo a productores y especialistas experimentar el valor del monitoreo y la conexión en el ecosistema.
+- **Strike / Penalty point (penalización / marca de inconducta)**: Unidad de sanción acumulativa y oculta al público, asignada automáticamente por el sistema al perfil de un usuario (Productor o Especialista) tras la validación de un Misconduct report. Alcanzar umbrales específicos de strikes detona acciones autónomas de moderación, tales como la inhabilitación temporal (AccountSuspended) o la expulsión definitiva del ecosistema (AccountBanned).
+- **Viora Ecosystem (Ecosistema Viora):** Entorno digital colaborativo y transaccional donde productores y especialistas interactúan para la gestión de riesgos fitosanitarios. Ambos actores están sujetos a las mismas reglas de moderación y permanencia en la plataforma.
 
 \clearpage
 
