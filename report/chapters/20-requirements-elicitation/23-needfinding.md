@@ -1,32 +1,33 @@
 ## Needfinding
+
 ### User Personas
 
 En la presente sección se detalla la elaboración de las fichas de User Persona, las cuales representan arquetipos fundamentales derivados de una síntesis exhaustiva entre el análisis de las entrevistas a profundidad y el estudio del panorama competitivo. Estos artefactos permiten humanizar los datos recolectados, transformando los hallazgos de campo en perfiles con metas, frustraciones y comportamientos específicos. Para su definición, se han considerado dimensiones críticas identificadas en la investigación, tales como el nivel de alfabetización digital en el entorno rural, los métodos actuales de control de plagas y la capacidad de respuesta ante la variabilidad climática del sector olivícola. Cada ficha se ha construido siguiendo las mejores prácticas de diseño centrado en el usuario, garantizando que el desarrollo del ecosistema digital responda directamente a las necesidades reales de los segmentos objetivos identificados.
 
 <br>
 
-El User Persona de Paco Pérez representa al segmento de productores agrícolas tradicionales, cuya gestión se basa principalmente en la experiencia empírica y el legado familiar. Este arquetipo sintetiza la necesidad de una transición hacia la agricultura digital, priorizando la facilidad de uso y el acceso a alertas meteorológicas en tiempo real para mitigar la incertidumbre climática que afecta la rentabilidad del cultivo de olivo. Elaboración propia.
+El User Persona de Pedro Huaman representa al segmento de productores agrícolas tradicionales, cuya gestión se basa principalmente en la experiencia empírica y el legado familiar. Este arquetipo sintetiza la necesidad de una transición hacia la agricultura digital, priorizando la facilidad de uso y el acceso a alertas meteorológicas en tiempo real para mitigar la incertidumbre climática que afecta la rentabilidad del cultivo de olivo. Elaboración propia.
 
 <br>
 
 \begin{figure}[H]
 \caption{User Persona del segmento Profesional Especializado En Control De Plagas Agrícolas.}
 \centering
-\includegraphics[width=0.4\textwidth]{report/assets/needfinding/Paco Perez.png}
-\caption*{\textit{Nota.} La ficha de User Persona de Paco Perez detalla el arquetipo del productor agrícola tradicional, integrando sus objetivos, frustraciones y necesidades tecnológicas clave identificadas durante la fase de investigación para el diseño de la plataforma Viora. Elaboración propia.}
+\includegraphics[width=0.4\textwidth]{report/assets/needfinding/Pedro Huaman.png}
+\caption*{\textit{Nota.} La ficha de User Persona de Pedro Huaman detalla el arquetipo del productor agrícola tradicional, integrando sus objetivos, frustraciones y necesidades tecnológicas clave identificadas durante la fase de investigación para el diseño de la plataforma Viora. Elaboración propia.}
 \end{figure}
 
 <br>
 
-El User Persona de Pedro Huamán personifica al segmento de productores tecnificados que ya emplean herramientas digitales básicas, pero buscan optimizar la precisión en el control de plagas y el uso de recursos. Este arquetipo se enfoca en la eficiencia operativa y la integración de datos avanzados para la toma de decisiones estratégicas, sirviendo como base para el diseño de las funcionalidades de análisis predictivo de la plataforma Viora. Elaboración propia.
+El User Persona de Paco Perez personifica al segmento de productores tecnificados que ya emplean herramientas digitales básicas, pero buscan optimizar la precisión en el control de plagas y el uso de recursos. Este arquetipo se enfoca en la eficiencia operativa y la integración de datos avanzados para la toma de decisiones estratégicas, sirviendo como base para el diseño de las funcionalidades de análisis predictivo de la plataforma Viora. Elaboración propia.
 
 <br>
 
 \begin{figure}[H]
 \caption{User Persona del segmento Productor Olivero.}
 \centering
-\includegraphics[width=0.4\textwidth]{report/assets/needfinding/Pedro Huaman.png}
-\caption*{\textit{Nota.} La ficha de User Persona de Pedro Huaman detalla el arquetipo del agricultor tecnificado, integrando sus metas de optimización de recursos, frustraciones respecto a la precisión de datos y necesidades de integración tecnológica para la gestión avanzada en la plataforma Viora. Elaboración propia.}
+\includegraphics[width=0.4\textwidth]{report/assets/needfinding/Paco Perez.png}
+\caption*{\textit{Nota.} La ficha de User Persona de Paco Perez detalla el arquetipo del agricultor tecnificado, integrando sus metas de optimización de recursos, frustraciones respecto a la precisión de datos y necesidades de integración tecnológica para la gestión avanzada en la plataforma Viora. Elaboración propia.}
 \end{figure}
 
 \clearpage
@@ -83,8 +84,7 @@ El User Journey Map de Paco Pérez expone la ineficiencia operativa del especial
 \caption*{\textit{Nota.} El diagrama detalla las fases de interacción, estados emocionales y puntos de dolor identificados para el arquetipo del ingeniero fitosanitario. Elaboración propia.}
 \end{figure}
 
-
-## Empathy Mapping
+### Empathy Mapping
 
 En esta sección se detalla el proceso de elaboración de los Empathy Maps, herramientas diseñadas para comprender el espectro emocional y cognitivo de nuestros segmentos objetivo. El proceso comenzó con el análisis de los User Persona (Pedro Huamán y Paco Pérez), situándolos en el centro del ejercicio para alinear la visión del equipo con su realidad cotidiana. A través de este análisis, se clasificaron las percepciones sobre su entorno, sus círculos de influencia, sus acciones habituales y las preocupaciones que manifiestan en su día a día.
 Se identificó los Pains (puntos de dolor y frustraciones) y los Gains (beneficios y resultados esperados) de cada perfil. De esta manera, se establece una base de conocimiento empático que justifica las funcionalidades de la plataforma Viora, asegurando que la solución responda a las necesidades humanas y operativas detectadas en el sector olivícola.
@@ -166,7 +166,7 @@ En la fase final, se integraron los External Systems y los Actors. Esta etapa pe
 <br>
 
 \begin{figure}[H]
-\caption{FFase 4: Linea de tiempo con External Systems y Actors.}
+\caption{Fase 4: Linea de tiempo con External Systems y Actors.}
 \centering
 \includegraphics[width=0.6\textwidth]{report/assets/needfinding/fase-3-2-1.jpg}
 \caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 4, facilitando la lectura de los External Systems y Actors que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
@@ -240,6 +240,8 @@ Como resultado de estas tres fases, el equipo ha logrado consolidar una visión 
 - **Preventive management plan (plan de manejo preventivo):** Estrategia a largo plazo estructurada por el especialista tras resolver una intervención reactiva, diseñada para estabilizar la parcela y migrar hacia un modelo de negocio de asesoría continua.
 - **Misconduct report (reporte de mala conducta):** Queja o denuncia formal emitida por cualquier usuario respecto a infracciones éticas, inasistencias en campo o cobros abusivos.
 - **Trial subscription (suscripción de prueba):** Periodo inicial con garantía de retorno o libre de riesgo que reduce la fricción financiera, permitiendo a productores y especialistas experimentar el valor del monitoreo y la conexión en el ecosistema.
+- **Strike / Penalty point (penalización / marca de inconducta)**: Unidad de sanción acumulativa y oculta al público, asignada automáticamente por el sistema al perfil de un usuario (Productor o Especialista) tras la validación de un Misconduct report. Alcanzar umbrales específicos de strikes detona acciones autónomas de moderación, tales como la inhabilitación temporal (AccountSuspended) o la expulsión definitiva del ecosistema (AccountBanned).
+- **Viora Ecosystem (Ecosistema Viora):** Entorno digital colaborativo y transaccional donde productores y especialistas interactúan para la gestión de riesgos fitosanitarios. Ambos actores están sujetos a las mismas reglas de moderación y permanencia en la plataforma.
 
 \clearpage
 

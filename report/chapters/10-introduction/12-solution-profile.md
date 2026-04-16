@@ -154,7 +154,7 @@ Objetivos específicos
 - **Fortalecer la red de respuesta ante plagas:** Firmar al menos 3 convenios de colaboración con asociaciones agrarias o consultoras fitosanitarias para el intercambio de datos en un plazo de 6 meses tras el lanzamiento.
 - **Asegurar la eficiencia en la comunicación técnica:** Garantizar que las alertas epidemiológicas lleguen a los especialistas y productores en menos de 10 minutos tras la detección de una anomalía térmica, métrica que será auditada mensualmente durante el primer semestre.
 - **Consolidar una base de usuarios especializada:** Alcanzar una meta de 150 productores registrados y 30 profesionales de control de plagas agrícolas interactuando en la plataforma en un periodo máximo de 4 meses.
-- **Asegurar la eficiencia en la comunicación técnica:** Mantener un registro de 0 brechas de seguridad en el manejo de información sensible de las parcelas, con reportes de cumplimiento técnico emitidos cada trimestre.
+- **Garantizar la seguridad de los datos del usuario:** Mantener un registro de 0 brechas de seguridad en el manejo de información sensible de las parcelas, con reportes de cumplimiento técnico emitidos cada trimestre.
 - **Optimizar la gestión operativa y toma de decisiones:** Lograr que al menos el 25% de los usuarios activos consulten el dashboard de finca un mínimo de 3 veces por semana para monitorear indicadores de clima, suelo y sanidad durante el primer trimestre de uso.
 
 ---
