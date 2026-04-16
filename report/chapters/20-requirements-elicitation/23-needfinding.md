@@ -6,28 +6,28 @@ En la presente sección se detalla la elaboración de las fichas de User Persona
 
 <br>
 
-El User Persona de Paco Pérez representa al segmento de productores agrícolas tradicionales, cuya gestión se basa principalmente en la experiencia empírica y el legado familiar. Este arquetipo sintetiza la necesidad de una transición hacia la agricultura digital, priorizando la facilidad de uso y el acceso a alertas meteorológicas en tiempo real para mitigar la incertidumbre climática que afecta la rentabilidad del cultivo de olivo. Elaboración propia.
+El User Persona de Pedro Huaman representa al segmento de productores agrícolas tradicionales, cuya gestión se basa principalmente en la experiencia empírica y el legado familiar. Este arquetipo sintetiza la necesidad de una transición hacia la agricultura digital, priorizando la facilidad de uso y el acceso a alertas meteorológicas en tiempo real para mitigar la incertidumbre climática que afecta la rentabilidad del cultivo de olivo. Elaboración propia.
 
 <br>
 
 \begin{figure}[H]
 \caption{User Persona del segmento Profesional Especializado En Control De Plagas Agrícolas.}
 \centering
-\includegraphics[width=0.4\textwidth]{report/assets/needfinding/Paco Perez.png}
-\caption*{\textit{Nota.} La ficha de User Persona de Paco Perez detalla el arquetipo del productor agrícola tradicional, integrando sus objetivos, frustraciones y necesidades tecnológicas clave identificadas durante la fase de investigación para el diseño de la plataforma Viora. Elaboración propia.}
+\includegraphics[width=0.4\textwidth]{report/assets/needfinding/Pedro Huaman.png}
+\caption*{\textit{Nota.} La ficha de User Persona de Pedro Huaman detalla el arquetipo del productor agrícola tradicional, integrando sus objetivos, frustraciones y necesidades tecnológicas clave identificadas durante la fase de investigación para el diseño de la plataforma Viora. Elaboración propia.}
 \end{figure}
 
 <br>
 
-El User Persona de Pedro Huamán personifica al segmento de productores tecnificados que ya emplean herramientas digitales básicas, pero buscan optimizar la precisión en el control de plagas y el uso de recursos. Este arquetipo se enfoca en la eficiencia operativa y la integración de datos avanzados para la toma de decisiones estratégicas, sirviendo como base para el diseño de las funcionalidades de análisis predictivo de la plataforma Viora. Elaboración propia.
+El User Persona de Paco Perez personifica al segmento de productores tecnificados que ya emplean herramientas digitales básicas, pero buscan optimizar la precisión en el control de plagas y el uso de recursos. Este arquetipo se enfoca en la eficiencia operativa y la integración de datos avanzados para la toma de decisiones estratégicas, sirviendo como base para el diseño de las funcionalidades de análisis predictivo de la plataforma Viora. Elaboración propia.
 
 <br>
 
 \begin{figure}[H]
 \caption{User Persona del segmento Productor Olivero.}
 \centering
-\includegraphics[width=0.4\textwidth]{report/assets/needfinding/Pedro Huaman.png}
-\caption*{\textit{Nota.} La ficha de User Persona de Pedro Huaman detalla el arquetipo del agricultor tecnificado, integrando sus metas de optimización de recursos, frustraciones respecto a la precisión de datos y necesidades de integración tecnológica para la gestión avanzada en la plataforma Viora. Elaboración propia.}
+\includegraphics[width=0.4\textwidth]{report/assets/needfinding/Paco Perez.png}
+\caption*{\textit{Nota.} La ficha de User Persona de Paco Perez detalla el arquetipo del agricultor tecnificado, integrando sus metas de optimización de recursos, frustraciones respecto a la precisión de datos y necesidades de integración tecnológica para la gestión avanzada en la plataforma Viora. Elaboración propia.}
 \end{figure}
 
 \clearpage
@@ -166,7 +166,7 @@ En la fase final, se integraron los External Systems y los Actors. Esta etapa pe
 <br>
 
 \begin{figure}[H]
-\caption{FFase 4: Linea de tiempo con External Systems y Actors.}
+\caption{Fase 4: Linea de tiempo con External Systems y Actors.}
 \centering
 \includegraphics[width=0.6\textwidth]{report/assets/needfinding/fase-3-2-1.jpg}
 \caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 4, facilitando la lectura de los External Systems y Actors que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
