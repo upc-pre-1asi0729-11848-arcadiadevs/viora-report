@@ -64,4 +64,13 @@
 | 60      | US10          | Gestión de estado de disponibilidad                      | Como Especialista Agrícola, quiero gestionar mi estado de disponibilidad operativa, para controlar mi carga de trabajo y evitar solicitudes inatendibles.                                                                                                                       | 1                        |
 | 61      | US07          | Delimitación de área productiva                          | Como Productor Olivarero, quiero delimitar el área geográfica de mi parcela, para habilitar el monitoreo satelital y la vinculación con datos climáticos.                                                                                                                       | 5                        |
 
+<br>
+
+\begin{figure}[H]
+\caption{Vista General del Product Backlog en Trello.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/product-backlog/product-backlog-imagen.png}
+\caption*{\textit{Nota.} Elaboración propia a partir del tablero en Trello: \url{https://trello.com/invite/b/69e00d87215c6bb088755564/ATTI50fda3a5821a9e8dffc3c12f57c8fc13FE35DC4A/viora}}
+\end{figure}
+
 \newpage
