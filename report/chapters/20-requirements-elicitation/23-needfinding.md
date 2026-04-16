@@ -166,7 +166,7 @@ En la fase final, se integraron los External Systems y los Actors. Esta etapa pe
 <br>
 
 \begin{figure}[H]
-\caption{FFase 4: Linea de tiempo con External Systems y Actors.}
+\caption{Fase 4: Linea de tiempo con External Systems y Actors.}
 \centering
 \includegraphics[width=0.6\textwidth]{report/assets/needfinding/fase-3-2-1.jpg}
 \caption*{\textit{Nota.} Las capturas representan acercamientos específicos al tablero de la Fase 4, facilitando la lectura de los External Systems y Actors que intervienen en cada etapa del proceso agrícola. Elaboración propia.}
