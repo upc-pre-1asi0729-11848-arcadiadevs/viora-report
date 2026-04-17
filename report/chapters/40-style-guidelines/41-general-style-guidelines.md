@@ -93,7 +93,7 @@
 \begin{figure}[H]
     \caption{Definición del tono de voz y personalidad de Viora.}
     \centering
-    \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/06-Communication.jpg}
+    \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/06-Communication-tone.jpg}
     \caption*{\textit{Nota.} Atributos de comunicación que definen la personalidad de la marca: un equilibrio entre lo formal, serio, respetuoso y entusiasta. Elaboración propia.}
 \end{figure}
     
