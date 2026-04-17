@@ -4,11 +4,13 @@
 
 ### General Style Guidelines
 
-1. **Branding y logo:**
-   El logo de Viora debe reflejar la intersección entre la agronomía y la tecnología.
-   - **Sustento de diseño:** Se busca un diseño minimalista y moderno que transmita crecimiento y tecnología. Al ser una herramienta que ayuda a estabilizar la rentabilidad de los agricultores, la identidad de la marca debe proyectar solidez y evolución.
+1. **Identidad Visual y Concepto: Viora**
+   El elemento iconográfico identitario de Viora (conocido coloquialmente como 'logo') se define técnicamente como un imagotipo. Su diseño no es casual, sino que representa la intersección estratégica entre la agronomía tradicional y la inteligencia tecnológica.
+   - **Simbología del Ciclo:** La letra "O" actúa como una síntesis visual del ciclo de producción de la aceituna. Al encerrar la hoja dentro de esta forma circular, representamos el monitoreo integral y el control que el agricultor ejerce sobre su cultivo.
+   - **Propuesta de Valor:** El diseño proyecta crecimiento y protección. La integración de la hoja sugiere una producción saludable, mientras que la estructura que la rodea simboliza la tecnología de Viora actuando como una barrera de seguridad frente a plagas y factores externos.
+   - **Sustento de diseño:** Se apuesta por un estilo minimalista y moderno para transmitir solidez. En un sector donde la rentabilidad depende de variables críticas, la marca proyecta una imagen de evolución tecnológica que brinda confianza y estabilidad al agricultor.
 
-  <br>
+<br>
 
 \begin{figure}[H]
 \caption{Imagen del Branding y logo de Viora.}
