@@ -3,22 +3,23 @@
 ## Style Guidelines
 
 ### General Style Guidelines
+
 1. **Branding y logo:**
-   El logode Vioera debe reflejar la intersección entre la agronomía y la tecnología.
+   El logo de Viora debe reflejar la intersección entre la agronomía y la tecnología.
    - **Sustento de diseño:** Se busca un diseño minimalista y moderno que transmita crecimiento y tecnología. Al ser una herramienta que ayuda a estabilizar la rentabilidad de los agricultores, la identidad de la marca debe proyectar solidez y evolución.
 
   <br>
 
 \begin{figure}[H]
-    \caption{Imagen del Branding y logo de Viora.}
-    \centering
-    \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/05-Logo.jpg}
-    \caption*{\textit{Nota.} Visualización correspondiente a la identidad visual y marca. Elaboración propia.}
+\caption{Imagen del Branding y logo de Viora.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/05-Logo.jpg}
+\caption\*{\textit{Nota.} Visualización correspondiente a la identidad visual y marca. Elaboración propia.}
 \end{figure}
-    
+
 <br>
 
-2. **Tipografía:** 
+2. **Tipografía:**
    La plataforma Viora presentará dashboards, por lo que la lectura rápida y la claridad en la densidad de datos son primordiales.
    - **Sustento de diseño:** Se ha definido un sistema tipográfico dual que combina estética y funcionalidad:
      - **Caros:** Utilizada principalmente para la identidad y encabezados de alto impacto. Sus variantes Bold y Regular aportan personalidad y estructura visual a la marca.
@@ -28,30 +29,30 @@
   <br>
 
 \begin{figure}[H]
-    \caption{Imagen de la tipografía de Viora.}
-    \centering
-    \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/02-Typography.jpg}
-    \caption*{\textit{Nota.} Selección de fuentes para títulos y cuerpo de texto que garantizan legibilidad. Elaboración propia.}
+\caption{Imagen de la tipografía de Viora.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/02-Typography.jpg}
+\caption\*{\textit{Nota.} Selección de fuentes para títulos y cuerpo de texto que garantizan legibilidad. Elaboración propia.}
 \end{figure}
-    
+
 <br>
 
 3. **Colores:**
    Nuestra paleta de colores está directamente inspirada en el entorno agrícola y la visualización clara de datos.
-   - **Sustento de diseño:** 
+   - **Sustento de diseño:**
      - Colores Primarios: Tonos basados en la naturaleza (verdes olivo, tonos tierra) que anclan la aplicación en su contexto real.
      - Colores Secundarios: Azules tecnológicos que representan variables climáticas (como el fenómeno ENOS) y el análisis de datos.
      - Colores Semánticos: Uso estricto de colores cálidos (rojos/amarillos) para el sistema de alertas tempranas, vitales para advertir sobre plagas como la Xylella fastidiosa.
- 
+
   <br>
 
 \begin{figure}[H]
-    \caption{Paleta de colores de Viora.}
-    \centering
-    \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/01-Colors.jpg}
-    \caption*{\textit{Nota.} Definición de códigos hexadecimales y jerarquía cromática para la interfaz. Elaboración propia.}
+\caption{Paleta de colores de Viora.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/01-Colors.jpg}
+\caption\*{\textit{Nota.} Definición de códigos hexadecimales y jerarquía cromática para la interfaz. Elaboración propia.}
 \end{figure}
-    
+
 <br>
 
 4. **Espaciado:** El uso del espacio en blanco es fundamental para evitar la sobrecarga de información.
@@ -60,12 +61,12 @@
   <br>
 
 \begin{figure}[H]
-    \caption{Paleta de colores de Viora.}
-    \centering
-    \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/04-Spacing.jpg}
-    \caption*{\textit{Nota.} Guía de alineación y márgenes para la consistencia visual en web. Elaboración propia.}
+\caption{Paleta de colores de Viora.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/04-Spacing.jpg}
+\caption\*{\textit{Nota.} Guía de alineación y márgenes para la consistencia visual en web. Elaboración propia.}
 \end{figure}
-    
+
 <br>
 
 5. **Iconografía:** Los iconos funcionan como atajos visuales esenciales, especialmente en el trabajo de campo.
@@ -74,12 +75,12 @@
   <br>
 
 \begin{figure}[H]
-    \caption{Sistema de iconografía para Viora.}
-    \centering
-    \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/03-Iconography.jpg}
-    \caption*{\textit{Nota.} Conjunto de símbolos visuales para la navegación y estados del sistema. Elaboración propia.}
+\caption{Sistema de iconografía para Viora.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/03-Iconography.jpg}
+\caption\*{\textit{Nota.} Conjunto de símbolos visuales para la navegación y estados del sistema. Elaboración propia.}
 \end{figure}
-    
+
 <br>
 
 6. **Tono de Comunicación:** Dado el perfil de nuestros usuarios y la seriedad del contexto, nuestro tono de comunicación se define bajo las siguientes dimensiones:
@@ -91,13 +92,12 @@
   <br>
 
 \begin{figure}[H]
-    \caption{Definición del tono de voz y personalidad de Viora.}
-    \centering
-    \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/06-Communication-tone.jpg}
-    \caption*{\textit{Nota.} Atributos de comunicación que definen la personalidad de la marca: un equilibrio entre lo formal, serio, respetuoso y entusiasta. Elaboración propia.}
+\caption{Definición del tono de voz y personalidad de Viora.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/06-Communication-tone.jpg}
+\caption\*{\textit{Nota.} Atributos de comunicación que definen la personalidad de la marca: un equilibrio entre lo formal, serio, respetuoso y entusiasta. Elaboración propia.}
 \end{figure}
-    
-<br>
 
+<br>
 
 \newpage
