@@ -133,6 +133,56 @@ La estructura de los mensajes de commit es la siguiente (Conventional Commits, s
 
 ### Source Code Style Guide & Conventions
 
+Para garantizar la consistencia, legibilidad y el mantenimiento a largo plazo del código fuente de Viora, el equipo ha establecido un conjunto de estándares y convenciones de codificación. Como norma transversal, toda la nomenclatura (variables, métodos, clases, comentarios y nombres de archivos) se redactará exclusivamente en inglés, facilitando la integración con bibliotecas internacionales y siguiendo los estándares de la industria.
+
+A continuación, se detallan las guías de estilo adoptadas para cada tecnología del ecosistema:
+
+- Gherkin (Especificaciones de comportamiento)
+Para la redacción de criterios de aceptación y pruebas automatizadas, se siguen las Gherkin Reference Conventions de Cucumber.
+
+    - Idioma: Todas las palabras clave (Feature, Scenario, Given, When, Then, And) se escriben en inglés.
+
+    - Sintaxis: Se utiliza la estructura Given-When-Then para describir escenarios de interacción de forma comprobable.
+
+    - Reutilización: Se prioriza el uso de Scenario Outline y tablas de Examples para agrupar pruebas basadas en datos, evitando la redundancia de código (Cucumber, s.f.).
+
+- HTML (Estructura Web):
+La maquetación de la Landing Page y los templates de Angular se rigen por la Google HTML/CSS Style Guide (Google, s.f.) y los estándares de W3Schools HTML5 Syntax (W3Schools, s.f.).
+
+    - Sintaxis: Se utiliza minúscula para todas las etiquetas y atributos. Los valores de los atributos deben estar encerrados en comillas dobles (W3Schools, s.f.).
+
+    - Semántica: Es obligatorio el uso de etiquetas semánticas (\<header>, \<main>, \<article>, \<footer>) para mejorar la accesibilidad y el SEO (W3Schools, s.f.).
+
+    - Accesibilidad: Todas las imágenes deben incluir el atributo alt descriptivo, y los elementos de entrada deben estar vinculados a un \<label> (Google, s.f.).
+
+- CSS (Estilos y diseño visual):
+Se adopta la Google HTML/CSS Style Guide (Google, 2024) junto con la metodología de nomenclatura BEM (Block, Element, Modifier).
+
+    - Formato: Se utiliza una indentación de 2 espacios. Los selectores deben ser cortos y específicos, evitando el uso excesivo de selectores de tipo (ej. div.content) para mejorar el rendimiento del renderizado (Google, 2024).
+
+    - Nomenclatura: Se utiliza kebab-case para los nombres de clases (ej. viora-button--primary). Se prohíbe el uso de IDs para propósitos de estilo, reservándolos únicamente para anclajes o JavaScript.
+
+- Java y Spring Boot (Lógica del servidor):
+El desarrollo del backend se fundamenta en la Google Java Style Guide (Google, s.f.) y las recomendaciones de Spring Boot Features (VMware, s.f.).
+
+    - Convenciones de Nombres: Las clases utilizan UpperCamelCase (ej. CropService), mientras que los métodos y variables utilizan lowerCamelCase (ej. calculateNdviIndex). Las constantes se escriben en CONSTANT_CASE (Google, s.f.).
+
+    - Estructura de Control: Es obligatorio el uso de llaves {} incluso para bloques de una sola línea en sentencias if, for o while (Google, s.f.).
+
+    - Javadoc: Se requiere el uso de Javadoc para documentar todas las clases públicas y sus miembros (métodos y atributos). Se deben incluir etiquetas como @param, @return y @throws para detallar el contrato del método (Google, s.f.).
+
+    - Spring Boot: Se sigue la estructura de paquetes sugerida por el framework, localizando la clase principal @SpringBootApplication en el paquete raíz para facilitar el escaneo automático de componentes (VMware, s.f.).
+
+- TypeScript y Angular (Aplicación Web):
+Se aplican las convenciones de la Google TypeScript Style Guide (Google, s.f.) y la Angular Style Guide oficial (Angular, s.f.).
+
+    - Naming: Se utiliza kebab-case para el nombre de los archivos.
+
+    - Organización: Los componentes de Angular deben estar limitados a una sola responsabilidad, delegando la lógica compleja a servicios inyectables (Angular, s.f.).
+
+    - TSDoc: Se emplea TSDoc para la documentación del código fuente en TypeScript. Todo servicio o componente complejo debe incluir bloques descriptivos /** ... */ para explicar su propósito y las dependencias inyectadas (Google, s.f.).
+
+    - Directivas y decoradores: Los selectores de componentes deben usar el prefijo del proyecto vio- seguido de un nombre en kebab-case (ej. vio-plot-card) (Angular, s.f.).
 
 ### Software Deployment Configuration
 
