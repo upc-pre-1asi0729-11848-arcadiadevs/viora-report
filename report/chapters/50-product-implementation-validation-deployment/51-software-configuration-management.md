@@ -66,10 +66,73 @@ Para la documentación de la solución se considerará lo siguiente:
 
     - Swagger (OpenAPI): Para la generación automática de la documentación de los Web Services, permitiendo visualizar claramente los parámetros, esquemas y respuestas de los endpoints (https://swagger.io/).
 
-
 ### Source Code Management
 
+Para garantizar la integridad, trazabilidad y el trabajo colaborativo en el desarrollo de la solución web distribuida, el equipo ha establecido un esquema de organización basado en el control de versiones descentralizado.
+
+- Estrategias de Repositorios
+Se utiliza GitHub como plataforma principal para el almacenamiento y gestión del código fuente. La solución se ha dividido en tres repositorios independientes para facilitar el despliegue modular:
+
+    - Landing Page: Contiene los archivos de maquetación semántica y estilos para el sitio informativo. (https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
+
+    - Frontend Web Application: Repositorio dedicado a la aplicación en Angular, incluyendo componentes de lógica de usuario y servicios de consumo de API. (https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp)
+
+    - Web Services (Backend): Este repositorio centraliza la lógica de negocio desarrollada en Spring Boot. Incluye tanto el código del proyecto como la suite completa de pruebas unitarias, de integración y de aceptación (OpenAPI/Swagger). (https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-platform)
+
+- Workflow de Control de Versiones: Gitflow
+Se adopta el modelo GitFlow propuesto por Driessen (2010) para gestionar el ciclo de vida del software, asegurando que la rama de producción se mantenga siempre estable y aislada de las versiones en desarrollo.
+
+    - Ejes de desarrollo:
+
+        - main: Representa el estado actual de producción. Solo recibe cambios validados provenientes de ramas de lanzamiento o correcciones críticas.
+
+        - develop: En esta rama se consolidan las nuevas funcionalidades antes de ser preparadas para un release.
+
+    - Ramas auxiliares:
+
+        - Feature branches (feature/nombre-tarea): Utilizadas para el desarrollo de requerimientos específicos. Se originan en develop y regresan a ella tras completar la funcionalidad.
+
+        - Release branches (release/vX.X.X): Se crean para estabilizar una nueva versión del software. Permiten realizar ajustes menores antes de fusionarse con main y develop.
+
+        - Hotfix branches (hotfix/descripcion-error): Ramas de emergencia originadas en main para resolver fallos críticos en producción que no pueden esperar al siguiente ciclo de desarrollo.
+
+- Convenciones de Versionamiento (Semantinc Versioning)
+El equipo aplica el estándar Semantic Versioning 2.0.0 (Semver, s.f.) para la nomenclatura de sus entregables y etiquetas de release. Las versiones se estructuran bajo el formato MAYOR.MENOR.PARCHE:
+
+    - MAYOR: Se incrementa cuando se introducen cambios que rompen la compatibilidad con versiones previas (ej. v2.0.0).
+
+    - MENOR: Se aumenta al añadir funcionalidades nuevas que mantienen la compatibilidad con el sistema actual (ej. v1.1.0).
+
+    - PARCHE: Se utiliza para correcciones de errores menores y mejoras de rendimiento que no afectan la funcionalidad general (ej. v1.1.1).
+
+- Estándar de mensajería: Conventional Commits
+Para mantener un historial de cambios legible y automatizable, se implementa la especificación Conventional Commits 1.0.0, incorporando el uso de scopes para identificar el módulo afectado por la modificación.
+La estructura de los mensajes de commit es la siguiente (Conventional Commits, s.f.):
+\<type>(\<scope>): \<description>
+\<optional body>
+\<optional footer(s)>
+    - Tipos principales:
+
+        - feat: Incorporación de una nueva característica.
+
+        - fix: Corrección de un fallo técnico.
+
+        - docs: Cambios exclusivos en la documentación.
+
+        - refactor: Modificaciones en el código que no añaden funcionalidades ni corrigen errores.
+
+    - Scope: Indica la sección específica del proyecto afectada.
+
+    - Description: Resumen breve en tiempo presente.
+
+    - Optional body: Proporciona una explicación detallada de los cambios y la justificación técnica tras la modificación.
+
+    - Optional footer: Utilizado para referenciar IDs de tareas o señalar cambios disruptivos con la etiqueta
+
+    - Breaking Changes: Si un cambio rompe la compatibilidad, se añade el texto BREAKING CHANGE: en el pie del mensaje o un cierre de exclamación tras el tipo (ej. feat(auth)!: ...).
+
 ### Source Code Style Guide & Conventions
+
 
 ### Software Deployment Configuration
 
