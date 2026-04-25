@@ -70,7 +70,7 @@
 \caption{Vista General del Product Backlog en Trello.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/product-backlog/product-backlog-imagen.png}
-\caption*{\textit{Nota.} Elaboración propia a partir del tablero en Trello: \url{https://trello.com/invite/b/69e00d87215c6bb088755564/ATTI50fda3a5821a9e8dffc3c12f57c8fc13FE35DC4A/viora}
+\caption*{\textit{Nota.} Elaboración propia a partir del tablero en Trello: https://trello.com/invite/b/69e00d87215c6bb088755564/ATTI50fda3a5821a9e8dffc3c12f57c8fc13FE35DC4A/viora}
 \end{figure}
 
 \newpage
