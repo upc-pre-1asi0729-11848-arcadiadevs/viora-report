@@ -10,9 +10,14 @@ A continuación se presentan los diagramas de clases en formato PlantUML para lo
 
 #### API Application Class Diagrams (Java Spring Boot)
 
+&nbsp;
+
+
 En esta sección se detallan las clases principales del backend, separados en los componentes definidos en el diagrama de arquitectura C4. Para reflejar adecuadamente la arquitectura backend, se incluyen Entidades, Interfaces, Transfer Objects (DTOs), Servicios y Controladores.
 
 ##### Core: Repository & External Integrations Components
+
+&nbsp;
 
 Este diagrama incluye la capa de persistencia base (Spring Data JPA) y los adaptadores para los servicios externos como AgroMonitoring, MercadoPago y Mapbox.
 
@@ -25,6 +30,8 @@ Este diagrama incluye la capa de persistencia base (Spring Data JPA) y los adapt
 
 ##### IAM & Profile Components (Spring Boot)
 
+&nbsp;
+
 Maneja el registro, la autenticación mediante JWT (JSON Web Tokens) y la gestión de los perfiles de Productores y Especialistas.
 
 \begin{figure}[H]
@@ -35,6 +42,9 @@ Maneja el registro, la autenticación mediante JWT (JSON Web Tokens) y la gesti�
 \end{figure}
 
 ##### Plot Management & Agrometeorological Monitoring (Spring Boot)
+
+&nbsp;
+
 
 Subsistema principal de datos geolocalizados para las parcelas y sincronización de índices de vegetación o clima.
 
@@ -47,6 +57,8 @@ Subsistema principal de datos geolocalizados para las parcelas y sincronización
 
 ##### Prediction, Risk Engine & Alerts Components (Spring Boot)
 
+&nbsp;
+
 Procesamiento del análisis predictivo de amenazas a los cultivos (fenológicas o estrés) y emisión de notificaciones.
 
 \begin{figure}[H]
@@ -57,6 +69,8 @@ Procesamiento del análisis predictivo de amenazas a los cultivos (fenológicas 
 \end{figure}
 
 ##### Epidemiological Surveillance Component (Spring Boot)
+
+&nbsp;
 
 Gestión de la vigilancia fitosanitaria, reporte de síntomas, validación de brotes probables, emisión de alertas epidemiológicas comunitarias y prospección territorial de zonas de riesgo. Este componente representa uno de los tres bounded contexts del core domain de Viora, alineado al flujo modelado en el Design-Level EventStorming de Epidemiological Surveillance.
 
@@ -69,6 +83,8 @@ Gestión de la vigilancia fitosanitaria, reporte de síntomas, validación de br
 
 ##### Marketplace & Intervention Component (Spring Boot)
 
+&nbsp;
+
 Módulo para enlazar Productores de Olivo con Especialistas a través de solicitudes de evaluación técnica.
 
 \begin{figure}[H]
@@ -79,6 +95,9 @@ Módulo para enlazar Productores de Olivo con Especialistas a través de solicit
 \end{figure}
 
 ##### Subscription & Billing Component (Spring Boot)
+
+&nbsp;
+
 
 Lógica de pasarelas de pago y asignación de privilegios de suscripción.
 
@@ -91,6 +110,8 @@ Lógica de pasarelas de pago y asignación de privilegios de suscripción.
 
 ##### Moderation & Strikes Component (Spring Boot)
 
+&nbsp;
+
 Administración de bloqueos y penalizaciones en la plataforma para mantener los términos de la comunidad de especialistas e intervencionistas limpios.
 
 \begin{figure}[H]
@@ -102,9 +123,13 @@ Administración de bloqueos y penalizaciones en la plataforma para mantener los 
 
 #### Web Application Class Diagrams (Angular UI)
 
+&nbsp;
+
 En esta sección se detalla la estructura orientada a objetos de la aplicación web desarrollada en Angular, dividida en los distintos contenedores identificados en la arquitectura C4. Se ha separado en módulos Core (Compartidos) y Funcionales para una mayor claridad.
 
 ##### Core: Shared UI & API Client Services
+
+&nbsp;
 
 Este diagrama incluye los servicios transversales de conexión con el backend mediante HttpClient de Angular y los componentes base reutilizables.
 
@@ -117,6 +142,8 @@ Este diagrama incluye los servicios transversales de conexión con el backend me
 
 ##### Routing & Guards Component
 
+&nbsp;
+
 Gestiona el enrutamiento y la protección de vistas del lado del cliente.
 
 \begin{figure}[H]
@@ -127,6 +154,8 @@ Gestiona el enrutamiento y la protección de vistas del lado del cliente.
 \end{figure}
 
 ##### Authentication UI Component
+
+&nbsp;
 
 Maneja los flujos de inicio de sesión, registro y el estado de la sesión actual de los usuarios.
 
@@ -139,6 +168,8 @@ Maneja los flujos de inicio de sesión, registro y el estado de la sesión actua
 
 ##### Profile UI Component
 
+&nbsp;
+
 Permite actualizar la información personal, contraseñas y subir la evidencia necesaria para especialistas y productores.
 
 \begin{figure}[H]
@@ -149,6 +180,8 @@ Permite actualizar la información personal, contraseñas y subir la evidencia n
 \end{figure}
 
 ##### Dashboard UI Component
+
+&nbsp;
 
 Actúa como punto de entrada presentando los resúmenes y accesos directos al resto de las vistas.
 
@@ -161,6 +194,8 @@ Actúa como punto de entrada presentando los resúmenes y accesos directos al re
 
 ##### Plot Management UI Component
 
+&nbsp;
+
 Módulo principal de productores de olivo para gestión de parcelas y visualización telemética (NDVI, clima).
 
 \begin{figure}[H]
@@ -171,6 +206,8 @@ Módulo principal de productores de olivo para gestión de parcelas y visualizac
 \end{figure}
 
 ##### Marketplace & Intervention UI Component
+
+&nbsp;
 
 Relaciona solicitudes y ofertas de servicios entre productores de olivo y especialistas agrícolas.
 
@@ -183,6 +220,8 @@ Relaciona solicitudes y ofertas de servicios entre productores de olivo y especi
 
 ##### Notification Center Component
 
+&nbsp;
+
 Maneja los avisos urgentes (clima, pagos asíncronos y alertas sanitarias).
 
 \begin{figure}[H]
@@ -193,6 +232,8 @@ Maneja los avisos urgentes (clima, pagos asíncronos y alertas sanitarias).
 \end{figure}
 
 ##### Subscription & Billing UI Component
+
+&nbsp;
 
 Permite revisar contratos, suscripciones SAAS e historial de pagos.
 

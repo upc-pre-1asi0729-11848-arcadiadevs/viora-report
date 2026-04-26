@@ -4,15 +4,6 @@ Esta arquitectura de información es una estructura de alto nivel, modular y cen
 
 La arquitectura de Viora es sólida, clara y orientada a la acción. Su estructura modular permite una navegación intuitiva que guía al usuario a través de procesos críticos de forma transparente (como la trazabilidad de parcelas y el registro de intervenciones) y eficiente. Más allá de la simple visualización de información del entorno agrícola, integra una red de colaboración y prospección territorial, convirtiéndola en un ecosistema que no solo reporta el estado de los cultivos (Índice de Vigor, NDVI), sino que promueve activamente intervenciones fitosanitarias oportunas y protección compartida.
 
-### Labeling Systems
-
-El sistema de etiquetado de Viora se basa en la claridad semántica y la adaptación al vocabulario del sector agroindustrial, buscando reducir la carga cognitiva de nuestros perfiles clave. Se han validado términos para que resulten familiares, precisos y orientados a la operatividad.
-
-- **Navigation Labels**: Elementos que guían los menús a través de la interfaz. En la Landing Page usamos "Problem & Solution", "Segment Benefits" y "Access Model". En la Web App integramos módulos directos como "Dashboard", "Mis Parcelas", "Trazabilidad", "Alertas Epidemiológicas" y "Directorio de Especialistas".
-- **Action Labels (Botones y CTAs)**: Orientados a la conversión y productividad. Incluyen "Start Free Trial", "Log In", "Registrar Nueva Parcela", "Contactar Especialista" y "Confirmar Aplicación en Campo".
-- **System & Context Labels (Estados e Indicadores)**: Etiquetas que reportan situaciones en tiempo real, vitales para decisiones de riesgo, tales como "Severidad Alta/Media", "Estado de Vigor (NDVI)", "Riesgo Fitosanitario" y "Disponible / En ruta" (para el estado del especialista).
-- **Identity Labels**: Clasificación de los usuarios según su acceso, denominados estrictamente "Productor" (Producer) y "Especialista Agrónomo" (Agro Specialist), para configurar las reglas de negocio específicas de cada dashboard.
-
 ### Organization Systems
 
 La organización de la información en Viora intercala esquemas lógicos diseñados para estructurar y presentar los datos evitando la confusión técnica.
@@ -80,6 +71,15 @@ La organización de la información en Viora intercala esquemas lógicos diseña
 \includegraphics[width=0.9\textwidth]{report/assets/information-architecture/landing-page-visitor-choreograpy.png}
 \caption*{\textit{Nota.} Flujo de embudo de conversión y decisión del usuario visitante en Viora. Elaboración propia.}
 \end{figure}
+
+### Labeling Systems
+
+El sistema de etiquetado de Viora se basa en la claridad semántica y la adaptación al vocabulario del sector agroindustrial, buscando reducir la carga cognitiva de nuestros perfiles clave. Se han validado términos para que resulten familiares, precisos y orientados a la operatividad.
+
+- **Navigation Labels**: Elementos que guían los menús a través de la interfaz. En la Landing Page usamos "Problem & Solution", "Segment Benefits" y "Access Model". En la Web App integramos módulos directos como "Dashboard", "Mis Parcelas", "Trazabilidad", "Alertas Epidemiológicas" y "Directorio de Especialistas".
+- **Action Labels (Botones y CTAs)**: Orientados a la conversión y productividad. Incluyen "Start Free Trial", "Log In", "Registrar Nueva Parcela", "Contactar Especialista" y "Confirmar Aplicación en Campo".
+- **System & Context Labels (Estados e Indicadores)**: Etiquetas que reportan situaciones en tiempo real, vitales para decisiones de riesgo, tales como "Severidad Alta/Media", "Estado de Vigor (NDVI)", "Riesgo Fitosanitario" y "Disponible / En ruta" (para el estado del especialista).
+- **Identity Labels**: Clasificación de los usuarios según su acceso, denominados estrictamente "Productor" (Producer) y "Especialista Agrónomo" (Agro Specialist), para configurar las reglas de negocio específicas de cada dashboard.
 
 ### SEO Tags and Meta Tags
 
