@@ -24,7 +24,7 @@ Este diagrama modela la persistencia del módulo de Identity & Access Management
 \begin{figure}[H]
     \caption{Diagrama de base de datos para el bounded context IAM.}
     \centering
-    \includegraphics[width=0.45\textwidth]{report/assets/database-diagrams/iam-database-diagram.png}
+    \includegraphics[width=0.45\textwidth]{report/assets/database-diagrams/iam-bounded-context-database-diagram.png}
     \caption*{\textit{Nota.} Esquema relacional correspondiente al módulo de Identity \& Access Management. Elaboración propia.}
 \end{figure}
 
