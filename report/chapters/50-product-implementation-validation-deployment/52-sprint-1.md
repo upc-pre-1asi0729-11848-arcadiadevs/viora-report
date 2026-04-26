@@ -181,13 +181,58 @@ Viora-website & feature/footer & 3e69e45 & feat(footer): add template, styles an
 
 #### Execution Evidence for Sprint Review
 
-
+&nbsp;
 
 #### Services Documentation Evidence for Sprint Review. 
 
+&nbsp;
+
+
 #### Software Deployment Evidence for Sprint Review.
 
+&nbsp;
+
+Para este sprint se realizó el despligue del Landing Page en Vercel considerando los siguientes pasos:
+
+1. Se cambio la visualización del repositorio a público.
+
+\begin{figure}[H]
+\caption{Repositorio de GitHub en público}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-1/public-repo.jpg}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+2. Se creó la cuenta en Vercel, se vinculo con una cuenta de github y se importo el repositorio.
+
+\begin{figure}[H]
+\caption{Repositorio importado en Vercel}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-1/import.jpg}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+3. Se desplegó el repositorio.
+
+\begin{figure}[H]
+\caption{Despliegue del repositorio en Vercel}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-1/deploy.jpg}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+4. Se verificó el despliegue.
+
+\begin{figure}[H]
+\caption{Verificación del despliegue en Vercel}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-1/verify.jpg}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
 #### Team Collaboration Insights for Sprint Review 
+
+&nbsp;
 
 En esta sección se detallan las actividades de implementación llevadas a cabo durante el Sprint 1, orientadas a la construcción y despliegue de la Landing Page de Viora. El proceso de desarrollo se ejecutó de manera ágil y estructurada, garantizando que todos los miembros del equipo tuvieran una participación técnica activa. Para respaldar la trazabilidad del trabajo colaborativo, a continuación se presentan las evidencias extraídas directamente de los analíticos de GitHub (Pulse y Contributors). Estas capturas ilustran el flujo de integración, con la participación de los 5 autores, el registro de commits estructurados y la validación de múltiples Pull Requests hacia las ramas principales.
 

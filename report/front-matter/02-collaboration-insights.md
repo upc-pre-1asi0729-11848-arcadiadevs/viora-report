@@ -6,6 +6,6 @@
 
 **Link de los repositorios de la organización:**
 
--
+- [Repositorio del Landing Page](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
 
 \clearpage

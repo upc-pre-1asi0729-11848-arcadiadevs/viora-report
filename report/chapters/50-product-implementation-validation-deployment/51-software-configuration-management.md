@@ -55,7 +55,7 @@ Para cumplir con el ciclo de desarrollo y despliegue de una solución distribuid
 
         - Azure Database for PostgreSQL: Servicio gestionado para la persistencia de datos. Se utilizará para el almacenamiento de polígonos de parcelas y datos agronómicos, aprovechando la extensión PostGIS para el procesamiento geográfico necesario en el proyecto. (https://azure.microsoft.com/es-es/products/postgresql/)
 
-    - Hostinger: Hosting para la Landing Page estática y gestor oficial del dominio y registros DNS del ecosistema
+    - Vercel: Se utilizará para el despliegue del Landing Page. (https://vercel.com/)
 
     - GitHub Actions: Motor de CI/CD que automatiza la compilación y despliegue hacia Azure en cada push a las ramas principales.
 
@@ -187,5 +187,13 @@ Se aplican las convenciones de la Google TypeScript Style Guide (Google, s.f.) y
     - Directivas y decoradores: Los selectores de componentes deben usar el prefijo del proyecto vio- seguido de un nombre en kebab-case (ej. vio-plot-card) (Angular, s.f.).
 
 ### Software Deployment Configuration
+
+Para garantizar un pase a producción seguro y automatizado, se ha implementará un pipeline de Integración y Despliegue Continuo (CI/CD) orquestado por GitHub Actions. Este motor detecta cualquier integración de código en las ramas principales de los repositorios fuente, ejecutando los siguientes pasos de publicación según el producto digital:
+
+- Landing Page: A partir del repositorio fuente, el código es compilado y desplegado automáticamente hacia la plataforma Vercel, optimizando la entrega del sitio comercial.
+
+- Frontend Web Applications: El código fuente desarrollado en Angular es empaquetado por GitHub Actions y publicado en Azure Static Web Apps, distribuyéndose a través de su CDN global.
+
+- Web Services (Backend): El repositorio de Spring Boot es compilado y desplegado de forma continua en Azure App Service, el cual se encontrará enlazado a la base de datos gestionada Azure Database for PostgreSQL.
 
 \newpage
