@@ -419,3 +419,19 @@ Al presionar "**See alternate bearing projection**", el sistema ejecuta una eval
 1. **Acceso:** Pedro utiliza el **Side Menu** para dirigirse al módulo de **Alerts**.
 2. **Selección:** Tras filtrar las alertas por prioridad, selecciona el botón "**Dynamic Nutrition Details**" en una incidencia crítica del listado.
 3. **Resolución:** El flujo culmina en la pantalla **Olive Fattening - Summer Cycle**. Esta vista presenta la **Technical Guide** con campos de alta precisión (*Potassium Fertigation*, *Dose*, *Frequency*), permitiendo al productor ejecutar la recomendación técnica de forma inmediata y mitigar el riesgo fitosanitario.
+
+## Web Applications Prototyping
+
+En esta sección se presenta el video del prototype interactivo de la aplicación web Viora, cuyo diseño se centra en la eficiencia operativa y la reducción de la carga cognitiva para el usuario. La arquitectura de información prioriza las herramientas de diagnóstico y monitoreo de cultivos, utilizando un sistema de navegación basado en paneles fijos y menús laterales expansibles que optimizan el espacio de trabajo en escritorio. Estas decisiones se materializan mediante interacciones dinámicas vinculadas a los User Flows, tales como ventanas modales para la gestión de datos y microinteracciones que garantizan una retroalimentación visual inmediata, asegurando una experiencia de navegación fluida y profesional.
+
+\begin{figure}[H]
+\caption{Captura de video de prototype.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/captura-video.png}
+\caption*{\textit{Nota.} Captura del video del prototype. Elaboración propia.}
+\end{figure} 
+
+\textbf{Enlace} & \url{https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415749_upc_edu_pe/IQDbZfqE4PYPTKMzKB0M5UfKAch-hiNxhDc5Dpb-sCWRaHA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PpicX5} 
+
+
+
