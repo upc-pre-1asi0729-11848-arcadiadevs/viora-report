@@ -25,11 +25,11 @@ De acuerdo a la sección con relación al diseño del producto, se utilizaron 5 
 
     - Figma: Para el diseño visual y de la interfaz, se centralizó el trabajo en Figma. Esta herramienta se usó para desarrollar los Wireframes y Mock-ups de la Landing Page; los Wireframes, Mock-ups y Prototypes de la aplicación web, asegurando el uso de Material Design como lenguaje de diseño. (https://www.figma.com/)
 
-    - LucidChart: Se empleó LucidChart para realizar las conexiones en los Wireflows y User Flows. Adicionalmente, se utilizó para los diagramas UML. (https://www.lucidchart.com/)
+    - LucidChart: Se empleó LucidChart para realizar las conexiones en los Wireflows y User Flows. (https://www.lucidchart.com/)
 
     - Structurizr: Se empleó para la representación gráfica y estructuración de la Arquitectura de Software utilizando el C4 Model. (https://structurizr.com/)
 
-    - Vertabelo: Herramienta especializada para el diseño físico de la base de datos relacional, facilitando la integridad del esquema para cada Bounded Context. (https://vertabelo.com/)
+    - PlantUML: Herramienta para el diseño de la base de datos relacional y los diagramas de clases. (https://www.plantuml.com/)
 
     - Miro: Se empleó para el desarrollo del Design-Level Event Storming, profundizando en la identificación de comandos, eventos y agregados. (https://miro.com/)
 
@@ -55,7 +55,7 @@ Para cumplir con el ciclo de desarrollo y despliegue de una solución distribuid
 
         - Azure Database for PostgreSQL: Servicio gestionado para la persistencia de datos. Se utilizará para el almacenamiento de polígonos de parcelas y datos agronómicos, aprovechando la extensión PostGIS para el procesamiento geográfico necesario en el proyecto. (https://azure.microsoft.com/es-es/products/postgresql/)
 
-    - Hostinger: Hosting para la Landing Page estática y gestor oficial del dominio y registros DNS del ecosistema
+    - Vercel: Se utilizará para el despliegue del Landing Page. (https://vercel.com/)
 
     - GitHub Actions: Motor de CI/CD que automatiza la compilación y despliegue hacia Azure en cada push a las ramas principales.
 
@@ -187,5 +187,13 @@ Se aplican las convenciones de la Google TypeScript Style Guide (Google, s.f.) y
     - Directivas y decoradores: Los selectores de componentes deben usar el prefijo del proyecto vio- seguido de un nombre en kebab-case (ej. vio-plot-card) (Angular, s.f.).
 
 ### Software Deployment Configuration
+
+Para garantizar un pase a producción seguro y automatizado, se ha implementará un pipeline de Integración y Despliegue Continuo (CI/CD) orquestado por GitHub Actions. Este motor detecta cualquier integración de código en las ramas principales de los repositorios fuente, ejecutando los siguientes pasos de publicación según el producto digital:
+
+- Landing Page: A partir del repositorio fuente, el código es compilado y desplegado automáticamente hacia la plataforma Vercel, optimizando la entrega del sitio comercial.
+
+- Frontend Web Applications: El código fuente desarrollado en Angular es empaquetado por GitHub Actions y publicado en Azure Static Web Apps, distribuyéndose a través de su CDN global.
+
+- Web Services (Backend): El repositorio de Spring Boot es compilado y desplegado de forma continua en Azure App Service, el cual se encontrará enlazado a la base de datos gestionada Azure Database for PostgreSQL.
 
 \newpage

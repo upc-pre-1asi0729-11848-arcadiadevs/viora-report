@@ -2,10 +2,10 @@
 
 **Link del repositorio del informe:**
 
-- https://github.com/ArcadiaDevsV/OS-Viora-Informe
+- [Repositorio del informe](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-report)
 
 **Link de los repositorios de la organización:**
 
--
+- [Repositorio del Landing Page](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
 
 \clearpage
