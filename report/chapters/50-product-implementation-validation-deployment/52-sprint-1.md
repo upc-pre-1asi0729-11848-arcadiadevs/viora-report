@@ -96,3 +96,66 @@ El objetivo principal de este Sprint es establecer la presencia digital estraté
 \end{tabular}
 
 
+#### Deployment Evidence for Sprint Review
+
+Durante la primera iteración, el principal avance de implementación se centró en la construcción integral de la Landing Page oficial de Viora. Se logró codificar e integrar con éxito la interfaz de usuario, la lógica de navegación responsiva, la segmentación de la propuesta de valor y los módulos de conversión (CTAs y formularios).
+
+Para garantizar la centralización, trazabilidad y correcta auditoría del código fuente, todas las contribuciones técnicas de este incremento fueron registradas e integradas bajo el usuario organizacional (upc-pre-202610-1asi0729-11848-ArcadiaDevs).
+
+A continuación, se presenta la matriz de control de versiones, la cual detalla el historial cronológico de commits realizados en el repositorio del proyecto.
+
+\begin{longtable}{|p{0.18\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.32\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|}
+\hline
+\textbf{Repository} & \textbf{Branch} & \textbf{Commit Id} & \textbf{Commit Message} & \textbf{Commit Message Body} & \textbf{Commited on (Date)} \\ \hline
+\endfirsthead
+
+\hline
+\textbf{Repository} & \textbf{Branch} & \textbf{Commit Id} & \textbf{Commit Message} & \textbf{Commit Message Body} & \textbf{Commited on} \\ \hline
+\endhead
+
+% --- CRONOLOGÍA SPRINT 1 ---
+Viora-website & feature/plans-trial-afiliates & f32e856 & feat(plans-trial-affiliates): add pricing plans section with initial structure. & & 26/04/2026 \\ \hline
+Viora-website & feature/landing-header & 619c1a0 & feat(landing-header): implement landing page header styles and mobile drawer. & & 26/04/2026 \\ \hline
+Viora-website & feature/plans-trial-afiliates & 84f0dea & feat(plans-trial-affiliates): add css styles for plans trial affiliates section. & & 26/04/2026 \\ \hline
+Viora-website & feature/about-section & b57ba9b & feat(about): add about intro and team members panel components. & & 26/04/2026 \\ \hline
+Viora-website & feature/about-section & 13dd0c8 & feat(about): add learning from best panel with animations and layout. & & 26/04/2026 \\ \hline
+Viora-website & feature/about-section & 6d6d545 & feat(about): add mission panel with responsive design and parallax effect. & & 26/04/2026 \\ \hline
+Viora-website & feature/plans-trial-afiliates & 046c272 & feat(plans-trial-affiliates): implement plans trial affiliates section with html loading and initialization. & & 26/04/2026 \\ \hline
+Viora-website & feature/about-section & 7c137e8 & feat(about): implement about section with mission, team members, and learning panels. & & 26/04/2026 \\ \hline
+Viora-website & feature/landing-header & c06f8b9 & feat(landing-header): implement landing header HTML with i18n and accessibility support. & & 26/04/2026 \\ \hline
+Viora-website & feature/landing-header & e36c60f & feat(landing-header): implement landing header logic and smooth scroll navigation. & & 26/04/2026 \\ \hline
+Viora-website & feature/plans-trial-afiliates & e3fc6ad & feat(plans-trial-affiliates): add parallax intro section with pricing plans and images. & & 26/04/2026 \\ \hline
+Viora-website & feature/plans-trial-afiliates & e40f2a5 & feat(plans-trial-affiliates): add css styles for parallax intro section. & & 26/04/2026 \\ \hline
+Viora-website & & 9a8b785 & feat(plans-trial-affiliates): add parallax intro functionality with responsive image states. & & 26/04/2026 \\ \hline
+Viora-website & feature/plans-trial-afiliates & 4071c15 & feat(plans-trial-affiliates): add html, css, and js files for pricing plans panel component. & & 26/04/2026 \\ \hline
+Viora-website & feature/plans-trial-afiliates & bbf0b56 & feat(plans-trial-affiliates): add css styles for pricing plans panel component. & & 26/04/2026 \\ \hline
+Viora-website & feature/plans-trial-afiliates & f32fc07 & feat(plans-trial-affiliates): implement pricing plans panel functionality with active plan and billing options. & & 26/04/2026 \\ \hline
+Viora-website & feature/problem-solution & 3cc666a & feat(problem-solution): add html file for the problem-solution section. & & 26/04/2026 \\ \hline
+Viora-website & feature/problem-solution & 303e405 & feat(problem-solution): add css file for the problem-solution section. & & 26/04/2026 \\ \hline
+Viora-website & feature/problem-solution & 36ce286 & feat(problem-solution): add js file for the problem-solution section. & & 26/04/2026 \\ \hline
+Viora-website & feature/plans-trial-afiliates & c4f2c9b & feat(plans-trial-affiliates): add referrals info section with html, css, and js files. & & 26/04/2026 \\ \hline
+Viora-website & feature/problem-solution & 4aa1962 & feat(problem-solution): add html file for the solution panel. & & 26/04/2026 \\ \hline
+Viora-website & feature/plans-trial-afiliates & db699d2 & feat(plans-trial-affiliates): add referrals info section styles and layout. & & 26/04/2026 \\ \hline
+Viora-website & feature/problem-solution & 0ad082f & feat(problem-solution): add css file for the solution-panel. & & 26/04/2026 \\ \hline
+Viora-website & feature/plans-trial-afiliates & 31df806 & feat(plans-trial-affiliates): implement referrals carousel functionality with pointer events and responsive behavior. & & 26/04/2026 \\ \hline
+Viora-website & feature/problem-solution & c31e7cc & feat(problem-solution): add js file for the problem-panel. & & 26/04/2026 \\ \hline
+Viora-website & feature/problem-solution & 9116e2d & feat(problem-solution): add html file for the problem-panel. & & 26/04/2026 \\ \hline
+Viora-website & feature/problem-solution & 2dab8cf & feat(problem-solution): add css file for the problem-panel. & & 26/04/2026 \\ \hline
+Viora-website & feature/problem-solution & 5358aa7 & feat(problem-solution): add css file for the expected-outcomes-panel. & & 26/04/2026 \\ \hline
+Viora-website & feature/problem-solution & c973efb & feat(problem-solution): add js file for the expected-outcomes-panel. & & 26/04/2026 \\ \hline
+Viora-website & feature/problem-solution & 92996b7 & feat(problem-solution): add html file for the expected-outcomes-panel. & & 26/04/2026 \\ \hline
+Viora-website & feature/role-benefits & 1b41ce9 & feat(role-benefits): add template for role benefits section. & & 26/04/2026 \\ \hline
+Viora-website & feature/role-benefits & 71dedb0 & feat(role-benefits): add styles for role benefits section. & & 26/04/2026 \\ \hline
+Viora-website & feature/role-benefits & 6099d38 & feat(role-benefits): add script for role benefits section. & & 26/04/2026 \\ \hline
+Viora-website & feature/testimonial & 86627a8 & feat(testimonial): Add testimonial css file. & & 26/04/2026 \\ \hline
+Viora-website & feature/testimonial & 602e6c3 & feat(testimonial): Add testimonial html file. & & 26/04/2026 \\ \hline
+Viora-website & feature/testimonial & a13ca69 & feat(testimonial): Add testimonial js file. & & 26/04/2026 \\ \hline
+Viora-website & feature/contact & 13500db & feat(contact): Add contact css file. & & 26/04/2026 \\ \hline
+Viora-website & feature/contact & a085104 & feat(contact): Add contact html file. & & 26/04/2026 \\ \hline
+Viora-website & feature/contact & bfbaf1d & feat(contact): Add contact js file. & & 26/04/2026 \\ \hline
+Viora-website & feature/hero & d6a6945 & feat(hero): add template, styles and script for hero section. & & 26/04/2026 \\ \hline
+Viora-website & feature/hero & 9364aaf & feat(hero): add script for ambient sound. & & 26/04/2026 \\ \hline
+Viora-website & fix/landing-header & bd9b790 & fix(landing-header): change location of template, styles and script. & & 26/04/2026 \\ \hline
+Viora-website & feature/footer & 3e69e45 & feat(footer): add template, styles and script for footer section. & & 26/04/2026 \\ \hline
+\end{longtable}
+
