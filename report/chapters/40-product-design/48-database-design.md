@@ -24,7 +24,7 @@ Este diagrama modela la persistencia del módulo de Identity & Access Management
 \begin{figure}[H]
     \caption{Diagrama de base de datos para el bounded context IAM.}
     \centering
-    \includegraphics[width=0.45\textwidth]{report/assets/database-diagrams/iam-database-diagram.png}
+    \includegraphics[width=0.45\textwidth]{report/assets/database-design-diagrams/iam-database-diagram.png}
     \caption*{\textit{Nota.} Esquema relacional correspondiente al módulo de Identity \& Access Management. Elaboración propia.}
 \end{figure}
 
@@ -35,7 +35,7 @@ Este diagrama cubre la gestión de perfiles de usuarios (productores y especiali
 \begin{figure}[H]
     \caption{Diagrama de base de datos para el bounded context Profile \& Asset Management.}
     \centering
-    \includegraphics[width=1\textwidth]{report/assets/datbase-design-diagrams/profile-asset-management-database-diagram.png}
+    \includegraphics[width=1\textwidth]{report/assets/database-design-diagrams/profile-asset-management-database-diagram.png}
     \caption*{\textit{Nota.} Esquema relacional correspondiente a la gestión de perfiles de productores y especialistas. Elaboración propia.}
 \end{figure}
 
