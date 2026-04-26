@@ -25,11 +25,11 @@ De acuerdo a la sección con relación al diseño del producto, se utilizaron 5 
 
     - Figma: Para el diseño visual y de la interfaz, se centralizó el trabajo en Figma. Esta herramienta se usó para desarrollar los Wireframes y Mock-ups de la Landing Page; los Wireframes, Mock-ups y Prototypes de la aplicación web, asegurando el uso de Material Design como lenguaje de diseño. (https://www.figma.com/)
 
-    - LucidChart: Se empleó LucidChart para realizar las conexiones en los Wireflows y User Flows. Adicionalmente, se utilizó para los diagramas UML. (https://www.lucidchart.com/)
+    - LucidChart: Se empleó LucidChart para realizar las conexiones en los Wireflows y User Flows. (https://www.lucidchart.com/)
 
     - Structurizr: Se empleó para la representación gráfica y estructuración de la Arquitectura de Software utilizando el C4 Model. (https://structurizr.com/)
 
-    - Vertabelo: Herramienta especializada para el diseño físico de la base de datos relacional, facilitando la integridad del esquema para cada Bounded Context. (https://vertabelo.com/)
+    - PlantUML: Herramienta para el diseño de la base de datos relacional y los diagramas de clases. (https://www.plantuml.com/)
 
     - Miro: Se empleó para el desarrollo del Design-Level Event Storming, profundizando en la identificación de comandos, eventos y agregados. (https://miro.com/)
 
