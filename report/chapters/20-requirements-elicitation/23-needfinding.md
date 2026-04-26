@@ -11,7 +11,7 @@ El User Persona de Pedro Huaman representa al segmento de productores agrícolas
 <br>
 
 \begin{figure}[H]
-\caption{User Persona del segmento Productor Olivero.}
+\caption{User Persona del segmento Profesional Especializado En Control De Plagas Agrícolas.}
 \centering
 \includegraphics[width=0.4\textwidth]{report/assets/needfinding/Pedro Huaman.png}
 \caption*{\textit{Nota.} La ficha de User Persona de Pedro Huaman detalla el arquetipo del productor agrícola tradicional, integrando sus objetivos, frustraciones y necesidades tecnológicas clave identificadas durante la fase de investigación para el diseño de la plataforma Viora. Elaboración propia.}
@@ -24,14 +24,13 @@ El User Persona de Paco Perez personifica al segmento de productores tecnificado
 <br>
 
 \begin{figure}[H]
-\caption{User Persona del segmento Profesional Especializado En Control De Plagas Agrícolas.}
+\caption{User Persona del segmento Productor Olivero.}
 \centering
 \includegraphics[width=0.4\textwidth]{report/assets/needfinding/Paco Perez.png}
 \caption*{\textit{Nota.} La ficha de User Persona de Paco Perez detalla el arquetipo del agricultor tecnificado, integrando sus metas de optimización de recursos, frustraciones respecto a la precisión de datos y necesidades de integración tecnológica para la gestión avanzada en la plataforma Viora. Elaboración propia.}
 \end{figure}
 
 \clearpage
-
 
 ### User Task Matrix
 
@@ -218,7 +217,7 @@ Como resultado de estas tres fases, el equipo ha logrado consolidar una visión 
 - **Alternate bearing (vecería o alternancia productiva)**: Fenómeno fisiológico del cultivo del olivo caracterizado por la alternancia de ciclos de alta producción con años de escasa o nula cosecha, fuertemente condicionado por la variabilidad térmica y las fallas fisiológicas.
 - **Agrochemicals / phytosanitary products (agrofármacos / fitosanitarios)**: Sustancias o insumos químicos aplicados reactiva o preventivamente al cultivo para controlar plagas y enfermedades, o para estabilizar la producción de la planta.
 - **Chill portions / chill hours (porciones de frío / horas de frío)**: Medida agronómica que cuantifica la acumulación de frío invernal nocturno que la planta requiere de forma imperativa para lograr un adecuado proceso de floración y cuajado.
-- **Dynamic nutrition (nutrición dinámica)**: Planes de fertilización y abono que no siguen un calendario fijo, sino que se ajustan de manera proactiva según las variaciones del clima, las características edafológicas del suelo y los requisitos de la planta.
+- **Dynamic nutrition (nutrición dinámica)**: Planes de fertilización y abono que no siguen un calendario fijo, sino que se ajustan de manera proactiva según las variaciones del clima, las características edafológicas del suelo y los requerimientos de la planta.
 - **El Niño-Southern Oscillation / ENSO (fenómeno ENOS)**: Evento climático anómalo que genera un incremento perjudicial de las temperaturas invernales en la zona agrícola, bloqueando el desarrollo fisiológico normal del olivo y reduciendo drásticamente su productividad.
 - **Epidemiological alert / phytosanitary alert (alerta epidemiológica / alerta fitosanitaria)**: Aviso temprano dirigido a productores y especialistas sobre el riesgo inminente de propagación de enfermedades en las parcelas, calculado a partir de anomalías térmicas e índices de vegetación.
 - **Fruit set (cuajado)**: Etapa crítica en el desarrollo fenológico del olivo en la cual la flor se transforma exitosamente en fruto, proceso que depende de haber acumulado el frío necesario.
