@@ -288,7 +288,7 @@ A continuación se presenta el Context Diagram del modelo C4 para la plataforma 
 \begin{figure}[H]
     \caption{System Context Diagram para Viora.}
     \centering
-    \includegraphics[width=1\textwidth]{report/assets/design-level-eventstorming/c4-diagrams/VioraSystemContext.png}
+    \includegraphics[width=1\textwidth]{report/assets/c4-diagrams/VioraSystemContext.png}
     \caption*{\textit{Nota.} Vista de nivel de contexto que muestra a Viora en el centro y los actores y sistemas externos a su alrededor. Elaboración propia.}
 \end{figure}
 
@@ -299,7 +299,7 @@ En la siguiente figura se detalla el Container Diagram, el cual descompone el si
 \begin{figure}[H]
     \caption{Container Diagram para Viora.}
     \centering
-    \includegraphics[width=1\textwidth]{report/assets/design-level-eventstorming/c4-diagrams/VioraContainer.png}
+    \includegraphics[width=1\textwidth]{report/assets/c4-diagrams/VioraContainer.png}
     \caption*{\textit{Nota.} Vista de contenedores que ilustra los elementos principales de la arquitectura (Landing Page, Web App, API y Storage) interconectados. Elaboración propia.}
 \end{figure}
 
@@ -310,21 +310,21 @@ Como nivel de mayor detalle, se presentan los Component Diagrams para cada uno d
 \begin{figure}[H]
     \caption{Component Diagram del contenedor Landing Page.}
     \centering
-    \includegraphics[width=1\textwidth]{report/assets/design-level-eventstorming/c4-diagrams/VioraLandingComponents.png}
+    \includegraphics[width=1\textwidth]{report/assets/c4-diagrams/VioraLandingComponents.png}
     \caption*{\textit{Nota.} Estructura interna de los componentes encargados de renderizar la página de inicio y el contenido de marketing. Elaboración propia.}
 \end{figure}
 
 \begin{figure}[H]
     \caption{Component Diagram del contenedor Web Application.}
     \centering
-    \includegraphics[width=1\textwidth]{report/assets/design-level-eventstorming/c4-diagrams/VioraWebAppComponents.png}
+    \includegraphics[width=1\textwidth]{report/assets/c4-diagrams/VioraWebAppComponents.png}
     \caption*{\textit{Nota.} Componentes internos de la interfaz web que utilizan los productores y especialistas. Elaboración propia.}
 \end{figure}
 
 \begin{figure}[H]
     \caption{Component Diagram del contenedor API Application.}
     \centering
-    \includegraphics[width=1\textwidth]{report/assets/design-level-eventstorming/c4-diagrams/VioraApiComponents.png}
+    \includegraphics[width=1\textwidth]{report/assets/c4-diagrams/VioraApiComponents.png}
     \caption*{\textit{Nota.} Componentes que conforman los servicios y controladores del backend principal. Elaboración propia.}
 \end{figure}
 
