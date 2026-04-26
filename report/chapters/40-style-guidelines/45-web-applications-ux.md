@@ -278,3 +278,142 @@ Wireflow: Gestión de nutrición dinámica ante riesgo climático
 
 \newpage
 
+### Web Applications Mock-ups
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/dashboard-mu-p.png}
+\caption*{\textit{Nota.} Diseño visual del mockups del dashboard de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-1.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-2.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-3.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-4.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-5.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-6.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-7.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-8.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-9.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-10.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-11.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-12.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-13.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-14.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-15.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-16.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-17.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+\begin{figure}[H]
+\caption{Mockups de la aplicación.}
+\centering
+\includegraphics[width=0.4\textwidth]{report/assets/webapplication-ui/mockups/mu-p-18.png}
+\caption*{\textit{Nota.} Diseño visual de una pantalla del mockups de productor. Elaboración propia.}
+\end{figure} 
+
+<br>
+
+A continuación, se presentan los mock-ups de alta fidelidad de la aplicación Viora, los cuales ilustran el aspecto visual y la interfaz final del producto. En esta etapa, la propuesta materializa los principios y elementos de diseño mediante el uso de una jerarquía visual clara, proporciones armónicas y un uso efectivo de la paleta de colores y la tipografía. La coherencia de todos estos elementos se logra mediante la implementación estricta del Design System establecido por el equipo, el cual estandariza los componentes interactivos, las variables y los estilos visuales a lo largo de todas las pantallas. Además, el desarrollo de estas interfaces evidencia la aplicación del diseño inclusivo, garantizando contrastes cromáticos adecuados que cumplen con los estándares de accesibilidad, tamaños de fuente legibles y áreas de toque (botones) ergonómicas para la diversidad de usuarios. Por último, la estructuración visual y la navegación obedecen a la arquitectura de la información definida, asegurando que el usuario pueda comprender y recorrer el flujo de la aplicación de manera intuitiva y sin carga cognitiva adicional.
+
