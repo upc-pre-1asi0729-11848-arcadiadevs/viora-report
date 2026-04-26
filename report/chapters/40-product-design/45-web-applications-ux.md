@@ -258,7 +258,7 @@ Wireflow: Gestión de nutrición dinámica ante riesgo climático
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/webapplication-ui/wireflows/wireflow1.png}
+\includegraphics[width=0.8\textwidth]{report/assets/webapplication-ui/wireflows/wzireflow1.png}
 \caption{Wireflow de Gestión Nutricional y Proyección Predictiva.}
 \label{fig:wireflow1}
 \caption*{\textit{Nota.} El diagrama ilustra la transición desde el Dashboard hacia módulos de resolución técnica, destacando el uso del Navigation Sidebar y la bifurcación hacia el motor predictivo.}
@@ -428,7 +428,7 @@ User Flow: Monitoreo, proyección y gestión de alertas
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1.0\textwidth]{report/assets/webapplication-ui/userflows/userflow1.png}
+\includegraphics[width=1.0\textwidth]{report/assets/webapplication-ui/userflows/Userflow1.png}
 \caption{User Flow de alta fidelidad: Integración de monitoreo y análisis predictivo.}
 \label{fig:userflow1}
 \caption*{\textit{Nota.} El diagrama ilustra la navegación desde el Dashboard hacia el sistema de alertas y el motor de proyección predictiva, detallando las variables técnicas y los estados de salud del cultivo.}
