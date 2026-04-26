@@ -22,3 +22,17 @@ A continuación, se presenta el cuadro resumen del Sprint Planning Meeting, el c
 \textbf{Sprint 1 Velocity} & 20 \\
 \textbf{Sum of Story Points} & 18 \\ \hline
 \end{tabular}
+
+#### Aspect Leaders and Collaborators 
+
+En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX) del Sprint 1, diseñada para optimizar la coordinación interna y asegurar la calidad técnica de la plataforma Viora. Para este incremento, los aspectos de liderazgo se han segmentado en cuatro ejes críticos: la comunicación de la propuesta de valor, la personalización de beneficios por segmento, el respaldo mediante prueba social y la implementación del Call to Action (CTA) para la conversión. Esta matriz garantiza que cada funcionalidad clave cuente con un responsable directo de la toma de decisiones técnicas (Leader) y el apoyo necesario para su implementación (Collaborator).
+
+\begin{tabular}{|p{0.18\textwidth}|p{0.13\textwidth}|p{0.13\textwidth}|p{0.13\textwidth}|p{0.13\textwidth}|p{0.13\textwidth}|}
+\hline
+\textbf{Team Member (Last Name, First Name)} & \textbf{GitHub Username} & \textbf{Value Comm Leader (L) / Collab (C)} & \textbf{Segment Leader (L) / Collab (C)} & \textbf{Trust Leader (L) / Collab (C)} & \textbf{Conversion CTA Leader (L) / Collab (C)} \\ \hline
+Espada, Piero & espadita2510 & C & C & C & L \\ \hline
+Li, Diana & peruvianMiau & C & L & C & C \\ \hline
+Paredes, Victor & DaronCameloft & C & C & L & C \\ \hline
+Santi, Fabrizio & Santi2007939 & L & C & C & C \\ \hline
+Trinidad, Jahat & trinity-bytes & C & C & C & C \\ \hline
+\end{tabular}
