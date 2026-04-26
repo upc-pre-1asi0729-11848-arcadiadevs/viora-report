@@ -181,12 +181,69 @@ Viora-website & feature/footer & 3e69e45 & feat(footer): add template, styles an
 
 #### Execution Evidence for Sprint Review
 
+Durante este incremento, se logró implementar con éxito la totalidad del Sprint Backlog planificado. Los resultados abarcan desde la presentación de la propuesta de valor central (Hero Section y paneles de Problema/Solución), pasando por la exploración dinámica de beneficios segmentada (Productores y Especialistas), hasta la integración del modelo de suscripción, programa de referidos, carrusel de testimonios interactivos, y la estructura de contacto.
+
+A continuación, se exponen las capturas de pantalla de las principales vistas implementadas en el entorno de producción. Asimismo, para evidenciar el comportamiento dinámico del sitio, se adjunta un enlace a un video demostrativo que ilustra a detalle la visualización interactiva y la navegación fluida lograda en este Sprint.
+
+\begin{figure}[H]
+\caption{Vista del Hero Section con la propuesta de valor central.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-1/lp-1.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Sección de justificación del problema y el ecosistema olivarero.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-1/lp-2.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Interfaz dinámica de Segmentos para Productores y Especialistas.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-1/lp-3.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Vista del modelo de acceso, pricing y tarjetas de referidos.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-1/lp-4.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Carrusel interactivo de validación mediante testimonios de usuarios}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-1/lp-5.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Sección de identidad del equipo (Misión).}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-1/lp-6.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Interfaz de comunicación}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-1/lp-7.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+[Link del Landing Page](https://viora-website.vercel.app/)
+
+
 &nbsp;
 
 #### Services Documentation Evidence for Sprint Review. 
 
 &nbsp;
 
+Para este sprint no se crearon endpoints.
 
 #### Software Deployment Evidence for Sprint Review.
 
