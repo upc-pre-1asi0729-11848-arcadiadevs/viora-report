@@ -22,7 +22,7 @@
 \caption{Vista Contributors - 2.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/insights/av1/contributors-2.png}
-\caption*{\textit{Nota.} Elaboración propia.}
+\caption*{\textit{Nota.} La cuenta de pierodeveloper25 y espadita2510 pertenecen a Piero Espada. Elaboración propia.}
 \end{figure}
 
 \begin{figure}[H]
