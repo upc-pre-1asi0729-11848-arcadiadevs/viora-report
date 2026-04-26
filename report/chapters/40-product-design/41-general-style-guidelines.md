@@ -4,6 +4,8 @@
 
 ### General Style Guidelines
 
+La siguiente guía se implementa operativamente bajo las directrices del lenguaje de diseño **Material Design**, sirviendo de base para la construcción de interfaces en **Angular** a través del framework de componentes **Angular Material**.
+
 1. **Identidad Visual y Concepto: Viora**
    El elemento iconográfico identitario de Viora (conocido coloquialmente como 'logo') se define técnicamente como un imagotipo. Su diseño no es casual, sino que representa la intersección estratégica entre la agronomía tradicional y la inteligencia tecnológica.
    - **Simbología del Ciclo:** La letra "O" actúa como una síntesis visual del ciclo de producción de la aceituna. Al encerrar la hoja dentro de esta forma circular, representamos el monitoreo integral y el control que el agricultor ejerce sobre su cultivo.
@@ -22,7 +24,7 @@
 \caption{Imagen del Branding y logo de Viora.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/05-Logo.jpg}
-\caption\*{\textit{Nota.} Visualización correspondiente a la identidad visual y marca. Elaboración propia.}
+\caption*{\textit{Nota.} Visualización correspondiente a la identidad visual y marca. Elaboración propia.}
 \end{figure}
 
 <br>
@@ -31,26 +33,31 @@
    La plataforma Viora presentará dashboards, por lo que la lectura rápida y la claridad en la densidad de datos son primordiales.
    - **Sustento de diseño:** Se ha definido un sistema tipográfico dual que combina estética y funcionalidad:
      - **Caros:** Utilizada principalmente para la identidad y encabezados de alto impacto. Sus variantes Bold y Regular aportan personalidad y estructura visual a la marca.
-     - **Inter:** Seleccionada como la fuente principal de la interfaz debido a su excepcional legibilidad en pantallas digitales. Al ser una fuente diseñada específicamente para UI, garantiza que las métricas agrícolas sean fáciles de leer en diversos pesos (Regular y Semibold).
-     - **Jerarquía Visual:** Se implementa una escala técnica que abarca desde tamaños Display (48px) con peso Extra Light para dar elegancia, hasta tamaños Body Small (14px) para datos técnicos. El uso de un line-height progresivo (de 1.3x a 1.7x) asegura que los bloques de texto no saturen la vista del usuario.
+     - **Inter:** Seleccionada como la fuente principal de la interfaz debido a su excepcional legibilidad en pantallas digitales. Al ser una fuente diseñada específicamente para UI, dictará la configuración principal tipográfica en toda la aplicación bajo Vue.js, garantizando que las métricas agrícolas sean fáciles de leer en diversos pesos (Regular y Semibold).
+     - **Jerarquía Visual:** Se implementa una escala técnica estandarizada (desde tamaños Display a Body) que estructura todos los bloques de texto y componentes visuales dentro de PrimeVue, logrando una estética sin saturación visual.
 
   <br>
 
 \begin{figure}[H]
 \caption{Imagen de la tipografía de Viora.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/02-Typography.jpg}
-\caption\*{\textit{Nota.} Selección de fuentes para títulos y cuerpo de texto que garantizan legibilidad. Elaboración propia.}
+\includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/02-Typography-1.jpg}
+
+\newpage
+
+\vspace{1em}
+\includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/02-Typography-2.jpg}
+\caption*{\textit{Nota.} Selección de fuentes para títulos y cuerpo de texto que garantizan legibilidad. Elaboración propia.}
 \end{figure}
 
 <br>
 
 3. **Colores:**
-   Nuestra paleta de colores está directamente inspirada en el entorno agrícola y la visualización clara de datos.
+   Nuestra paleta de colores cromática está enfocada en el aspecto agrícola. Será implementada mediante el potente sistema de Theming (variables CSS) de **Angular Material**, aplicando de forma nativa los colores primarios e instancias semánticas a todos los componentes de la interfaz, en estricto cumplimiento del **Material Design**.
    - **Sustento de diseño:**
-     - Colores Primarios: Tonos basados en la naturaleza (verdes olivo, tonos tierra) que anclan la aplicación en su contexto real.
-     - Colores Secundarios: Azules tecnológicos que representan variables climáticas (como el fenómeno ENOS) y el análisis de datos.
-     - Colores Semánticos: Uso estricto de colores cálidos (rojos/amarillos) para el sistema de alertas tempranas, vitales para advertir sobre plagas como la Xylella fastidiosa.
+     - Colores Primarios: Tonos basados en la naturaleza (verdes olivo, tonos tierra) que anclan la aplicación en su contexto real, configurados como el tema base global en Vue.js.
+     - Colores Secundarios: Azules tecnológicos que representan variables climáticas (como el fenómeno ENOS) y el análisis de datos interactivos.
+     - Colores Semánticos: Uso estricto de colores cálidos (rojos/amarillos) para el sistema de alertas tempranas y de validaciones ui, vitales para advertir sobre plagas como la Xylella fastidiosa.
 
   <br>
 
@@ -58,27 +65,27 @@
 \caption{Paleta de colores de Viora.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/01-Colors.jpg}
-\caption\*{\textit{Nota.} Definición de códigos hexadecimales y jerarquía cromática para la interfaz. Elaboración propia.}
+\caption*{\textit{Nota.} Definición de códigos hexadecimales y jerarquía cromática para la interfaz. Elaboración propia.}
 \end{figure}
 
 <br>
 
 4. **Espaciado:** El uso del espacio en blanco es fundamental para evitar la sobrecarga de información.
-   - **Sustento de diseño:** Hemos adoptado un sistema de espaciado basado en una cuadrícula base. Esto asegura consistencia visual en todas las pantallas, separa adecuadamente las diferentes métricas de monitoreo y proporciona un alivio de la carga visual entre los elementos de la interfaz, mejorando drásticamente la usabilidad general.
+   - **Sustento de diseño:** Hemos adoptado un sistema de espaciado basado en una cuadrícula base y apoyado en la biblioteca de utilidades **PrimeFlex**. Esto asegura consistencia visual en todas las pantallas, proporcionando a Vue.js las clases necesarias para separar adecuadamente los paneles de monitoreo y lograr un alivio de la carga visual de manera responsiva, permitiendo que la interfaz mantenga el estricto orden de las directivas de Material Design.
 
   <br>
 
 \begin{figure}[H]
-\caption{Paleta de colores de Viora.}
+\caption{Espaciado de Viora.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/04-Spacing.jpg}
-\caption\*{\textit{Nota.} Guía de alineación y márgenes para la consistencia visual en web. Elaboración propia.}
+\caption*{\textit{Nota.} Guía de alineación y márgenes para la consistencia visual en web. Elaboración propia.}
 \end{figure}
 
 <br>
 
 5. **Iconografía:** Los iconos funcionan como atajos visuales esenciales, especialmente en el trabajo de campo.
-   - **Sustento de diseño:** Utilizamos una iconografía de líneas limpias, consistentes en su grosor y estilo. Los iconos están diseñados para ser universalmente reconocibles (termómetros para el clima, gráficos para reportes), minimizando la carga cognitiva del usuario.
+   - **Sustento de diseño:** Utilizamos **Angular Material icons** como conjunto base para las interacciones comunes (menús, notificaciones), complementado con vectores SVG exclusivos diseñados a la medida para variables de clima y gráficas exclusivas de la agrotecnología, manteniendo líneas limpias consistentes con el stroke natural de Angular Material.
 
   <br>
 
@@ -86,7 +93,7 @@
 \caption{Sistema de iconografía para Viora.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/03-Iconography.jpg}
-\caption\*{\textit{Nota.} Conjunto de símbolos visuales para la navegación y estados del sistema. Elaboración propia.}
+\caption*{\textit{Nota.} Conjunto de símbolos visuales para la navegación y estados del sistema. Elaboración propia.}
 \end{figure}
 
 <br>
@@ -103,7 +110,7 @@
 \caption{Definición del tono de voz y personalidad de Viora.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/style-guidelines/06-Communication-tone.jpg}
-\caption\*{\textit{Nota.} Atributos de comunicación que definen la personalidad de la marca: un equilibrio entre lo formal, serio, respetuoso y entusiasta. Elaboración propia.}
+\caption*{\textit{Nota.} Atributos de comunicación que definen la personalidad de la marca: un equilibrio entre lo formal, serio, respetuoso y entusiasta. Elaboración propia.}
 \end{figure}
 
 <br>

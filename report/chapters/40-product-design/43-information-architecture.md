@@ -101,6 +101,11 @@ Sin embargo, a partir de la taxonomía establecida, existe una excepción clave 
 | Web App | Panel de Intervención | Viora | Revisa alertas activas, evaluación física, receta digital y confirmación de aplicación en campo. | phytosanitary intervention, digital prescription, plot evaluation, technical application, traceability | noindex, nofollow |
 
 ### Searching Systems
+Para resolver las necesidades de localización de expertos y detección de riesgos detectadas en el modelo de negocio, Viora implementa mecanismos de búsqueda que transforman los datos del entorno en conexiones operativas:
+
+Specialist Selection System: Este motor permite al productor obtener una terna de candidatos idóneos mediante el cruce de variables de cercanía geográfica y el Availability status de los asesores. Los resultados se priorizan según la afinidad técnica y las credenciales registradas en el Technical portfolio, facilitando una respuesta rápida ante emergencias.
+
+Zonal Prospecting Radar: Es una herramienta de búsqueda visual y territorial diseñada para que los especialistas localicen Epidemiological alerts y unidades productivas con anomalías de vigor vegetal (NDVI). Este sistema permite aplicar filtros avanzados por nivel de Severity (High/Medium) y tipo de patógeno probable, optimizando la identificación de oportunidades de intervención.
 
 Para resolver las necesidades de localización de expertos y detección de riesgos detectadas en el modelo de negocio, Viora implementa mecanismos de búsqueda que transforman los datos del entorno en conexiones operativas:
 
