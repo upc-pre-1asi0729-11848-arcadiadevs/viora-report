@@ -18,7 +18,7 @@ Para la gestión de requisitos el se dividió en tres herramientas que permitier
 
     - Miro: Se utilizó para la elaboración del Big Picture Event Storming, permitiendo explorar el dominio del negocio de forma visual. (https://miro.com/)
 
-    - Trello: Se utilizó para la gestión y mantenimiento del Product Backlog, asegurando que los requerimientos estén priorizados según el valor de negocio.(https://trello.com/)
+    - Trello: Se utilizó para la gestión y mantenimiento del Product Backlog, asegurando que los requisitos estén priorizados según el valor de negocio.(https://trello.com/)
 
 - Product UX/UI Design
 De acuerdo a la sección con relación al diseño del producto, se utilizaron 5 herramientas:
@@ -92,7 +92,7 @@ Se adopta el modelo GitFlow propuesto por Driessen (2010) para gestionar el cicl
 
     - Ramas auxiliares:
 
-        - Feature branches (feature/nombre-tarea): Utilizadas para el desarrollo de requerimientos específicos. Se originan en develop y regresan a ella tras completar la funcionalidad.
+        - Feature branches (feature/nombre-tarea): Utilizadas para el desarrollo de requisitos específicos. Se originan en develop y regresan a ella tras completar la funcionalidad.
 
         - Release branches (release/vX.X.X): Se crean para estabilizar una nueva versión del software. Permiten realizar ajustes menores antes de fusionarse con main y develop.
 
