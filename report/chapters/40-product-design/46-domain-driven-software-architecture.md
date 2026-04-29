@@ -1,4 +1,4 @@
-## Domain-Driven Software Architecture
+# Domain-Driven Software Architecture
 
 La arquitectura de software de Viora se ha planteado siguiendo los principios de Domain-Driven Design (DDD), tomando como punto de partida los hallazgos obtenidos en el Big Picture Event Storming desarrollado en el capítulo previo. A partir de ello, esta sección profundiza en la identificación de Bounded Contexts, Aggregates, Events, Commands y Queries, estableciendo además una base conceptual sólida para su posterior representación mediante el modelo C4.
 
@@ -20,6 +20,8 @@ Esta profundización responde al principio de model-driven design, según el cua
 En las subsecciones siguientes se presentan los tres bounded contexts priorizados dentro del core domain de Viora. En cada caso, se documenta el flujo refinado de eventos, comandos, actores, policies, read models, business rules, aggregates y queries, acompañado de los respectivos boards generados durante la sesión.
 
 #### Agronomic Monitoring & Prediction
+
+&nbsp;
 
 El bounded context **Agronomic Monitoring & Prediction** constituye el núcleo analítico y predictivo de Viora. Su responsabilidad es transformar datos climáticos, satelitales y agronómicos en información accionable para el productor, incluyendo el monitoreo fenológico, la evaluación del estado de la parcela, la proyección de rendimiento y la generación de recomendaciones de nutrición dinámica.
 
@@ -106,7 +108,11 @@ Durante el Design-Level EventStorming de este contexto, se refinó el flujo desd
 
 
 \newpage
+
 #### Epidemiological Surveillance
+
+&nbsp;
+
 
 El bounded context **Epidemiological Surveillance** concentra la lógica de vigilancia fitosanitaria y prospección territorial de Viora. Su responsabilidad es gestionar reportes de síntomas, validar brotes probables, emitir alertas epidemiológicas y difundir alertas comunitarias en zonas de riesgo, además de habilitar investigaciones y acciones preventivas cuando la situación lo requiera.
 
@@ -191,7 +197,10 @@ Durante el Design-Level EventStorming de este contexto, se refinó el flujo a pa
 
 
 \newpage
+
 #### Intervention Marketplace
+
+&nbsp;
 
 El bounded context **Intervention Marketplace** modela el ecosistema transaccional y colaborativo mediante el cual Viora conecta a productores con especialistas agrícolas para atender alertas activas. Su responsabilidad abarca la selección de especialistas, la solicitud y evaluación de intervenciones, la gestión de cotizaciones, la habilitación del canal de comunicación, la inspección en campo, la prescripción técnica, el registro de ejecución, la trazabilidad económica y el cierre del servicio con retroalimentación final.
 
