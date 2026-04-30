@@ -27,15 +27,13 @@ A continuación, se presenta el cuadro resumen del Sprint Planning Meeting, el c
 
 En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX) del Sprint 1, diseñada para optimizar la coordinación interna y asegurar la calidad técnica de la plataforma Viora. Para este primer incremento, el alcance de desarrollo se ha segmentado en cinco ejes: la estructuración de la interfaz y navegación base, la comunicación de la propuesta de valor segmentada, el desarrollo lógico del modelo de acceso, la consolidación de la credibilidad corporativa, y la implementación técnica de la conversión y contacto.
 
-\begin{tabular}{|p{0.16\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|}
-\hline
-\textbf{Team Member (Last Name, First Name)} & \textbf{GitHub Username} & \textbf{Core UI Leader (L) / Collab (C)} & \textbf{Value \& Seg Leader (L) / Collab (C)} & \textbf{Access Model Leader (L) / Collab (C)} & \textbf{Corp Trust Leader (L) / Collab (C)} & \textbf{Conversion Leader (L) / Collab (C)} \\ \hline
-Espada, Piero & espadita2510 & C & C & C & C & L \\ \hline
-Li, Diana & peruvianMiau & L & C & C & C & C \\ \hline
-Paredes, Victor & DaronCameloft & C & C & C & L & C \\ \hline
-Santi, Fabrizio & Santi2007939 & C & L & C & C & C \\ \hline
-Trinidad, Jahat & trinity-bytes & C & C & L & C & C \\ \hline
-\end{tabular}
+| Team Member (Last Name, First Name) | GitHub Username | Core UI Leader (L) / Collab (C) | Value & Seg Leader (L) / Collab (C) | Access Model Leader (L) / Collab (C) | Corp Trust Leader (L) / Collab (C) | Conversion Leader (L) / Collab (C) |
+|---|---|---|---|---|---|---|
+| Espada, Piero | espadita2510 | C | C | C | C | L |
+| Li, Diana | peruvianMiau | L | C | C | C | C |
+| Paredes, Victor | DaronCameloft | C | C | C | L | C |
+| Santi, Fabrizio | Santi2007939 | C | L | C | C | C |
+| Trinidad, Jahat | trinity-bytes | C | C | L | C | C |
 
 #### Sprint Backlog 1
 
