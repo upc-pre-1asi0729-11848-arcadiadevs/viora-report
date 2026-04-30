@@ -23,4 +23,17 @@ A continuación, se presenta el cuadro resumen del Sprint Planning Meeting, el c
 | **Sprint 2 Velocity** | 42 |
 | **Sum of Story Points** | 35 |
 
+#### Aspect Leaders and Collaborators
+
 &nbsp;
+
+En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX) del Sprint 2, diseñada para coordinar el desarrollo de la interfaz técnica de Viora bajo un enfoque estrictamente Front-end. Dado que el procesamiento de datos y la lógica de negocio se gestionarán mediante servicios API REST, este incremento se centra en la visualización interactiva y el consumo eficiente de recursos externos. El alcance se ha segmentado en cuatro ejes: la implementación de formularios de trazabilidad y monitoreo climático, el desarrollo de visualizadores para índices satelitales (NDVI), el diseño de paneles para proyecciones de rendimiento, y la interfaz de gestión de salud consolidada con alertas epidemiológicas autónomas.
+
+| Team Member (Last Name, First Name) | GitHub Username | Field y Climate Ingestion Leader (L) / Collab (C) | Satellite Analytics Leader (L) / Collab (C) | Predictive Yield Leader (L) / Collab (C) | Health y Smart Alerting Leader (L) / Collab (C) |
+|---|---|---|---|---|---|
+| Carpio, Josue | josf17 | C | C | C | C |
+| Espada, Piero | espadita2510 | L | C | C | C |
+| Li, Diana | peruvianMiau | C | L | C | C |
+| Paredes, Victor | DaronCameloft | C | C | C | L |
+| Santi, Fabrizio | Santi2007939 | C | C | L | C |
+| Trinidad, Jahat | trinity-bytes | C | C | C | C |
