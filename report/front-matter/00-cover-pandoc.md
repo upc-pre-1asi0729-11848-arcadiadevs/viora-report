@@ -20,19 +20,29 @@ nocite: '[@*]'
 
 \vspace{0.80cm}
 
-{\LARGE \textbf{DESARROLLO DE APLICACIONES OPEN SOURCE}\par}
+{\LARGE \textbf{1ASI0729 - DESARROLLO DE APLICACIONES OPEN SOURCE}\par}
 \vspace{0.22cm}
-{\LARGE \textbf{AV1 INFORME DE TRABAJO}\par}
+{\large \textbf{11848}\par}
 
 \vspace{0.60cm}
+
+{\large \textbf{Docente:}\par}
+\vspace{0.08cm}
+{\normalsize Velasquez Nuñez, Angel Augusto\par}
+
+\vspace{0.60cm}
+
+{\LARGE \textbf{Informe de Trabajo Final}\par}
+
+\vspace{0.80cm}
 
 \includegraphics[width=3.5cm]{report/assets/logos/arcadia.png}
 
-\vspace{0.32cm}
+\vspace{0.80cm}
 
 \includegraphics[width=6.2cm]{report/assets/viora-brand/viora-isologotipo-green.png}
 
-\vspace{0.60cm}
+\vspace{0.80cm}
 
 {\large \textbf{CARRERA:}\par}
 \vspace{0.08cm}
@@ -42,7 +52,7 @@ nocite: '[@*]'
 
 {\large \textbf{CICLO:}\par}
 \vspace{0.08cm}
-{\normalsize 2026 - 1\par}
+{\normalsize 202610\par}
 
 \vspace{0.32cm}
 
@@ -57,6 +67,8 @@ nocite: '[@*]'
 \hline
 \centering \textbf{Alumnos} & \centering \textbf{Código} \tabularnewline
 \hline
+Carpio Peña Josue Francisco & U202519273 \tabularnewline
+\hline
 Espada Lazo, Piero Anthony & U20241d924 \tabularnewline
 \hline
 Li Gayoso, Diana Carolina & U202415749 \tabularnewline
@@ -70,23 +82,11 @@ Trinidad Leon, Jahat Jassiel & U202412248 \tabularnewline
 \end{tabular}
 }
 
-\vspace{0.32cm}
-
-{\large \textbf{Sección:}\par}
-\vspace{0.08cm}
-{\normalsize 11848\par}
-
-\vspace{0.24cm}
-
-{\large \textbf{Docente:}\par}
-\vspace{0.08cm}
-{\normalsize Velasquez Nuñez, Angel Augusto\par}
-
 \vspace{0.8cm}
 
 {\normalsize
 \begin{tabular}{cc}
-Campus Villa & Lima - 2026-01
+Mayo, 2026
 \end{tabular}
 \par
 }
