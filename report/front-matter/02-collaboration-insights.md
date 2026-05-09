@@ -1,39 +1,48 @@
 # Project Report Collaboration Insights {-}
 
-**Link del repositorio del informe:**
+## Enlaces {-}
 
-- [Repositorio del informe](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-report)
+**Enlaces a la organización de github y sus repositorios:**
+
+- [Organizacion de GitHub: upc-pre-202610-1asi0729-11848-ArcadiaDevs](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs)
+- [Repositorio del informe: upc-pre-1asi0729-11848-ArcadiaDevs/Viora-report](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-report)
+- [Repositorio del Landing Page](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
+
+## Estadísticas de colaboración {-}
 
 \begin{figure}[H]
 \caption{Vista Pulse.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/insights/av1/pulse.png}
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-1.png}
 \caption*{\textit{Nota.} Elaboración propia.}
 \end{figure}
 
 \begin{figure}[H]
 \caption{Vista Contributors - 1.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/insights/av1/contributors-1.png}
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-2.png}
 \caption*{\textit{Nota.} Elaboración propia.}
 \end{figure}
 
 \begin{figure}[H]
 \caption{Vista Contributors - 2.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/insights/av1/contributors-2.png}
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-3.png}
 \caption*{\textit{Nota.} La cuenta de pierodeveloper25 y espadita2510 pertenecen a Piero Espada. Elaboración propia.}
 \end{figure}
 
 \begin{figure}[H]
 \caption{Vista Commits.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/insights/av1/commits.png}
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-4.png}
 \caption*{\textit{Nota.} Elaboración propia.}
 \end{figure}
 
-**Link de los repositorios de la organización:**
-
-- [Repositorio del Landing Page](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
+\begin{figure}[H]
+\caption{Vista Commits.}
+\centering
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-5.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
 
 \clearpage
