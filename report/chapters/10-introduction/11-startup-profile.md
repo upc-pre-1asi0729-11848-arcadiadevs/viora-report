@@ -1,4 +1,4 @@
-# Introducción
+# Capítulo I: Introducción
 
 ## Startup Profile
 
@@ -151,6 +151,23 @@ En ArcadiaDevs, lideraré como UX Lead, enfocándome en el diseño y la experien
 \begin{minipage}[c]{0.74\textwidth}
 \raggedright
 Soy Piero Anthony Espada Lazo, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y COO de Viora. Tengo sólidos conocimientos en C++, Python, desarrollo web y en el diseño de bases de datos relacionales y no relacionales. Me caracterizo por contribuir mediante creatividad, responsabilidad y un fuerte compromiso con la calidad y éxito del proyecto.
+
+En ArcadiaDevs desempeñaré el rol de Researcher \& QA, liderando los procesos de validación y análisis técnico.
+\end{minipage}
+
+\vspace{0.6cm}
+
+\textbf{Carpio Peña, Josue Francisco (U202519273) - O}
+
+\noindent
+\begin{minipage}[c]{0.22\textwidth}
+\centering
+\includegraphics[width=0.9\linewidth]{report/assets/members/josue.png}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.74\textwidth}
+\raggedright
+Considero que soy una persona que trabaja bastante en equipo, me gusta colaborar e intercambiar ideas. Tengo conocimiento en c++, python, linux (Ubuntu y Kali Linux), controlador de versiones (git), html, css, javascript y conocimientos básicos de los frameworks vue y angular
 
 En ArcadiaDevs desempeñaré el rol de Researcher \& QA, liderando los procesos de validación y análisis técnico.
 \end{minipage}
