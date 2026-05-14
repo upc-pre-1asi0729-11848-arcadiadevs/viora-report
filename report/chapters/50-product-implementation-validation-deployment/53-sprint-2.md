@@ -45,3 +45,56 @@ En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 
 El objetivo principal de este Sprint 2 es desarrollar el, mediante la integración de datos de telemetría IoT, análisis geoespacial de parcelas y visualización de indicadores agronómicos críticos, diseñado para centralizar la toma de decisiones y optimizar la gestión de riesgos biológicos e hídricos para el productor. También, se refactorizará la arquitectura del Landing Page.
 
+\begin{longtable}{|p{0.05\textwidth}|p{0.14\textwidth}|p{0.05\textwidth}|p{0.14\textwidth}|p{0.24\textwidth}|p{0.08\textwidth}|p{0.12\textwidth}|p{0.07\textwidth}|} 
+\hline 
+\multicolumn{2}{|l|}{\textbf{Sprint \#}} & \multicolumn{6}{l|}{Sprint 2} \\ \hline 
+\multicolumn{2}{|l|}{\textbf{User Story}} & \multicolumn{6}{l|}{\textbf{Work-Item / Task}} \\ \hline 
+\textbf{Id} & \textbf{Title} & \textbf{Id} & \textbf{Title} & \textbf{Description} & \textbf{Estimation (Hours)} & \textbf{Assigned To} & \textbf{Status} \\ \hline 
+\endfirsthead
+
+\hline 
+\multicolumn{2}{|l|}{\textbf{User Story}} & \multicolumn{6}{l|}{\textbf{Work-Item / Task (Continuación)}} \\ \hline 
+\textbf{Id} & \textbf{Title} & \textbf{Id} & \textbf{Title} & \textbf{Description} & \textbf{Estimation} & \textbf{Assigned To} & \textbf{Status} \\ \hline 
+\endhead
+
+% REFACTORIZACIÓN (EX SPRINT 1)
+US54 & Presentación de la propuesta de valor central & TK01 & Refactor Header Nav & Migración del encabezado principal de arquitectura DDD a una estructura estática y simplificada. & 0.75 & Santi, Fabrizio & Done \\ \cline{3-8} 
+& & TK02 & Refactor Hero Layout & Eliminación de dependencias de dominio en el Hero Layout para renderizado estático directo. & 0.5 & Santi, Fabrizio & Done \\ \cline{3-8} 
+& & TK03 & Refactor Ambient Sound & Adaptación de la lógica del sonido ambiental y Toggle UI para operar sin controladores complejos. & 0.5 & Li, Diana & Done \\ \hline
+
+US55 & Redirección hacia el ecosistema transaccional & TK04 & Refactor Problem UI & Conversión de las tarjetas de contexto. & 0.5 & Li, Diana & Done \\ \cline{3-8} 
+& & TK05 & Webapp Redirect & Desarrollo de redireccionamiento hacia el entorno de la Webapp. & 0.25 & Santi, Fabrizio & Done \\ \hline
+
+US56 & Exploración de beneficios para el Productor & TK06 & Refactor Grower Insights & Traslado de la sección de beneficios (NDVI y preventivos) & 0.25 & Trinidad, Jahat & Done \\ \hline
+
+US57 & Exploración de beneficios para el Especialista & TK07 & Refactor Specialist & Desacoplamiento del apartado de beneficios técnicos. & 0.5 & Paredes, Victor & Done \\ \hline
+
+US58 & Presentación del programa de referidos & TK08 & Refactor Pricing Panel & Simplificación de los paneles de precios para carga estática eliminando repositorios DDD. & 0.75 & Carpio, Josue & Done \\ \cline{3-8} 
+& & TK09 & Refactor Referrals & Migración de la sección de referidos a una vista estática. & 0.5 & Li, Diana & Done \\ \hline
+
+US59 & Validación de impacto mediante resultados & TK10 & Refactor Performance & Reescritura de los scripts base de métricas para un entorno puramente estático. & 0.75 & Espada, Piero & Done \\ \hline
+
+US60 & Exploración del respaldo corporativo y humano & TK11 & Refactor Mission \& Vision & Migración del panel "Learning from best" e información del equipo a marcado estático. & 1.0 & Santi, Fabrizio & Done \\ \hline
+
+US61 & Políticas y contacto & TK12 & Refactor Contact \& i18n & Adaptación del sistema de contacto y pie de página eliminando servicios de dominio complejos. & 1.0 & Santi, Fabrizio & Done \\ \hline
+
+US11 & Análisis de Tendencia de Vigor Vegetal & TK13 & Chart.js Integration & Implementación de gráficos comparativos consumiendo datos simulados desde la Fake-API. & 2.5 & Santi, Fabrizio & Done \\ \cline{3-8}
+& & TK14 & Trend Analytics Logic & Programación de filtros temporales. & 1.5 & Santi, Fabrizio & Done \\ \hline
+
+US12 & Visualización Satelital de Parcelas & TK15 & Mapbox SDK Setup & Configuración del visor de mapas y renderizado de polígonos mediante el SDK de Mapbox. & 3.0 & Santi, Fabrizio & Done \\ \cline{3-8}
+& & TK16 & Fake-API Data Mapping & Vinculación de coordenadas geográficas desde la MockApi para su representación en el mapa. & 1.0 & Santi, Fabrizio & Done \\ \hline
+
+US08 & Gestión de Dispositivos IoT & TK17 & IoT Telemetry View & Maquetación de la tabla de dispositivos y visualización de métricas en Vue. & 1.5 & Carpio, Josue & Done \\ \cline{3-8}
+& & TK18 & MockApi CRUD Service & Implementación de servicios de persistencia (creación, edición, eliminación) conectados al MockApi. & 1.5 & Li, Diana & Done \\ \cline{3-8}
+& & TK19 & Device Forms & Desarrollo de formularios reactivos para el registro de dispositivos con validaciones. & 1.0 & Li, Diana & Done \\ \hline
+
+US13 & Resumen General y Proyección de Cosecha & TK20 & KPI Cards Layout & Diseño y maquetación de las 4 tarjetas de resumen de medidas agregadas. & 1.5 & Paredes, Victor & Done \\ \cline{3-8}
+& & TK21 & Fake-API KPI y formateo de datos desde MockApi para el despliegue de promedios generales. & 0.5 & Santi, Fabrizio & Done \\ \hline
+
+US14 & Resumen Meteorológico y Evaluación de Riesgo & TK22 & Weather Widget & Implementación del componente de resumen climático y pronósticos. & 1.0 & Espada, Piero & Done \\ \cline{3-8}
+& & TK23 & MockApi Weather Service & Conexión con el endpoint de weather-summaries en la Fake-API. & 1.0 & Espada, Piero & Done \\ \hline
+
+US23 & Consulta de Alertas Recientes & TK24 & Alerts Mock Mapping & Mapeo de las alertas más recientes obtenidas desde el endpoint de alerts de la Fake-API. & 1.0 & Trinidad, Jahat \\ \cline{3-8}
+& & TK25 & Severity Status Logic & Programación de la lógica de colores y etiquetas basadas en el nivel de severidad. & 1.0 & Trinidad, Jahat & Done \\ \hline
+
+\end{longtable}
