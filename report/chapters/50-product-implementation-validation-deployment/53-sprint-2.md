@@ -60,7 +60,7 @@ El objetivo principal de este Sprint 2 es desarrollar el, mediante la integraci�
 % REFACTORIZACIÓN (EX SPRINT 1)
 US54 & Presentación de la propuesta de valor central & TK01 & Refactor Header Nav & Migración del encabezado principal de arquitectura DDD a una estructura estática y simplificada. & 0.75 & Santi, Fabrizio & Done \\ \cline{3-8} 
 & & TK02 & Refactor Hero Layout & Eliminación de dependencias de dominio en el Hero Layout para renderizado estático directo. & 0.5 & Santi, Fabrizio & Done \\ \cline{3-8} 
-& & TK03 & Refactor Ambient Sound & Adaptación de la lógica del sonido ambiental y Toggle UI para operar sin controladores complejos. & 0.5 & Li, Diana & Done \\ \hline
+& & TK03 & Refactor Ambient Sound & Adaptación de la lógica del sonido ambiental y Toggle UI para operar sin controladores complejos. & 0.5 & Santi, Fabrizio & Done \\ \hline
 
 US55 & Redirección hacia el ecosistema transaccional & TK04 & Refactor Problem UI & Conversión de las tarjetas de contexto. & 0.5 & Li, Diana & Done \\ \cline{3-8} 
 & & TK05 & Webapp Redirect & Desarrollo de redireccionamiento hacia el entorno de la Webapp. & 0.25 & Santi, Fabrizio & Done \\ \hline
@@ -89,12 +89,14 @@ US08 & Gestión de Dispositivos IoT & TK17 & IoT Telemetry View & Maquetación d
 & & TK19 & Device Forms & Desarrollo de formularios reactivos para el registro de dispositivos con validaciones. & 1.0 & Li, Diana & Done \\ \hline
 
 US13 & Resumen General y Proyección de Cosecha & TK20 & KPI Cards Layout & Diseño y maquetación de las 4 tarjetas de resumen de medidas agregadas. & 1.5 & Paredes, Victor & Done \\ \cline{3-8}
-& & TK21 & Fake-API KPI y formateo de datos desde MockApi para el despliegue de promedios generales. & 0.5 & Santi, Fabrizio & Done \\ \hline
+& & TK21 & Fake-API KPI & Formateo de datos desde MockApi para el despliegue de promedios generales. & 0.5 & Santi, Fabrizio & Done \\ \hline
 
 US14 & Resumen Meteorológico y Evaluación de Riesgo & TK22 & Weather Widget & Implementación del componente de resumen climático y pronósticos. & 1.0 & Espada, Piero & Done \\ \cline{3-8}
 & & TK23 & MockApi Weather Service & Conexión con el endpoint de weather-summaries en la Fake-API. & 1.0 & Espada, Piero & Done \\ \hline
 
-US23 & Consulta de Alertas Recientes & TK24 & Alerts Mock Mapping & Mapeo de las alertas más recientes obtenidas desde el endpoint de alerts de la Fake-API. & 1.0 & Trinidad, Jahat \\ \cline{3-8}
+US23 & Consulta de Alertas Recientes & TK24 & Alerts Mock Mapping & Mapeo de las alertas más recientes obtenidas desde el endpoint de alerts de la Fake-API. & 1.0 & Trinidad, Jahat & Done \\ \cline{3-8}
 & & TK25 & Severity Status Logic & Programación de la lógica de colores y etiquetas basadas en el nivel de severidad. & 1.0 & Trinidad, Jahat & Done \\ \hline
+
+\end{longtable}
 
 \end{longtable}
