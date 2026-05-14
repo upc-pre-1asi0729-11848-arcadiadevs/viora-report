@@ -38,3 +38,7 @@ docx:
 
 clean:
 	$(RMDIR_OUTPUT)
+
+single:
+	$(MKDIR_OUTPUT)
+	pandoc --defaults=$(PDF_DEFAULTS) $(SRC) -o $(OUTPUT_DIR)/single-output.pdf
