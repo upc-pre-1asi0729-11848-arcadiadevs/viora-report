@@ -230,6 +230,7 @@ A continuación, se exponen las capturas de pantalla de las principales vistas i
 
 [Link del Landing Page](https://viora-website.vercel.app/)
 
+[Link del video evidencia](https://tinyurl.com/viora-sprint-1)
 
 &nbsp;
 
