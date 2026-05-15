@@ -45,6 +45,20 @@ En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 
 El objetivo principal de este Sprint 2 es desarrollar el, mediante la integración de datos de telemetría IoT, análisis geoespacial de parcelas y visualización de indicadores agronómicos críticos, diseñado para centralizar la toma de decisiones y optimizar la gestión de riesgos biológicos e hídricos para el productor. También, se refactorizará la arquitectura del Landing Page.
 
+\begin{figure}[H]
+\caption{Vista General del Sprint Backlog 2}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-backlog/sb2.png}
+\caption*{\textit{Nota.} Elaboración propia a partir del tablero en Trello: https://trello.com/invite/b/6a03caf518cd5f886916c44f/ATTI72b7bec81f1f2193d4f00aa1400cd7a9DCDDEC2A/1asi0729-viora-sb2}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Vista General del Sprint Backlog 2}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-backlog/sb2.png}
+\caption*{\textit{Nota.} Elaboración propia a partir del tablero en Trello: https://trello.com/invite/b/6a03caf518cd5f886916c44f/ATTI72b7bec81f1f2193d4f00aa1400cd7a9DCDDEC2A/1asi0729-viora-sb2}
+\end{figure}
+
 \begin{longtable}{|p{0.05\textwidth}|p{0.14\textwidth}|p{0.05\textwidth}|p{0.14\textwidth}|p{0.24\textwidth}|p{0.08\textwidth}|p{0.12\textwidth}|p{0.07\textwidth}|} 
 \hline 
 \multicolumn{2}{|l|}{\textbf{Sprint \#}} & \multicolumn{6}{l|}{Sprint 2} \\ \hline 
