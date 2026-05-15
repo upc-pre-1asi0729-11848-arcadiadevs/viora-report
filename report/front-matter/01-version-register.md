@@ -49,5 +49,6 @@
 \textbf{v1.15.0} & 09/05/26 & Trinidad Leon, Jahat Jassiel & Correcciones de capítulos II y III, actualización de perfil de usuario e inclusión de nuevo miembro. \tabularnewline \hline
 \textbf{v2.0.0} & 14/05/26 & Trinidad Leon, Jahat Jassiel & Añadido Ubiquitous Language, Event Storming, actualización de análisis competitivo y entrevistas. \tabularnewline \hline
 \textbf{v2.1.0} & 15/05/26 & Trinidad Leon, Jahat Jassiel & Refactorización estructural del informe y mejora de estadísticas y enlaces. \tabularnewline \hline
+\textbf{v2.2.0} & 15/05/26 & Santi Guerrero, Fabrizio Alonso & Sprint 2 completado. \tabularnewline \hline
 
 \end{longtable}

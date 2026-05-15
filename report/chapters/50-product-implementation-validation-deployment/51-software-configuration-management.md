@@ -75,11 +75,11 @@ Para garantizar la integridad, trazabilidad y el trabajo colaborativo en el desa
 - Estrategias de Repositorios
 Se utiliza GitHub como plataforma principal para el almacenamiento y gestión del código fuente. La solución se ha dividido en tres repositorios independientes para facilitar el despliegue modular:
 
-    - Landing Page: Contiene los archivos de maquetación semántica y estilos para el sitio informativo. (https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
+    - Landing Page: Contiene los archivos de maquetación semántica y estilos para el sitio informativo. [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
 
-    - Frontend Web Application: Repositorio dedicado a la aplicación en Angular, incluyendo componentes de lógica de usuario y servicios de consumo de API. (https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp)
+    - Frontend Web Application: Repositorio dedicado a la aplicación en Angular, incluyendo componentes de lógica de usuario y servicios de consumo de API. [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp)
 
-    - Web Services (Backend): Este repositorio centraliza la lógica de negocio desarrollada en Spring Boot. Incluye tanto el código del proyecto como la suite completa de pruebas unitarias, de integración y de aceptación (OpenAPI/Swagger). (https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-platform)
+    - Web Services (Backend): Este repositorio centraliza la lógica de negocio desarrollada en Spring Boot. Incluye tanto el código del proyecto como la suite completa de pruebas unitarias, de integración y de aceptación (OpenAPI/Swagger). [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-platform](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-platform)
 
 - Workflow de Control de Versiones: Gitflow
 Se adopta el modelo GitFlow propuesto por Driessen (2010) para gestionar el ciclo de vida del software, asegurando que la rama de producción se mantenga siempre estable y aislada de las versiones en desarrollo.

@@ -280,7 +280,7 @@ A continuación, se presenta la matriz de control de versiones, la cual detalla 
 
 #### Execution Evidence for Sprint Review
 
-Durante este incremento, se logró implementar con éxito la totalidad del Sprint Backlog planificado. Los resultados abarcan desde la mejora del landing Page y la primera versión del Webapp.
+Durante este incremento, se logró implementar con éxito la totalidad del Sprint Backlog planificado. Los resultados abarcan desde la mejora del landing Page y la primera versión del Webapp. En la mejora del Landing Page se considerará arquitectura del código, la disponibilidad del botón para cambio de idioma en el header, implementación de redireccionamiento en los botones Call To Action. Mientras que en la Webapp se considero el Produck backlog para completar las historias relacionadas
 
 A continuación, se exponen las capturas de pantalla de las principales vistas implementadas en el entorno de producción. Asimismo, para evidenciar el comportamiento dinámico del sitio, se adjunta un enlace a un video demostrativo que ilustra a detalle la visualización interactiva y la navegación fluida lograda en este Sprint.
 
@@ -292,9 +292,24 @@ A continuación, se exponen las capturas de pantalla de las principales vistas i
 
 \begin{figure}[H] \caption{Webapp - Parte 4.} \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-2/wa-4.png} \caption*{\textit{Nota.} Visualización correspondiente del sprint 2. Elaboración propia.} \end{figure}
 
-Website: https://viora-website.vercel.app/
-Webapp: https://viora-webapp.web.app
-[https://tinyurl.com/viora-sprint-2](https://tinyurl.com/viora-sprint-2)
+\begin{figure}[H] \caption{Webapp - Parte 5.} \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-2/wa-5.png} \caption*{\textit{Nota.} Visualización correspondiente del sprint 2. Elaboración propia.} \end{figure}
+
+\begin{figure}[H] \caption{Webapp - Parte 6.} \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-2/wa-6.png} \caption*{\textit{Nota.} Visualización correspondiente del sprint 2. Elaboración propia.} \end{figure}
+
+\begin{figure}[H] \caption{Landing Page - Parte 1.} \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-2/lp-1.png} \caption*{\textit{Nota.} Visualización correspondiente del sprint 2. Elaboración propia.} \end{figure}
+
+\begin{figure}[H] \caption{Landing Page - Parte 2.} \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-2/lp-2.png} \caption*{\textit{Nota.} Visualización correspondiente del sprint 2. Elaboración propia.} \end{figure}
+
+\begin{figure}[H] \caption{Landing Page - Parte 3.} \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-2/lp-3.png} \caption*{\textit{Nota.} Visualización correspondiente del sprint 2. Elaboración propia.} \end{figure}
+
+\begin{figure}[H] \caption{Landing Page - Parte 4.} \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-2/lp-4.png} \caption*{\textit{Nota.} Visualización correspondiente del sprint 2. Elaboración propia.} \end{figure}
+
+
+Website: [https://viora‑website.vercel.app/](https://viora-website.vercel.app/)
+
+Webapp: [https://viora-webapp.web.app](https://viora-webapp.web.app)
+
+Video sprint 2: [https://tinyurl.com/viora-sprint-2](https://tinyurl.com/viora-sprint-2)
 
 &nbsp;
 
@@ -312,6 +327,8 @@ Para el desarrollo del Sprint 2, no se utilizo documentación de OpenAPI ni se i
 \end{figure}
 
 #### Software Deployment Evidence for Sprint Review
+
+&nbsp;
 
 Durante el transcurso del Sprint 2, el equipo de desarrollo enfocó sus esfuerzos de despliegue en la transición de las aplicaciones hacia un entorno de producción altamente disponible. Tras haber consolidado la infraestructura base en el sprint anterior, en esta etapa se priorizó el despliegue de la Web Application (Dashboard de Monitoreo) y la actualización de los Web Services necesarios para la visualización de datos en tiempo real.
 
@@ -332,8 +349,6 @@ A continuación, se detalla el proceso técnico ejecutado para publicar la versi
    \begin{figure}[H] \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-2/evidence_4.png} \caption{Ejecución del comando.} \caption*{\textit{Nota.} La imagen muestra la aplicación desplegada en la URL oficial.} \end{figure}
 
 \textbf{Enlace la webapp:} \url{https://viora-webapp.web.app}
-
-&nbsp;
 
 #### Team Collaboration Insights for Sprint Review
 
