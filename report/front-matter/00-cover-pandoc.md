@@ -28,7 +28,7 @@ nocite: '[@*]'
 
 {\large \textbf{Docente:}\par}
 \vspace{0.08cm}
-{\normalsize Velasquez Nuñez, Angel Augusto\par}
+{\normalsize Velásquez Núñez, Ángel Augusto\par}
 
 \vspace{0.60cm}
 
@@ -67,17 +67,17 @@ nocite: '[@*]'
 \hline
 \centering \textbf{Alumnos} & \centering \textbf{Código} \tabularnewline
 \hline
-Carpio Peña Josue Francisco & U202519273 \tabularnewline
+Carpio Peña, Josué Francisco & U202519273 \tabularnewline
 \hline
 Espada Lazo, Piero Anthony & U20241d924 \tabularnewline
 \hline
 Li Gayoso, Diana Carolina & U202415749 \tabularnewline
 \hline
-Paredes Maza, Victor Juan de Dios & U202416274 \tabularnewline
+Paredes Maza, Víctor Juan de Dios & U202416274 \tabularnewline
 \hline
 Santi Guerrero, Fabrizio Alonso & U202411774 \tabularnewline
 \hline
-Trinidad Leon, Jahat Jassiel & U202412248 \tabularnewline
+Trinidad León, Jahat Jassiel & U202412248 \tabularnewline
 \hline
 \end{tabular}
 }

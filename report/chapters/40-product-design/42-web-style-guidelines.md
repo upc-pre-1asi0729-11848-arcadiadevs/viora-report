@@ -40,7 +40,7 @@ Los diferentes marcos y elementos interactivos que definen la plataforma de Vior
    - **Sustento de diseño:** Este framework dicta jerarquías estandarizadas:
      - Primarios (_Severity Primary_): Colores fuertes y predefinidos.
      - Secundarios (_Outlined Buttons_): Bordes remarcados para atenuar acciones que no requieran prioridad.
-     - Enlaces y Terciarios (_Text Buttons_): Sin fondo para navegación directa a pantallas anidadas en el **Vue Router**.
+     - Enlaces y Terciarios (_Text Buttons_): Sin fondo para navegación directa a pantallas anidadas en el **Angular Router**.
 
   <br>
 
@@ -71,7 +71,7 @@ Los diferentes marcos y elementos interactivos que definen la plataforma de Vior
 
 5. **Components**
 
-   La reutilización operativa de UI pre-construida de **PrimeVue** anula la sobrecarga técnica, reduciendo el código fuente.
+   La reutilización operativa de UI pre-construida de **Angular Material** anula la sobrecarga técnica, reduciendo el código fuente.
    - **Sustento de diseño:** Integración expedita de componentes funcionales listos, como `<Checkbox>`, `<RadioButton>`, o controles de estado como `<InputSwitch>`, y el versátil `<Avatar />` para la visibilidad de perfiles. Enlazar componentes nativos a modelos reactivos de **Angular** (`[(ngModel)]`) nos asegura una estandarización veloz en todo el back-office del sistema Viora.
 
   <br>

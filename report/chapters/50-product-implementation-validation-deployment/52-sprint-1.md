@@ -243,9 +243,9 @@ Para este sprint no se crearon endpoints.
 
 &nbsp;
 
-Para este sprint se realizó el despligue del Landing Page en Vercel considerando los siguientes pasos:
+Para este sprint se realizó el despliegue del Landing Page en Vercel considerando los siguientes pasos:
 
-1. Se cambio la visualización del repositorio a público.
+1. Se cambió la visualización del repositorio a público.
 
 \begin{figure}[H]
 \caption{Repositorio de GitHub en público}
@@ -254,7 +254,7 @@ Para este sprint se realizó el despligue del Landing Page en Vercel considerand
 \caption*{\textit{Nota.} Elaboración propia.}
 \end{figure}
 
-2. Se creó la cuenta en Vercel, se vinculo con una cuenta de github y se importo el repositorio.
+2. Se creó la cuenta en Vercel, se vinculó con una cuenta de github y se importó el repositorio.
 
 \begin{figure}[H]
 \caption{Repositorio importado en Vercel}

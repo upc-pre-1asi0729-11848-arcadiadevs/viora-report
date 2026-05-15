@@ -33,8 +33,8 @@ La siguiente guía se implementa operativamente bajo las directrices del lenguaj
    La plataforma Viora presentará dashboards, por lo que la lectura rápida y la claridad en la densidad de datos son primordiales.
    - **Sustento de diseño:** Se ha definido un sistema tipográfico dual que combina estética y funcionalidad:
      - **Caros:** Utilizada principalmente para la identidad y encabezados de alto impacto. Sus variantes Bold y Regular aportan personalidad y estructura visual a la marca.
-     - **Inter:** Seleccionada como la fuente principal de la interfaz debido a su excepcional legibilidad en pantallas digitales. Al ser una fuente diseñada específicamente para UI, dictará la configuración principal tipográfica en toda la aplicación bajo Vue.js, garantizando que las métricas agrícolas sean fáciles de leer en diversos pesos (Regular y Semibold).
-     - **Jerarquía Visual:** Se implementa una escala técnica estandarizada (desde tamaños Display a Body) que estructura todos los bloques de texto y componentes visuales dentro de PrimeVue, logrando una estética sin saturación visual.
+     - **Inter:** Seleccionada como la fuente principal de la interfaz debido a su excepcional legibilidad en pantallas digitales. Al ser una fuente diseñada específicamente para UI, dictará la configuración principal tipográfica en toda la aplicación bajo Angular, garantizando que las métricas agrícolas sean fáciles de leer en diversos pesos (Regular y Semibold).
+     - **Jerarquía Visual:** Se implementa una escala técnica estandarizada (desde tamaños Display a Body) que estructura todos los bloques de texto y componentes visuales dentro de Angular Material, logrando una estética sin saturación visual.
 
   <br>
 
@@ -55,7 +55,7 @@ La siguiente guía se implementa operativamente bajo las directrices del lenguaj
 3. **Colores:**
    Nuestra paleta de colores cromática está enfocada en el aspecto agrícola. Será implementada mediante el potente sistema de Theming (variables CSS) de **Angular Material**, aplicando de forma nativa los colores primarios e instancias semánticas a todos los componentes de la interfaz, en estricto cumplimiento del **Material Design**.
    - **Sustento de diseño:**
-     - Colores Primarios: Tonos basados en la naturaleza (verdes olivo, tonos tierra) que anclan la aplicación en su contexto real, configurados como el tema base global en Vue.js.
+     - Colores Primarios: Tonos basados en la naturaleza (verdes olivo, tonos tierra) que anclan la aplicación en su contexto real, configurados como el tema base global en Angular.
      - Colores Secundarios: Azules tecnológicos que representan variables climáticas (como el fenómeno ENOS) y el análisis de datos interactivos.
      - Colores Semánticos: Uso estricto de colores cálidos (rojos/amarillos) para el sistema de alertas tempranas y de validaciones ui, vitales para advertir sobre plagas como la Xylella fastidiosa.
 
@@ -71,7 +71,7 @@ La siguiente guía se implementa operativamente bajo las directrices del lenguaj
 <br>
 
 4. **Espaciado:** El uso del espacio en blanco es fundamental para evitar la sobrecarga de información.
-   - **Sustento de diseño:** Hemos adoptado un sistema de espaciado basado en una cuadrícula base y apoyado en la biblioteca de utilidades **PrimeFlex**. Esto asegura consistencia visual en todas las pantallas, proporcionando a Vue.js las clases necesarias para separar adecuadamente los paneles de monitoreo y lograr un alivio de la carga visual de manera responsiva, permitiendo que la interfaz mantenga el estricto orden de las directivas de Material Design.
+   - **Sustento de diseño:** Hemos adoptado un sistema de espaciado basado en una cuadrícula base y apoyado en la biblioteca de utilidades CSS. Esto asegura consistencia visual en todas las pantallas, proporcionando a Angular las clases necesarias para separar adecuadamente los paneles de monitoreo y lograr un alivio de la carga visual de manera responsiva, permitiendo que la interfaz mantenga el estricto orden de las directivas de Material Design.
 
   <br>
 

@@ -59,7 +59,7 @@ La investigación aplicada también confirma que un evento El Niño-Oscilación 
 **Implicancias operativas actuales** La evidencia disponible muestra que la operación actual del sector depende de información dispersa, observación tardía y reacción posterior al daño. Aunque existen antecedentes técnicos y académicos sobre monitoreo ambiental, la práctica real sigue sin integrar esa información de forma consistente en la gestión diaria de las parcelas. Además, la experiencia del Niño costero 2017 evidencia que los eventos extremos pueden intensificarse abruptamente y superar capacidades de respuesta si no existe preparación basada en información, reforzando la exposición actual del sector a choques climáticos y sanitarios (Yglesias-González et al., 2023).
 
 \begin{figure}[H]
-\caption{( a ) UAV Matrice 350 integrado con el sENOSr Altum PT, ( b ) cámara Altum PT, ( c ) puntos de control terrestre (GCP) y ( d ) plan de vuelo para la imagen de estudio.}
+\caption{( a ) UAV Matrice 350 integrado con el sensor Altum PT, ( b ) cámara Altum PT, ( c ) puntos de control terrestre (GCP) y ( d ) plan de vuelo para la imagen de estudio.}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/graphics/uso_drones_uav.png}
 \caption\*{\textit{Nota.} Recuperado de Pino et al., 2026}
@@ -153,7 +153,7 @@ Objetivos específicos
 
 **Restricciones**
 
-- **Alcance tecnológico:** La solución abarcará el desarrollo de software para el Frontend y Web Services. La _Landing Page_ utilizará HTML5, CSS3 y JavaScript. La aplicación web (_Frontend_) se desarrollará con Vue Framework, empleando PrimeVue como biblioteca de componentes UI bajo las directrices de Material Design. El servicio web (_Backend_) será un RESTful API desarrollado con ASP.NET Core Framework y C#, y su documentación se expondrá mediante OpenAPI Specification a través de Swagger.
+- **Alcance tecnológico:** La solución abarcará el desarrollo de software para el Frontend y Web Services. La _Landing Page_ utilizará HTML5, CSS3 y JavaScript. La aplicación web (_Frontend_) se desarrollará con Angular Framework, empleando Angular Material como biblioteca de componentes UI bajo las directrices de Material Design. El servicio web (_Backend_) será un RESTful API desarrollado con Java y Spring Boot, y su documentación se expondrá mediante OpenAPI Specification a través de Swagger.
 - **Exclusión de implementaciones físicas:** El proyecto se limita al desarrollo de software; no incluye la implementación de hardware, sensores físicos ni tecnologías de conectividad IoT de campo.
 - **Estandarización de idioma:** Toda la experiencia de usuario, incluyendo mensajes, interfaces y la documentación técnica de los servicios, debe estar desarrollada exclusivamente en idioma inglés.
 - **Fidelidad arquitectónica:** El diseño de software debe seguir estrictamente el Modelo C4 (Context, Container, Component) y el patrón Domain-Driven Design (DDD).
