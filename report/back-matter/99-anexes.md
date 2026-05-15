@@ -10,7 +10,7 @@
 
 - Exposicion TB1 11848-ArcadiaDevs-expo-tb1: []()
 
-## Video de Entrevistas
+## Video de Entrevistas {-}
 
 \begin{center}
 \includegraphics[width=0.96\textwidth]{report/assets/interview/interview1.png}
