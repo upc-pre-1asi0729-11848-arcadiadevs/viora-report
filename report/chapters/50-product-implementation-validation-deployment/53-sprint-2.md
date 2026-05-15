@@ -274,8 +274,16 @@ A continuación, se presenta la matriz de control de versiones, la cual detalla 
 | upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | 30b9377 | refactor(shared): update routes for agronomic and surveillance actions. | | 15/05/2026 |
 | upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | 6c6c0c5 | refactor(routes): update recommended actions routes for agronomic and surveillance sections. | | 15/05/2026 |
 | upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | 8bcf820 | refactor(routes): add surveillance routes for alerts and pest surveillance. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | chore/infrastructure | 6a0e577 | feat(housekeeping): general review. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/general-changes | 914b99c | refactor: change template and styles. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | develop | 902ca5a | feat: redirections and general changes. | | 15/05/2026 |
 
 #### Execution Evidence for Sprint Review
+
+
+
+
+[Link del video evidencia](https://tinyurl.com/viora-sprint-2)
 
 &nbsp;
 
@@ -319,3 +327,37 @@ A continuación, se detalla el proceso técnico ejecutado para publicar la versi
 #### Team Collaboration Insights for Sprint Review
 
 &nbsp;
+
+En esta sección se detallan las actividades de implementación llevadas a cabo durante el Sprint 2, orientadas a la construcción y despliegue de la Landing Page y Webapp de Viora. El proceso de desarrollo se ejecutó de manera ágil y estructurada, garantizando que todos los miembros del equipo tuvieran una participación técnica activa. Para respaldar la trazabilidad del trabajo colaborativo, a continuación se presentan las evidencias extraídas directamente de los analíticos de GitHub (Pulse y Contributors). Estas capturas ilustran el flujo de integración, con la participación de los 6 autores, el registro de commits estructurados y la validación de múltiples Pull Requests hacia las ramas principales.
+
+\begin{figure}[H]
+\caption{Vista de Pulse de Github - Webapp}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-review/sprint-2/pulse-webapp.jpeg}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+
+\begin{figure}[H]
+\caption{Vista de Contributors de Github - Webapp}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-review/sprint-2/contributors-webapp.jpg}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Vista de Pulse de Github - Website}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-review/sprint-2/pulse-website.jpeg}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+
+\begin{figure}[H]
+\caption{Vista de Contributors de Github - Website}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-review/sprint-2/contributors-website.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\newpage
