@@ -274,6 +274,9 @@ A continuación, se presenta la matriz de control de versiones, la cual detalla 
 | upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | 30b9377 | refactor(shared): update routes for agronomic and surveillance actions. | | 15/05/2026 |
 | upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | 6c6c0c5 | refactor(routes): update recommended actions routes for agronomic and surveillance sections. | | 15/05/2026 |
 | upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | 8bcf820 | refactor(routes): add surveillance routes for alerts and pest surveillance. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | chore/infrastructure | 6a0e577 | feat(housekeeping): general review. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/general-changes | 914b99c | refactor: change template and styles. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | develop | 902ca5a | feat: redirections and general changes. | | 15/05/2026 |
 
 #### Execution Evidence for Sprint Review
 
