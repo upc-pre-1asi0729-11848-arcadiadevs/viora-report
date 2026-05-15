@@ -294,6 +294,26 @@ Para el desarrollo del Sprint 2, no se utilizo documentación de OpenAPI ni se i
 
 #### Software Deployment Evidence for Sprint Review
 
+Durante el transcurso del Sprint 2, el equipo de desarrollo enfocó sus esfuerzos de despliegue en la transición de las aplicaciones hacia un entorno de producción altamente disponible. Tras haber consolidado la infraestructura base en el sprint anterior, en esta etapa se priorizó el despliegue de la Web Application (Dashboard de Monitoreo) y la actualización de los Web Services necesarios para la visualización de datos en tiempo real.
+
+Evidencia de Implementación de Despliegue
+
+A continuación, se detalla el proceso técnico ejecutado para publicar la versión estable de la plataforma:
+
+1. Inicia con el comando para iniciar sesion en Firebase dentro del proyecto.
+\begin{figure}[H] \centering \includegraphics[width=0.8\textwidth]{report\assets\sprint-deployment\sprint-2/evidence_1.png} \caption{Ejecución del comando.} \caption*{\textit{Nota.} La imagen muestra la cuenta registrada a Firebase.} \end{figure}
+
+2. Luego ejecutamos el comando firebase init para iniciar firebase deploy en el proyecto.
+   \begin{figure}[H] \centering \includegraphics[width=0.8\textwidth]{report\assets\sprint-deployment\sprint-2/evidence_2.png} \caption{Ejecución del comando.} \caption*{\textit{Nota.} La imagen muestra la respuesta al comando.} \end{figure}
+
+3. Se concenden los permisos necesarios para el despliegue.
+   \begin{figure}[H] \centering \includegraphics[width=0.8\textwidth]{report\assets\sprint-deployment\sprint-2/evidence_3.png} \caption{Ejecución del comando.} \caption*{\textit{Nota.} La imagen muestra el acceso a permisos de repositorio para Firebase.} \end{figure}
+
+4. Al finalizar se muestra la aplicación desplegada.
+   \begin{figure}[H] \centering \includegraphics[width=0.8\textwidth]{report\assets\sprint-deployment\sprint-2/evidence_4.png} \caption{Ejecución del comando.} \caption*{\textit{Nota.} La imagen muestra la aplicación desplegada en la URL oficial.} \end{figure}
+
+\textbf{Enlace la webapp:} \url{https://viora-webapp.web.app}
+
 &nbsp;
 
 #### Team Collaboration Insights for Sprint Review
