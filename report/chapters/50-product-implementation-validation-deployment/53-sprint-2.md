@@ -33,7 +33,7 @@ En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 | Team Member (Last Name, First Name) | GitHub Username | Shared Context Leader (L) / Collab (C) | Agronomic Context Leader (L) / Collab (C) | Surveillance Context Leader (L) / Collab (C) | Landing Page refactor Leader (L) / Collab (C) |
 |---|---|---|---|---|---|
 | Carpio, Josue | josf17 | C | C | C | C |
-| Espada, Piero | espadita2510 | C | C | L | C |
+| Espada, Piero | espadita2510 / pieroedeveloper25 | C | C | L | C |
 | Li, Diana | peruvianMiau | C | C | C | C |
 | Paredes, Victor | DaronCameloft | C | L | C | C |
 | Santi, Fabrizio | Santi2007939 | C | C | C | L |
@@ -267,3 +267,35 @@ A continuación, se presenta la matriz de control de versiones, la cual detalla 
 | upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/weather | 5a9d46d | feat(weather-summary): add cloud icon. | | 15/05/2026 |
 | upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/weather | db56cad | feat(weather-summary): add weather summary array in db. | | 15/05/2026 |
 | upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic-api | 0464d79 | feat(agronomic): add agronomic api service. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | bf9e5d1 | feat(routes): refactor agronomic routes and add coming soon pages. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | 37a720a | fix(agronomic): correct import path for agronomic record response. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | cd356a4 | refactor(routes): update route structure for agronomic and surveillance sections. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | 03b152b | refactor(shared): update routes for dashboard and agronomic sections. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | 30b9377 | refactor(shared): update routes for agronomic and surveillance actions. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | 6c6c0c5 | refactor(routes): update recommended actions routes for agronomic and surveillance sections. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | refactor/segmented-routes | 8bcf820 | refactor(routes): add surveillance routes for alerts and pest surveillance. | | 15/05/2026 |
+
+#### Execution Evidence for Sprint Review
+
+&nbsp;
+
+#### Services Documentation Evidence for Sprint Review
+
+&nbsp;
+
+Para el desarrollo del Sprint 2, no se utilizo documentación de OpenAPI ni se implementó el Web Service. Para lograr mostrar los datos en la Webapp se utilizo MockAPI.
+
+\begin{figure}[H]
+\caption{Vista de MockAPI}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-documentation/sprint-2/mockapi.png}
+\caption*{\textit{Nota.} Elaboración propia}
+\end{figure}
+
+#### Software Deployment Evidence for Sprint Review
+
+&nbsp;
+
+#### Team Collaboration Insights for Sprint Review
+
+&nbsp;
