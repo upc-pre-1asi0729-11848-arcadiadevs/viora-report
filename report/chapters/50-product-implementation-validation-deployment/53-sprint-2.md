@@ -113,4 +113,164 @@ US23 & Consulta de Alertas Recientes & TK24 & Alerts Mock Mapping & Mapeo de las
 
 \end{longtable}
 
-\end{longtable}
+#### Deployment Evidence for Sprint Review
+
+&nbsp;
+
+Durante la segunda iteración, el principal avance de implementación se centró en el desarrollo del núcleo técnico de la plataforma Viora. Para garantizar la centralización, trazabilidad y correcta auditoría del código fuente, todas las contribuciones técnicas de este incremento fueron registradas e integradas. También, se consideraron los cambios del Landing Page y la redirección al webapp.
+
+A continuación, se presenta la matriz de control de versiones, la cual detalla el historial cronológico de commits realizados en el repositorio del proyecto.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/fake-api | 718f058 | build(fake-api): add json server dependency. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/fake-api | 34b241d | chore: uptade .gitignore. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/fake-api | 5177b09 | feat: add overallPlotHealth entity | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/fake-api | 6f808f2 | feat(fake-api): add json-server initial database setup with agronomic, statistics and surveillance data. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/fake-api | 37b2a72 | build: update theming with angular material and enhance font styles, lso added ngx. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/fake-api | 257cdd7 | feat: add overall-plot-health-assembler.ts. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/fake-api | 8a497b7 | feat: add overall-plot-health-resource. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/fake-api | 193055e | feat(fake-api): add endpoints for api. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/fake-api | 5e6fa9c | refactor(fake-api): update environment development path. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/fake-api | f9f160c | feat: add agronomic store for cards | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/fake-api | 9cec5fb | feat(fake-api): create environment variables for production. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-structure | 7786346 | feat: add english localization for dashboard and iot devices. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-structure | 02eec99 | feat: add remained files for app. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-structure | 37b26c8 | feat: add ndvi status card component with styling and progress bar. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-structure | c012736 | feat: add overall plot health card component with html and css styling. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 45898f6 | feat(recent-alerts): add recentalertswidgetcomponent to display recent alerts with angular material. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | f1170c7 | feat(alerts): add alert entity and plotinfo interface to model surveillance alerts. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-structure | a24703e | feat(chill-hour): add chill-hour-record-assembler, chill-hour-record.entity and chill-hour-record.resource. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | c8a3403 | feat(chill-accumulation): add chill-accumulation component. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 32524cb | feat: add monitoring summary entity with properties and methods. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/yield-forecast | fd937b7 | feat: add agronomic record entity with properties and methods. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/yield-forecast | f52df21 | feat: add agronomic record assembler and resource interfaces. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/yield-forecast | d8125da | feat: add monitoring summary assembler and resource interface. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/i18n | 6ab54c7 | feat(i18n): add navigation sidebar component with collapsible functionality. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/yield-forecast | 2697405 | feat: add typeScript configuration files for application setup. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/i18n | 0c6ebd9 | feat: add Spanish language for dashboard and language switcher | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/yield-forecast | 9467662 | feat(yield-forecast): add yield-forecast.entity. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/i18n | 5ee585e | feat: add switcher language | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/i18n | 9909f56 | feat(i18n): correction in the navigation-sidebar. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/yield-forecast | 413d6ec | feat(yield-forecast): add yield-forecast infrastructure. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/yield-forecast | 2379473 | feat(yield-forecast): add yield-forecast component. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/base-infrastructure | 164565e | feat(infrastructure): add error handling base. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/base-infrastructure | be1941e | feat(infrastructure): add base response and assembler. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/base-infrastructure | c15c5a0 | feat(infrastructure): add base api and base api endpoint implementations. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | ee52883 | feat(surveillance): add surveillance api service and assemblers for alert management. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/base-infrastructure | 8adddb2 | feat(infrastucture): add error handling base. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/base-infrastructure | c31961e | feat(infrastucture): add base response and assembler. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/base-infrastructure | 6e6b3ea | feat(infrastucture): add base api and base api endpoint implementations. | | 12/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/header | ba7641b | refactor: correct location for general styles and scripts. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/header | 10db1b5 | refactor: separate styles, template and script for header. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/about-the-team | 76aed5e | refactor: adapt index, styles and scripts for hero section. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/about-the-team | d3f6ad8 | fix: change name of section. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/about-the-team | 20bc7e8 | refactor(about-intro-section): add about intro section with wave and marquee effects. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/about-the-team | 01039c7 | refactor(problem-cards-section): add problem cards accordion section. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/about-the-team | 03e1266 | feat(members): add asset for josue carpio. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/about-the-team | fa46e88 | refactor(about-the-team): separate template, styles and scripts for about section. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/footer-i18n | 22379d4 | refactor: separate template, styles, and scripts for contact and footer section. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/footer-i18n | 3a04ae9 | fix: delete file with typo. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/footer-i18n | 62c21df | refactor(i18n): separate scripts for i18n and data. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/plans-pricing | 92ea9c7 | refactor(pricing): separte templates for pricing plans. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/grow-benefits  | ccd6c25 | refactor(index.html): improve formatting and add role benefits section for growers. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/grow-benefits | 80f1443 | feat(role-benefits): add role benefits section functionality with segment switching. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/grow-benefits | c266a26 | feat(role-benefits): add styles for role benefits section. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/plans-pricing | f6f5e72 | refactor(styles): separate style for pricing | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/plans-pricing | cf1fd79 | refactor: pricing plans panel component | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | feature/role-benefits-specialist | 4173374 | refactor(specialists-benefits): add refactor js for role benefits section. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | feature/role-benefits-specialist | 1302570 | feat(specialists-benefits): add specialists section with benefits details. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/infrastructure | bc38bea | chore(infrastructure): add multiple .gitkeep files for directory structure. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/dashboard-cards | 43b0993 | feat(iot-devices): define iot device entity and domain logic. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/dashboard-cards | 266af73 | feat(iot-devices): add iotDeviceSummary and iot sensor card entities. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/dashboard-cards | 1809776 | feat(iot-devices): add iot device api resource and response types. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/dashboard-cards | b33ae47 | feat(iot-devices): add assembler to map api resources to domain entities. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/dashboard-cards | 318146d | feat(iot-devices): implement assembler for iot device summary and sensor cards. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/dashboard-cards | 45797d1 | feat(iot-devices): add api resource definitions for iot device summaries. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/dashboard-cards | 2db218e | feat(iot-devices): relocate api response interfaces to infrastructure layer. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-bootstrap | 2c5a8c2 | feat(app): add root app configuration. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-bootstrap | 2312b7f | refactor(db.json): streamline polygon coordinates and update alert descriptions for clarity. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-bootstrap | 70995e1 | feat(app): add root app component. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-bootstrap | d7d0392 | feat(app): update application title and enable standalone component. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 11fff99 | feat(surveillance): add recommended card component with navigation actions. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-bootstrap | 66620a9 | feat(app): add root routing setup. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/plot-overview | 39574f7 | feat(plot-overview): add plot, satellite imagery and agronomic record entities and properties. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/plot-overview | 3b794a6 | feat(plot-overview): add plots and satellite imagery assemblers and responses. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/plot-overview | 6103119 | feat(plot-overview): add agronomic map and mapbox services and adapters. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | a0ca024 | feat(surveillance): implement surveillancestore for managing alerts and loading states. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 58cda28 | feat(surveillance): enhance Alert entity with detailed properties and methods for improved functionality. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 65d14cf | feat(surveillance): add risk assessment entity for enhanced surveillance data modeling. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | fb6d2be | feat(surveillance): refactor alertassembler to improve resource mapping and enhance type safety. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 6fc1708 | feat(surveillance): add alerts-response.ts for api resource payload definition of alerts data.. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | d47c2f1 | feat(surveillance): refactor surveillanceapiservice to extend BaseApi and improve alert fetching methods. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 534b3da | feat(surveillance): remove surveillanceassembler as it is no longer needed. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 7473bdd | feat(surveillance): implement recent alerts card component with styling and data fetching. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 0098a7c | feat(surveillance): add recommended actions card component. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/plot-overview | 61fb22a | feat(plot-map): add component for plot map. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/plot-overview | ee265e6 | feat(plot-overview): update agronomic store. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/plot-overview | 993b78b | chore(plot-overview): add mapbox-gl dependency. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/plot-overview | b8e6c44 | feat(plot-overview): add plot overview component. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/plot-overview | 34b359f | feat(plot-overview): update environments with endpoints and mapbox. | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/plot-overview | bff0323 | Revert "Merge branch 'feature/surveillance' into develop" | | 14/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-dependencies | c1df39c | feat(app): enhance routing configuration with layout components. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-dependencies | bb439e0 | feat(shared): add language-switcher. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-dependencies | cdeb014 | feat(shared): add coming soon page component with styles and template. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-dependencies | bb0267b | feat(shared): add dashboard header component with styles and template. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-dependencies | 27733ca | feat(shared): add dashboard sidebar component with styles and template. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-dependencies | a04b6a8 | feat(shared): add dashboard toolbar component with styles and template. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/app-dependencies | 4e5addd | feat(shared): add language-switcher component with styles and template. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/problem-solution | 8e2900f | refactor(problem-solution): add problem-solution section in index. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/problem-solution | 5a19f5d | refactor(problem-solution): add styles problem solution section. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/problem-solution | bb68d91 | refactor(problem-solution): add problem panel component. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/problem-solution | 44451b9 | refactor(problem-solution): add problem solution component. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/problem-solution | 7fa0504 | refactor(problem-solution): add solution panel component. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/general-changes | 542035e | refactor: delete ddd source. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website | refactor/general-changes | e0dac6d | refactor: add remain scripts for landing button, expected outcome and referrals. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/shared-components | b348e11 | feat(shared): add layout component with styles and template. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/shared-components | 95aeca7 | feat(shared): add producer dashboard with routing and styles. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/shared-components | 7c768d4 | feat(shared): add producer dashboard component with data fetching and ui elements. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/shared-components | bf93636 | feat(shared): add quick actions component with styles and functionality. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/shared-components | 1d92f72 | feat(shared): add specialist dashboard component with styles and functionality. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/shared-components | 259ef1a | feat(shared): refactor base api classes for improved structure and functionality. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | 31869d8 | feat(agronomic): add monitoring-summary entity. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | e7cb483 | feat(agronomic): add overall-plot-health entity. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | 92d4973 | feat(agronomic): add chill-hour-record entity. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | 04bcc2c | feat(agronomic): add yield-forecast entity. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | f7ac148 | feat(agronomic): add agronomic record entity. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | 145d371 | feat(agronomic): add overall-plot-health assembler + response. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | 8bf1ec7 | feat(agronomic): add chill-hour-record assembler + response. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | 2e0e26d | feat(agronomic): add yield-forecast assembler + response. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | 231cb21 | fix(agronomic): correct import paths for agronomic record and overall plot health assemblers. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic-cards | 6b957d2 | feat(shared): implement custom title strategy for dashboard navigation. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic-cards | 3904881 | feat(agronomic): add overall-plot-health-card component. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic-cards | e2b9872 | feat(agronomic): add ndvi-status-card component. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic-cards | 10d3cfc | feat(agronomic): add chill-accumulation-card component. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic-cards | cec6739 | feat(agronomic): add yield-forecast-card component. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/i18n-translate | 2679092 | feat(i18n): add english translations. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/i18n-translate | 861f55f | feat(i18n): add spanish translations. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/iot-devices | 2f3032b | feat(iot-devices): add iot device form component with validation and styling. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/iot-devices | 16ecafa | feat(iot-devices): implement iot device list component with pagination and error handling. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/iot-presentation | 4733d51 | feat(iot-devices): add iot devices card component with status display and loading state. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/iot-presentation | 609e830 | feat(iot-sensors): add iot sensor card component with styling and metric display. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic-routes | 5b0c228 | feat(agronomic): add routes for iot device management and forms. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | 6351ad6 | feat(agronomic): add agronomic store. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | bc3c21c | feat(agronomic): add monitoring-summary assembler + response. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | efe4a12 | fix(db): streamline polygon coordinates and update alert descriptions for clarity. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | ac4aee0 | feat(surveillance): implement surveillancestore for managing alerts and loading state. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 3514441 | feat(alert): enhance alert entity with detailed properties and methods. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 5444d15 | feat(risk-assessment): add new risk assessment entity model. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 32042a2 | feat(alert): refactor alertassembler to improve resource mapping and validation. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 9c58288 | feat(alert): add api resource payload definition for alerts data.. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 87f0a82 | feat(surveillance): refactor surveillanceapiservice to extend baseapi and improve alert fetching methods. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 9fd991d | feat(surveillance): remove aurveillanceassembler as its functionality is no longer needed. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | 56b3870 | feat(surveillance): add recent alerts card component with styling and functionality. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | d1f434d | feat(surveillance): add recommended actions card component. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/surveillance | daec2c4 | feat(surveillance): implement surveillance module enhancements | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic | c699bb7 | feat(agronomic): add agronomic statics. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/weather | 52f5fc7 | feat(weather-summary): add weather summary assembler. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/weather | de72fda | feat(weather-summary): add weather summary response. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/weather | e4a7f69 | feat(weather-summary): add weather summary card. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/weather | 91d33c9 | feat(weather-summary): add weather images. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/weather | 5a9d46d | feat(weather-summary): add cloud icon. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/weather | db56cad | feat(weather-summary): add weather summary array in db. | | 15/05/2026 |
+| upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp | feature/agronomic-api | 0464d79 | feat(agronomic): add agronomic api service. | | 15/05/2026 |
