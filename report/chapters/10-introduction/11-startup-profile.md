@@ -1,4 +1,4 @@
-# Introducción
+# Capítulo I: Introducción
 
 ## Startup Profile
 
@@ -74,7 +74,7 @@ Ser la \textbf{plataforma AgTech de referencia en el sector olivarero}, reconoci
 
 ### Perfiles de integrantes del equipo
 
-\textbf{Victor Paredes Maza (U202416274) - CEO \& Product Owner}
+\textbf{Parédes Maza, Víctor (U202416274) - CEO \& Product Owner}
 
 \noindent
 \begin{minipage}[c]{0.22\textwidth}
@@ -106,7 +106,7 @@ En ArcadiaDevs planificaré la arquitectura y estructura técnica del proyecto. 
 
 \vspace{0.6cm}
 
-\textbf{Trinidad Leon, Jahat Jassiel (U202412248) - CTO \& Integrador DevOps}
+\textbf{Trinidad León, Jahat Jassiel (U202412248) - CTO \& Integrador DevOps}
 
 \noindent
 \begin{minipage}[c]{0.22\textwidth}
@@ -133,7 +133,7 @@ En ArcadiaDevs, lideraré la infraestructura de Viora: integración continua, au
 \hfill
 \begin{minipage}[c]{0.74\textwidth}
 \raggedright
-Soy Diana Li Gayoso, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y CMO de Viora. Tengo conocimientos de C++. Entre mis fortalezas tengo la perseverancia, resiliencia y responsabilidad, como también la puntualidad, que me esfuerzo mucho en lo que hago y disciplina.
+Soy Diana Li Gayoso, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y CMO de Viora. Tengo conocimientos de C++. Entre mis fortalezas destaco la perseverancia, resiliencia y responsabilidad, así como la puntualidad y la disciplina, esforzándome mucho en lo que hago.
 
 En ArcadiaDevs, lideraré como UX Lead, enfocándome en el diseño y la experiencia del usuario, coordinando a mis compañeros para diseñar el proyecto para asegurarnos de la calidad del producto para nuestros usuarios.
 \end{minipage}
@@ -151,6 +151,23 @@ En ArcadiaDevs, lideraré como UX Lead, enfocándome en el diseño y la experien
 \begin{minipage}[c]{0.74\textwidth}
 \raggedright
 Soy Piero Anthony Espada Lazo, tengo 19 años, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y COO de Viora. Tengo sólidos conocimientos en C++, Python, desarrollo web y en el diseño de bases de datos relacionales y no relacionales. Me caracterizo por contribuir mediante creatividad, responsabilidad y un fuerte compromiso con la calidad y éxito del proyecto.
+
+En ArcadiaDevs desempeñaré el rol de Researcher \& QA, liderando los procesos de validación y análisis técnico.
+\end{minipage}
+
+\vspace{0.6cm}
+
+\textbf{Carpio Peña, Josué Francisco (U202519273) - Researcher \& QA}
+
+\noindent
+\begin{minipage}[c]{0.22\textwidth}
+\centering
+\includegraphics[width=0.9\linewidth]{report/assets/members/josue.png}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.74\textwidth}
+\raggedright
+Considero que soy una persona que trabaja bastante en equipo, me gusta colaborar e intercambiar ideas. Tengo conocimiento en C++, Python, Linux (Ubuntu y Kali Linux), controlador de versiones (Git), HTML, CSS, JavaScript y conocimientos básicos de los frameworks Vue y Angular.
 
 En ArcadiaDevs desempeñaré el rol de Researcher \& QA, liderando los procesos de validación y análisis técnico.
 \end{minipage}

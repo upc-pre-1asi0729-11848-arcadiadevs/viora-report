@@ -12,7 +12,7 @@ Para la gestión del proyecto y la administración de las necesidades del produc
     - Trello: Plataforma utilizada para la priorización de tareas mediante tableros Kanban. (https://trello.com/)
 
 - Requirements Management
-Para la gestión de requisitos el se dividió en tres herramientas que permitieran conceptualizar las ideas del Lean UX Process y la información obtenida mediante las entrevistas.
+Para la gestión de requisitos el equipo se apoyó en tres herramientas que permitieran conceptualizar las ideas del Lean UX Process y la información obtenida mediante las entrevistas.
 
     - UXPressia: Se utilizó para elaborar los artefactos de investigación, tales como los User Personas, Empathy Maps, Journey Maps e Impact Maps, centrando el diseño en las necesidades del usuario. (https://uxpressia.com/)
 
@@ -45,7 +45,7 @@ El entorno de desarrollo para la solución web distribuida se basará en un stac
     - Visual Studio Code: Entorno de desarrollo integrado (IDE) principal para el desarrollo de la Landing Page. Se utilizará para la maquetación semántica en HTML5, el diseño visual y responsivo mediante CSS3, y la interactividad con JavaScript bajo el estándar de documentación JSDoc, asegurando un código limpio, organizado y fácil de escalar. (https://code.visualstudio.com/Download)
 
 - Software Deployment
-Para cumplir con el ciclo de desarrollo y despliegue de una solución distribuida en la nube, se ha implementará una estrategia híbrida que separa la captación comercial de la lógica transaccional:
+Para cumplir con el ciclo de desarrollo y despliegue de una solución distribuida en la nube, se implementará una estrategia híbrida que separa la captación comercial de la lógica transaccional:
 
     - Microsoft Azure: Proveedor de servicios Cloud principal para la infraestructura operativa. (https://azure.microsoft.com/)
 
@@ -75,11 +75,11 @@ Para garantizar la integridad, trazabilidad y el trabajo colaborativo en el desa
 - Estrategias de Repositorios
 Se utiliza GitHub como plataforma principal para el almacenamiento y gestión del código fuente. La solución se ha dividido en tres repositorios independientes para facilitar el despliegue modular:
 
-    - Landing Page: Contiene los archivos de maquetación semántica y estilos para el sitio informativo. (https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
+    - Landing Page: Contiene los archivos de maquetación semántica y estilos para el sitio informativo. [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
 
-    - Frontend Web Application: Repositorio dedicado a la aplicación en Angular, incluyendo componentes de lógica de usuario y servicios de consumo de API. (https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp)
+    - Frontend Web Application: Repositorio dedicado a la aplicación en Angular, incluyendo componentes de lógica de usuario y servicios de consumo de API. [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp)
 
-    - Web Services (Backend): Este repositorio centraliza la lógica de negocio desarrollada en Spring Boot. Incluye tanto el código del proyecto como la suite completa de pruebas unitarias, de integración y de aceptación (OpenAPI/Swagger). (https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-platform)
+    - Web Services (Backend): Este repositorio centraliza la lógica de negocio desarrollada en Spring Boot. Incluye tanto el código del proyecto como la suite completa de pruebas unitarias, de integración y de aceptación (OpenAPI/Swagger). [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-platform](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-platform)
 
 - Workflow de Control de Versiones: Gitflow
 Se adopta el modelo GitFlow propuesto por Driessen (2010) para gestionar el ciclo de vida del software, asegurando que la rama de producción se mantenga siempre estable y aislada de las versiones en desarrollo.
@@ -188,7 +188,7 @@ Se aplican las convenciones de la Google TypeScript Style Guide (Google, s.f.) y
 
 ### Software Deployment Configuration
 
-Para garantizar un pase a producción seguro y automatizado, se ha implementará un pipeline de Integración y Despliegue Continuo (CI/CD) orquestado por GitHub Actions. Este motor detecta cualquier integración de código en las ramas principales de los repositorios fuente, ejecutando los siguientes pasos de publicación según el producto digital:
+Para garantizar un pase a producción seguro y automatizado, se implementará un pipeline de Integración y Despliegue Continuo (CI/CD) orquestado por GitHub Actions. Este motor detecta cualquier integración de código en las ramas principales de los repositorios fuente, ejecutando los siguientes pasos de publicación según el producto digital:
 
 - Landing Page: A partir del repositorio fuente, el código es compilado y desplegado automáticamente hacia la plataforma Vercel, optimizando la entrega del sitio comercial.
 

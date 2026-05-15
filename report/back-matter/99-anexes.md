@@ -1,5 +1,25 @@
-# Anexos
+# Anexos {-}
 
-**Videos de Exposiciones**
+## Videos de Exposiciones {-}
 
-- AV1: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412248_upc_edu_pe/IQD9DshabUjuRqIxQ7fMkaiLAS0edN6_DFy4_hyv5y-QBpU?e=UlmAf8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+\begin{center}
+\includegraphics[width=0.96\textwidth]{report/assets/expos-ss/expo-av1-ss.png}
+\end{center}
+
+- Exposicion AV1 11848-ArcadiaDevs-expo-av1: [https://tinyurl.com/2s34nu2n](https://tinyurl.com/2s34nu2n)
+
+\begin{center}
+\includegraphics[width=0.96\textwidth]{report/assets/expos-ss/expo-tb1-ss.png}
+\end{center}
+
+- Exposicion TB1 11848-ArcadiaDevs-expo-tb1: [https://tinyurl.com/5d7sfday](https://tinyurl.com/5d7sfday)
+
+## Video de Entrevistas {-}
+
+\begin{center}
+\includegraphics[width=0.96\textwidth]{report/assets/interview/interview1.png}
+\end{center}
+
+- upc-pre-202610-1asi0729-11848-ArcadiaDevs-needfinding-sprint-1:  [https://tinyurl.com/mvbkc2sz](https://tinyurl.com/mvbkc2sz)
+
+\newpage

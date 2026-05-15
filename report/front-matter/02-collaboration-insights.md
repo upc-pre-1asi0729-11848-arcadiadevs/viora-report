@@ -1,39 +1,104 @@
 # Project Report Collaboration Insights {-}
 
-**Link del repositorio del informe:**
+## Enlaces a la organización de github y sus repositorios {-}
 
-- [Repositorio del informe](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-report)
+- **Organizacion de GitHub** upc-pre-202610-1asi0729-11848-ArcadiaDevs: 
+  [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs)
+
+- **Repositorio del informe** upc-pre-1asi0729-11848-ArcadiaDevs/Viora-report: 
+  [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-report](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-report)
+  
+- **Repositorio de la Landingpage** upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website: 
+  [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
+  
+- **Repositorio de la aplicacion web** upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp: 
+  [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp)
+  
+
+## Estadísticas de colaboración {-}
 
 \begin{figure}[H]
-\caption{Vista Pulse.}
+\caption{Pulse del repositorio de informe}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/insights/av1/pulse.png}
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/pulse.png}
 \caption*{\textit{Nota.} Elaboración propia.}
 \end{figure}
 
 \begin{figure}[H]
-\caption{Vista Contributors - 1.}
+\caption{Contributors del repositorio de informe}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/insights/av1/contributors-1.png}
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/contributors.png}
 \caption*{\textit{Nota.} Elaboración propia.}
 \end{figure}
 
 \begin{figure}[H]
-\caption{Vista Contributors - 2.}
+\caption{Commits realizados a la rama develop del informe. Incluye contribuciones desde otras ramas.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/insights/av1/contributors-2.png}
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-1.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Commits realizados a la rama develop del informe. Incluye contribuciones desde otras ramas.}
+\centering
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-2.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Commits realizados a la rama develop del informe. Incluye contribuciones desde otras ramas.}
+\centering
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-3.png}
 \caption*{\textit{Nota.} La cuenta de pierodeveloper25 y espadita2510 pertenecen a Piero Espada. Elaboración propia.}
 \end{figure}
 
 \begin{figure}[H]
-\caption{Vista Commits.}
+\caption{Commits realizados a la rama develop del informe. Incluye contribuciones desde otras ramas.}
 \centering
-\includegraphics[width=0.8\textwidth]{report/assets/insights/av1/commits.png}
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-4.png}
 \caption*{\textit{Nota.} Elaboración propia.}
 \end{figure}
 
-**Link de los repositorios de la organización:**
+\begin{figure}[H]
+\caption{Commits realizados a la rama develop del informe. Incluye contribuciones desde otras ramas.}
+\centering
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-5.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
 
-- [Repositorio del Landing Page](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
+\begin{figure}[H]
+\caption{Commits realizados a la rama develop del informe. Incluye contribuciones desde otras ramas.}
+\centering
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-6.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Commits realizados a la rama develop del informe. Incluye contribuciones desde otras ramas.}
+\centering
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-7.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Commits realizados a la rama develop del informe. Incluye contribuciones desde otras ramas.}
+\centering
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-8.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Commits realizados a la rama develop del informe. Incluye contribuciones desde otras ramas.}
+\centering
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-9.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Commits realizados a la rama develop del informe. Incluye contribuciones desde otras ramas.}
+\centering
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-10.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
 
 \clearpage

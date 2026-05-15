@@ -6,24 +6,20 @@
 
 &nbsp;
 
-En esta sección se detallan los acuerdos fundamentales alcanzados por el equipo Turistas durante la sesión de planificación del Sprint 1, llevada a cabo de manera virtual mediante la plataforma Discord. El propósito central de esta reunión fue alinear los esfuerzos técnicos con la estrategia de captación de la marca Viora, definiendo un compromiso de trabajo basado en una velocidad de 20 puntos para abordar un conjunto de historias de usuario que suman 18 puntos de esfuerzo.
+En esta sección se detallan los acuerdos fundamentales alcanzados por el equipo ArcadiaDevs durante la sesión de planificación del Sprint 1, llevada a cabo de manera virtual mediante la plataforma Discord. El propósito central de esta reunión fue alinear los esfuerzos técnicos con la estrategia de captación de la marca Viora, definiendo un compromiso de trabajo basado en una velocidad de 20 puntos para abordar un conjunto de historias de usuario que suman 18 puntos de esfuerzo.
 
 A continuación, se presenta el cuadro resumen del Sprint Planning Meeting, el cual integra la logística de la sesión, los responsables de la documentación y el Sprint Goal diseñado para garantizar que este primer incremento de software entregue valor real a los productores y especialistas del sector olivarero.
 
-\begin{tabular}{p{0.30\textwidth} p{0.65\textwidth}}
-\hline
-\textbf{Sprint \#} & Sprint 1 \\ \hline
-\multicolumn{2}{l}{\textbf{Sprint Planning Background}} \\ \hline
-\textbf{Date} & 2026-04-24 \\
-\textbf{Time} & 07:10 PM \\
-\textbf{Location} & Discord (Virtual) \\
-\textbf{Prepared By} & Trinidad Leon, Jahat Jassiel \\
-\textbf{Attendees} & Espada Lazo, Piero Anthony / Li Gayoso, Diana Carolina / Paredes Maza, Juan de Dios / Santi Guerrero Fabrizio Alonso / Trinidad Leon, Jahat Jassiel \\ \hline
-\multicolumn{2}{l}{\textbf{Sprint Goal \& User Stories}} \\ \hline
-\textbf{Sprint 1 Goal} & Nuestro enfoque está en proporcionar una experiencia informativa y persuasiva mediante la Landing Page oficial, destacando la conexión entre datos climáticos y acción en campo; creemos que entrega claridad inmediata sobre la propuesta de valor, confianza institucional y una ruta directa de conversión hacia el periodo de prueba a los visitantes productores y especialistas fitosanitarios; esto se confirmará cuando los usuarios puedan navegar los beneficios segmentados, validar la eficacia mediante testimonios y completar la transición hacia el flujo de registro o contacto comercial sin fricciones. \\
-\textbf{Sprint 1 Velocity} & 20 \\
-\textbf{Sum of Story Points} & 18 \\ \hline
-\end{tabular}
+| **Sprint #** | Sprint 1 |
+| :--- | :--------------- |
+| **Date** | 2026-04-24 |
+| **Time** | 07:10 PM |
+| **Location** | Discord (Virtual) |
+| **Prepared By** | Trinidad Leon, Jahat Jassiel |
+| **Attendees (to planning meeting)** | Espada Lazo, Piero Anthony / Li Gayoso, Diana Carolina / Paredes Maza, Victor Juan de Dios / Santi Guerrero, Fabrizio Alonso / Trinidad Leon, Jahat Jassiel |
+| **Sprint 1 Goal** | Nuestro enfoque está en proporcionar una experiencia informativa y persuasiva mediante la Landing Page oficial, destacando la conexión entre datos climáticos y acción en campo; creemos que entrega claridad inmediata sobre la propuesta de valor, confianza institucional y una ruta directa de conversión hacia el periodo de prueba a los visitantes productores y especialistas fitosanitarios; esto se confirmará cuando los usuarios puedan navegar los beneficios segmentados, validar la eficacia mediante testimonios y completar la transición hacia el flujo de registro o contacto comercial sin fricciones. |
+| **Sprint 1 Velocity** | 20 |
+| **Sum of Story Points** | 18 |
 
 #### Aspect Leaders and Collaborators 
 
@@ -31,15 +27,13 @@ A continuación, se presenta el cuadro resumen del Sprint Planning Meeting, el c
 
 En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX) del Sprint 1, diseñada para optimizar la coordinación interna y asegurar la calidad técnica de la plataforma Viora. Para este primer incremento, el alcance de desarrollo se ha segmentado en cinco ejes: la estructuración de la interfaz y navegación base, la comunicación de la propuesta de valor segmentada, el desarrollo lógico del modelo de acceso, la consolidación de la credibilidad corporativa, y la implementación técnica de la conversión y contacto.
 
-\begin{tabular}{|p{0.16\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|}
-\hline
-\textbf{Team Member (Last Name, First Name)} & \textbf{GitHub Username} & \textbf{Core UI Leader (L) / Collab (C)} & \textbf{Value \& Seg Leader (L) / Collab (C)} & \textbf{Access Model Leader (L) / Collab (C)} & \textbf{Corp Trust Leader (L) / Collab (C)} & \textbf{Conversion Leader (L) / Collab (C)} \\ \hline
-Espada, Piero & espadita2510 & C & C & C & C & L \\ \hline
-Li, Diana & peruvianMiau & L & C & C & C & C \\ \hline
-Paredes, Victor & DaronCameloft & C & C & C & L & C \\ \hline
-Santi, Fabrizio & Santi2007939 & C & L & C & C & C \\ \hline
-Trinidad, Jahat & trinity-bytes & C & C & L & C & C \\ \hline
-\end{tabular}
+| Team Member (Last Name, First Name) | GitHub Username | Core UI Leader (L) / Collab (C) | Value & Seg Leader (L) / Collab (C) | Access Model Leader (L) / Collab (C) | Corp Trust Leader (L) / Collab (C) | Conversion Leader (L) / Collab (C) |
+|---|---|---|---|---|---|---|
+| Espada, Piero | espadita2510 | C | C | C | C | L |
+| Li, Diana | peruvianMiau | L | C | C | C | C |
+| Paredes, Victor | DaronCameloft | C | C | C | L | C |
+| Santi, Fabrizio | Santi2007939 | C | L | C | C | C |
+| Trinidad, Jahat | trinity-bytes | C | C | L | C | C |
 
 #### Sprint Backlog 1
 
@@ -236,6 +230,7 @@ A continuación, se exponen las capturas de pantalla de las principales vistas i
 
 [Link del Landing Page](https://viora-website.vercel.app/)
 
+[Link del video evidencia](https://tinyurl.com/viora-sprint-1)
 
 &nbsp;
 
@@ -249,9 +244,9 @@ Para este sprint no se crearon endpoints.
 
 &nbsp;
 
-Para este sprint se realizó el despligue del Landing Page en Vercel considerando los siguientes pasos:
+Para este sprint se realizó el despliegue del Landing Page en Vercel considerando los siguientes pasos:
 
-1. Se cambio la visualización del repositorio a público.
+1. Se cambió la visualización del repositorio a público.
 
 \begin{figure}[H]
 \caption{Repositorio de GitHub en público}
@@ -260,7 +255,7 @@ Para este sprint se realizó el despligue del Landing Page en Vercel considerand
 \caption*{\textit{Nota.} Elaboración propia.}
 \end{figure}
 
-2. Se creó la cuenta en Vercel, se vinculo con una cuenta de github y se importo el repositorio.
+2. Se creó la cuenta en Vercel, se vinculó con una cuenta de github y se importó el repositorio.
 
 \begin{figure}[H]
 \caption{Repositorio importado en Vercel}
