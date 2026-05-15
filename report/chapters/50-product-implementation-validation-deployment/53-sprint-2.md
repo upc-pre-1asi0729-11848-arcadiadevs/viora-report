@@ -280,10 +280,21 @@ A continuación, se presenta la matriz de control de versiones, la cual detalla 
 
 #### Execution Evidence for Sprint Review
 
+Durante este incremento, se logró implementar con éxito la totalidad del Sprint Backlog planificado. Los resultados abarcan desde la mejora del landing Page y la primera versión del Webapp.
 
+A continuación, se exponen las capturas de pantalla de las principales vistas implementadas en el entorno de producción. Asimismo, para evidenciar el comportamiento dinámico del sitio, se adjunta un enlace a un video demostrativo que ilustra a detalle la visualización interactiva y la navegación fluida lograda en este Sprint.
 
+\begin{figure}[H] \caption{Webapp - Parte 1.} \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-2/wa-1.png} \caption*{\textit{Nota.} Visualización correspondiente del sprint 2. Elaboración propia.} \end{figure}
 
-[Link del video evidencia](https://tinyurl.com/viora-sprint-2)
+\begin{figure}[H] \caption{Webapp - Parte 2.} \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-2/wa-2.png} \caption*{\textit{Nota.} Visualización correspondiente del sprint 2. Elaboración propia.} \end{figure}
+
+\begin{figure}[H] \caption{Webapp - Parte 3.} \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-2/wa-3.png} \caption*{\textit{Nota.} Visualización correspondiente del sprint 2. Elaboración propia.} \end{figure}
+
+\begin{figure}[H] \caption{Webapp - Parte 4.} \centering \includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-2/wa-4.png} \caption*{\textit{Nota.} Visualización correspondiente del sprint 2. Elaboración propia.} \end{figure}
+
+Website: https://viora-website.vercel.app/
+Webapp: https://viora-webapp.web.app
+[https://tinyurl.com/viora-sprint-2](https://tinyurl.com/viora-sprint-2)
 
 &nbsp;
 
