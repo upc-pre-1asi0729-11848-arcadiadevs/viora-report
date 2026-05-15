@@ -302,3 +302,37 @@ Para el desarrollo del Sprint 2, no se utilizo documentación de OpenAPI ni se i
 #### Team Collaboration Insights for Sprint Review
 
 &nbsp;
+
+En esta sección se detallan las actividades de implementación llevadas a cabo durante el Sprint 2, orientadas a la construcción y despliegue de la Landing Page y Webapp de Viora. El proceso de desarrollo se ejecutó de manera ágil y estructurada, garantizando que todos los miembros del equipo tuvieran una participación técnica activa. Para respaldar la trazabilidad del trabajo colaborativo, a continuación se presentan las evidencias extraídas directamente de los analíticos de GitHub (Pulse y Contributors). Estas capturas ilustran el flujo de integración, con la participación de los 6 autores, el registro de commits estructurados y la validación de múltiples Pull Requests hacia las ramas principales.
+
+\begin{figure}[H]
+\caption{Vista de Pulse de Github - Webapp}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-review/sprint-2/pulse-webapp.jpeg}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+
+\begin{figure}[H]
+\caption{Vista de Contributors de Github - Webapp}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-review/sprint-2/contributors-webapp.jpg}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Vista de Pulse de Github - Website}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-review/sprint-2/pulse-website.jpeg}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+
+\begin{figure}[H]
+\caption{Vista de Contributors de Github - Website}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-review/sprint-2/contributors-website.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\newpage
