@@ -1,8 +1,6 @@
 # Project Report Collaboration Insights {-}
 
-## Enlaces {-}
-
-**Enlaces a la organización de github y sus repositorios:**
+## Enlaces a la organización de github y sus repositorios {-}
 
 - **Organizacion de GitHub** upc-pre-202610-1asi0729-11848-ArcadiaDevs: 
   [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs)
