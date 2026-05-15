@@ -8,7 +8,11 @@
 
 - Exposicion AV1 11848-ArcadiaDevs-expo-av1: [https://tinyurl.com/2s34nu2n](https://tinyurl.com/2s34nu2n)
 
-- Exposicion TB1 11848-ArcadiaDevs-expo-tb1: []()
+\begin{center}
+\includegraphics[width=0.96\textwidth]{report/assets/expos-ss/expo-tb1-ss.png}
+\end{center}
+
+- Exposicion TB1 11848-ArcadiaDevs-expo-tb1: [https://tinyurl.com/5d7sfday](https://tinyurl.com/5d7sfday)
 
 ## Video de Entrevistas {-}
 
