@@ -32,7 +32,7 @@ nocite: '[@*]'
 
 \vspace{0.60cm}
 
-{\LARGE \textbf{Informe de Trabajo Final}\par}
+{\LARGE \textbf{Informe de TB1}\par}
 
 \vspace{0.80cm}
 
