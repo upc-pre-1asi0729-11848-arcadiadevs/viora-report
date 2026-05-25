@@ -18,6 +18,20 @@
 ## Estadísticas de colaboración {-}
 
 \begin{figure}[H]
+\caption{Pulse del repositorio de informe}
+\centering
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/pulse.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Contributors del repositorio de informe}
+\centering
+\includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/contributors.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
 \caption{Commits realizados a la rama develop del informe. Incluye contribuciones desde otras ramas.}
 \centering
 \includegraphics[width=0.96\textwidth]{report/assets/collaboration-stats/stats-1.png}
