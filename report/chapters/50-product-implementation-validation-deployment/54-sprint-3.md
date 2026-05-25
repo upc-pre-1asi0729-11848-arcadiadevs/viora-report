@@ -27,6 +27,19 @@ A continuación, se presenta el cuadro resumen del Sprint Planning Meeting, el c
 
 &nbsp;
 
+En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX) correspondiente al Sprint 3, diseñada para fortalecer la coordinación estratégica y la especialización técnica dentro del ecosistema Viora durante el desarrollo de la segunda versión de la aplicación web y la primera versión operativa del Servicio Web. Para este incremento, el alcance se ha reorganizado en torno a bounded contexts alineados con los principales procesos del negocio y los pain points identificados en los segmentos de productores olivareros y especialistas fitosanitarios. En consecuencia, el equipo ha distribuido las responsabilidades entre los contextos Shared, Agronomic, Surveillance, Intervention, Community y PAM (Profile & Asset Management), además de considerar la evolución y refinamiento de la Landing Page.
+
+| Team Member (Last Name, First Name) | GitHub Username | Shared Context Leader (L) / Collab (C) | Agronomic Context Leader (L) / Collab (C) | Surveillance Context Leader (L) / Collab (C) | Intervention Context Leader (L) / Collab (C) | Community Context Leader (L) / Collab (C) | PAM Context Leader (L) / Collab (C) | Landing Page Leader (L) / Collab (C) |
+|---|---|---|---|---|---|---|---|---|
+| Carpio, Josue   | josf17                           | C | C | C | C | C | L | C |
+| Espada, Piero   | espadita2510 / pieroedeveloper25 | C | C | L | C | C | C | C |
+| Li, Diana       | peruvianMiau                     | C | C | C | L | C | C | C |
+| Paredes, Victor | DaronCameloft                    | C | C | C | C | C | C | L |
+| Santi, Fabrizio | Santi2007939                     | C | L | C | C | C | C | C |
+| Trinidad, Jahat | trinity-bytes                    | L | C | C | C | L | C | C |
+
+&nbsp;
+
 
 #### Sprint Backlog 3
 
