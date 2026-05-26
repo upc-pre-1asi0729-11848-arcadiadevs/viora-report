@@ -44,6 +44,13 @@ En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX
 
 El objetivo principal de este Sprint 3 es desarrollar la segunda versión de la aplicación web y la primera versión operativa del Servicio Web de Viora, mediante la incorporación de capacidades de autenticación segura, monitoreo fitosanitario inteligente, sincronización climática y satelital, gestión de alertas epidemiológicas y coordinación de intervenciones técnicas entre productores olivareros y especialistas fitosanitarios. Asimismo, el sprint contempla la consolidación de procesos de trazabilidad agronómica, reputación comunitaria y administración de perfiles y activos agrícolas, junto con el refinamiento incremental de la Landing Page y funcionalidades implementadas en iteraciones anteriores.
 
+\begin{figure}[H]
+\caption{Vista General del Sprint Backlog 3}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-backlog/sb3.png}
+\caption*{\textit{Nota.} Elaboración propia a partir del tablero en Trello: https://trello.com/b/KRHAZq6c/1asi0729-viora-sb3}
+\end{figure}
+
 \begin{longtable}{|p{0.05\textwidth}|p{0.14\textwidth}|p{0.05\textwidth}|p{0.14\textwidth}|p{0.24\textwidth}|p{0.08\textwidth}|p{0.12\textwidth}|p{0.07\textwidth}|}
 \hline
 \multicolumn{2}{|l|}{\textbf{Sprint \#}} & \multicolumn{6}{l|}{Sprint 3} \\ \hline
@@ -63,7 +70,7 @@ US56 & Exploración de beneficios para el Productor & TK01 & Presentación de to
 US57 & Exploración de beneficios para el Especialista & TK02 & Presentación de todos los beneficios del segmento de especialistas & Implementación de cards con todos los beneficios ofrecidos para el segmento de especialistas fitosanitarios & 1.0 & Paredes, Victor & To-do \\ \hline
 
 % US60
-US60 & Exploración del equipo detrás de la plataforma & TK03 & Video e imágenes del equipo & Implementación de placeholder para imágenes del equipo trabajo y el video About the team & 1.0 & Paredes, Victor & To-do \\ \hline
+US60 & Exploración del equipo detrás de la plataforma & TK03 & Sección de video e imágenes del equipo & Implementación de placeholder para imágenes del equipo trabajo y el video About the team & 1.0 & Paredes, Victor & To-do \\ \hline
 
 % US08
 US08 & Monitoreo de telemetría IoT para decisiones hídricas & TK04 & Datos inválidos mostrados & Corregir que aparezcan elementos no existenten en la lista de dispositivos IoT & 1.0 & Santi, Fabrizio & To-do \\ \hline
@@ -74,7 +81,7 @@ US15 & Alerta por frío insuficiente & TK05 & Componente de alerta de frío & Im
 % US19
 US19 & Reporte de sintomatología y evaluación automática & TK06 & Creación manual de alerta & Implementación de formulario con selector de Parcela y multiselección de síntomas vistos & 1.0 & Espada, Piero & To-do \\ \cline{3-8}
 & & TK07 & Visualización de alertas por parcela & Implementación de filtro de alerta de acuerdo según parcela & 1.0 & Espada, Piero & To-do \\ \cline{3-8}
-& & TK08 & Mensaje de confirmación & Implementación de pop-up de alerta validada o archivada & 1.0 & Espada, Piero & To-do \\ \hline
+& & TK08 & Mensaje de confirmación de alerta & Implementación de pop-up de alerta validada o archivada & 1.0 & Espada, Piero & To-do \\ \hline
 
 % US20
 US20 & Difusión de alerta preventiva comunitaria & TK09 & Componente de alerta comunitaria & Implementación de tipo de alerta comunitaria y filtro & 1.0 & Espada, Piero & To-do \\ \hline
