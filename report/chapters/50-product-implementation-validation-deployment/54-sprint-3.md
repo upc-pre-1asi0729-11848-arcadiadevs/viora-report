@@ -87,14 +87,14 @@ US19 & Reporte de sintomatología y evaluación automática & TK06 & Creación m
 US20 & Difusión de alerta preventiva comunitaria & TK09 & Componente de alerta comunitaria & Implementación de tipo de alerta comunitaria y filtro & 1.0 & Espada, Piero & To-do \\ \hline
 
 % US21
-US21 & Prospección zonal de intervenciones técnicas & TK10 & Listado de parcelas con alertas & Implementación de lista de parcelas con cantidad de alertas presentadas y peligro & 2.0 & Espada, Piero & To-do \\ \hline
+US21 & Consulta de zonas con alerta & TK10 & Radar fitosanitario con Mapbox & Implementación de mapa interactivo con marcadores georreferenciados de alertas epidemiológicas. & 2.0 & Espada, Piero & To-do \\ \hline
 
 % US22
-US22 & Priorización de prospección por severidad estimada & TK11 & Mapbox SDK con marcadores de alertas & Configuración de marcadores de alertas en Mapbox SDK relacionado a alertas. & 2.0 & Espada, Piero & To-do \\ \cline{3-8}
-& & TK12 & Filtro de plaga y severidad & Implementación de filtro de plagas y severidad mostrados en el mapa. & 1.0 & Espada, Piero & To-do \\ \hline
+US22 & Filtrado de alertas por gravedad & TK11 & Filtro de severidad y tipo de plaga & Implementación de filtros dinámicos para alertas de plagas. & 1.0 & Espada, Piero & To-do \\ \cline{3-8}
+& & TK12 & Panel de alertas filtradas & Implementación de listado sincronizado con las alertas visibles en el mapa. & 2.0 & Espada, Piero & To-do \\ \hline
 
 % US24
-US24 & Identificación de especialistas zonales & TK13 & Lista de especialistas disponibles & Implementación de lista de técnicos con datos de disponibilidad. & 1.0 & Li, Diana & To-do \\ \cline{3-8}
+US24 & Identificación de especialistas cercanos & TK13 & Lista de especialistas disponibles & Implementación de lista de técnicos con datos de disponibilidad. & 1.0 & Li, Diana & To-do \\ \cline{3-8}
 & & TK14 & Indisposición de especialistas & Implementación de componente de especialistas no disponibles & 0.5 & Li, Diana & To-do \\ \hline
 
 % US25
@@ -136,7 +136,7 @@ US37 & Registro de datos de inspección física & TK32 & Formulario de inspecci�
 & & TK34 & Resumen de hallazgos de campo & Implementación de componente con resumen de observaciones registradas. & 0.5 & Paredes, Victor & To-do \\ \hline
 
 % US38
-US38 & Validación algorítmica de ventana de aplicación & TK35 & Validación climática de aplicación & Implementación de validación de fecha de tratamiento según pronóstico climático. & 1.0 & Paredes, Victor & To-do \\ \cline{3-8}
+US38 & Validación de ventana de aplicación & TK35 & Validación climática de aplicación & Implementación de validación de fecha de tratamiento según pronóstico climático. & 1.0 & Paredes, Victor & To-do \\ \cline{3-8}
 & & TK36 & Alerta de condiciones adversas & Implementación de mensaje de advertencia por lluvias o vientos fuertes. & 0.5 & Paredes, Victor & To-do \\ \cline{3-8}
 & & TK37 & Recomendación de nueva ventana & Implementación de sugerencia de reprogramación de aplicación fitosanitaria. & 0.5 & Paredes, Victor & To-do \\ \hline
 
@@ -153,11 +153,10 @@ US07 & Delimitación de área productiva & TK41 & Configuración de Mapbox SDK &
 & & TK45 & Vinculación climática automática & Implementación de asociación automática entre parcela y datos climáticos zonales. & 0.5 & Santi, Fabrizio & To-do \\ \cline{3-8}
 & & TK46 & Lista de parcelas & Implementación de lista de parcelas, con selección para ver el detalle de cada una y botón para la creación de una nueva. & 1.0 & Santi, Fabrizio & To-do \\ \hline
 
-% US16
-US16 & Prescripción automatizada de nutrición dinámica & TK47 & Generación de plan nutricional & Implementación de recomendación de fertilización según riesgo fenológico. & 1.5 & Paredes, Victor & To-do \\ \cline{3-8}
-& & TK48 & Resumen de tratamiento compensatorio & Implementación de visualización de agrofármacos y dosis recomendadas. & 1.0 & Paredes, Victor & To-do \\ \cline{3-8}
+US16 & Plan de fertilización ajustado al clima & TK47 & Generación de recomendación agronómica & Implementación de estrategia compensatoria según riesgo climático o fenológico. & 1.5 & Paredes, Victor & To-do \\ \cline{3-8}
+& & TK48 & Resumen de tratamiento recomendado & Implementación de visualización de insumos y dosis sugeridas para mitigación. & 1.0 & Paredes, Victor & To-do \\ \cline{3-8}
 & & TK49 & Ajuste de ventana de aplicación & Implementación de actualización de recomendación según cambios climáticos. & 0.5 & Paredes, Victor & To-do \\ \cline{3-8}
-& & TK50 & Alerta de modificación climática & Implementación de mensaje de cambio de ventana óptima de aplicación. & 0.5 & Paredes, Victor & To-do \\ \hline
+& & TK50 & Alerta de modificación climática & Implementación de notificación sobre cambio de ventana óptima de aplicación. & 0.5 & Paredes, Victor & To-do \\ \hline
 
 % US40
 US40 & Certificación de aplicación de receta técnica & TK51 & Formulario de certificación de aplicación & Implementación de registro de fecha y dosificación aplicada en campo. & 1.0 & Li, Diana & To-do \\ \cline{3-8}
@@ -165,8 +164,8 @@ US40 & Certificación de aplicación de receta técnica & TK51 & Formulario de c
 & & TK53 & Advertencia de aplicación fuera de ventana & Implementación de mensaje de posible reducción de eficacia climática. & 0.5 & Li, Diana & To-do \\ \hline
 
 % US17
-US17 & Certificación de aplicación del plan nutricional & TK54 & Formulario de certificación nutricional & Implementación de registro de fecha y agrofármacos aplicados en campo. & 1.5 & Santi, Fabrizio & To-do \\ \cline{3-8}
-& & TK55 & Validación de datos obligatorios & Implementación de validación de insumos químicos y fecha de intervención. & 0.5 & Santi, Fabrizio & To-do \\ \hline
+US17 & Certificación de aplicación del plan de mitigación & TK54 & Formulario de certificación de intervención & Implementación de registro de fecha e insumos aplicados en campo. & 1.5 & Santi, Fabrizio & To-do \\ \cline{3-8}
+& & TK55 & Validación de datos obligatorios & Implementación de validación de insumos utilizados y fecha de intervención. & 0.5 & Santi, Fabrizio & To-do \\ \hline
 
 % US41
 US41 & Consolidación del gasto de intervención & TK56 & Formulario de registro de gastos & Implementación de ingreso de costos operativos y agrofármacos utilizados. & 1.0 & Li, Diana & To-do \\ \cline{3-8}
@@ -198,7 +197,7 @@ US45 & Registro de disposición de recontratación & TK71 & Selector de preferen
 & & TK72 & Historial privado de especialistas & Implementación de sección privada con preferencias registradas para futuras búsquedas. & 0.5 & Carpio, Josue & To-do \\ \hline
 
 % US46
-US46 & Publicación de caso de éxito en portafolio & TK73 & Botón de publicación de caso exitoso & Implementación de acción para agregar intervenciones validadas al portafolio público. & 1.0 & Carpio, Josue & To-do \\ \cline{3-8}
+US46 & Publicación de caso de éxito profesional & TK73 & Botón de publicación de caso exitoso & Implementación de acción para agregar intervenciones validadas al portafolio público. & 1.0 & Carpio, Josue & To-do \\ \cline{3-8}
 & & TK74 & Mensaje de restricción de publicación & Implementación de alerta para intervenciones con evaluación desfavorable. & 0.5 & Carpio, Josue & To-do \\ \cline{3-8}
 & & TK75 & Sección pública de casos de éxito & Implementación de galería de intervenciones destacadas dentro del perfil del especialista. & 1.5 & Carpio, Josue & To-do \\ \hline
 
@@ -208,17 +207,17 @@ US32 & Emisión de reporte por inconducta profesional & TK76 & Formulario de den
 & & TK78 & Mensaje de reporte enviado & Implementación de popup de confirmación de denuncia registrada. & 0.5 & Trinidad, Jahat & To-do \\ \hline
 
 % US33
-US33 & Evaluación y penalización autónoma (strikes) & TK79 & Indicador de strikes acumulados & Implementación de visualización de cantidad de penalizaciones del usuario. & 1.0 & Trinidad, Jahat & To-do \\ \cline{3-8}
+US33 & Evaluación y penalización autónoma & TK79 & Indicador de strikes acumulados & Implementación de visualización de cantidad de penalizaciones del usuario. & 1.0 & Trinidad, Jahat & To-do \\ \cline{3-8}
 & & TK80 & Estado disciplinario del perfil & Implementación de badge de estado del usuario dentro del marketplace. & 0.5 & Trinidad, Jahat & To-do \\ \cline{3-8}
 & & TK81 & Alerta de límite de penalizaciones & Implementación de mensaje preventivo por acumulación de strikes. & 0.5 & Trinidad, Jahat & To-do \\ \hline
 
 % US34
-US34 & Inhabilitación temporal preventiva & TK82 & Pantalla de suspensión temporal & Implementación de vista de acceso restringido por sanción preventiva. & 1.0 & Trinidad, Jahat & To-do \\ \cline{3-8}
+US34 & Suspensión temporal preventiva & TK82 & Pantalla de suspensión temporal & Implementación de vista de acceso restringido por sanción preventiva. & 1.0 & Trinidad, Jahat & To-do \\ \cline{3-8}
 & & TK83 & Mensaje de suspensión preventiva & Implementación de notificación con motivo y duración de sanción. & 0.5 & Trinidad, Jahat & To-do \\ \cline{3-8}
 & & TK84 & Deshabilitación de acciones del marketplace & Implementación de bloqueo visual de botones y funcionalidades restringidas. & 0.5 & Trinidad, Jahat & To-do \\ \hline
 
 % US35
-US35 & Expulsión definitiva del marketplace & TK85 & Pantalla de expulsión definitiva & Implementación de vista de bloqueo permanente de acceso. & 1.0 & Trinidad, Jahat & To-do \\ \cline{3-8}
+US35 & Expulsión definitiva de usuarios reincidentes & TK85 & Pantalla de expulsión definitiva & Implementación de vista de bloqueo permanente de acceso. & 1.0 & Trinidad, Jahat & To-do \\ \cline{3-8}
 & & TK86 & Ocultamiento de perfil sancionado & Implementación de invisibilización de perfil dentro de búsquedas y marketplace. & 0.5 & Trinidad, Jahat & To-do \\ \cline{3-8}
 & & TK87 & Mensaje de revocación permanente & Implementación de notificación de expulsión definitiva del ecosistema. & 0.5 & Trinidad, Jahat & To-do \\ \hline
 
@@ -227,7 +226,7 @@ US10 & Gestión de estado de disponibilidad & TK88 & Selector de disponibilidad 
 & & TK89 & Estado visible de disponibilidad & Implementación de badge de estado operativo mostrado en el perfil profesional. & 0.5 & Carpio, Josue & To-do \\ \hline
 
 % US09
-US09 & Establecimiento de perfil profesional & TK90 & Formulario de perfil profesional & Implementación de vista para registrar experiencia, especialidades y datos de contacto. & 1.0 & Carpio, Josue & To-do \\ \cline{3-8}
+US09 & Publicación de perfil profesional & TK90 & Formulario de perfil profesional & Implementación de vista para registrar experiencia y datos de contacto. & 1.0 & Carpio, Josue & To-do \\ \cline{3-8}
 & & TK91 & Ubicación geográfica del especialista & Implementación de selección y visualización de zona operativa mediante mapa interactivo. & 1.5 & Carpio, Josue & To-do \\ \cline{3-8}
 & & TK92 & Visualización pública del portafolio & Implementación de perfil público mostrado en terna de especialistas. & 0.5 & Carpio, Josue & To-do \\ \hline
 
