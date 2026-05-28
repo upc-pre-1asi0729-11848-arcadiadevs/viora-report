@@ -5,6 +5,7 @@
 En esta sección se definen los requisitos del ecosistema mediante Épicas e Historias de Usuario, estructuradas a partir del Big Picture generado en nuestra sesión de Event Storming. Los requisitos abarcan las funcionalidades del dominio transaccional, el sitio web estático (Landing Page) enfocado en la conversión de roles segmentados, y las Technical Stories. Todos los criterios de aceptación son comprobables y siguen estrictamente la estructura BDD (Gherkin: Given-When-Then) en tiempo presente y tercera persona, incluyendo los escenarios de interacción request/response para el backend.
 
 | **Epic / Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacionado con (Epic ID)** |
+|---|---|---|---|---|
 | **EP01** | Acceso seguro y perfil según rol | Como usuario de Viora (Productor o Especialista), quiero ingresar y mantener mi cuenta de forma segura, para recibir una bienvenida y un acceso acordes con mi rol y mi plan. | N/A | N/A |
 | **EP02** | Gestión de parcelas y perfil profesional | Como usuario de Viora (Productor o Especialista), quiero configurar y gestionar mis parcelas o mi perfil profesional, para habilitar el seguimiento del cultivo o mi presencia en la plataforma. | N/A | N/A |
 | **EP03** | Seguimiento del clima y la cosecha | Como Productor Olivarero, quiero que el sistema consolide y evalúe la información del clima y del cultivo, para conocer la situación real de mi parcela y tomar decisiones preventivas frente a cambios del entorno. | N/A | N/A |
