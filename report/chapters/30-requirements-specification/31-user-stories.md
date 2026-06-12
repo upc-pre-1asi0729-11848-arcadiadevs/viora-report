@@ -182,7 +182,6 @@ A continuación se presenta un único cuadro que dedica una fila a cada Epic / U
 | **TS17** | **Origen de invitaciones** | **Como desarrollador, quiero registrar de dónde proviene cada nuevo registro, para medir el alcance de las invitaciones. | **Escenario 1: Registro con invitación válida**<br><br> • **Given** un nuevo usuario llega con una invitación válida.<br> • **When** completa su registro.<br> • **Then** el sistema vincula el alta con el usuario que lo invitó. | **EP17** |
 | | | | **Escenario 2: Registro sin invitación válida**<br><br> • **Given** un nuevo usuario sin invitación válida.<br> • **When** completa su registro.<br> • **Then** el sistema crea la cuenta sin asociarla a un anfitrión. | |
 
-La consolidación de estos requisitos bajo el estándar de comportamiento funcional y técnico asegura una trazabilidad arquitectónica completa. El cumplimiento de estos escenarios y reglas de negocio servirá como base inmutable para el desarrollo.
 La consolidación de estos requisitos bajo el estándar de comportamiento funcional y técnico asegura una trazabilidad arquitectónica completa. El cumplimiento de estos escenarios de request/response y reglas de negocio servirá como base inmutable para el desarrollo.
 
 \newpage
