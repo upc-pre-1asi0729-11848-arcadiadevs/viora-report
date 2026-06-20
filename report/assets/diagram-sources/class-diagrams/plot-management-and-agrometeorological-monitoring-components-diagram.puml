@@ -1,0 +1,61 @@
+@startuml
+package "Plot Management Component" {
+    class PlotController {
+        - plotService: PlotService
+        + createPlot(dto: PlotDTO): ResponseEntity<PlotDTO>
+        + getUserPlots(): ResponseEntity<List<PlotDTO>>
+        + getPlotDetails(plotId: Long): ResponseEntity<PlotDetailDTO>
+        + deletePlot(plotId: Long): ResponseEntity<Void>
+    }
+
+    interface PlotService {
+        + registerArea(dto: PlotDTO): Plot
+        + getPlotsByUser(userId: Long): List<Plot>
+        + getPlotDetails(plotId: Long): PlotDetailDTO
+    }
+
+    class PlotServiceImpl {
+        - plotRepository: PlotRepository
+        - mapboxClient: MapboxClient
+        + registerArea()
+        + getPlotsByUser()
+        + getPlotDetails()
+    }
+
+    class Plot <<Entity>> {
+        + id: Long
+        + name: String
+        + polygonCoordinates: String
+        + areaSize: double
+        + cropType: String
+        + userId: Long
+    }
+
+    PlotService <|.. PlotServiceImpl
+    PlotServiceImpl --> PlotRepository : uses
+}
+
+package "Agrometeorological Component" {
+    class AgroDataSyncScheduler <<Scheduled>> {
+        - agroClient: AgroMonitoringClient
+        - recordRepository: AgronomicRecordRepository
+        @Scheduled(fixedRate = 3600000)
+        + synchronizeData(): void
+    }
+
+    class AgronomicRecord <<Entity>> {
+        + id: Long
+        + plotId: Long
+        + date: LocalDateTime
+        + ndviIndex: double
+        + temp: double
+        + humidity: double
+        + soilMoisture: double
+    }
+
+    AgronomicRecord "*" -- "1" Plot : relates to
+    AgroDataSyncScheduler --> AgronomicRecordRepository : persists
+}
+
+PlotController --> PlotService : depends on
+@enduml

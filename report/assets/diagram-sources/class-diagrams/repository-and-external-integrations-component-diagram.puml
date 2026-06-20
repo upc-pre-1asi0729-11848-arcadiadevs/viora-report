@@ -1,0 +1,74 @@
+@startuml
+package "Repository Components (Data Access)" {
+    class AppDbContext {
+        + users: JpaRepository<User, Long>
+        + profiles: JpaRepository<Profile, Long>
+        + plots: JpaRepository<Plot, Long>
+        + agronomicRecords: JpaRepository<AgronomicRecord, Long>
+        + alerts: JpaRepository<Alert, Long>
+        + interventionRequests: JpaRepository<InterventionRequest, Long>
+        + subscriptions: JpaRepository<Subscription, Long>
+    }
+
+    interface BaseRepository<T> {
+        + findById(id: Long): Optional<T>
+        + findAll(): List<T>
+        + save(entity: T): T
+        + deleteById(id: Long): void
+    }
+
+    class BaseRepositoryImpl<T> {
+        # entityManager: EntityManager
+        + findById()
+        + findAll()
+        + save()
+        + deleteById()
+    }
+
+    BaseRepository <|.. BaseRepositoryImpl
+    BaseRepositoryImpl --> AppDbContext : uses
+}
+
+package "External Integrations Component" {
+    interface AgroMonitoringClient {
+        + fetchNdviData(polygon: String): NdviResponseDTO
+        + fetchWeatherData(polygon: String): WeatherResponseDTO
+    }
+
+    interface MercadoPagoClient {
+        + createPreference(paymentData: PaymentDTO): String
+        + verifyPayment(txId: String): PaymentStatusDTO
+    }
+
+    interface MapboxClient {
+        + geocode(query: String): GeocodingResultDTO
+        + getStaticMap(polygon: String): byte[]
+    }
+
+    interface BrevoClient {
+        + sendTransactionalEmail(email: EmailDTO): void
+        + sendAlertNotification(alert: AlertEmailDTO): void
+    }
+
+    interface CloudinaryClient {
+        + uploadMedia(file: MultipartFile, folder: String): MediaUrlDTO
+        + deleteMedia(publicId: String): void
+    }
+
+    interface SenasaDataClient {
+        + fetchQuarantineAlerts(region: String): List<SenasaAlertDTO>
+        + fetchPestRegistry(): List<PestRecordDTO>
+    }
+
+    class RestHttpClientWrapper {
+        + send(request: RequestEntity): ResponseEntity
+    }
+
+    AgroMonitoringClient ..> RestHttpClientWrapper : uses
+    MercadoPagoClient ..> RestHttpClientWrapper : uses
+    MapboxClient ..> RestHttpClientWrapper : uses
+    BrevoClient ..> RestHttpClientWrapper : uses
+    CloudinaryClient ..> RestHttpClientWrapper : uses
+    SenasaDataClient ..> RestHttpClientWrapper : uses
+}
+@enduml

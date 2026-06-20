@@ -1,0 +1,30 @@
+@startuml
+package "Authentication" {
+    class AuthComponent <<Angular Component>> {
+        - email: string
+        - password: string
+        + submitLogin(): void
+        + redirectToRegister(): void
+    }
+
+    class AuthService {
+        + token: string | null
+        + user: User | null
+        + isAuthenticated: boolean
+        + currentUserRole(): string
+        + login(credentials: LoginCredentials): Observable<Token>
+        + logout(): void
+        + refreshToken(): Observable<Token>
+    }
+
+    class AuthApiService {
+        + authenticate(credentials: LoginCredentials): Observable<Token>
+        + register(userData: RegisterData): Observable<void>
+        + refreshToken(token: string): Observable<Token>
+    }
+
+    AuthApiService --|> BaseApiService
+    AuthComponent --> AuthService : dispatches
+    AuthService --> AuthApiService : calls
+}
+@enduml

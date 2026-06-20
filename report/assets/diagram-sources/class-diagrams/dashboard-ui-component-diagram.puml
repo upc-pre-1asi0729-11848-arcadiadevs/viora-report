@@ -1,0 +1,35 @@
+@startuml
+package "Dashboard" {
+    class DashboardComponent <<Angular Component>> {
+        - period: string
+        - loadSummaries(): void
+    }
+
+    class CropHealthSummaryWidget <<Angular Component>> {
+        - ndviSummary: NDVISummary | null
+        + renderChart(): void
+    }
+
+    class AlertSummaryWidget <<Angular Component>> {
+        - recentAlerts: Alert[]
+        + navigateToNotifications(): void
+    }
+
+    class DashboardService {
+        + summaryData: DashboardSummary | null
+        + isLoading: boolean
+        + fetchDashboardStats(): Observable<DashboardSummary>
+    }
+
+    class DashboardApiService {
+        + getDashboardStats(period: string): Observable<DashboardSummary>
+        + getCropHealthSummary(plotId: number): Observable<CropHealth>
+    }
+
+    DashboardApiService --|> BaseApiService
+    DashboardComponent *-- CropHealthSummaryWidget : contains
+    DashboardComponent *-- AlertSummaryWidget : contains
+    DashboardComponent --> DashboardService : uses
+    DashboardService --> DashboardApiService : calls
+}
+@enduml

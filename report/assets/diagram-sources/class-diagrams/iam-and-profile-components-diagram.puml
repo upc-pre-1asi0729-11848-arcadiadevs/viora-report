@@ -1,0 +1,97 @@
+@startuml
+package "IAM Component" {
+    class AuthController {
+        - authService: AuthService
+        + login(dto: LoginDTO): ResponseEntity<TokenDTO>
+        + register(dto: RegisterDTO): ResponseEntity<User>
+        + refreshToken(dto: RefreshTokenDTO): ResponseEntity<TokenDTO>
+    }
+
+    interface AuthService {
+        + authenticate(credentials: LoginDTO): TokenDTO
+        + register(data: RegisterDTO): User
+        + refreshToken(token: String): TokenDTO
+    }
+
+    class AuthServiceImpl {
+        - userRepository: UserRepository
+        + authenticate()
+        + register()
+        + refreshToken()
+    }
+
+    class User <<Entity>> {
+        + id: Long
+        + email: String
+        + passwordHash: String
+        + role: RoleEnum
+        + createdAt: LocalDateTime
+    }
+
+    enum RoleEnum {
+        PRODUCER
+        SPECIALIST
+        ADMIN
+    }
+
+    AuthService <|.. AuthServiceImpl
+    AuthServiceImpl --> UserRepository : uses
+}
+
+package "Profile Component" {
+    class ProfileController {
+        - profileService: ProfileService
+        + getProfile(userId: Long): ResponseEntity<ProfileDTO>
+        + updateProfile(dto: UpdateProfileDTO): ResponseEntity<Void>
+        + uploadEvidence(dto: EvidenceUploadDTO): ResponseEntity<Void>
+    }
+
+    interface ProfileService {
+        + getProfile(userId: Long): ProfileDTO
+        + updateProfile(userId: Long, data: UpdateProfileDTO): void
+        + uploadEvidence(userId: Long, files: EvidenceUploadDTO): void
+    }
+
+    class ProfileServiceImpl {
+        - profileRepository: ProfileRepository
+        - cloudinaryClient: CloudinaryClient
+        + getProfile()
+        + updateProfile()
+        + uploadEvidence()
+    }
+
+    class Profile <<Entity>> {
+        + id: Long
+        + firstName: String
+        + lastName: String
+        + phoneNumber: String
+        + avatarUrl: String
+        + bio: String
+        + userId: Long
+    }
+
+    class SpecialistProfile <<Entity>> {
+        + profileId: Long
+        + specializationArea: String
+        + certifications: String
+        + availabilityStatus: AvailabilityEnum
+        + portfolioUrl: String
+        + yearsOfExperience: int
+    }
+
+    enum AvailabilityEnum {
+        AVAILABLE
+        BUSY
+        ON_ROUTE
+        OFFLINE
+    }
+
+    ProfileService <|.. ProfileServiceImpl
+    ProfileServiceImpl --> ProfileRepository : uses
+    Profile "1" *-- "1" User : belongs to
+    SpecialistProfile "0..1" --* "1" Profile : extends
+}
+
+AuthController --> AuthService : depends on
+ProfileController --> ProfileService : depends on
+@enduml
