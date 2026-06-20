@@ -1,0 +1,49 @@
+@startuml
+package "API Client Services" {
+    class HttpClient {
+        - baseUrl: String
+        + intercept(request: HttpRequest): HttpRequest
+        + get<T>(url: String): Observable<T>
+        + post<T>(url: String, body: any): Observable<T>
+        + put<T>(url: String, body: any): Observable<T>
+        + delete<T>(url: String): Observable<T>
+    }
+
+    class BaseApiService {
+        # http: HttpClient
+        + constructor(http: HttpClient)
+        # handleResponse<T>(response: HttpResponse<T>): T
+        # handleError(error: HttpErrorResponse): void
+    }
+}
+
+package "Shared UI Components" {
+    class BaseLayout <<Angular Component>> {
+        + isSidebarOpen: boolean
+        + toggleSidebar(): void
+    }
+
+    class DataTableWidget <<Angular Component>> {
+        + columns: Column[]
+        + rows: Row[]
+        + pageSize: number
+        + onSort(column: string): void
+        + onPaginate(page: number): void
+    }
+
+    class BaseModalWidget <<Angular Component>> {
+        + isVisible: boolean
+        + title: string
+        + open(): void
+        + close(): void
+        + emitConfirm(): void
+    }
+
+    class LoadingSpinnerWidget <<Angular Component>> {
+        + isActive: boolean
+        + message: string
+    }
+}
+
+BaseApiService --> HttpClient : uses
+@enduml

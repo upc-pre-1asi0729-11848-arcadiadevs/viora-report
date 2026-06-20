@@ -1,0 +1,33 @@
+@startuml
+package "Subscription & Billing" {
+    class SubscriptionComponent <<Angular Component>> {
+        - currentPlan: SubscriptionPlan | null
+        + upgradePlan(): void
+        + cancelSubscription(): void
+    }
+
+    class PaymentFormWidget <<Angular Component>> {
+        - cardDetails: CardDetails
+        - isProcessing: boolean
+        + processCheckout(): void
+    }
+
+    class BillingService {
+        + subscriptionStatus: Subscription | null
+        + paymentHistory: PaymentTransaction[]
+        + fetchPlanDetails(): Observable<Subscription>
+        + executePayment(): Observable<PaymentResult>
+    }
+
+    class BillingApiService {
+        + getSubscriptionStatus(): Observable<Subscription>
+        + getPaymentHistory(): Observable<PaymentTransaction[]>
+        + processPayment(planId: number): Observable<PaymentResult>
+    }
+
+    BillingApiService --|> BaseApiService
+    SubscriptionComponent *-- PaymentFormWidget : contains
+    SubscriptionComponent --> BillingService : invokes
+    BillingService --> BillingApiService : calls
+}
+@enduml

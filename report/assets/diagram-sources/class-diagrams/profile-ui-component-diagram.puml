@@ -1,0 +1,34 @@
+@startuml
+package "Profile Management" {
+    class ProfileComponent <<Angular Component>> {
+        - userProfile: UserProfile | null
+        - isEditing: boolean
+        + toggleEditMode(): void
+        + saveChanges(): void
+    }
+
+    class EvidenceUploadWidget <<Angular Component>> {
+        - selectedFiles: File[]
+        + handleFileUpload(): void
+        + uploadEvidence(): void
+    }
+
+    class ProfileService {
+        + currentProfile: Profile | null
+        + fetchProfile(userId: number): Observable<Profile>
+        + updateProfile(data: UpdateProfileData): Observable<void>
+        + uploadSpecialistEvidence(files: File[]): Observable<void>
+    }
+
+    class ProfileApiService {
+        + getProfile(userId: number): Observable<Profile>
+        + updateProfile(userId: number, data: UpdateProfileData): Observable<void>
+        + uploadEvidence(userId: number, files: File[]): Observable<void>
+    }
+
+    ProfileApiService --|> BaseApiService
+    ProfileComponent *-- EvidenceUploadWidget : contains
+    ProfileComponent --> ProfileService : uses
+    ProfileService --> ProfileApiService : calls
+}
+@enduml

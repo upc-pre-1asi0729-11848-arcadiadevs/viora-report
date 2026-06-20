@@ -1,0 +1,77 @@
+@startuml
+package "Epidemiological Surveillance" {
+    class SurveillanceController {
+        - surveillanceService: SurveillanceService
+        + reportSymptom(dto: SymptomReportDTO): ResponseEntity<SymptomReportDTO>
+        + validateOutbreak(reportId: Long): ResponseEntity<OutbreakValidationDTO>
+        + getZonalRiskMap(): ResponseEntity<List<ZonalRiskDTO>>
+        + getCommunityAlerts(): ResponseEntity<List<CommunityAlertDTO>>
+    }
+
+    interface SurveillanceService {
+        + submitSymptomReport(dto: SymptomReportDTO): SymptomReport
+        + validateOutbreak(reportId: Long): OutbreakValidation
+        + getZonalRiskAssessments(region: String): List<ZonalRiskDTO>
+        + getCommunityAlerts(region: String): List<CommunityAlertDTO>
+    }
+
+    class SurveillanceServiceImpl {
+        - reportRepository: SymptomReportRepository
+        - outbreakRepository: OutbreakValidationRepository
+        - senasaClient: SenasaDataClient
+        - brevoClient: BrevoClient
+        + submitSymptomReport()
+        + validateOutbreak()
+        + getZonalRiskAssessments()
+        + getCommunityAlerts()
+    }
+
+    class SymptomReport <<Entity>> {
+        + id: Long
+        + plotId: Long
+        + reporterId: Long
+        + symptomDescription: String
+        + affectedArea: double
+        + severityLevel: SeverityEnum
+        + evidenceMediaUrl: String
+        + reportedAt: LocalDateTime
+    }
+
+    class OutbreakValidation <<Entity>> {
+        + id: Long
+        + symptomReportId: Long
+        + validatedBy: Long
+        + probablePathogen: String
+        + confidenceLevel: double
+        + isConfirmed: boolean
+        + validatedAt: LocalDateTime
+    }
+
+    class QuarantineZone <<Entity>> {
+        + id: Long
+        + regionName: String
+        + polygonCoordinates: String
+        + threatAgent: String
+        + declaredAt: LocalDateTime
+        + isActive: boolean
+    }
+
+    class CommunityAlert <<Entity>> {
+        + id: Long
+        + quarantineZoneId: Long
+        + alertType: String
+        + message: String
+        + affectedRadius: double
+        + issuedAt: LocalDateTime
+    }
+
+    SurveillanceService <|.. SurveillanceServiceImpl
+    SurveillanceServiceImpl --> SymptomReportRepository : uses
+    SurveillanceController --> SurveillanceService : depends on
+    SymptomReport "*" -- "1" Plot : reported for
+    SymptomReport "*" -- "1" User : submitted by
+    OutbreakValidation "0..1" --* "1" SymptomReport : validates
+    CommunityAlert "*" -- "1" QuarantineZone : issued within
+    OutbreakValidation ..> QuarantineZone : may trigger
+}
+@enduml

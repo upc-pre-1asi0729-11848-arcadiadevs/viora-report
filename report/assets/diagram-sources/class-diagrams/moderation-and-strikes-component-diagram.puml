@@ -1,0 +1,37 @@
+@startuml
+package "Moderation & Strikes" {
+    class ModerationController {
+        - moderationService: ModerationService
+        + reportUser(dto: ReportDTO): ResponseEntity<Void>
+        + applyStrike(userId: Long, reason: String): ResponseEntity<Void>
+        + getStrikeHistory(userId: Long): ResponseEntity<List<StrikeDTO>>
+    }
+
+    interface ModerationService {
+        + evaluateReports(): void
+        + applyStrike(userId: Long, reason: String): void
+        + banUser(userId: Long): void
+    }
+
+    class ModerationServiceImpl {
+        - strikeRepository: StrikeRecordRepository
+        - brevoClient: BrevoClient
+        + evaluateReports()
+        + applyStrike()
+        + banUser()
+    }
+
+    class StrikeRecord <<Entity>> {
+        + id: Long
+        + userId: Long
+        + reason: String
+        + timestamp: LocalDateTime
+        + isActive: boolean
+    }
+
+    ModerationService <|.. ModerationServiceImpl
+    ModerationServiceImpl --> StrikeRecordRepository : uses
+    ModerationController --> ModerationService : depends on
+    StrikeRecord "*" -- "1" User : applied to
+}
+@enduml

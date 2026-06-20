@@ -1,0 +1,72 @@
+@startuml
+package "Marketplace & Intervention" {
+    class InterventionController {
+        - marketplaceService: MarketplaceService
+        + requestIntervention(dto: RequestInterventionDTO): ResponseEntity<InterventionRequestDTO>
+        + acceptCase(requestId: Long): ResponseEntity<Void>
+        + rejectCase(requestId: Long): ResponseEntity<Void>
+        + getRequestDetails(requestId: Long): ResponseEntity<InterventionDetailDTO>
+    }
+
+    interface MarketplaceService {
+        + findSpecialists(criteria: FilterDTO): List<SpecialistDTO>
+        + createRequest(dto: RequestInterventionDTO): InterventionRequest
+        + updateRequestStatus(id: Long, status: RequestStatus): void
+        + getRequestDetails(id: Long): InterventionDetailDTO
+    }
+
+    class MarketplaceServiceImpl {
+        - requestRepository: InterventionRequestRepository
+        - brevoClient: BrevoClient
+        + findSpecialists()
+        + createRequest()
+        + updateRequestStatus()
+        + getRequestDetails()
+    }
+
+    class InterventionRequest <<Entity>> {
+        + id: Long
+        + producerId: Long
+        + plotId: Long
+        + specialistId: Long
+        + status: RequestStatus
+        + description: String
+        + scheduledDate: LocalDateTime
+        + createdAt: LocalDateTime
+    }
+
+    class Quotation <<Entity>> {
+        + id: Long
+        + interventionRequestId: Long
+        + proposedAmount: BigDecimal
+        + notes: String
+        + isAccepted: boolean
+    }
+
+    class TechnicalPrescription <<Entity>> {
+        + id: Long
+        + interventionRequestId: Long
+        + diagnosis: String
+        + recommendations: String
+        + issuedAt: LocalDateTime
+    }
+
+    enum RequestStatus {
+        PENDING
+        ACCEPTED
+        REJECTED
+        IN_PROGRESS
+        COMPLETED
+        CANCELLED
+    }
+
+    MarketplaceService <|.. MarketplaceServiceImpl
+    MarketplaceServiceImpl --> InterventionRequestRepository : uses
+    InterventionController --> MarketplaceService : depends on
+    InterventionRequest "*" -- "1" Plot : targets
+    InterventionRequest "*" -- "1" User : requested by (Producer)
+    InterventionRequest "*" -- "1" User : assigned to (Specialist)
+    Quotation "0..1" --* "1" InterventionRequest : belongs to
+    TechnicalPrescription "0..1" --* "1" InterventionRequest : issued for
+}
+@enduml

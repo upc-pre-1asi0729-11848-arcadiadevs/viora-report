@@ -1,0 +1,110 @@
+@startuml
+package "Prediction & Risk Engine" {
+    class RiskAnalysisScheduler <<Scheduled>> {
+        - plotRepository: PlotRepository
+        - recordRepository: AgronomicRecordRepository
+        - chillRepository: ChillHourRecordRepository
+        @Scheduled(cron = "0 0 2 * * ?")
+        + evaluateRisks(): void
+        @Scheduled(cron = "0 0 3 * * ?")
+        + runAlternancePrediction(): void
+    }
+
+    class ChillHourRecord <<Entity>> {
+        + id: Long
+        + plotId: Long
+        + date: LocalDateTime
+        + accumulatedChillPortions: double
+        + minTemp: double
+        + maxTemp: double
+        + enosPhase: String
+    }
+
+    class AlternancePrediction <<Entity>> {
+        + id: Long
+        + plotId: Long
+        + predictedSeason: String
+        + alternanceRisk: double
+        + expectedYieldReduction: double
+        + generatedAt: LocalDateTime
+    }
+
+    class YieldForecast <<Entity>> {
+        + id: Long
+        + plotId: Long
+        + season: String
+        + estimatedYieldKg: double
+        + confidenceLevel: double
+        + basedOnChillHours: boolean
+    }
+
+    class RiskAssessment <<Entity>> {
+        + id: Long
+        + plotId: Long
+        + probabilityFactor: double
+        + threatType: String
+        + severity: SeverityEnum
+        + evaluatedAt: LocalDateTime
+    }
+
+    enum SeverityEnum {
+        LOW
+        MEDIUM
+        HIGH
+        CRITICAL
+    }
+
+    ChillHourRecord "*" -- "1" Plot : tracked for
+    AlternancePrediction "*" -- "1" Plot : forecasts
+    YieldForecast "*" -- "1" Plot : estimates for
+    RiskAssessment "*" -- "1" Plot : evaluates
+    RiskAssessment ..> AgronomicRecord : based on
+}
+
+package "Alert & Notification Component" {
+    class AlertController {
+        - alertService: AlertService
+        + getActiveAlerts(): ResponseEntity<List<AlertDTO>>
+        + getAlertsByPlot(plotId: Long): ResponseEntity<List<AlertDTO>>
+        + markAlertAsRead(alertId: Long): ResponseEntity<Void>
+    }
+
+    interface AlertService {
+        + generateAlert(riskId: Long): void
+        + getActiveAlerts(userId: Long): List<AlertDTO>
+        + markAsRead(alertId: Long): void
+    }
+
+    class AlertServiceImpl {
+        - alertRepository: AlertRepository
+        - brevoClient: BrevoClient
+        + generateAlert()
+        + getActiveAlerts()
+        + markAsRead()
+    }
+
+    class Alert <<Entity>> {
+        + id: Long
+        + plotId: Long
+        + userId: Long
+        + type: AlertTypeEnum
+        + severity: SeverityEnum
+        + message: String
+        + isRead: boolean
+        + triggeredAt: LocalDateTime
+    }
+
+    enum AlertTypeEnum {
+        PHENOLOGICAL
+        EPIDEMIOLOGICAL
+        WEATHER
+        BILLING
+    }
+
+    AlertService <|.. AlertServiceImpl
+    AlertServiceImpl --> AlertRepository : uses
+}
+
+RiskAnalysisScheduler ..> AlertService : triggers
+Alert "*" -- "1" Plot : belongs to
+@enduml

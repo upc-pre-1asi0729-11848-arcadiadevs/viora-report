@@ -1,0 +1,36 @@
+@startuml
+package "Marketplace" {
+    class MarketplaceComponent <<Angular Component>> {
+        - specialists: Specialist[]
+        - filters: FilterCriteria
+        + applyFilters(): void
+        + selectSpecialist(id: number): void
+    }
+
+    class InterventionRequestWidget <<Angular Component>> {
+        - requestData: InterventionRequestData
+        + acceptRequest(): void
+        + rejectRequest(): void
+    }
+
+    class InterventionService {
+        + activeRequests: InterventionRequest[]
+        + availableSpecialists: Specialist[]
+        + fetchSpecialists(): Observable<Specialist[]>
+        + createRequest(): Observable<InterventionRequest>
+        + updateRequestStatus(): Observable<void>
+    }
+
+    class MarketplaceApiService {
+        + getSpecialists(filters: FilterCriteria): Observable<Specialist[]>
+        + createInterventionRequest(data: InterventionRequestData): Observable<InterventionRequest>
+        + updateRequestStatus(id: number, status: string): Observable<void>
+        + getRequestDetails(id: number): Observable<InterventionDetail>
+    }
+
+    MarketplaceApiService --|> BaseApiService
+    MarketplaceComponent *-- InterventionRequestWidget : renders list of
+    MarketplaceComponent --> InterventionService : dispatches actions to
+    InterventionService --> MarketplaceApiService : calls
+}
+@enduml
