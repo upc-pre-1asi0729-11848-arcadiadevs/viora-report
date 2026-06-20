@@ -1,0 +1,37 @@
+@startuml
+skinparam linetype ortho
+skinparam roundcorner 5
+
+entity "users" as users {
+    * id : SERIAL <<PK>>
+    --
+    email : VARCHAR(256)
+    role : VARCHAR(20)
+}
+
+entity "profiles" as profiles {
+    * id : SERIAL <<PK>>
+    --
+    * first_name : VARCHAR(100) <<NOT NULL>>
+    * last_name : VARCHAR(100) <<NOT NULL>>
+    phone_number : VARCHAR(20)
+    avatar_url : VARCHAR(512)
+    bio : TEXT
+    * user_id : INT <<FK, UNIQUE, NOT NULL>>
+}
+
+entity "specialist_profiles" as specialist_profiles {
+    * id : SERIAL <<PK>>
+    --
+    * profile_id : INT <<FK, UNIQUE, NOT NULL>>
+    specialization_area : VARCHAR(200)
+    certifications : TEXT
+    * availability_status : VARCHAR(20) <<NOT NULL, DEFAULT 'offline', CHECK(availability_status IN ('available','busy','on_route','offline'))>>
+    portfolio_url : VARCHAR(512)
+    years_of_experience : INT
+}
+
+profiles }|--|| users : "user_id → users.id"
+specialist_profiles |o--|| profiles : "profile_id → profiles.id"
+
+@enduml

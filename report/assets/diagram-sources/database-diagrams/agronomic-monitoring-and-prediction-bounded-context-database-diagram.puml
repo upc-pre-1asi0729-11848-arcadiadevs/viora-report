@@ -1,0 +1,94 @@
+@startuml
+skinparam linetype ortho
+skinparam roundcorner 5
+
+entity "users" as users {
+    * id : SERIAL <<PK>>
+    --
+    email : VARCHAR(256)
+}
+
+entity "plots" as plots {
+    * id : SERIAL <<PK>>
+    --
+    * name : VARCHAR(200) <<NOT NULL>>
+    * polygon_coordinates : GEOMETRY(Polygon, 4326) <<NOT NULL>>
+    * area_size : DOUBLE PRECISION <<NOT NULL>>
+    crop_type : VARCHAR(100)
+    * user_id : INT <<FK, NOT NULL>>
+}
+
+entity "agronomic_records" as agronomic_records {
+    * id : SERIAL <<PK>>
+    --
+    * plot_id : INT <<FK, NOT NULL>>
+    * date : TIMESTAMP <<NOT NULL>>
+    ndvi_index : DOUBLE PRECISION
+    temp : DOUBLE PRECISION
+    humidity : DOUBLE PRECISION
+    soil_moisture : DOUBLE PRECISION
+}
+
+entity "chill_hour_records" as chill_hour_records {
+    * id : SERIAL <<PK>>
+    --
+    * plot_id : INT <<FK, NOT NULL>>
+    * date : TIMESTAMP <<NOT NULL>>
+    accumulated_chill_portions : DOUBLE PRECISION
+    min_temp : DOUBLE PRECISION
+    max_temp : DOUBLE PRECISION
+    enos_phase : VARCHAR(50)
+}
+
+entity "alternance_predictions" as alternance_predictions {
+    * id : SERIAL <<PK>>
+    --
+    * plot_id : INT <<FK, NOT NULL>>
+    predicted_season : VARCHAR(50)
+    alternance_risk : DOUBLE PRECISION
+    expected_yield_reduction : DOUBLE PRECISION
+    * generated_at : TIMESTAMP <<NOT NULL, DEFAULT CURRENT_TIMESTAMP>>
+}
+
+entity "yield_forecasts" as yield_forecasts {
+    * id : SERIAL <<PK>>
+    --
+    * plot_id : INT <<FK, NOT NULL>>
+    season : VARCHAR(50)
+    estimated_yield_kg : DOUBLE PRECISION
+    confidence_level : DOUBLE PRECISION
+    based_on_chill_hours : BOOLEAN <<DEFAULT FALSE>>
+}
+
+entity "risk_assessments" as risk_assessments {
+    * id : SERIAL <<PK>>
+    --
+    * plot_id : INT <<FK, NOT NULL>>
+    probability_factor : DOUBLE PRECISION
+    threat_type : VARCHAR(100)
+    * severity : VARCHAR(20) <<NOT NULL, CHECK(severity IN ('low','medium','high','critical'))>>
+    * evaluated_at : TIMESTAMP <<NOT NULL, DEFAULT CURRENT_TIMESTAMP>>
+}
+
+entity "alerts" as alerts {
+    * id : SERIAL <<PK>>
+    --
+    * plot_id : INT <<FK, NOT NULL>>
+    * user_id : INT <<FK, NOT NULL>>
+    * type : VARCHAR(30) <<NOT NULL, CHECK(type IN ('phenological','epidemiological','weather','billing'))>>
+    * severity : VARCHAR(20) <<NOT NULL, CHECK(severity IN ('low','medium','high','critical'))>>
+    * message : TEXT <<NOT NULL>>
+    * is_read : BOOLEAN <<NOT NULL, DEFAULT FALSE>>
+    * triggered_at : TIMESTAMP <<NOT NULL, DEFAULT CURRENT_TIMESTAMP>>
+}
+
+plots }|--|| users : "user_id → users.id"
+agronomic_records }|--|| plots : "plot_id → plots.id"
+chill_hour_records }|--|| plots : "plot_id → plots.id"
+alternance_predictions }|--|| plots : "plot_id → plots.id"
+yield_forecasts }|--|| plots : "plot_id → plots.id"
+risk_assessments }|--|| plots : "plot_id → plots.id"
+alerts }|--|| plots : "plot_id → plots.id"
+alerts }|--|| users : "user_id → users.id"
+
+@enduml
