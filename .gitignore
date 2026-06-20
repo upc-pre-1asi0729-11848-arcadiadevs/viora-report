@@ -1,6 +1,5 @@
 .github/
+.antigravitycli
 build/
 notes/
 AGENTS.md
-
-.antigravitycli
