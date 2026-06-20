@@ -1,0 +1,66 @@
+@startuml
+skinparam linetype ortho
+skinparam roundcorner 5
+
+entity "users" as users {
+    * id : SERIAL <<PK>>
+    --
+    email : VARCHAR(256)
+}
+
+entity "plots" as plots {
+    * id : SERIAL <<PK>>
+    --
+    name : VARCHAR(200)
+}
+
+entity "symptom_reports" as symptom_reports {
+    * id : SERIAL <<PK>>
+    --
+    * plot_id : INT <<FK, NOT NULL>>
+    * reporter_id : INT <<FK, NOT NULL>>
+    * symptom_description : TEXT <<NOT NULL>>
+    affected_area : DOUBLE PRECISION
+    * severity_level : VARCHAR(20) <<NOT NULL, CHECK(severity_level IN ('low','medium','high','critical'))>>
+    evidence_media_url : VARCHAR(512)
+    * reported_at : TIMESTAMP <<NOT NULL, DEFAULT CURRENT_TIMESTAMP>>
+}
+
+entity "outbreak_validations" as outbreak_validations {
+    * id : SERIAL <<PK>>
+    --
+    * symptom_report_id : INT <<FK, UNIQUE, NOT NULL>>
+    * validated_by : INT <<FK, NOT NULL>>
+    probable_pathogen : VARCHAR(200)
+    confidence_level : DOUBLE PRECISION
+    * is_confirmed : BOOLEAN <<NOT NULL, DEFAULT FALSE>>
+    * validated_at : TIMESTAMP <<NOT NULL, DEFAULT CURRENT_TIMESTAMP>>
+}
+
+entity "quarantine_zones" as quarantine_zones {
+    * id : SERIAL <<PK>>
+    --
+    * region_name : VARCHAR(200) <<NOT NULL>>
+    * polygon_coordinates : GEOMETRY(Polygon, 4326) <<NOT NULL>>
+    * threat_agent : VARCHAR(200) <<NOT NULL>>
+    * declared_at : TIMESTAMP <<NOT NULL, DEFAULT CURRENT_TIMESTAMP>>
+    * is_active : BOOLEAN <<NOT NULL, DEFAULT TRUE>>
+}
+
+entity "community_alerts" as community_alerts {
+    * id : SERIAL <<PK>>
+    --
+    * quarantine_zone_id : INT <<FK, NOT NULL>>
+    * alert_type : VARCHAR(50) <<NOT NULL>>
+    * message : TEXT <<NOT NULL>>
+    affected_radius : DOUBLE PRECISION
+    * issued_at : TIMESTAMP <<NOT NULL, DEFAULT CURRENT_TIMESTAMP>>
+}
+
+symptom_reports }|--|| plots : "plot_id → plots.id"
+symptom_reports }|--|| users : "reporter_id → users.id"
+outbreak_validations ||--|| symptom_reports : "symptom_report_id → symptom_reports.id"
+outbreak_validations }|--|| users : "validated_by → users.id"
+community_alerts }|--|| quarantine_zones : "quarantine_zone_id → quarantine_zones.id"
+
+@enduml

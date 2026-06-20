@@ -1,0 +1,26 @@
+@startuml
+package "Notification Center" {
+    class NotificationDropdownWidget <<Angular Component>> {
+        - unreadCount: number
+        + toggleDropdown(): void
+        + markAllAsRead(): void
+    }
+
+    class NotificationService {
+        + notifications: Notification[]
+        + unreadAlerts(): number
+        + subscribeToAlerts(): Observable<Notification[]>
+        + markAsRead(id: number): Observable<void>
+    }
+
+    class NotificationApiService {
+        + getNotifications(): Observable<Notification[]>
+        + markAsRead(id: number): Observable<void>
+        + markAllAsRead(): Observable<void>
+    }
+
+    NotificationApiService --|> BaseApiService
+    NotificationDropdownWidget --> NotificationService : observes
+    NotificationService --> NotificationApiService : calls
+}
+@enduml

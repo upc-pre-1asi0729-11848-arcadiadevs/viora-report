@@ -1,0 +1,40 @@
+@startuml
+package "Plot Management" {
+    class PlotListComponent <<Angular Component>> {
+        - plotsList: Plot[]
+        + showPlotDetails(id: number): void
+        + addNewPlot(): void
+    }
+
+    class PlotMapWidget <<Angular Component>> {
+        - mapInstance: Map
+        - mapCoordinates: LngLat[]
+        - polygon: MapPolygon
+        + drawPolygon(): void
+        + centerMap(): void
+        + highlightPlot(plotId: number): void
+    }
+
+    class PlotService {
+        + plots: Plot[]
+        + selectedPlot: Plot | null
+        + activeMetrics: AgronomicData[]
+        + fetchPlots(): Observable<Plot[]>
+        + savePlot(data: PlotFormData): Observable<Plot>
+        + fetchAgronomicData(plotId: number): Observable<AgronomicData[]>
+    }
+
+    class PlotApiService {
+        + getPlots(): Observable<Plot[]>
+        + getPlotDetails(id: number): Observable<PlotDetail>
+        + savePlot(data: PlotFormData): Observable<Plot>
+        + updateBoundaries(id: number, polygon: MapPolygon): Observable<void>
+        + getAgronomicData(plotId: number): Observable<AgronomicData[]>
+    }
+
+    PlotApiService --|> BaseApiService
+    PlotListComponent *-- PlotMapWidget : displays
+    PlotListComponent --> PlotService : relies on
+    PlotService --> PlotApiService : fetches from
+}
+@enduml

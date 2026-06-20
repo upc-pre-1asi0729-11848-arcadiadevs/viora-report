@@ -1,0 +1,54 @@
+@startuml
+skinparam linetype ortho
+skinparam roundcorner 5
+
+entity "users" as users {
+    * id : SERIAL <<PK>>
+    --
+    email : VARCHAR(256)
+    role : VARCHAR(20)
+}
+
+entity "plots" as plots {
+    * id : SERIAL <<PK>>
+    --
+    name : VARCHAR(200)
+}
+
+entity "intervention_requests" as intervention_requests {
+    * id : SERIAL <<PK>>
+    --
+    * producer_id : INT <<FK, NOT NULL>>
+    * plot_id : INT <<FK, NOT NULL>>
+    specialist_id : INT <<FK>>
+    * status : VARCHAR(20) <<NOT NULL, DEFAULT 'pending', CHECK(status IN ('pending','accepted','rejected','in_progress','completed','cancelled'))>>
+    * description : TEXT <<NOT NULL>>
+    scheduled_date : TIMESTAMP
+    * created_at : TIMESTAMP <<NOT NULL, DEFAULT CURRENT_TIMESTAMP>>
+}
+
+entity "quotations" as quotations {
+    * id : SERIAL <<PK>>
+    --
+    * intervention_request_id : INT <<FK, UNIQUE, NOT NULL>>
+    * proposed_amount : DECIMAL(12,2) <<NOT NULL>>
+    notes : TEXT
+    * is_accepted : BOOLEAN <<NOT NULL, DEFAULT FALSE>>
+}
+
+entity "technical_prescriptions" as technical_prescriptions {
+    * id : SERIAL <<PK>>
+    --
+    * intervention_request_id : INT <<FK, UNIQUE, NOT NULL>>
+    * diagnosis : TEXT <<NOT NULL>>
+    * recommendations : TEXT <<NOT NULL>>
+    * issued_at : TIMESTAMP <<NOT NULL, DEFAULT CURRENT_TIMESTAMP>>
+}
+
+intervention_requests }|--|| users : "producer_id → users.id"
+intervention_requests }o--o| users : "specialist_id → users.id"
+intervention_requests }|--|| plots : "plot_id → plots.id"
+quotations ||--|| intervention_requests : "intervention_request_id → intervention_requests.id"
+technical_prescriptions ||--|| intervention_requests : "intervention_request_id → intervention_requests.id"
+
+@enduml

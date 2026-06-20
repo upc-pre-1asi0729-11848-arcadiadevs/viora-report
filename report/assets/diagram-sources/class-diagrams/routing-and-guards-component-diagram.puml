@@ -1,0 +1,22 @@
+@startuml
+package "Routing & Guards" {
+    class AppRouter {
+        - routes: Route[]
+        + navigate(url: string): void
+        + navigateByUrl(url: string): void
+    }
+
+    class AuthGuard {
+        + canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean
+        - verifyTokenValidity(): boolean
+    }
+
+    class RoleGuard {
+        + canActivate(route: ActivatedRouteSnapshot): boolean
+        + validateRole(requiredRoles: string[]): boolean
+    }
+
+    AppRouter --> AuthGuard : executes
+    AppRouter --> RoleGuard : executes
+}
+@enduml

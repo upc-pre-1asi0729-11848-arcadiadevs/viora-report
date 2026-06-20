@@ -104,7 +104,7 @@ Lógica de pasarelas de pago y asignación de privilegios de suscripción.
 \begin{figure}[H]
     \caption{Diagrama de clases para Subscription y Billing Component.}
     \centering
-    \includegraphics[width=1\textwidth]{report/assets/class-diagrams/suscription-and-billing-component-diagram.png}
+    \includegraphics[width=1\textwidth]{report/assets/class-diagrams/subscription-and-billing-component-diagram.png}
     \caption*{\textit{Nota.} Diagrama de clases correspondiente al componente Subscription y Billing Component. Elaboración propia.}
 \end{figure}
 
@@ -162,7 +162,7 @@ Maneja los flujos de inicio de sesión, registro y el estado de la sesión actua
 \begin{figure}[H]
     \caption{Diagrama de clases para Authentication UI Component.}
     \centering
-    \includegraphics[width=1\textwidth]{report/assets/class-diagrams/autentication-ui-component-diagram.png}
+    \includegraphics[width=1\textwidth]{report/assets/class-diagrams/authentication-ui-component-diagram.png}
     \caption*{\textit{Nota.} Diagrama de clases correspondiente al componente Authentication UI Component. Elaboración propia.}
 \end{figure}
 
@@ -214,7 +214,7 @@ Relaciona solicitudes y ofertas de servicios entre productores de olivo y especi
 \begin{figure}[H]
     \caption{Diagrama de clases para Marketplace y Intervention UI Component.}
     \centering
-    \includegraphics[width=1\textwidth]{report/assets/class-diagrams/marketplace-and-intevention-ui-component-diagram.png}
+    \includegraphics[width=1\textwidth]{report/assets/class-diagrams/marketplace-and-intervention-ui-component-diagram.png}
     \caption*{\textit{Nota.} Diagrama de clases correspondiente al componente Marketplace y Intervention UI Component. Elaboración propia.}
 \end{figure}
 
@@ -240,7 +240,7 @@ Permite revisar contratos, suscripciones SAAS e historial de pagos.
 \begin{figure}[H]
     \caption{Diagrama de clases para Subscription y Billing UI Component.}
     \centering
-    \includegraphics[width=1\textwidth]{report/assets/class-diagrams/suscription-and-billing-ui-component-diagram.png}
+    \includegraphics[width=1\textwidth]{report/assets/class-diagrams/subscription-and-billing-ui-component-diagram.png}
     \caption*{\textit{Nota.} Diagrama de clases correspondiente al componente Subscription y Billing UI Component. Elaboración propia.}
 \end{figure}
 
