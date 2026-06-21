@@ -488,6 +488,66 @@ A continuación, se presenta la matriz de control de versiones correspondiente a
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d772c24 | feat(agronomic): add temperature field and validation to weather-snapshot. |  | 11/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 32925ea | feat(agronomic): add dynamic nutrition configuration and error messages for nutrition plans. |  | 11/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2e1d123 | feat(agronomic): implement agro-monitoring-weather-data-service for real-time weather data retrieval. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6eab9d1 | feat(agronomic): add configuration for dynamic nutrition policy and application clock. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1ae52d9 | feat(agronomic): implement synamic-nutrition-plan aggregate for managing nutrition plans. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f2a0a50 | feat(agronomic): implement dynamic-nutrition-plan-assembler-service for assembling dynamic nutrition plans. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e332706 | feat(agronomic): implement dynamic-nutrition-plan-command-service for handling dynamic nutrition plan recommendations. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 7f9f65d | feat(agronomic): add synamic-nutrition-plan-entity for jpa persistence of dynamic nutrition plans. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5c13845 | feat(agronomic): implement dynamic nutrition plan recommendation rules. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 4d5e6bd | feat(agronomic): add persistence support for dynamic nutrition plans. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e495b48 | feat(agronomic): implement active dynamic nutrition plan queries. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f5b7228 | feat(agronomic): expose dynamic nutrition plan rest endpoints. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9cdaa85 | feat(agronomic): add course-level nutrition policy parameters to .env.example. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 073b726 | Merge branch 'feature/agronomic/dynamic-nutrition-plan' into develop. | Related to TS018. | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | fc631dc | Merge branch 'release/0.11.0' |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 27881d7 | feat(agronomic): add tests for ndvi tile. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 4830bff | feat(agronomic): implement ndvi imagery tile retrieval. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 55a4c7d | feat(agronomic): expose ndvi imagery tiles through a secure proxy endpoint. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | bef4797 | feat(agronomic): add tests for plots and contracts. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 427be0d | feat(agronomic): expose my plots monitoring overview. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 79dbd58 | feat(agronomic): enrich plot registration with metadata and integration status. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ca2d603 | feat(agronomic): add plot detail retrieval and associated tests. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 68aa32c | feat(agronomic): add endpoint to retrieve detailed plot information. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5afad01 | feat(agronomic): implement get-plot-detail-query for plot configuration and monitoring. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6ea71a4 | feat(agronomic): implement plot-detail projection and associated query service for detailed plot information. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b4a5825 | feat(agronomic): implement jpa-backed provider for plot detail metadata retrieval. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 84fe1ab | feat(agronomic): expand external sources for current weather, forecast, history and ndvi with quota and timeout handling. |  | 12/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2abd6e2 | feat(agronomic): add per-plot monitoring summary with real ndvi, trend, health, climate risk and source freshness. |  | 12/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6ed408c | feat(agronomic): add real statistic snapshot ingestion and trend series with period-over-period deltas. |  | 12/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2c05860 | feat(agronomic): add per-plot weather forecast with daily aggregates, thermal anomaly, agronomic warnings and response caching. |  | 12/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3786a86 | feat(agronomic): replace the demonstrative yield formula with a configurable yield-forecast estimator. |  | 12/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ddef2a9 | feat(agronomic): add nutrition plan application certification closing the nutritional lifecycle. |  | 12/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 4a7c566 | feat(agronomic): replace utah chill units with the dynamic-model chill portions and unify the per-plot chill requirement. |  | 12/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 61e4661 | feat(agronomic): add per-plot chill requirement configuration with grower-declared provenance. |  | 12/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 074d1a9 | feat(agronomic): aggregate the dashboard monitoring summary from each plot's latest snapshot. |  | 12/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | debb82f | feat(agronomic): derive the plot productive area from its geographic boundary. |  | 12/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c7e692b | feat(agronomic): replace the climate-risk placeholder with configurable ndvi-and-weather rules. |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9cf77f3 | feat(agronomic): carry both boundary temperatures for exact dynamic-model chill continuity across windows. |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 159e7f2 | feat(agronomic): enable cross-origin access and harden the production datasource for deployment. |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5ce6619 | Merge branch 'feature/agronomic-frontend-integration' into develop. |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d08533e | Merge branch 'release/0.12.0' |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1f45cd3 | feat(agronomic): add health-controller for service liveness probe. |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | fc406e2 | Merge branch 'develop' |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 35665a4 | fix(deploy): fix dockerfile. |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 91ba26a | Merge branch 'develop' |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 57caa1f | fix(deploy): fix monitoring-summaries endpoint. |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 32d2980 | Merge branch 'feature/agronomic/monitoring-summaries-fix' into develop. |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 194fb19 | Merge branch 'release/0.14.0' |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 19b521e | feat(tests): inject ingestion service mock into plot-command-service tests. |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 633f606 | fix(test) fix plot-command-service test. |  | 13/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d6dcf06 | feat(agronomic) add plot health and phenological risk evaluators. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a63918d | feat(agronomic) expose health and phenological risk in plot summaries. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 716b85c | Merge branch 'feature/agronomic/fix-monitoring-summary' into develop. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ab2db6e | Merge branch 'release/0.15.0' |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f01ff1f | feat(agronomic) enhance phenological risk evaluation tests with chill season logic. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e8a4111 | feat(agronomic) integrate chill season evaluation into plot monitoring and query services. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6ff682a | feat(agronomic) implement phenological risk evaluation and chill season logic in dynamic nutrition plan assembly. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6690743 | feat(agronomic) add chill season evaluator and update phenological risk evaluation logic. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 44c2be8 | Merge branch 'feature/agronomic/plot-data' into develop. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f2f1437 | Merge branch 'release/0.16.0' |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c97e9da | feat(agronomic) add weekly delta for chill portions in plot monitoring summary. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 333c9a7 | Merge branch 'feature/agronomic/chill-portions-tag' into develop. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9169b25 | Merge branch 'release/0.17.0' |  | 15/06/2026 |
 
 
 
