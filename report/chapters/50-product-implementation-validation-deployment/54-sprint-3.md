@@ -285,6 +285,48 @@ A continuación, se presenta la matriz de control de versiones correspondiente a
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 8471c47 | feat(agronomic): add agronomicstatisticqueryService for retrieving agronomic statistics. |  | 09/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 59e152f | Merge branch 'feature/agronomic/list-iot-device' into feature/agronomic/plots |  | 09/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 380c06d | feat(agronomic): add assemblers for converting between iotdevice and iotdeviceentity. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1761748 | feat(agronomic): add iotdevicenotfoundexception for handling missing iot devices. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c4fa671 | refactor(agronomic): simplify iotdevice constructor and remove default constructor. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e743782 | feat(agronomic): enhance iotdevice1ueryservice to validate plot ownership using plotid and userid. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | fdd3a2f | feat(agronomic): update iotdevicescontroller to enhance response handling and improve api documentation. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 56192f9 | feat(agronomic): refactor jpaiotdevicerepositoryadapter to use assemblers for entity conversion. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 58dfaaa | Merge branch 'feature/agronomic/list-iot-devices' into develop. Related to TS012. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f00d08a | feat(agronomic): add iotdevicerepository and plotrepository interface.# Conflicts: |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1bbea60 | feat(agronomic): add value objects for iot device, plot, and user identifiers. | # Conflicts: #	src/main/java/com/arcadiadevs/viora/platform/agronomic/domain/model/valueobjects/PlotId.java #	src/main/java/com/arcadiadevs/viora/platform/agronomic/domain/model/valueobjects/UserId.java | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 8bfe3f8 | feat(agronomic): add iotdevice aggregate root with validation rules. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1f91601 | feat(agronomic): add spring data jpa repositories for iotdevice and plot entities. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | aa39af8 | feat(agronomic): add jpa entities for iotdevice and plot persistence. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a899f75 | feat(agronomic): add query for retrieving iot devices by plot id with ownership validation. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 61fbdd9 | feat(agronomic): implement iotdevice1ueryservice for retrieving devices by plot id with ownership validation. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | aba2ad9 | feat(agronomic): add iotdeviceResource for rest response of iot devices. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 728fc39 | feat(agronomic): add jpa adapters for iotdevice and plot repositories. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a2c1398 | feat(agronomic): add iotdevicescontroller for managing iot devices by plot. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 48b1157 | feat(agronomic): add assembler for converting iotDevice to iotdeviceresource dto. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | cc20e9f | feat(agronomic): configure application properties for development and production environments. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | be6d5ca | feat(agronomic): add assemblers for converting between iotdevice and iotdeviceentity. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 44d57c4 | feat(agronomic): add iotdevicenotfoundexception for handling missing iot devices. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a7b9788 | refactor(agronomic): simplify iotdevice constructor and remove default constructor. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a6ce149 | feat(agronomic): enhance iotdevice1ueryservice to validate plot ownership using plotid and userid. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 542fbba | feat(agronomic): update iotdevicescontroller to enhance response handling and improve api documentation. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 523807b | feat(agronomic): refactor jpaiotdevicerepositoryadapter to use assemblers for entity conversion. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5edcd4f | Merge branch 'release/0.3.0' into main |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | bc5b06d | Merge branch 'main' into feature/agronomic/create-iot-device |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1c9cd24 | feat(agronomic): implement iot device registration with ownership validation. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 240101a | feat(agronomic): simplify createiotdeviceCommand by removing authenticateduserId parameter. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e799a31 | feat(agronomic): remove userid from createiotdevicecommand assembly. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3752da8 | feat(agronomic): remove userid parameter from createiotdeviceresource. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 95dc7a6 | feat(agronomic): update iot device registration to remove user ownership check. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 7bea2c5 | Merge branch 'feature/agronomic/create-iot-device' into develop. Related to TS013. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 016458e | feat(agronomic): add createiotdevicecommand for registering new iot devices. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1e24c97 | feat(agronomic): add iotdevicecommandservice for handling iot device creation. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 36c2a79 | feat(agronomic): add resource and assembler for creating iot devices. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 80e3636 | feat(agronomic): implement iotdevicecommandservice and enhance result class. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3652406 | feat(agronomic): implement iot device registration with ownership validation. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | bb0789f | feat(agronomic): simplify createiotdeviceCommand by removing authenticateduserId parameter. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d502ff9 | feat(agronomic): remove userid from createiotdevicecommand assembly. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b2af714 | feat(agronomic): remove userid parameter from createiotdeviceresource. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c3e3e9d | feat(agronomic): update iot device registration to remove user ownership check. |  | 10/06/2026 |
+
 
 
 #### Execution Evidence for Sprint Review
