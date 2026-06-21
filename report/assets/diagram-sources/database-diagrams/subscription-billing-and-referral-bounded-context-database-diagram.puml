@@ -1,0 +1,34 @@
+@startuml
+skinparam linetype ortho
+skinparam roundcorner 5
+
+entity "users" as users {
+    * id : SERIAL <<PK>>
+    --
+    email : VARCHAR(256)
+}
+
+entity "subscriptions" as subscriptions {
+    * id : SERIAL <<PK>>
+    --
+    * user_id : INT <<FK, NOT NULL>>
+    * plan_type : VARCHAR(20) <<NOT NULL, CHECK(plan_type IN ('trial','basic','premium'))>>
+    * valid_until : TIMESTAMP <<NOT NULL>>
+    * is_active : BOOLEAN <<NOT NULL, DEFAULT TRUE>>
+    * is_trial : BOOLEAN <<NOT NULL, DEFAULT FALSE>>
+}
+
+entity "payment_transactions" as payment_transactions {
+    * id : SERIAL <<PK>>
+    --
+    * subscription_id : INT <<FK, NOT NULL>>
+    * amount : DECIMAL(12,2) <<NOT NULL>>
+    external_tx_id : VARCHAR(256) <<UNIQUE>>
+    * status : VARCHAR(30) <<NOT NULL>>
+    * processed_at : TIMESTAMP <<NOT NULL, DEFAULT CURRENT_TIMESTAMP>>
+}
+
+subscriptions }|--|| users : "user_id → users.id"
+payment_transactions }|--|| subscriptions : "subscription_id → subscriptions.id"
+
+@enduml

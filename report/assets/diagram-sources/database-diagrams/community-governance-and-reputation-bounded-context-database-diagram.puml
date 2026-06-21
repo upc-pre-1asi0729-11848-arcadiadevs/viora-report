@@ -1,0 +1,23 @@
+@startuml
+skinparam linetype ortho
+skinparam roundcorner 5
+
+entity "users" as users {
+    * id : SERIAL <<PK>>
+    --
+    email : VARCHAR(256)
+    role : VARCHAR(20)
+}
+
+entity "strike_records" as strike_records {
+    * id : SERIAL <<PK>>
+    --
+    * user_id : INT <<FK, NOT NULL>>
+    * reason : TEXT <<NOT NULL>>
+    * timestamp : TIMESTAMP <<NOT NULL, DEFAULT CURRENT_TIMESTAMP>>
+    * is_active : BOOLEAN <<NOT NULL, DEFAULT TRUE>>
+}
+
+strike_records }|--|| users : "user_id → users.id"
+
+@enduml
