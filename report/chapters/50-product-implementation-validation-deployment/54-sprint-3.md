@@ -171,6 +171,122 @@ US18 & Consolidación del gasto de mitigación climática & TK01 & Formulario de
 
 &nbsp;
 
+Durante el Sprint 3, el equipo ArcadiaDevs consolidó la primera versión operativa del servicio web de Viora en el repositorio backend `viora-platform`. Este incremento permitió integrar las bases técnicas para los contextos Shared, Agronomic, Surveillance, Intervention y PAM, alineados con la construcción de servicios para monitoreo inteligente de parcelas, gestión de alertas, trazabilidad agronómica, coordinación de intervenciones y administración de perfiles y activos.
+
+Para asegurar la trazabilidad del desarrollo, las contribuciones fueron integradas mediante ramas de trabajo, ramas de release y la rama principal `main`. La evidencia de despliegue se sustenta en los commits registrados en el repositorio, donde se observa la incorporación progresiva de configuración del proyecto, modelos de dominio, controladores REST, servicios de aplicación, persistencia, documentación OpenAPI, autenticación JWT, ajustes de endpoints y merges de integración hacia las ramas principales.
+
+A continuación, se presenta la matriz de control de versiones correspondiente al Sprint 3, la cual detalla el historial de commits realizados en el repositorio del servicio web.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | def3076 | chore: initial commit. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1032751 | feat(result): add result test java file. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2f69a10 | feat(dependencies-build): add pluralize library to pom.xml. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 88b96c3 | build(dependencies): remove pluralize library from pom.xml. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 11122a9 | feat(shared): add global exception handler. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | dda4523 | build(dependencies): add springdoc-openapi and pluralize libraries to pom.xml. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 32bda4c | feat(shared): add generic result wrapper for use case responses. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 66dc7cf | Merge remote-tracking branch 'origin/feature/shared' into feature/shared |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3f1ebfe | Merge remote-tracking branch 'origin/feature/shared' into feature/shared |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3f54ad9 | feat(shared): convert catalog name, the shema name and the table name to snake case. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d545a98 | Merge remote-tracking branch 'origin/feature/shared' into feature/shared |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 71f8894 | build: update pluralize dependency. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6095243 | build(Sanke): adding class to change capital letters and singular phrases. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0d34508 | Merge remote-tracking branch 'origin/feature/shared' into feature/shared |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 49bd80e | ci(docker): add dockerfile for building and running viora-platform. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | cf7fb47 | docs(shared): add javadoc comments to snake case physical strategy. |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | dc306fa | Merge remote-tracking branch 'origin/feature/shared' into feature/shared |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1a44dc0 | Merge remote-tracking branch 'origin/feature/shared' into feature/shared |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 202366a | Merge remote-tracking branch 'origin/feature/shared' into feature/shared |  | 26/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f2a8831 | feat(shared): add the function physical sequence name. |  | 30/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 510cb98 | build(pom): adding dependeces to use boot and engine. |  | 30/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5baae45 | feat(shared):  add messages properties. |  | 30/05/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 405ccda | docs: add comments for methods. |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 412baec | feat(i18n): update message properties. |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ace34b0 | build: update gitignore. |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0a4fcd7 | feat(i18n): create localResolver method to manage default locale and supported locales. |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 034b638 | feat(i18n): update messages properties for errors and validations. |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c492cb6 | feat(shared): enhance result generic contract. |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | edeec25 | feat(i18n): create locale-resolver method to manage default locale and supported locales. |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 87c27c1 | feat(i18n): update messages properties for errors and validations. |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 406b025 | feat(shared): add application-error record for standardized error handling. |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 489c7c1 | feat(shared): add error-resource for standardized error responses. |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 69b4a33 | Merge remote-tracking branch 'origin/feature/shared' into feature/shared |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 8ecabd2 | feat(shared): add message-resource for success and informational rest responses. |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6724dce | Merge remote-tracking branch 'origin/feature/shared' into feature/shared |  | 02/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 22ec9fe | feat(shared): add openapi configuration with jwt authentication. |  | 05/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 411fc5f | refactor(shared): rename SnakeCasePhysicalNamingStrategy package for clarity. |  | 06/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6295972 | feat(shared): add abstract-domain-aggregate-root for domain event handling. |  | 06/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | cef4dd1 | feat(shared): add auditable-abstract-persistence-entity for auditing support. |  | 06/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | bb2ff54 | feat(shared): add error response assembler and response entity assembler. |  | 06/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 35ef832 | fix(shared): correction of global exception handler. |  | 06/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0e65e99 | feat(shared): add open-api configuration for api documentation and jwt authentication. |  | 06/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 197effd | Merge remote-tracking branch 'origin/feature/shared' into feature/shared |  | 06/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 686b2b6 | Merge branch 'feature/shared' into develop. |  | 06/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | abc7feb | chore(agronomic): initialize plots backend structure. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 278e372 | feat(agronomic): add area-size value object to represent plot area in hectares. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 779eb62 | feat(agronomic): add geo-point value object to represent geographic coordinates. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 82fd61b | feat(agronomic): implement plot aggregate. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 750180b | feat(agronomic): add plot-id value object to represent unique plot identifiers. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ec186ca | feat(agronomic): add plot-name value object to represent business names for plots. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 08992df | feat(agronomic): add polygon-coordinates value object to represent closed geographic polygons for plots. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f1a360e | feat(agronomic): add user-id value object to represent user identifiers for plot ownership. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b157dd1 | feat(agronomic): add plot-repository interface for plot persistence operations. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 18c876d | feat(agronomic): add plot-not-found-exception for handling missing plots. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | cf90d0d | feat(agronomic): add plot-deletion-conflict-exception for handling deletion conflicts. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b591c81 | feat(agronomic): add invalid-polygon-coordinates-exception for handling invalid plot polygon coordinates. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3b810b4 | feat(agronomic): add iotdevicerepository and plotrepository interfaces. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b55da4f | feat(agronomic): add value objects for iot device, plot, and user identifiers. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e136245 | feat(agronomic): add iotdevice aggregate root with validation rules. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3cffed5 | feat(agronomic): add spring data jpa repositories for iotdevice and plot entities. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 78ac8d8 | feat(agronomic): add jpa entities for iotdevice and plot persistence. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2a495a3 | feat(agronomic): add get-plot-by-id-query for retrieving plots by unique identifier. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a7c05ed | feat(agronomic): add plot-query-service for handling plot read operations. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a760b1c | feat(agronomic): add query for retrieving iot devices by plot id with ownership validation. |  | 08/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a785b1e | feat(agronomic): implement iotdevice1ueryservice for retrieving devices by plot id with ownership validation. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3fc53f1 | feat(agronomic): add iotdeviceResource for rest response of iot devices. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2e3341d | feat(agronomic): add jpa adapters for iotdevice and plot repositories. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 54c6e7a | feat(agronomic): add iotdevicescontroller for managing iot devices by plot. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | fefbf74 | feat(agronomic): add assembler for converting iotDevice to iotdeviceresource dto. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 18a3429 | feat(agronomic): add geo-point-attribute-convert for converting GeoPoint to database format. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b0f1020 | feat(agronomic): add jpa-plot-repository-adapter for jpa-based plot data access. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2d91ae4 | fix(agronomic): correct formatting in plot.java documentation for deactivate method. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 89fe6fd | feat(agronomic): add assembler for converting plot-persistence-entity to plot aggregate. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e3a3550 | feat(agronomic): add jpa persistence entity for plots. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 02ec205 | feat(agronomic): add assembler for converting plot aggregate to plot-persistence-entity. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5ef5f82 | feat(agronomic): add jpa attribute converter for polygon-coordinates. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a56d348 | feat(agronomic): add spring sata jpa repository for plot-persistence-entity. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0397c48 | feat(agronomic): add createiotdevicecommand for registering new iot devices. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 268e6cb | feat(agronomic): add iotdevicecommandservice for handling iot device creation. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 15de491 | feat(agronomic): add resource and assembler for creating iot devices. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0b4494c | feat(agronomic): enhance iotdevicescontroller with create and list device endpoints. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | bc8058a | feat(agronomic): add plot-resource class for rest api representation of plot data. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1679990 | feat(agronomic): add assembler for converting plot aggregate to plot-resource. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9d5cd42 | feat(agronomic): add plots-controller for managing agricultural plots. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 59dc256 | fix(agronomic): enhance error handling. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f15144a | feat(agronomic): add detele plot command for deleting agricultural plots. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 523f30d | feat(agronomic): implement plot-command-service for handling plot updates and deletions. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c32177e | feat(agronomic): add plot-deletion-policy for managing plot deletion logic. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | aa49d48 | feat(agronomic): add update plot command for updating agricultural plot details. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 48e497a | feat(agronomic): add assembler for converting update plot resource to update plot command. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 95cf850 | feat(agronomic): add update plot resource for handling plot update requests. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 8acaa5d | fix(agronomic): harden plot operations and project configuration. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 7588a4e | feat(agronomic): add environment configuration files for local and production setups. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3740cc2 | feat(agronomic): definition of aggregate root |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | aa4d97a | feat(agronomic):add valueobjects |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3c5dbf1 | feat(agronomic): implement iotdevicecommandservice and enhance result class. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d5f4bca | feat(agronomic): add command, event for create a plot. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9f06e92 | feat(agronomic): add query to find plots by user id. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2c3b0a6 | feat(agronomic): configure application properties for development and production environments. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ef616cb | feat(agronomic): add spring data repository for agronomic statistics. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3d5ddfb | feat(agronomic): implement repository and query for agronomic statistics. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9a864db | refactor(agronomic): change estate boolean to string again. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d5b8afb | Merge branch 'feature/agronomic/plots' into develop. Related to TS010. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 8471c47 | feat(agronomic): add agronomicstatisticqueryService for retrieving agronomic statistics. |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 59e152f | Merge branch 'feature/agronomic/list-iot-device' into feature/agronomic/plots |  | 09/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 380c06d | feat(agronomic): add assemblers for converting between iotdevice and iotdeviceentity. |  | 09/06/2026 |
+
+
 #### Execution Evidence for Sprint Review
 
 &nbsp;
