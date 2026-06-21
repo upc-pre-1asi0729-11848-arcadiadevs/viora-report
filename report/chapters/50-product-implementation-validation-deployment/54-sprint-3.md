@@ -48,7 +48,7 @@ El objetivo principal de este Sprint 3 es desarrollar la segunda versión de la 
 \caption{Vista General del Sprint Backlog 3}
 \centering
 \includegraphics[width=0.8\textwidth]{report/assets/sprint-backlog/sb3.png}
-\caption*{\textit{Nota.} Elaboración propia a partir del tablero en Trello: https://trello.com/b/KRHAZq6c/1asi0729-viora-sb3}
+\caption*{\textit{Nota.} Elaboración propia a partir del tablero en Trello: https://trello.com/invite/b/6a1b2ed803a5bfcd16c6439c/ATTIf0554d374fee985e464bf104446c8676C57DDFD2/1asi0729-viora-sb3}
 \end{figure}
 
 \begin{longtable}{|p{0.05\textwidth}|p{0.14\textwidth}|p{0.05\textwidth}|p{0.14\textwidth}|p{0.24\textwidth}|p{0.08\textwidth}|p{0.12\textwidth}|p{0.07\textwidth}|}
@@ -251,5 +251,29 @@ US09 & Publicación de perfil profesional & TK90 & Formulario de perfil profesio
 #### Team Collaboration Insights for Sprint Review
 
 &nbsp;
+
+En esta sección se detallan las actividades de implementación llevadas a cabo durante el Sprint 3, orientadas a la construcción y despliegue de la Landing Page, Webapp de Viora y Webservice de Viora. El proceso de desarrollo se ejecutó de manera ágil y estructurada, garantizando que todos los miembros del equipo tuvieran una participación técnica activa. Para respaldar la trazabilidad del trabajo colaborativo, a continuación se presentan las evidencias extraídas directamente de los analíticos de GitHub (Contributors). Estas capturas ilustran el flujo de integración, con la participación de los 6 autores.
+
+\begin{figure}[H]
+\caption{Vista de Contributors de Github - Website}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-review/sprint-3/contributors-website.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Vista de Contributors de Github - Webapp}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-review/sprint-3/contributors-webapp.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Vista de Contributors de Github - Webservice}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-review/sprint-3/contributors-webservice.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
 
 \newpage
