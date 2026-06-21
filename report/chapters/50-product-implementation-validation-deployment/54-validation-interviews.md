@@ -305,52 +305,70 @@ El alcance de esta evaluación incluye la revisión de la experiencia de usuario
 #### Tabla Resumen
 | # | Problema | Escala de severidad | Heurística/Principio violada(o) |
 |---|---|---|---|
-| 1 | El botón para registrar/crear una parcela es poco visible debido a su color y diseño. | 3 | Reconocimiento antes que recuerdo / Visibilidad |
-| 2 | El Dashboard no tiene jerarquía visual; las alertas críticas se confunden con el resto. | 3 | Estética y diseño minimalista (Jerarquía) |
-| 3 | El flujo de Nutrición Dinámica no indica de forma clara que se debe pre-seleccionar una parcela. | 3 | Prevención de errores |
-| 4 | Los indicadores de humedad son genéricos y no especifican a qué sensor o zona pertenecen. | 2 | Relación entre el sistema y el mundo real |
-| 5 | El campo "Tipo de cultivo" obliga a escribir texto libre en vez de dar opciones fijas. | 2 | Prevención de errores |
-| 6 | Presencia de textos sin traducir (inglés) y fuentes con tamaños excesivamente pequeños. | 2 | Consistencia y estándares |
+| 1 | El botón para registrar/crear una parcela es poco visible debido a su color blanco y diseño integrado con el texto. | 3 | Reconocimiento antes que recuerdo / Visibilidad |
+| 2 | El Dashboard carece de jerarquía visual; las alertas críticas de salud de parcelas se confunden y tienen el mismo peso visual que el resto de las secciones. | 3 | Estética y diseño minimalista (Jerarquía) / Visibilidad del estado del sistema |
+| 3 | El flujo de Nutrición Dinámica es confuso al inicio porque la interfaz no indica explícitamente que es obligatorio pre-seleccionar una parcela en estado crítico. | 3 | Prevención de errores / Ayuda y documentación |
+| 4 | Los indicadores de humedad son muy generales y abstractos, lo que dificulta la simulación rápida de datos útiles para el productor tradicional en terreno. | 2 | Relación entre el sistema y el mundo real |
+| 5 | El campo "Tipo de cultivo" en el registro obliga a escribir manualmente el texto en vez de ofrecer una lista fija o menú desplegable. | 2 | Prevención de errores / Flexibilidad y eficiencia de uso |
+| 6 | Presencia de textos e indicaciones clave sin traducir (inglés) y fuentes tipográficas excesivamente reducidas para laptops. | 2 | Consistencia y estándares / Accesibilidad |
+| 7 | Uso excesivo del color blanco de fondo en la interfaz web, lo que genera deslumbramiento, opaca la vista del usuario y causa fatiga visual rápida. | 2 | Estética y diseño minimalista / Accesibilidad visual |
+| 8 | Incertidumbre y falta de claridad técnica sobre cómo se conectan o enlazan los dispositivos de transmisión y sensores propios de los agricultores. | 3 | Relación entre el sistema y el mundo real / Flexibilidad de integración |
+| 9 | Confusión o inconsistencia en la visualización de los planes de precios/suscripción en la landing page (por ejemplo, cifras confusas como "140880"). | 2 | Consistencia y estándares / Ayuda y documentación |
 
 #### Descripción de problemas
 
 - **Problema #1: Botón de creación de parcela oculto visualmente**
   - **Severidad:** 3
-  - **Problema:** Al intentar registrar una nueva parcela, el usuario no lograba encontrar el botón porque era de color blanco y estaba integrado de forma muy sutil con el texto de la sección, obligando al entrevistador a guiarlo.
-  - **Recomendación:** Rediseñar el botón de creación para que sea un elemento destacado (Call to Action principal), idealmente más grande y con un color de contraste llamativo.
+  - **Problema:** Al intentar registrar una nueva parcela, el usuario experimenta confusión o retrasos debido a que el botón se integra de forma muy sutil con el texto de la sección y utiliza un color blanco, requiriendo orientación externa para encontrarlo.
+  - **Recomendación:** Rediseñar el botón de creación para que funcione como el Call to Action (CTA) principal de la sección de parcelas. Se sugiere aumentar su escala visual, implementar botones de acción de gran escala adecuados para el trabajo agrícola, y utilizar colores contrastantes y llamativos.
 <br>
 
 - **Problema #2: Falta de jerarquía visual y peso de alertas en el Dashboard**
   - **Severidad:** 3
-  - **Problema:** Las 7 secciones evaluadas del Dashboard Overview tienen exactamente el mismo peso visual. El usuario reporta que las advertencias de salud del cultivo o clima (que deberían captar la atención inmediata) se pierden en la interfaz.
-  - **Recomendación:** Reestructurar el Dashboard para que la salud de la parcela y el clima estén en la parte superior. Usar códigos de color dinámicos (como un banner o tarjetas naranjas/rojas para alertas críticas) que cambien de estado visual ante una amenaza.
+  - **Problema:** Las múltiples secciones evaluadas en el Dashboard Overview comparten exactamente el mismo peso visual. Los usuarios reportan que las advertencias de salud crítica del cultivo (como los estados fitosanitarios o amenazas epidemiológicas) se pierden y confunden en la densidad general de la interfaz.
+  - **Recomendación:** Reestructurar el orden del Dashboard posicionando los módulos críticos de salud de la parcela y las predicciones climáticas en la zona superior. Implementar un sistema con códigos de color nítidos y dinámicos (como banners o tarjetas en tonos rojos o naranjas de alta visibilidad) que reaccionen visualmente según la gravedad del estado sanitario para captar atención inmediata en el campo.
 <br>
 
 - **Problema #3: Bloqueo en el módulo de Nutrición Dinámica por falta de instrucciones**
   - **Severidad:** 3
-  - **Problema:** El usuario se confundió al interactuar con las alertas de nutrición porque la aplicación no indicaba de manera explícita que era obligatorio seleccionar primero una parcela específica en el menú desplegable de la derecha para poder desplegar el plan de acción.
-  - **Recomendación:** Incorporar un estado vacío (*empty state*) o una instrucción clara que guíe al usuario a seleccionar una parcela, o en su defecto, automatizar la carga mostrando por defecto la parcela que tiene el estado crítico. Además, hacer que el plan de acción y la amenaza se muestren de forma mucho más grande y legible.
+  - **Problema:** La navegación inicial por este módulo genera confusión. El sistema no explicita de forma clara que el plan nutricional recomendado solo se activa o genera si se selecciona previamente una parcela en estado crítico específico mediante el selector de la derecha, causando incertidumbre en el flujo.
+  - **Recomendación:** Incorporar una instrucción explícita o un estado vacío (*empty state*) instructivo que guíe paso a paso al usuario a interactuar con el menú de selección. De manera alternativa, se recomienda automatizar la carga del módulo mostrando de manera predeterminada la primera parcela que se encuentre en fase crítica ("Los Olivitos" o similares), ampliando la legibilidad de la amenaza fitosanitaria detectada.
 <br>
 
-- **Problema #4: Ambigüedad en los datos de los sensores de humedad**
+- **Problema #4: Ambigüedad y abstracción en los datos de monitoreo agronómico**
   - **Severidad:** 2
-  - **Problema:** La plataforma muestra un porcentaje global de la humedad del suelo, pero el usuario señala que cuenta con múltiples medidores instalados en diferentes puntos de sus parcelas, por lo que un dato generalizado no le es útil para saber dónde actuar.
-  - **Recomendación:** Permitir el etiquetado, listado o mapeo independiente de cada sensor para que el usuario pueda visualizar de forma clara a qué punto exacto del terreno corresponde cada medición de humedad.
+  - **Problema:** El enfoque comercial y la presentación de las métricas en la interfaz resultan demasiado abstractos para el productor tradicional de la zona, dificultando que asimilen rápidamente el valor real de los datos en sus tareas operativas diarias como el control de humedad.
+  - **Recomendación:** Simplificar la densidad de la interfaz orientando el diseño hacia la practicidad del trabajo agrícola cotidiano. Se deben cambiar las métricas generalizadas por visualizaciones más directas, asociadas a listas de selección fijas que eviten la necesidad de interpretación técnica compleja, asegurando que el software se sienta tan robusto y directo como las herramientas físicas de campo.
 <br>
 
 - **Problema #5: Campo de texto libre ineficiente en el registro de cultivos**
   - **Severidad:** 2
-  - **Problema:** En el formulario de creación de parcelas, el campo "Tipo de cultivo" obliga al usuario a escribir manualmente el nombre, lo cual incrementa las chances de errores tipográficos y ralentiza el proceso.
-  - **Recomendación:** Implementar una lista desplegable (*dropdown*) con categorías predefinidas de cultivos para agilizar el llenado, dejando la opción de texto libre solo si el cultivo no figura en la lista.
+  - **Problema:** Al rellenar los datos de registro de la parcela, el usuario se ve obligado a tipear de forma estrictamente manual el nombre en el campo "Tipo de cultivo", lo que ralentiza el flujo de ingreso y aumenta significativamente la probabilidad de errores tipográficos (*typos*).
+  - **Recomendación:** Reemplazar el campo de texto libre por una lista de selección fija o menú desplegable (*dropdown*) cargado con categorías estandarizadas de cultivos agrícolas de la región (como aceitunas/olivos). Esto agilizará la digitalización de los datos y restringirá la digitación manual únicamente a campos de notas adicionales o excepciones.
 <br>
 
 - **Problema #6: Inconsistencia idiomática y problemas de accesibilidad tipográfica**
   - **Severidad:** 2
-  - **Problema:** Varias secciones e indicaciones de la landing page y la plataforma se encuentran en inglés. Asimismo, el usuario experimentó fatiga visual en su laptop debido a que algunas tipografías eran excesivamente pequeñas o estaban cortadas por la fuente utilizada.
-  - **Recomendación:** Asegurar la traducción completa de todos los módulos al español y revisar las hojas de estilo (CSS) para garantizar que los tamaños de fuente cumplan con los estándares de accesibilidad para su lectura en computadoras portátiles.
-
+  - **Problema:** La presencia de textos, menús y secciones no localizadas al español (en inglés) genera alta incertidumbre respecto al despliegue final y a la curva de aprendizaje de capataces o productores habituados a métodos tradicionales. Asimismo, las fuentes tipográficas excesivamente reducidas en la versión de escritorio provocan fatiga visual y obligan al usuario a realizar un esfuerzo extra de acercamiento en pantallas de laptops.
+  - **Recomendación:** Realizar una traducción técnica absoluta y rigurosa de toda la plataforma y de la landing page al español para eliminar la fricción lingüística. Además, corregir las hojas de estilo (CSS) aumentando los tamaños de fuente a estándares accesibles y optimizando el interlineado para asegurar una lectura cómoda y fluida en cualquier computadora portátil.
 <br>
 
+- **Problema #7: Fatiga visual por exceso de fondo blanco brillante**
+  - **Severidad:** 2
+  - **Problema:** Los usuarios manifestaron que el predominio absoluto del color blanco brillante en el fondo de la plataforma cansa la vista de manera acelerada y opaca los elementos de interacción secundarios, restando claridad al uso continuo en pantallas.
+  - **Recomendación:** Introducir variaciones cromáticas de fondo (como grises muy tenues o modos claros suavizados) o evaluar la implementación de un modo oscuro (*dark mode*). Esto ayudará a mitigar el cansancio visual del productor agrícola cuando deba revisar datos extensos tras su jornada laboral.
+<br>
 
+- **Problema #8: Incertidumbre en la integración con hardware y sensores propios**
+  - **Severidad:** 3
+  - **Problema:** Existe una fricción crítica por parte de los administradores agrícolas respecto a la compatibilidad técnica de la plataforma. Temen que la aplicación los obligue a comprar hardware propietario en lugar de permitirles enlazar directamente sus propios dispositivos y sensores de transmisión ya instalados en sus fondos.
+  - **Recomendación:** Crear una sección de "Configuración de Dispositivos/Hardware" que explique de forma sumamente transparente e intuitiva los protocolos de enlace IoT soportados. Dejar claro desde el principio que el software es agnóstico o flexible para acoplarse y centralizar la información de sensores de terceros ya existentes en el terreno.
+<br>
+
+- **Problema #9: Confusión en la visualización de los montos y planes de suscripción**
+  - **Severidad:** 2
+  - **Problema:** Durante la navegación en el apartado comercial, los usuarios experimentaron problemas para interpretar el costo real de las tarifas anuales debido a que las cifras en la pantalla se percibían confusas o mal formateadas (por ejemplo, interpretando un número corrido como "140880").
+  - **Recomendación:** Revisar la interfaz visual de las tarjetas de precios de la landing page. Asegurar un formateo de texto inequívoco utilizando separadores de miles y etiquetas de moneda claras (ej. "$1,408.00 / año") para que el beneficio económico y los ahorros de la versión anual sean evidentes de un solo vistazo.
+<br>
 
 \newpage
