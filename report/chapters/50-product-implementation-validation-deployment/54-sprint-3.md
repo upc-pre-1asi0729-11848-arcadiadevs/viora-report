@@ -419,6 +419,49 @@ A continuación, se presenta la matriz de control de versiones correspondiente a
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b2059c1 | feat(agronomic): add monitoring summary from monitoring summary entity assembler. |  | 10/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c7c9130 | feat(agronomic): add weather data service. |  | 10/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | acb0484 | feat(agronomic): add spring data monitoring summary repository. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 4e40259 | feat(agronomic): add jpa monitoring summary repository adapter. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c9ac77b | feat(agronomic): add monitoring summary repository. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ba4c15b | feat(agronomic): refactor monitoring summary aggregate. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f9ae9cb | feat(agronomic): add weather snapshot resource. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 384ebdf | feat(agronomic): add monitoring summary resource. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3c33bc3 | feat(agronomic): add monitoring summary resource from monitoring summary assembler. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a1a15a5 | feat(agronomic): add monitoring summary query service. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 262ff20 | feat(agronomic): add mitigation recommendation resource. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b754e2f | feat(agronomic): refactor mitigation recommendation value object. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 96fb0d1 | feat(agronomic): refactor monitoring summary entity. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | bd992ea | feat(agronomic): refactor monitoring summary entity from monitoring summary assembler. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 919880e | feat(agronomic): refactor monitoring summary from monitoring summary assembler. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 238b70f | feat(agronomic): refactor weather snapshot value object. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 796b568 | feat(agronomic): add monitoring summary controller. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 17089d7 | refactor(agronomic): refactor climate risk evaluator. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e324653 | refactor(agronomic): refactor monitoring summary entity. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f255683 | feat(agronomic): add default weather data service. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 66b94c1 | feat(agronomic): add time-window value object for date range management. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a85c740 | Merge branch 'feature/agronomic/current-monitoring-summary' into develop. | Related to TS016. | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 489b0d0 | feat(agronomic): add monitoringsummaryid value object. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9a3b37b | feat(agronomic): add general health status value object. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 95fd9ff | feat(agronomic): add yield forecast value object. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c60c3ff | feat(agronomic): add monitoring summary aggregate root. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1749231 | feat(agronomic): add invalid weather snapshot exception in domain exceptions. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d6ae284 | feat(agronomic): add weather status in value objects. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 866f141 | feat(agronomic): add climate risk level in value objects. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f346f80 | feat(agronomic): add weather snapshot in value objects. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 46aee1b | feat(agronomic): add mitigation action type in value objects. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d0cad72 | feat(agronomic): add nutrition input recommendation in value objects. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0ba2af4 | feat(agronomic): add mitigation recommendation in value objects. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e74adba | feat(agronomic): add climate risk evaluators service. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 383da41 | feat(agronomic): add monitoring summary entity. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6b8735a | feat(agronomic): add get current monitoring summary query. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2762a1f | feat(agronomic): add mitigation recommendation generator service. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | aefefc2 | feat(agronomic): add monitoring summary entity assembler. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 24f68be | feat(agronomic): add monitoring summary from monitoring summary entity assembler. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c30e22f | feat(agronomic): add weather data service. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | fe39367 | feat(agronomic): add spring data monitoring summary repository. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6ad62c9 | feat(agronomic): add jpa monitoring summary repository adapter. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 259bf73 | feat(agronomic): add monitoring summary repository. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ab17641 | feat(agronomic): refactor monitoring summary aggregate. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 71aeae9 | feat(agronomic): add weather snapshot resource. |  | 11/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2636faf | feat(agronomic): add monitoring summary resource. |  | 11/06/2026 |
 
 
 
