@@ -326,6 +326,41 @@ A continuación, se presenta la matriz de control de versiones correspondiente a
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d502ff9 | feat(agronomic): remove userid from createiotdevicecommand assembly. |  | 10/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b2af714 | feat(agronomic): remove userid parameter from createiotdeviceresource. |  | 10/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c3e3e9d | feat(agronomic): update iot device registration to remove user ownership check. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 4efbc0b | Merge branch 'release/0.4.0' into main |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5f7c088 | chore: update gitignore. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5044b3c | feat(agronomic): add IoT device update command infrastructure. | # Conflicts: #	src/main/java/com/arcadiadevs/viora/platform/agronomic/application/commandservices/IoTDeviceCommandService.java | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f68a14c | feat(agronomic): add patch endpoint for iot device update. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 15f68f5 | fix(shared): add plot_ownership_violation error mapping. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 858d323 | feat(agronomic): introduce value objects for agronomic metrics including accumulatedchillHours, chillportions, ndvivalue, timerange, daterange,measuremntdate. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c1a6939 | refactor(agronomic): refactor agronomicstatistic to use accumulatedchillhours and improve validation. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 85b501d | feat(agronomic): add assemblers for converting between agronomicstatistic and agronomicstatisticentity. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 395f752 | feat(agronomic): enhance agronomicstatisticqueryservice with plot validation and introduce jpaagronomicstatisticrepositoryadapter. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b834596 | feat(agronomic): add agronomicstatisticentity for jpa persistence with relevant fields and indexes. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d50c28d | refactor(agronomic): align iot device update with ddd guide. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 96fb85d | feat(agronomic): update springdataagronomicstatisticrepository to use agronomicstatisticentity for jpa queries. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1a84257 | feat(agronomic): add agronomicstatisticresource for exposing agronomic metrics to the frontend. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 922ea36 | feat(agronomic): add assembler for converting agronomicstatistic aggregate to agronomicstatisticresource |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f082fc9 | feat(agronomic): add agronomicstatisticscontroller for retrieving agronomic statistics. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0f6f38f | feat(agronomic): refine getagronomicstatisticsquery for improved validation and clarity. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 07b9831 | feat(agronomic): add invalidagronomicmetricexception for handling metric validation errors. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 40486eb | refactor(agronomic): align iot device update with ddd guide and develop patterns |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9c77724 | Merge branch 'feature/agronomic/update-iot-device' into develop. | Related to TS014 | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 806263f | Merge branch 'release/0.5.0' |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9672521 | feat(agronomic): add IoT device update command infrastructure. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 948d943 | feat(agronomic): add deleteiotdevicecommand record. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 8741989 | feat(agronomic): add delete endpoint for iot device. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0184cf6 | feat(agronomic): add iot device delete endpoint. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0d2856d | Merge branch 'feature/agronomic/delete-iot-device' into develop. | Related to TS015. | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6c28785 | Merge branch 'release/0.6.0' |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 7599c8b | chore(agronomic): implement agronomic statistics domain model and persistence layer. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 31c641e | Merge branch 'release/0.7.0' |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d05f21b | feat(agronomic): add resource for plot creation. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 403469c | feat(agronomic): add assembler for plot creation command. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c85abff | test(agronomic): add integration and unit tests for plot management features. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e2fac87 | chore(shared): ignore local environment configuration files. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2e7116c | fix(agronomic): enforce active plots in IoT device commands. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0a150f9 | feat(agronomic): implement plot creation command handling. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2cea5c8 | fix(agronomic): validate plot availability and ownership in IoT device queries. |  | 10/06/2026 |
 
 
 
