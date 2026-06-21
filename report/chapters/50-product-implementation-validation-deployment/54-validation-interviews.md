@@ -193,7 +193,6 @@ Se solicitará al participante realizar las tareas definidas en los user flows c
 - En caso de que la plataforma estuviera completamente desarrollada, ¿estaría dispuesto a pagar por su uso o recomendarla a sus clientes? ¿Por qué?
 - ¿Desea agregar algún comentario, sugerencia o recomendación para mejorar la plataforma?
 
-
 <br>
 
 ### Registro de Entrevistas
@@ -243,20 +242,6 @@ Identificó a Viora como una plataforma tecnológica para el monitoreo agronómi
 Reportó restricciones de fluidez iniciales y sugirió simplificar los accesos para lograr una navegación más directa y práctica. En el Dashboard Overview, criticó la falta de jerarquía visual entre sus siete secciones y solicitó un patrón cromático restrictivo (tonalidades naranja o rojo) para las alertas críticas de plagas o estrés hídrico, priorizando la salud vegetal y el clima. En "Mis Parcelas", tuvo dificultades severas para localizar el botón de registro por su color blanco y nulo contraste; además, recomendó usar un menú desplegable de cultivos en lugar de la digitación manual. Calificó la métrica de humedad del suelo como un promedio global ineficiente y solicitó listar de forma independiente cada tensiómetro en sus 6 hectáreas para geolocalizar el déficit hídrico por sector. Finalmente, propuso permitir la creación de subparcelas y reportó un bloqueo en Nutrición Dinámica por la falta de indicaciones para pre-seleccionar la parcela antes de cargar el plan de acción, pidiendo ampliar el tamaño visual de los protocolos de enmienda.
 Calificó la utilidad global con un 4 de 5, destacando su valor para optimizar las jornadas del personal y permitir una gestión predictiva en el fundo. Expresó una intención de pago favorable bajo la condición obligatoria de contar con un periodo de prueba de un mes sin costo para enlazar sus propios dispositivos de medición en Moquegua, registrar su cartografía real y validar la veracidad y estabilidad de la telemetría antes de realizar cualquier inversión económica.} \\ [10pt]
 \multicolumn{4}{c}{\includegraphics[width=0.4\textwidth]{report/assets/interview/validation-interview-3.png}} \\ \hline
-\end{tabular}
-
-**Segmento: Profesionales especializados en control de plagas agrícolas**
-
-\noindent
-\begin{tabular}{p{0.15\textwidth} p{0.30\textwidth} p{0.15\textwidth} p{0.30\textwidth}}
-\hline
-\multicolumn{4}{l}{\textbf{Entrevista \#1} \hfill \textbf{Detalles}} \\ \hline
-\textbf{Nombre} & -------- & \textbf{Edad} & 55 \\
-\textbf{Distrito} & \multicolumn{3}{p{0.75\textwidth}}{-----------} \\
-\textbf{Ocupación} & \multicolumn{3}{p{0.75\textwidth}}{-----------} \\
-\textbf{Inicio} & ----------- & \textbf{Enlace} & \url{-----------} \\ \hline
-\multicolumn{4}{p{0.95\textwidth}}{\textbf{Resumen:} -----------} \\ [10pt]
-\multicolumn{4}{c}{\includegraphics[width=0.4\textwidth]{report/assets/interview/-----------}} \\ \hline
 \end{tabular}
 
 <br>
