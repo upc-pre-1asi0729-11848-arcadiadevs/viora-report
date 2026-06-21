@@ -361,6 +361,35 @@ A continuación, se presenta la matriz de control de versiones correspondiente a
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2e7116c | fix(agronomic): enforce active plots in IoT device commands. |  | 10/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0a150f9 | feat(agronomic): implement plot creation command handling. |  | 10/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2cea5c8 | fix(agronomic): validate plot availability and ownership in IoT device queries. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5113c15 | feat(agronomic): add query handling for plots by user. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5f98313 | fix(agronomic): validate plot identifier when creating IoT devices. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 965e0d4 | fix(agronomic): validate identifiers when updating IoT devices. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b295270 | fix(agronomic): validate and normalize IoT device status values. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2251a1a | refactor(agronomic): remove obsolete plot persistence entity. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f00975e | refactor(agronomic): remove obsolete agronomic statistic repository adapter. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 7ac7005 | docs(agronomic): update IoT device endpoint documentation. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5cbfccf | feat(agronomic): add plot creation and retrieval endpoints. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a6bbc4e | feat(shared): add forbidden application error factory. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3a569fd | fix(shared): conditionally load OpenAPI configuration. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 659d89c | fix(shared): map forbidden application errors to http status. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6e458d2 | feat(shared): enable test profile for application context tests. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9dccaf9 | feat(shared): replace duplicated result implementation with unit tests. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a342ddf | Merge branch 'feature/agronomic/create-plot' into develop. | Related to TS008. | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1c7cf9e | Merge branch 'release/0.8.0' |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a0b69ef | feat(agronomic): add tests for plots with current imagery. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1ae7042 | feat(agronomic): add tests for plots with current imagery. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f3785c3 | chore(shared): document postgre sql and agro-monitoring environment variables. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3fd600a | fix(agronomic): parse plot coordinates in geo json order. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | db276db | feat(agronomic): enrich plot queries with current satellite imagery. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c493bcf | feat(agronomic): expose current imagery in the plot listing endpoint. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 4b655db | docs(agronomic): document geo json coordinate order for plot creation. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6834cc7 | fix(agronomic): serialize plot coordinates in geo json order. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 89fd1fd | docs(agronomic): document geo json coordinate order for plot updates. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 42bd7a7 | feat(agronomic): configure agro monitoring satellite imagery integration. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 543b94a | feat(agronomic): add outbound service for satellite imagery retrieval. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 007d8d6 | feat(agronomic): add read model for plots with current imagery. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c5529e0 | feat(agronomic): add outbound service for satellite imagery retrieval. |  | 10/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 8180304 | feat(agronomic): add query for plots with current imagery. |  | 10/06/2026 |
 
 
 
