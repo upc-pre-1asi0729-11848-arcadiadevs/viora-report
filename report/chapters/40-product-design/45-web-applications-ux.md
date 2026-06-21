@@ -433,5 +433,4 @@ En esta sección se presenta el video del prototype interactivo de la aplicació
 
 \textbf{Enlace} & \url{https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415749_upc_edu_pe/IQDbZfqE4PYPTKMzKB0M5UfKAch-hiNxhDc5Dpb-sCWRaHA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PpicX5} 
 
-
-
+\newpage
