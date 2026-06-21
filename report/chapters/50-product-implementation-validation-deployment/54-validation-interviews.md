@@ -253,11 +253,11 @@ Con el fin de identificar problemas de experiencia de usuario antes de la implem
 | Campo | Valor |
 |---------|---------|
 | Carrera | Ingeniería de Software |
-| Curso | Aplicaciones Web |
+| Curso | Desarrollo de Aplicaciones Open Source |
 | Auditor | ArcadiaDevs |
 | Aplicación evaluada | Viora |
-| Participantes | Productores olivareros y especialistas fitosanitarios |
-| Fecha | 17/06/2026 |
+| Participantes | Productores olivareros|
+| Fecha | 20/06/2026 |
 
 <br>
 
