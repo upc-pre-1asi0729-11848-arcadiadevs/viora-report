@@ -598,7 +598,56 @@ A continuación, se presenta la matriz de control de versiones correspondiente a
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f9231a0 | feat(surveillance): connect dynamic nutrition generated event with surveillance. |  | 16/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 380730c | feat(surveillance): improve documentation for swagger. |  | 16/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 92eb008 | Merge branch 'feature/surveillance/get-alert-timeline' into develop |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | bcf8c9f | Merge pull request #5 from upc-pre-1asi0729-11848-arcadiadevs/feature/surveillance/get-alert-timeline | feature/surveillance/get alert timeline | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 8c0ed72 | Merge branch 'feature/surveillance/mark-alert-reviewed' into develop |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 7c75dd4 | feat(surveillance): update command service, exception and aggregate for alert. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2b33a69 | feat(surveillance): update command, event and controller for review alert. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 7ab0c37 | Merge pull request #6 from upc-pre-1asi0729-11848-arcadiadevs/feature/surveillance/mark-alert-reviewed | Merge branch 'feature/surveillance/mark-alert-reviewed' into develop | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6dd36cd | feat(surveillance): add query service and query for recent alerts. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 59b4438 | feat(surveillance): add facade for plots. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 27d830e | feat(surveillance): update alert repository to find by plot id. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3d63e9e | feat(surveillance): update controller and resources. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 96e492f | Merge branch 'feature/surveillance/recent-alerts' into develop |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2dffc01 | Merge pull request #7 from upc-pre-1asi0729-11848-arcadiadevs/feature/surveillance/recent-alerts | feature/surveillance/recent alerts | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 912b38e | feat(agronomic): update rest for agronomic statistics controller. |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 43169e4 | feat(agronomic): update rest for dynamic nutrition plan controller. |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | be73078 | feat(agronomic): update rest for monitoring summaries controller. |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 71fcc7d | feat(agronomic): update rest for plots controller. |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e00f475 | feat(agronomic): update rests for alerts controller. |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 82448f9 | feat(agronomic): update resources for plot and alert. |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e061e55 | Merge branch 'feature/adapt-rest' into develop |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a153da6 | Merge branch 'release/0.23.0' into main |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1939321 | fix(test): update recommend-dynamic-nutrition-command to handle null parameter. |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 95c857d | Merge branch 'feature/agronomic/fix-rest-endpoints' into develop. |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d4e815e | Merge branch 'release/0.24.0' |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 591447b | feat(agronomic): update plot imagery controller, request params to query params. |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c66569f | feat(surveillance): add sources field. |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 616c751 | Merge branch 'feature/surveillance/add-source-endpoint' into develop. |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 856ebf9 | Merge branch 'release/0.25.0' into main |  | 20/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b6da45e | feat(surveillance): add haversine distance calculation. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 4b626e7 | feat(surveillance): add neighbor plot acl record. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 17b0281 | feat(surveillance): expose neighbor plots through agronomic acl. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 4dea9c2 | feat(surveillance): add agronomic acl methods for risk lookup. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 4b0a4dc | feat(surveillance): expose plot id in alert summary. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 280a5b2 | feat(surveillance): add active alert lookup by plot ids. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 44dcff8 | feat(surveillance): add community risk query. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ba41455 | feat(surveillance): add community risk response resources. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 30c89ac | feat(surveillance): add community risk query service. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e64ab3e | feat(surveillance): add community risk endpoint. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 6bf8482 | Merge branch 'feature/surveillance/community-risk-endpoint' into develop. | Related to TS20. | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0447e57 | Merge branch 'release/0.26.0' into main |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 39c0d46 | Merge branch 'feature/agronomic/imagery' into develop |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 7903503 | Merge branch 'release/0.27.0' into main |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d4ab407 | feat(surveillance): add query service for pest sighting reports by user. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 7a2af6b | feat(surveillance): add endpoint to retrieve pest sighting reports by user. |  | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 8231973 | Merge branch 'feature/surveillance/pest-report-demo' into develop. | Related to TS19. | 21/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b6b921e | Merge branch 'release/0.28.0' into main |  | 21/06/2026 |
 
+\textbf{Repository URL:} \url{https://github.com/upc-pre-1asi0729-11848-arcadiadevs/viora-platform}
+
+\textbf{Branch principal considerada:} main
+
+\textbf{Total de commits registrados para la evidencia:} 463
 
 
 #### Execution Evidence for Sprint Review
