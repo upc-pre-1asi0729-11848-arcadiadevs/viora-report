@@ -240,6 +240,74 @@ US09 & Publicación de perfil profesional & TK90 & Formulario de perfil profesio
 
 &nbsp;
 
+Durante el Sprint 3 se implementó con éxito la segunda versión de la aplicación web y la primera versión operativa del servicio web de Viora. En el Landing Page se incorporaron las secciones de beneficios segmentados para productores olivareros y especialistas fitosanitarios, así como la sección del equipo detrás de la plataforma. En la Web Application se desarrollaron capacidades de alertas fitosanitarias con georreferenciación, marketplace de intervenciones técnicas con flujo completo de solicitud-presupuesto-aceptación, gestión de parcelas con delimitación poligonal vía Mapbox, monitoreo climático integrado, sistema de reputación y penalizaciones, y trazabilidad agronómica. Adicionalmente, se desplegó la primera versión del servicio web para orquestar la sincronización de datos climáticos y satelitales.
+
+A continuación, se exponen las capturas de pantalla de las principales vistas implementadas en el entorno de producción. Asimismo, para evidenciar el comportamiento dinámico del sitio, se adjunta un enlace a un video demostrativo que ilustra a detalle la visualización interactiva y la navegación fluida lograda en este Sprint.
+
+\begin{figure}[H]
+\caption{Sección de beneficios para productores olivareros en el Landing Page.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-3/lp-benefits-producer.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Sección de beneficios para especialistas fitosanitarios en el Landing Page.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-3/lp-benefits-specialist.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Sección del equipo detrás de la plataforma Viora.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-3/lp-about-team.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Panel de alertas fitosanitarias con radar georreferenciado y filtros de severidad.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-3/wa-surveillance-alerts.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Marketplace de intervenciones técnicas con flujo de solicitud y presupuesto.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-3/wa-intervention-marketplace.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Gestión de parcelas con delimitación poligonal y datos de trazabilidad.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-3/wa-plot-management.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Dashboard de monitoreo climático con resumen de condiciones y pronóstico.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-3/wa-weather-monitoring.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Sistema de reputación y gestión de penalizaciones del marketplace.}
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-evidence/sprint-3/wa-reputation-system.png}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+[Link del Landing Page](https://viora-website.vercel.app/)
+
+[Link de la Web Application](https://viora-webapp.vercel.app/)
+
+[Link del video evidencia](https://tinyurl.com/viora-sprint-3)
+
+&nbsp;
+
 #### Services Documentation Evidence for Sprint Review
 
 &nbsp;
