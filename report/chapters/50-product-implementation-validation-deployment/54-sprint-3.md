@@ -548,6 +548,56 @@ A continuación, se presenta la matriz de control de versiones correspondiente a
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | c97e9da | feat(agronomic) add weekly delta for chill portions in plot monitoring summary. |  | 15/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 333c9a7 | Merge branch 'feature/agronomic/chill-portions-tag' into develop. |  | 15/06/2026 |
 | upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9169b25 | Merge branch 'release/0.17.0' |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3882e6a | fix(test) fix tests for agronomic summary. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | eb6ff36 | Merge branch 'develop' |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e88d49d | feat(surveillance): create excepction for pest sighthing report not found. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ab7181e | feat(surveillance): create value objects for ids. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | eea1236 | feat(surveillance): create enums for alert severity, risk zone and threat type. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d309d2f | feat(surveillance): create value object for pest sighthing report id. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ac2b7cb | feat(surveillance): create value objects for symptoms. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a50c8c6 | feat(surveilleance): createpest sighting report aggregate. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 21e3218 | feat(surveilllance): add pest sighting persistence. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d1d4b96 | feat(surveillance): add repository for pest sighting. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 239d3e2 | feat(surveillance): add create pest sighting command. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a0b60ba | feat(surveillance): create converters for alert severity, risk zone and threat type. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1f3c6c2 | feat(surveillance): add command and assemblers for pest sighting. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9ce90e3 | feat(surveillance): create pest sighting resources. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0a7ffea | feat(surveillance): create pest sighting controller and assemblers for command and resource. |  | 15/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9a11c46 | feat(surveillance): add persitence for symptom dictionary. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 857ea75 | feat(surveillance): add query service and query for all symptoms. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | cef03f8 | feat(surveillance): add symptom dictionary item aggregate. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 2d5a9a5 | feat(surveillance): add symptom dictionary repositories. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ae9403a | feat(surveillance): add adapter and assembler for symptom. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9580997 | feat(surveillance): add controller and resourcec for symptom. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 74d4372 | feat(surveillance): create resources for create pest sighting, sympton and report. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ceb2076 | feat(surveillance): add documentation for pest sighting controller and symptom dictionary items controller. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e4fa928 | feat(surveillance): create event for pest sighting. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 408e6c2 | feat(surveillance): update resource and assembler for pest sighting. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ac3a040 | feat(surveillance): add acl for ndvi. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 9a7404a | feat(surveillance): create service and value objects for threat inference. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 5fc6db0 | feat(surveillance): add status and alert confimed attributes. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 8773044 | feat(surveillance): update evaluate biological risk. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 46ad19a | feat(surveillance): update result method. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3e22b02 | Merge branch 'feature/surveillance/create-pest-sighting' into develop |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 94534b2 | Merge pull request #3 from upc-pre-1asi0729-11848-arcadiadevs/feature/surveillance/create-pest-sighting | feature/surveillance/create pest sighting | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 98a61e9 | Merge branch 'release/0.18.0' |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | d73fc1f | feat(surveillance): add aggregate values for surveillance. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | a6405a8 | feat(surveillance): add assemblers, adapters and entities for persitence. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f1458f2 | feat(surveillance): add events for agronomic and event handler. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 0dcaa09 | feat(surveillance): add comand and event handler. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | fa726aa | feat(surveillance): add model, aggregate and repository. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | ac9ab92 | feat(surveillance): add query and event for generated alert. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 72ff7c4 | feat(surveillance): add controller, resources and assembler for alert. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | e04c6b4 | feat(shared): add auditable model. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 4fe9477 | feat(surveillance): use auditable model and update event handler. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 166db29 | feat(surveillance): update alert time record entity and package for repository. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | b230eba | feat(surveillance): add command, record resource and update value object for threat type. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 944be9b | Merge branch 'feature/surveillance/get-alert-detail' into develop |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 3b12518 | Merge pull request #4 from upc-pre-1asi0729-11848-arcadiadevs/feature/surveillance/get-alert-detail | feature/surveillance/get alert detail | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 1db186b | feat(surveillance): add command to seed symponts. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | f9231a0 | feat(surveillance): connect dynamic nutrition generated event with surveillance. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 380730c | feat(surveillance): improve documentation for swagger. |  | 16/06/2026 |
+| upc-pre-1asi0729-11848-arcadiadevs/viora-platform | main | 92eb008 | Merge branch 'feature/surveillance/get-alert-timeline' into develop |  | 16/06/2026 |
 
 
 
