@@ -298,7 +298,6 @@ El alcance de esta evaluación incluye la revisión de la experiencia de usuario
 | 6 | Presencia de textos e indicaciones clave sin traducir (inglés) y fuentes tipográficas excesivamente reducidas para laptops. | 2 | Consistencia y estándares / Accesibilidad |
 | 7 | Uso excesivo del color blanco de fondo en la interfaz web, lo que genera deslumbramiento, opaca la vista del usuario y causa fatiga visual rápida. | 2 | Estética y diseño minimalista / Accesibilidad visual |
 | 8 | Incertidumbre y falta de claridad técnica sobre cómo se conectan o enlazan los dispositivos de transmisión y sensores propios de los agricultores. | 3 | Relación entre el sistema y el mundo real / Flexibilidad de integración |
-| 9 | Confusión o inconsistencia en la visualización de los planes de precios/suscripción en la landing page (por ejemplo, cifras confusas como "140880"). | 2 | Consistencia y estándares / Ayuda y documentación |
 
 #### Descripción de problemas
 
@@ -350,10 +349,5 @@ El alcance de esta evaluación incluye la revisión de la experiencia de usuario
   - **Recomendación:** Crear una sección de "Configuración de Dispositivos/Hardware" que explique de forma sumamente transparente e intuitiva los protocolos de enlace IoT soportados. Dejar claro desde el principio que el software es agnóstico o flexible para acoplarse y centralizar la información de sensores de terceros ya existentes en el terreno.
 <br>
 
-- **Problema #9: Confusión en la visualización de los montos y planes de suscripción**
-  - **Severidad:** 2
-  - **Problema:** Durante la navegación en el apartado comercial, los usuarios experimentaron problemas para interpretar el costo real de las tarifas anuales debido a que las cifras en la pantalla se percibían confusas o mal formateadas (por ejemplo, interpretando un número corrido como "140880").
-  - **Recomendación:** Revisar la interfaz visual de las tarjetas de precios de la landing page. Asegurar un formateo de texto inequívoco utilizando separadores de miles y etiquetas de moneda claras (ej. "$1,408.00 / año") para que el beneficio económico y los ahorros de la versión anual sean evidentes de un solo vistazo.
-<br>
 
 \newpage
