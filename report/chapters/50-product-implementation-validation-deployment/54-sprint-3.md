@@ -973,8 +973,7 @@ La documentación desplegada se encuentra disponible en el siguiente enlace:
 
 **Swagger UI:** https://os-viora-platform.onrender.com/swagger-ui/index.html#/
 
-El alcance documentado para este Sprint se enfoca principalmente en los servicios relacionados con la gestión de parcelas, dispositivos IoT, resumen de monitoreo y estadísticas agronómicas. Estos endpoints permiten que la Web Application consuma información del backend para registrar áreas productivas, consultar datos de monitoreo, administrar sensores asociados a parcelas y visualizar métricas agronómicas relevantes para la toma de decisiones de productores olivareros.
-
+El alcance documentado para este Sprint se enfoca en los servicios relacionados con la gestión de parcelas, dispositivos IoT, reportes manuales de avistamiento de plagas, alertas, catálogo de síntomas, planes dinámicos de nutrición, riesgo comunitario, resúmenes de monitoreo y verificación de disponibilidad del servicio. Estos endpoints permiten que la Web Application consuma información del backend para registrar áreas productivas, consultar datos de monitoreo, administrar sensores asociados a parcelas, revisar alertas fitosanitarias y visualizar métricas agronómicas relevantes para la toma de decisiones de productores olivareros.
 
 
 | Endpoint | Método HTTP | Acción documentada | Parámetros principales | Request body | Response esperado | URL de documentación |
