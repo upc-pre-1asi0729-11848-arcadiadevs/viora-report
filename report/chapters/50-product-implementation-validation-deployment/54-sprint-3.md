@@ -411,6 +411,32 @@ Pasos realizados:
 
 La Landing Page continuó desplegada en Vercel con despliegue automático (CI/CD) vinculado al repositorio de GitHub. Durante este Sprint se incorporaron mejoras en UI/UX incluyendo animaciones generales, el drawer legal de términos y política de privacidad, efectos de sonido ambiental, y mejoras de responsividad mobile. Cada merge a la rama develop activó un nuevo build y despliegue automático en Vercel.
 
+Pasos realizados:
+
+1. Se revisó el overview del proyecto en Vercel, verificando el estado del servicio.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/ws-vercel-overview.jpeg}
+\caption{Overview del proyecto en Vercel.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+2. Se accedió a la vista del proyecto para confirmar la configuración del servicio desplegado.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/ws-vercel-proyect-view.jpeg}
+\caption{Vista del proyecto en Vercel.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+3. Se verificó la importación del repositorio vinculado al proyecto.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/ws-vercel-hitguh-repo-import.jpeg}
+\caption{Importación del repositorio en Vercel.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
 Enlace de la Landing Page: \url{https://viora-website.vercel.app/}
 
 **4. Web Application (viora-webapp) — Firebase Hosting**
