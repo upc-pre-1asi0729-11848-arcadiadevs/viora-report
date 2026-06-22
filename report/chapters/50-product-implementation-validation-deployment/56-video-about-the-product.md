@@ -5,7 +5,7 @@ El video About The Product presenta una demostración integral de la solución d
 <br>
 
 \begin{figure}[H]
-    \caption{Commands del bounded context Agronomic Monitoring \& Prediction.}
+    \caption{Video About-the-Product.}
     \centering
     \includegraphics[width=0.82\textwidth]{report/assets/video-about-the-product/video-about-the-product.png}
     \caption*{\textit{Nota.} Imagen del video About-the-Product en Microsoft Stream.}
