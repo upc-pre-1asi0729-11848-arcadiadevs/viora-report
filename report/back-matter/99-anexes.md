@@ -14,6 +14,12 @@
 
 - Exposicion TB1 11848-ArcadiaDevs-expo-tb1: [https://tinyurl.com/5d7sfday](https://tinyurl.com/5d7sfday)
 
+\begin{center}
+\includegraphics[width=0.96\textwidth]{report/assets/expos-ss/expo-av2-ss.png}
+\end{center}
+
+- Exposicion AV2 11848-ArcadiaDevs-expo-av2: [https://tinyurl.com/58erfhvw](https://tinyurl.com/58erfhvw)
+
 ## Video de Entrevistas {-}
 
 \begin{center}
