@@ -955,11 +955,9 @@ A continuación, se exponen las capturas de pantalla de las principales vistas i
 \caption*{\textit{Nota.} Elaboración propia.}
 \end{figure}
 
-[https://viora-website.vercel.app/](https://viora-website.vercel.app/)
+Website: [https://viora-website.vercel.app/](https://viora-website.vercel.app/)
 
-[https://viora-webapp.vercel.app/](https://viora-webapp.vercel.app/)
-
-[https://tinyurl.com/viora-sprint-3](https://tinyurl.com/viora-sprint-3)
+Webapp: [https://viora-webapp.web.app/dashboard](https://viora-webapp.web.app/dashboard)
 
 Video sprint 3: [https://tinyurl.com/5n7jr97c](https://tinyurl.com/5n7jr97c)
 
