@@ -961,6 +961,8 @@ A continuación, se exponen las capturas de pantalla de las principales vistas i
 
 [https://tinyurl.com/viora-sprint-3](https://tinyurl.com/viora-sprint-3)
 
+Video sprint 3: [https://tinyurl.com/5n7jr97c](https://tinyurl.com/5n7jr97c)
+
 &nbsp;
 
 #### Services Documentation Evidence for Sprint Review
@@ -986,6 +988,7 @@ El alcance documentado para este Sprint se enfoca principalmente en los servicio
 | `/api/v1/plots/{plotId}` | `DELETE` | Eliminar una parcela registrada. | `plotId`: identificador de la parcela. | No aplica. | `204 No Content` si se elimina correctamente, `403 Forbidden`, `404 Not Found` o `409 Conflict` si existen dependencias activas. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
 | `/api/v1/plots/{plotId}/iot-devices` | `GET` | Listar los dispositivos IoT asociados a una parcela. | `plotId`: identificador de la parcela. | No aplica. | `200 OK` con la lista de dispositivos IoT o `403 Forbidden` si la parcela no pertenece al usuario. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
 | `/api/v1/plots/{plotId}/iot-devices` | `POST` | Registrar un nuevo dispositivo IoT asociado a una parcela. | `plotId`: identificador de la parcela. | `CreateIoTDeviceResource`: nombre del dispositivo y estado. | `201 Created` con los datos del dispositivo registrado, `400 Bad Request` o `403 Forbidden`. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+
 #### Software Deployment Evidence for Sprint Review
 
 &nbsp;
@@ -1096,6 +1099,47 @@ Enlace de la Landing Page: \url{https://viora-website.vercel.app/}
 
 La Web Application fue actualizada en Firebase Hosting, desplegando la versión 1.1.0 que incluye la integración con los endpoints del backend agronómico, la creación de parcelas con mapeo de límites, y la conexión con los datos de monitoreo en tiempo real.
 
+Pasos realizados:
+
+1. Se inició sesión en Firebase CLI con las credenciales del equipo.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wa-firebase-cli-login.jpeg}
+\caption{Inicio de sesión en Firebase CLI.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+2. Se configuró el hosting vinculado al proyecto de Firebase.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wa-firebase-cli-hosting-setup.jpeg}
+\caption{Configuración de hosting en Firebase.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+3. Se ejecutó el proceso de despliegue mediante Firebase CLI.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wa-firebase-cli-deployment-process.jpeg}
+\caption{Proceso de despliegue en Firebase CLI.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+4. Se verificó el overview del proyecto en la consola de Firebase.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wa-firebase-project-overview.jpeg}
+\caption{Overview del proyecto en Firebase.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+5. Se revisaron las estadísticas del proyecto en Firebase.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wa-firebase-project-stats.jpeg}
+\caption{Estadísticas del proyecto en Firebase.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
 Enlace de la Webapp: \url{https://viora-webapp.web.app}
 
 #### Team Collaboration Insights for Sprint Review
