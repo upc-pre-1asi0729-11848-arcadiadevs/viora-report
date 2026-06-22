@@ -955,11 +955,11 @@ A continuación, se exponen las capturas de pantalla de las principales vistas i
 \caption*{\textit{Nota.} Elaboración propia.}
 \end{figure}
 
-[https://viora-website.vercel.app/](https://viora-website.vercel.app/)
+Website: [https://viora-website.vercel.app/](https://viora-website.vercel.app/)
 
-[https://viora-webapp.vercel.app/](https://viora-webapp.vercel.app/)
+Webapp: [https://viora-webapp.web.app/dashboard](https://viora-webapp.web.app/dashboard)
 
-[https://tinyurl.com/viora-sprint-3](https://tinyurl.com/viora-sprint-3)
+Video sprint 3: [https://tinyurl.com/5n7jr97c](https://tinyurl.com/5n7jr97c)
 
 &nbsp;
 
@@ -973,19 +973,35 @@ La documentación desplegada se encuentra disponible en el siguiente enlace:
 
 **Swagger UI:** https://os-viora-platform.onrender.com/swagger-ui/index.html#/
 
-El alcance documentado para este Sprint se enfoca principalmente en los servicios relacionados con la gestión de parcelas, dispositivos IoT, resumen de monitoreo y estadísticas agronómicas. Estos endpoints permiten que la Web Application consuma información del backend para registrar áreas productivas, consultar datos de monitoreo, administrar sensores asociados a parcelas y visualizar métricas agronómicas relevantes para la toma de decisiones de productores olivareros.
-
+El alcance documentado para este Sprint se enfoca en los servicios relacionados con la gestión de parcelas, dispositivos IoT, reportes manuales de avistamiento de plagas, alertas, catálogo de síntomas, planes dinámicos de nutrición, riesgo comunitario, resúmenes de monitoreo y verificación de disponibilidad del servicio. Estos endpoints permiten que la Web Application consuma información del backend para registrar áreas productivas, consultar datos de monitoreo, administrar sensores asociados a parcelas, revisar alertas fitosanitarias y visualizar métricas agronómicas relevantes para la toma de decisiones de productores olivareros.
 
 
 | Endpoint | Método HTTP | Acción documentada | Parámetros principales | Request body | Response esperado | URL de documentación |
 |---|---|---|---|---|---|---|
-| `/api/v1/plots` | `POST` | Registrar una nueva parcela productiva. | No aplica. | `CreatePlotResource`: nombre, coordenadas del polígono, cultivo, variedad, ubicación, campaña y notas. | `201 Created` con los datos de la parcela registrada o `400 Bad Request` si los datos son inválidos. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
-| `/api/v1/plots?includeCurrentImagery=true` | `GET` | Listar parcelas del usuario, incluyendo información satelital actual cuando esté disponible. | `includeCurrentImagery`: indica si se incluye la imagen satelital actual. | No aplica. | `200 OK` con una lista de parcelas y, opcionalmente, datos de imagen satelital como NDVI, nubosidad y fecha de captura. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
-| `/api/v1/plots/{plotId}` | `GET` | Consultar el detalle de una parcela específica. | `plotId`: identificador de la parcela. | No aplica. | `200 OK` con el detalle de la parcela, `403 Forbidden` si no pertenece al usuario o `404 Not Found` si no existe. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
-| `/api/v1/plots/{plotId}` | `PATCH` | Editar parcialmente la información de una parcela. | `plotId`: identificador de la parcela. | `UpdatePlotResource`: datos modificables de la parcela. | `200 OK` con la parcela actualizada, `400 Bad Request`, `403 Forbidden` o `404 Not Found`. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/pest-sighting-reports` | `GET` | Consultar reportes manuales de avistamiento de plagas. | Parámetros de consulta según filtros disponibles en Swagger. | No aplica. | `200 OK` con la lista de reportes de avistamiento de plagas. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/pest-sighting-reports` | `POST` | Crear un reporte manual de avistamiento de plaga. | No aplica. | Datos del reporte de avistamiento, como parcela, plaga, severidad, ubicación o descripción según el schema documentado. | `201 Created` con el reporte registrado o `400 Bad Request` si los datos son inválidos. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/monitoring-summaries` | `GET` | Obtener el resumen general de monitoreo y KPIs del usuario. | Parámetros de consulta según filtros disponibles en Swagger. | No aplica. | `200 OK` con indicadores como estado general de salud, NDVI, horas de frío acumuladas, riesgo climático y recomendaciones de mitigación. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots` | `GET` | Listar parcelas registradas. | Parámetros de consulta según filtros disponibles en Swagger. | No aplica. | `200 OK` con una lista de parcelas registradas. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots` | `POST` | Registrar una nueva parcela productiva. | No aplica. | Datos de la parcela, como nombre, coordenadas del polígono, cultivo, variedad, ubicación, campaña y notas. | `201 Created` con los datos de la parcela registrada o `400 Bad Request` si los datos son inválidos. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots/{plotId}` | `GET` | Consultar el detalle de una parcela específica por ID. | `plotId`: identificador de la parcela. | No aplica. | `200 OK` con el detalle de la parcela, `403 Forbidden` si no pertenece al usuario o `404 Not Found` si no existe. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
 | `/api/v1/plots/{plotId}` | `DELETE` | Eliminar una parcela registrada. | `plotId`: identificador de la parcela. | No aplica. | `204 No Content` si se elimina correctamente, `403 Forbidden`, `404 Not Found` o `409 Conflict` si existen dependencias activas. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots/{plotId}` | `PATCH` | Editar parcialmente la información de una parcela. | `plotId`: identificador de la parcela. | Datos modificables de la parcela según el schema documentado. | `200 OK` con la parcela actualizada, `400 Bad Request`, `403 Forbidden` o `404 Not Found`. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots/{plotId}/images` | `GET` | Obtener la imagen NDVI actual de una parcela. | `plotId`: identificador de la parcela. | No aplica. | `200 OK` con la información o recurso de imagen NDVI disponible para la parcela. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/alerts/{alertId}` | `GET` | Consultar el detalle o timeline de una alerta. | `alertId`: identificador de la alerta. | No aplica. | `200 OK` con el detalle de la alerta o su línea de tiempo, `404 Not Found` si no existe. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/alerts/{alertId}` | `PATCH` | Actualizar el estado de una alerta. | `alertId`: identificador de la alerta. | Datos de actualización del estado de la alerta según el schema documentado. | `200 OK` con la alerta actualizada, `400 Bad Request` o `404 Not Found`. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/alerts` | `GET` | Consultar alertas activas e históricas. | Parámetros de consulta según filtros disponibles en Swagger. | No aplica. | `200 OK` con la lista de alertas registradas. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/symptom-dictionary-items` | `GET` | Consultar el catálogo disponible de síntomas. | No aplica. | No aplica. | `200 OK` con la lista de síntomas registrados en el catálogo. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/dynamic-nutrition-plans` | `GET` | Consultar planes dinámicos de nutrición. | Parámetros de consulta según filtros disponibles en Swagger. | No aplica. | `200 OK` con la lista de planes nutricionales dinámicos. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/dynamic-nutrition-plans` | `POST` | Recomendar o generar un plan dinámico de nutrición. | No aplica. | Datos necesarios para generar la recomendación nutricional según el schema documentado. | `201 Created` o `200 OK` con el plan recomendado, o `400 Bad Request` si los datos son inválidos. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/dynamic-nutrition-plans/{planId}` | `PATCH` | Certificar la aplicación de un plan nutricional. | `planId`: identificador del plan dinámico de nutrición. | Datos de certificación de aplicación del plan según el schema documentado. | `200 OK` con el plan actualizado o certificado, `400 Bad Request` o `404 Not Found`. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/community-risk` | `GET` | Consultar señales de riesgo comunitario cercanas a una parcela. | Parámetros de consulta según filtros disponibles en Swagger, como referencia de parcela o ubicación. | No aplica. | `200 OK` con información anonimizada de riesgos cercanos. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/healthz` | `GET` | Verificar el estado de disponibilidad del servicio. | No aplica. | No aplica. | `200 OK` indicando que el servicio se encuentra activo. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
 | `/api/v1/plots/{plotId}/iot-devices` | `GET` | Listar los dispositivos IoT asociados a una parcela. | `plotId`: identificador de la parcela. | No aplica. | `200 OK` con la lista de dispositivos IoT o `403 Forbidden` si la parcela no pertenece al usuario. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
-| `/api/v1/plots/{plotId}/iot-devices` | `POST` | Registrar un nuevo dispositivo IoT asociado a una parcela. | `plotId`: identificador de la parcela. | `CreateIoTDeviceResource`: nombre del dispositivo y estado. | `201 Created` con los datos del dispositivo registrado, `400 Bad Request` o `403 Forbidden`. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots/{plotId}/iot-devices` | `POST` | Registrar un nuevo dispositivo IoT asociado a una parcela. | `plotId`: identificador de la parcela. | Datos del dispositivo IoT, como nombre del dispositivo y estado. | `201 Created` con los datos del dispositivo registrado, `400 Bad Request` o `403 Forbidden`. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots/{plotId}/iot-devices/{deviceId}` | `DELETE` | Eliminar un dispositivo IoT asociado a una parcela. | `plotId`: identificador de la parcela. `deviceId`: identificador del dispositivo. | No aplica. | `204 No Content`, `403 Forbidden` o `404 Not Found`. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots/{plotId}/iot-devices/{deviceId}` | `PATCH` | Actualizar la información de un dispositivo IoT. | `plotId`: identificador de la parcela. `deviceId`: identificador del dispositivo. | Datos modificables del dispositivo IoT según el schema documentado. | `200 OK` con el dispositivo actualizado, `400 Bad Request`, `403 Forbidden` o `404 Not Found`. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+
+
 #### Software Deployment Evidence for Sprint Review
 
 &nbsp;
@@ -1096,6 +1112,47 @@ Enlace de la Landing Page: \url{https://viora-website.vercel.app/}
 
 La Web Application fue actualizada en Firebase Hosting, desplegando la versión 1.1.0 que incluye la integración con los endpoints del backend agronómico, la creación de parcelas con mapeo de límites, y la conexión con los datos de monitoreo en tiempo real.
 
+Pasos realizados:
+
+1. Se inició sesión en Firebase CLI con las credenciales del equipo.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wa-firebase-cli-login.jpeg}
+\caption{Inicio de sesión en Firebase CLI.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+2. Se configuró el hosting vinculado al proyecto de Firebase.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wa-firebase-cli-hosting-setup.jpeg}
+\caption{Configuración de hosting en Firebase.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+3. Se ejecutó el proceso de despliegue mediante Firebase CLI.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wa-firebase-cli-deployment-process.jpeg}
+\caption{Proceso de despliegue en Firebase CLI.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+4. Se verificó el overview del proyecto en la consola de Firebase.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wa-firebase-project-overview.jpeg}
+\caption{Overview del proyecto en Firebase.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+5. Se revisaron las estadísticas del proyecto en Firebase.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wa-firebase-project-stats.jpeg}
+\caption{Estadísticas del proyecto en Firebase.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
 Enlace de la Webapp: \url{https://viora-webapp.web.app}
 
 #### Team Collaboration Insights for Sprint Review
