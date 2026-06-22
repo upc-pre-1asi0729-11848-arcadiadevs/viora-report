@@ -47,13 +47,11 @@ El entorno de desarrollo para la solución web distribuida se basará en un stac
 - Software Deployment
 Para cumplir con el ciclo de desarrollo y despliegue de una solución distribuida en la nube, se implementará una estrategia híbrida que separa la captación comercial de la lógica transaccional:
 
-    - Microsoft Azure: Proveedor de servicios Cloud principal para la infraestructura operativa. (https://azure.microsoft.com/)
+    - Render: Hosteo del Web Service (Backend) de Spring Boot. Permite la ejecución de servicios Server-Side de Java. (https://render.com/)
 
-        - Azure App Service: Hosteo del Web Service (Backend) de Spring Boot. Permite la ejecución de servicios Server-Side de Java en un entorno seguro y escalable. (https://azure.microsoft.com/es-es/products/app-service/)
+    - Firebase: Se utilizará para el despliegue de la aplicación de Angular. (https://firebase.google.com/) 
 
-        - Azure Static Web Apps: Se utilizará para el despliegue de la aplicación de Angular, optimizando la entrega del frontend mediante una red de distribución de contenido (CDN) global. (https://azure.microsoft.com/es-es/products/app-service/static/) 
-
-        - Azure Database for PostgreSQL: Servicio gestionado para la persistencia de datos. Se utilizará para el almacenamiento de polígonos de parcelas y datos agronómicos, aprovechando la extensión PostGIS para el procesamiento geográfico necesario en el proyecto. (https://azure.microsoft.com/es-es/products/postgresql/)
+    - filess.io: Servicio gestionado para la persistencia de datos. Se utilizará para el almacenamiento de polígonos de parcelas y datos agronómicos, aprovechando la extensión PostGIS para el procesamiento geográfico necesario en el proyecto. (https://filess.io/)
 
     - Vercel: Se utilizará para el despliegue del Landing Page. (https://vercel.com/)
 
@@ -75,11 +73,11 @@ Para garantizar la integridad, trazabilidad y el trabajo colaborativo en el desa
 - Estrategias de Repositorios
 Se utiliza GitHub como plataforma principal para el almacenamiento y gestión del código fuente. La solución se ha dividido en tres repositorios independientes para facilitar el despliegue modular:
 
-    - Landing Page: Contiene los archivos de maquetación semántica y estilos para el sitio informativo. [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-website)
+    - Landing Page: Contiene los archivos de maquetación semántica y estilos para el sitio informativo. [https://github.com/upc-pre-1asi0729-11848-arcadiadevs/viora-website](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/viora-website)
 
-    - Frontend Web Application: Repositorio dedicado a la aplicación en Angular, incluyendo componentes de lógica de usuario y servicios de consumo de API. [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-webapp)
+    - Frontend Web Application: Repositorio dedicado a la aplicación en Angular, incluyendo componentes de lógica de usuario y servicios de consumo de API. [https://github.com/upc-pre-1asi0729-11848-arcadiadevs/viora-webapp](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/viora-webapp)
 
-    - Web Services (Backend): Este repositorio centraliza la lógica de negocio desarrollada en Spring Boot. Incluye tanto el código del proyecto como la suite completa de pruebas unitarias, de integración y de aceptación (OpenAPI/Swagger). [https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-platform](https://github.com/upc-pre-1asi0729-11848-ArcadiaDevs/Viora-platform)
+    - Web Services (Backend): Este repositorio centraliza la lógica de negocio desarrollada en Spring Boot. Incluye tanto el código del proyecto como la suite completa de pruebas unitarias, de integración y de aceptación (OpenAPI/Swagger). [https://github.com/upc-pre-1asi0729-11848-arcadiadevs/viora-platform](https://github.com/upc-pre-1asi0729-11848-arcadiadevs/viora-platform)
 
 - Workflow de Control de Versiones: Gitflow
 Se adopta el modelo GitFlow propuesto por Driessen (2010) para gestionar el ciclo de vida del software, asegurando que la rama de producción se mantenga siempre estable y aislada de las versiones en desarrollo.
@@ -192,8 +190,8 @@ Para garantizar un pase a producción seguro y automatizado, se implementará un
 
 - Landing Page: A partir del repositorio fuente, el código es compilado y desplegado automáticamente hacia la plataforma Vercel, optimizando la entrega del sitio comercial.
 
-- Frontend Web Applications: El código fuente desarrollado en Angular es empaquetado por GitHub Actions y publicado en Azure Static Web Apps, distribuyéndose a través de su CDN global.
+- Frontend Web Applications: El código fuente desarrollado en Angular es empaquetado por GitHub Actions y publicado en Firebase.
 
-- Web Services (Backend): El repositorio de Spring Boot es compilado y desplegado de forma continua en Azure App Service, el cual se encontrará enlazado a la base de datos gestionada Azure Database for PostgreSQL.
+- Web Services (Backend): El repositorio de Spring Boot es compilado y desplegado de forma continua en Azure App Service, el cual se encontrará enlazado a la base de datos gestionada por filess.io.
 
 \newpage
