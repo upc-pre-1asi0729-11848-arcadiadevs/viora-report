@@ -961,6 +961,8 @@ A continuación, se exponen las capturas de pantalla de las principales vistas i
 
 [https://tinyurl.com/viora-sprint-3](https://tinyurl.com/viora-sprint-3)
 
+Video sprint 3: [https://tinyurl.com/5n7jr97c](https://tinyurl.com/5n7jr97c)
+
 &nbsp;
 
 #### Services Documentation Evidence for Sprint Review
