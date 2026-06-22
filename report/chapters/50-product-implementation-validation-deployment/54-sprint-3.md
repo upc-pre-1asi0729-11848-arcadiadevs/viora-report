@@ -967,6 +967,25 @@ A continuación, se exponen las capturas de pantalla de las principales vistas i
 
 &nbsp;
 
+Durante el Sprint 3 se documentó la primera versión operativa de los Web Services de Viora mediante OpenAPI, utilizando Swagger UI como herramienta principal para exponer, revisar y probar los endpoints implementados en el backend. Esta documentación permite visualizar de forma organizada las operaciones disponibles, los métodos HTTP soportados, los parámetros requeridos, los cuerpos de solicitud, los posibles códigos de respuesta y los ejemplos de interacción con la API.
+
+La documentación desplegada se encuentra disponible en el siguiente enlace:
+
+**Swagger UI:** https://os-viora-platform.onrender.com/swagger-ui/index.html#/
+
+El alcance documentado para este Sprint se enfoca principalmente en los servicios relacionados con la gestión de parcelas, dispositivos IoT, resumen de monitoreo y estadísticas agronómicas. Estos endpoints permiten que la Web Application consuma información del backend para registrar áreas productivas, consultar datos de monitoreo, administrar sensores asociados a parcelas y visualizar métricas agronómicas relevantes para la toma de decisiones de productores olivareros.
+
+
+
+| Endpoint | Método HTTP | Acción documentada | Parámetros principales | Request body | Response esperado | URL de documentación |
+|---|---|---|---|---|---|---|
+| `/api/v1/plots` | `POST` | Registrar una nueva parcela productiva. | No aplica. | `CreatePlotResource`: nombre, coordenadas del polígono, cultivo, variedad, ubicación, campaña y notas. | `201 Created` con los datos de la parcela registrada o `400 Bad Request` si los datos son inválidos. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots?includeCurrentImagery=true` | `GET` | Listar parcelas del usuario, incluyendo información satelital actual cuando esté disponible. | `includeCurrentImagery`: indica si se incluye la imagen satelital actual. | No aplica. | `200 OK` con una lista de parcelas y, opcionalmente, datos de imagen satelital como NDVI, nubosidad y fecha de captura. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots/{plotId}` | `GET` | Consultar el detalle de una parcela específica. | `plotId`: identificador de la parcela. | No aplica. | `200 OK` con el detalle de la parcela, `403 Forbidden` si no pertenece al usuario o `404 Not Found` si no existe. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots/{plotId}` | `PATCH` | Editar parcialmente la información de una parcela. | `plotId`: identificador de la parcela. | `UpdatePlotResource`: datos modificables de la parcela. | `200 OK` con la parcela actualizada, `400 Bad Request`, `403 Forbidden` o `404 Not Found`. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots/{plotId}` | `DELETE` | Eliminar una parcela registrada. | `plotId`: identificador de la parcela. | No aplica. | `204 No Content` si se elimina correctamente, `403 Forbidden`, `404 Not Found` o `409 Conflict` si existen dependencias activas. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots/{plotId}/iot-devices` | `GET` | Listar los dispositivos IoT asociados a una parcela. | `plotId`: identificador de la parcela. | No aplica. | `200 OK` con la lista de dispositivos IoT o `403 Forbidden` si la parcela no pertenece al usuario. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
+| `/api/v1/plots/{plotId}/iot-devices` | `POST` | Registrar un nuevo dispositivo IoT asociado a una parcela. | `plotId`: identificador de la parcela. | `CreateIoTDeviceResource`: nombre del dispositivo y estado. | `201 Created` con los datos del dispositivo registrado, `400 Bad Request` o `403 Forbidden`. | https://os-viora-platform.onrender.com/swagger-ui/index.html#/ |
 #### Software Deployment Evidence for Sprint Review
 
 &nbsp;
