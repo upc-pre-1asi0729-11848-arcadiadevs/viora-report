@@ -337,6 +337,88 @@ A continuación, se exponen las capturas de pantalla de las principales vistas i
 
 &nbsp;
 
+Durante el Sprint 3, el equipo ejecutó actividades de despliegue orientadas a consolidar la infraestructura del backend de la plataforma Viora, incluyendo la configuración de la base de datos relacional PostgreSQL en la nube y el despliegue del Web Service Spring Boot en el entorno de producción. A continuación se detallan los procesos realizados.
+
+**1. Base de Datos (PostgreSQL) — Filess**
+
+Se configuró y desplegó la base de datos PostgreSQL en Filess, plataforma que provee almacenamiento relacional en la nube. Este paso es fundamental para soportar la persistencia de información del backend agronómico, incluyendo datos de parcelas, monitoreo y alertas.
+
+Pasos realizados:
+
+1. Se inició sesión en la cuenta de Filess con las credenciales del equipo.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/db-filess-account-login.jpeg}
+\caption{Inicio de sesión en Filess.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+2. Se creó la base de datos PostgreSQL asignada al proyecto de Viora.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/db-filess-db-creation.jpeg}
+\caption{Creación de la base de datos en Filess.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+3. Se verificó la estructura de la base de datos y las tablas creadas.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/db-filess-postgre-db-view.jpeg}
+\caption{Vista de la base de datos PostgreSQL en Filess.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+**2. Web Service (Spring Boot) — Render**
+
+El Web Service fue desplegado en Render, plataforma que gestiona el hospedaje de aplicaciones en la nube con integración directa a GitHub para despliegue continuo. La versión desplegada incluye los endpoints RESTful para los subdominios de monitoreo agronómico, gestión de parcelas y vigilancia de fuentes de datos.
+
+Pasos realizados:
+
+1. Se revisó el overview del proyecto en Render, verificando el estado del servicio.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wp-render-overview.jpeg}
+\caption{Overview del proyecto en Render.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+2. Se accedió a la vista del proyecto para confirmar la configuración del servicio desplegado.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wp-render-project-view.jpeg}
+\caption{Vista del proyecto en Render.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+3. Se verificaron los ambientes configurados (producción y desarrollo).
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wp-render-environments-view.jpeg}
+\caption{Vista de ambientes en Render.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+4. Se validó la documentación Swagger de los endpoints desplegados.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{report/assets/sprint-deployment/sprint-3/wp-swagger-endpoints-view.jpeg}
+\caption{Vista de endpoints en Swagger.}
+\caption*{\textit{Nota.} Elaboración propia.}
+\end{figure}
+
+**3. Landing Page (viora-website) — Vercel**
+
+La Landing Page continuó desplegada en Vercel con despliegue automático (CI/CD) vinculado al repositorio de GitHub. Durante este Sprint se incorporaron mejoras en UI/UX incluyendo animaciones generales, el drawer legal de términos y política de privacidad, efectos de sonido ambiental, y mejoras de responsividad mobile. Cada merge a la rama develop activó un nuevo build y despliegue automático en Vercel.
+
+Enlace de la Landing Page: \url{https://viora-website.vercel.app/}
+
+**4. Web Application (viora-webapp) — Firebase Hosting**
+
+La Web Application fue actualizada en Firebase Hosting, desplegando la versión 1.1.0 que incluye la integración con los endpoints del backend agronómico, la creación de parcelas con mapeo de límites, y la conexión con los datos de monitoreo en tiempo real.
+
+Enlace de la Webapp: \url{https://viora-webapp.web.app}
+
 #### Team Collaboration Insights for Sprint Review
 
 &nbsp;
